@@ -87,4 +87,4 @@ Founded in 2006 and based in London, [Lokku](http://www.lokku.com) are long time
 
 You may enjoy Michael Tandy's [Falsehoods Programmers Believe about Addresses](http://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
 
-If all this convinces you address are evil check out [what3words](http://what3words.com/)
+If all this convinces you address are evil, please check out [what3words](http://what3words.com/) which allows you to dispense with them entirely. 
