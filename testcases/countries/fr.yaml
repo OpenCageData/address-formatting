@@ -1,0 +1,14 @@
+---
+description: Toulouse
+components:
+     city: Toulouse
+     country: France
+     country_code: FR
+     county: Toulouse
+     house_number: 17
+     neighbourhood: Lafourguette
+     postcode: 31000
+     road: Rue du Médecin-Colonel Calbairac
+     state: Midi-Pyrénées
+     suburb: Toulouse Ouest
+expected: 17 Rue du Médecin-Colonel Calbairac, 31000 Toulouse, France

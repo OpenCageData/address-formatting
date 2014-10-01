@@ -1,0 +1,74 @@
+---
+description: no repetition
+components:
+    city: Berlin
+    country: Germany
+    country_code: DE
+    state: Berlin
+expected: Berlin, Germany
+
+---
+description: Fabisch
+components:
+    city: Berlin
+    city_district: Mitte
+    country: Germany
+    country_code: DE
+    house_number: 1
+    neighbourhood: Scheunenviertel
+    postcode: 10119
+    restaurant: Fabisch
+    road: Rosenthaler Straße
+    state: Berlin
+    suburb: Mitte
+expected: Fabisch, Rosenthaler Straße 1, 10119 Berlin, Germany
+
+---
+description: Fabisch no city
+components:
+    city_district: Mitte
+    country: Germany
+    country_code: DE
+    house_number: 1
+    neighbourhood: Scheunenviertel
+    postcode: 10119
+    restaurant: Fabisch
+    road: Rosenthaler Straße
+    state: Berlin
+    suburb: Mitte
+expected: Fabisch, Rosenthaler Straße 1, 10119 Berlin, Germany
+
+---
+description: Heyerode
+components:
+    city_district: Heyerode
+    continent: Europa
+    country: Germany
+    country_code: de
+    county: Südeichsfeld
+    postcode: 99988
+    state: Thüringen
+    village: Heyerode
+expected: 99988 Heyerode, Germany
+
+---
+description: Berlin state
+components:
+    country: Germany
+    country_code: de
+    state: Berlin
+expected: Berlin, Germany
+
+---
+description: no middle comma
+components:
+    city: Landstuhl
+    country: Germany
+    country_code: de
+    county: Landstuhl
+    postcode: 66849
+    road: Bahnstraße
+    state: Rhineland-Palatinate
+    station: Landstuhl
+    suburb: Melkerei
+expected: Landstuhl, Bahnstraße, 66849 Landstuhl, Germany

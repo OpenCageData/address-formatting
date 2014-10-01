@@ -1,0 +1,146 @@
+generic1: &generic1 |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{road}} {{house_number}}
+        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
+        {{country}}
+
+generic2: &generic2 |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{road}} {{house_number}}
+        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
+        {{country}}
+
+generic3: &generic3 |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{house_number}} {{road}}
+        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} {{postcode}}
+        {{country}}
+
+generic4: &generic4 |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{house_number}} {{road}}
+        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
+        {{country}}
+
+default:
+    address_template: *generic2
+
+
+# Brazil
+BR:
+    address_template: |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{house_number}} {{road}}
+        {{#first}} {{city}} || {{town}} || {{state_district}} || {{village}} {{/first}} - {{#first}} {{state_code}} || {{state}} {{/first}}
+        {{postcode}}
+        {{country}}
+
+# Switzerland
+CH: 
+    address_template: *generic1
+
+# Germany
+DE:
+    address_template: *generic1
+    replace:
+        - ["^Stadtteil ",""]
+        - ["^Gemeinde ",""]
+        - ["^Landkreis ",""]
+        - ["^Kreis ",""]
+        - ["^Grenze ",""]
+        - ["^Regierungsbezirk ",""]
+        - ["^Gemeindefreies Gebiet ",""]
+
+# Spain
+ES:
+    address_template: *generic1
+
+# Finnland
+FI: 
+    address_template: *generic1
+
+# France
+FR:
+    address_template: *generic4
+
+GB:
+    address_template: *generic3
+    replace:
+        - ["^Borough of ",""]
+        - ["^Country( of)?",""]
+        - ["^Parish of ",""]
+        - ["^Central ",""]
+        - ["^London Borough of .+","London"]
+        - ["Royal Borough of ",""]
+
+
+
+# Israel
+IL: 
+    address_template: *generic3
+
+# India
+# http://en.wikipedia.org/wiki/Address_%28geography%29#India
+IN:
+    address_template: |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{house_number}}, {{road}}
+        {{suburb}}
+        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} - {{postcode}}
+        {{state}}
+        {{country}}
+
+# Italy
+IT: 
+    address_template: *generic1
+
+
+
+
+# Nederlands
+NL:
+    address_template: *generic1
+
+# Norway
+NO:
+    address_template: *generic1
+
+# New Zealand
+NZ:
+    address_template: *generic1
+
+# Singapore
+SG:
+    address_template: *generic4
+
+# Sweden
+SW: 
+    address_template: *generic1
+
+
+# Turkey
+TR: 
+    address_template: *generic1
+
+# USA
+US: 
+    address_template: |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{house_number}} {{road}}
+        {{#first}} {{city}} || {{town}} || {{state_district}} || {{village}} {{/first}}, {{#first}} {{state_code}} || {{state}} {{/first}} {{postcode}}
+        {{country}}
+

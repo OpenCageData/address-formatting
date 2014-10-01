@@ -1,0 +1,12 @@
+---
+description: Rio
+components:
+    city: Rio de Janeiro
+    country: Brazil
+    country_code: BR
+    county: Rio de Janeiro
+    road: Avenida Maracanã
+    state: RJ
+    state_district: Região Metropolitana do Rio de Janeiro
+    suburb: Maracanã
+expected: 'Avenida Maracanã, Rio de Janeiro - RJ, Brazil'

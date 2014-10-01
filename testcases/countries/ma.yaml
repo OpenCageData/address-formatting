@@ -1,0 +1,14 @@
+---
+description: Jemaa el-Fnaa
+components:
+    city: Marrakesh
+    city_district: Marrakech-Medina
+    country: Morocco
+    country_code: MA
+    county: Province Marrakech
+    neighbourhood: Quartier des tanneurs
+    road: Rue El Adala
+    state: Marrakech-Tensift-El Haouz
+    suburb: Bab Doukkala
+    townhall: Hotel de Ville
+expected: 'Hotel de Ville, Rue El Adala, Marrakesh, Morocco'

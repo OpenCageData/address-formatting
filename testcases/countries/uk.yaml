@@ -1,0 +1,26 @@
+---
+description: Lokku office
+components:
+    city: London Borough of Islington
+    country: United Kingdom
+    country_code: GB
+    county: London
+    house: Lokku Ltd
+    house_number: 82
+    postcode: EC1M 5RF
+    road: Clerkenwell Road
+    state: England
+    state_district: Greater London
+    suburb: Clerkenwell
+expected: Lokku Ltd, 82 Clerkenwell Road, London EC1M 5RF, United Kingdom
+
+---
+description: London
+components:
+    city: London
+    country: United Kingdom
+    country_code: GB
+    county: London
+    state: England
+    state_district: Greater London
+expected: London, United Kingdom

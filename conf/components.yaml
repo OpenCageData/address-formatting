@@ -1,0 +1,52 @@
+# ordered list, smallest to largest
+name: locality
+---
+name: house_number
+---
+name: street_number
+---
+name: building
+aliases:
+    - house
+---
+name: street
+aliases:
+    - road
+    - street_name
+---
+name: residential
+---
+name: hamlet
+---
+name: village
+---
+name: neighbourhood
+aliases:
+    - suburb
+    - city_district
+---
+name: city
+aliases:
+    - town
+---
+name: county
+---
+name: postcode
+---
+name: state_district
+---
+name: state
+aliases:
+    - state_code
+---
+name: region
+---
+name: island
+---
+name: country
+aliases:
+    - country_name
+---
+name: country_code
+---
+name: continent

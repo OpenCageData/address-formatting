@@ -1,0 +1,11 @@
+---
+description: Chinatown Singapore
+components:
+    country: Singapore
+    country_code: SG
+    county: Central Singapore Community Development Council
+    house_number: 76
+    neighbourhood: Chinatown
+    road: Shenton Way
+    suburb: Shenton Way
+expected: 76 Shenton Way, Singapore

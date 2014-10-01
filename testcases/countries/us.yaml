@@ -1,0 +1,26 @@
+---
+description: house number in California
+components:
+    house_number: 301
+    road: Hamilton Avenue
+    neighbourhood: Crescent Park
+    city: Palo Alto
+    postcode: 94303
+    county: Santa Clara County
+    state: California
+    country: United States of America
+    country_code: US
+expected: 301 Hamilton Avenue, Palo Alto, CA 94303, United States of America
+---
+description: house number in New York, no city
+components:
+    house_number: 175
+    road: Varick Street
+    neighbourhood: Greenwich Village
+    postcode: 10014
+    county: New York County
+    state_district: New York City
+    state: New York
+    country: United States of America
+    country_code: US
+expected: 175 Varick Street, New York City, NY 10014, United States of America

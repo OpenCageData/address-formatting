@@ -1,5 +1,0 @@
-<name>
-<house> 
-<house_number> <road>
-<city|town|village|state> <postcode> 
-<country>
