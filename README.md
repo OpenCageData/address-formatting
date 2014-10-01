@@ -35,6 +35,7 @@ This repository contains templates for various address formats around the world 
 ### Which addresses we're talking about
 
 The intended use-case is database or geocoding systems (forward, reverse, autocomplete) were we know both the country of the address and the language of the user/reader. The address is displayed and not used to print on an envelope.
+It is in use on the [OpenCage Geocoder](http://geocoder.opencagedata.com)
 
 We have to deal with
 
@@ -51,11 +52,9 @@ Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-a
    
 
 
-
 ### Write your own formatting logic
 
-We've written a Perl module ([Geo::Address](http://search.cpan.org/perldoc?Geo::Address)) and test suite which uses this configuration, but wanted to make it easy for others to write similar modules in other programming languages.
-
+We've written a Perl module ([Geo::Address](http://search.cpan.org/perldoc?Geo::Address)) and test suite which uses this configuration, but wanted to make it easy for others to write similar modules in other programming languages. If you do, please let us know so we can feature it here. 
 
 
 ### File format
@@ -78,3 +77,8 @@ Planned features
   * de-duplication
   * right-to-left
 
+### Who are we?
+
+### Further reading
+
+You may enjoy Micahel Tandy's [Falsehoods Programmers Believe about Addresses](http://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
