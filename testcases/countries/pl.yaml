@@ -1,0 +1,13 @@
+---
+description: road address at 51.262986,15.568984
+components:
+    house_number: 1
+    road: Adama Asnyka
+    neighbourhood: Południe
+    city: Bolesławiec
+    postcode: 59-700
+    county: Bolesławiec
+    state: Lower Silesian Voivodeship
+    country: Poland
+    country_code: PL
+expected: 'Adama Asnyka 1, 59-700 Bolesławiec, Poland'

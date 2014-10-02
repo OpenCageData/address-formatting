@@ -121,6 +121,10 @@ NO:
 NZ:
     address_template: *generic1
 
+# Poland
+PL:
+    address_template: *generic1
+
 # Singapore
 SG:
     address_template: *generic4
