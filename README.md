@@ -48,7 +48,7 @@ Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-a
    * using the language of the (destination) address
 
   
-### Write your own formatting logic
+### Write your own processing logic
 
 We've written a Perl module (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/lokku/perl-Geo-Address-Formatter)) and test suite that uses this configuration, but wanted to make it easy for others to write similar modules in other programming languages. If you do, please let us know so we can list it here. 
 
@@ -72,6 +72,8 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
     clean up code (see the entry for `DE` as an example).
   * If not you need to define a new generic rule set
       * possibly you will need to define new state/region mappings in `conf/state_codes.yaml`
+3. to test you will now need to process the .yaml test via a processer (see above) and ensure the input leads to the desired output. 
+
 
 If in doubt, please get in touch
 
