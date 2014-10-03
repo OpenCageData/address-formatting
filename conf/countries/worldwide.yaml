@@ -100,7 +100,7 @@ GB:
     address_template: *generic3
     replace:
         - ["^Borough of ",""]
-        - ["^Country( of)?",""]
+        - ["^County( of)? ",""]
         - ["^Parish of ",""]
         - ["^Central ",""]
         - ["^London Borough of .+","London"]
