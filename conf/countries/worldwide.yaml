@@ -33,6 +33,13 @@ generic4: &generic4 |
 default:
     address_template: *generic2
 
+#
+# please keep in alpha order by country code
+#
+
+# Austria
+AT: 
+    address_template: *generic1
 
 # Brazil
 BR:
