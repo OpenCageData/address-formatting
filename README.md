@@ -61,9 +61,12 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
 
 1. add a .yaml testcase in `testcases/countries`, using the appropriate ISO 3166-1 alpha-2 code - see `conf/country_codes.yaml`
   * a good way to get sample data is:
-      * find an addressed ocation (house, business, etc)
+
+      * find an addressed location (house, business, etc) in your
+        target territory in OpenStreetMap
       * get the coordinates (lat, long) of the location
-      * put the coordinates into the [OpenCage Geocoder demo page](http://geocoder.opencagedata.com/demo.html)
+      * put the coordinates into the [OpenCage Geocoder demo
+        page](http://geocoder.opencagedata.com/demo.html)
       * look at the resulting JSON in the *Raw Response* tab
 2. edit `conf/countries/worldwide.yaml`
   * Possibly your country/territory uses an existing generic format as
