@@ -17,13 +17,13 @@ Given a set of address parts
      country:       France
      country_code:  FR
 
-you want to write logic to compile addresses in the format
+you want to write logic to compile addresses in the format consumers expect
 
 	17 Rue du Médecin-Colonel Calbairac
 	31000 Toulouse
 	France
 
-or simply
+or perhaps simply
 
 	Rue du Médecin-Colonel Calbairac, Toulouse
 
@@ -80,5 +80,9 @@ Founded in 2006 and based in London, [Lokku](http://www.lokku.com) are long time
 ### Further reading
 
 You may enjoy Michael Tandy's [Falsehoods Programmers Believe about Addresses](http://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/).
+
+If it's actual address data you're after, check out [OpenAddresses](http://openaddresses.io/)
+
+If you want to turn longitude, latitude into addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](http://geocoder.opencagedata.com).
 
 If all this convinces you address are evil, please check out [what3words](http://what3words.com/) which allows you to dispense with them entirely. 
