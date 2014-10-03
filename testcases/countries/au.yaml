@@ -1,0 +1,17 @@
+---
+# -37.8134921, 144.956787658113
+description: Melbourne Magistrates' Court
+components:
+    city: Melbourne
+    country: Australia
+    country_code: AU
+    county: City of Melbourne
+    courthouse: Melbourne Magistrates' Court
+    house_number: 223
+    postcode: 3000
+    road: William Street
+    state: Victoria
+    suburb: Melbourne
+expected: Melbourne Magistrates' Court, 223 William Street, Melbourne VIC 3000, Australia
+
+
