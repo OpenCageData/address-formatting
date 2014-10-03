@@ -50,12 +50,27 @@ Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-a
   
 ### Write your own formatting logic
 
-We've written a Perl module ([Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter)) and test suite that uses this configuration, but wanted to make it easy for others to write similar modules in other programming languages. If you do, please let us know so we can list it here. 
+We've written a Perl module (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/lokku/perl-Geo-Address-Formatter)) and test suite that uses this configuration, but wanted to make it easy for others to write similar modules in other programming languages. If you do, please let us know so we can list it here. 
 
 
 ### File format
 
 The files are in [YAML](http://yaml.org/) format. The templates are written in [Mustache](http://mustache.github.io/). Both formats are human readable, strict, solve escaping and support comments. YAML allows references (called "ankers") to avoid copy&paste, Mustache allows sub-templates (called "partials").
+
+### How to add your country/territory
+
+1. add a .yaml testcase in `testcases/countries`, using the appropriate ISO 3166-1 alpha-2 code - see `conf/country_codes.yaml`
+  * a good way to get sample data is:
+      * go to OpenStreetMap, find a well tagged location (house, business, etc)
+      * get the coordinates (lat, long) of the location
+      * put the coordinates into the [OpenCage Geocoder demo page](http://geocoder.opencagedata.com/demo.html)
+      * look at the resulting JSON in the *Raw Response* tab
+2. edit `conf/countries/worldwide.yaml`
+  * Possibly your country/territory uses an existing generic format as
+    defined at the top of the file. If so, great, just map you
+    country_code to the generic template. You may still want to add
+    clean up code (see the entry for `DE` as an example).
+
 
 ### The future
 
