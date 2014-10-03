@@ -1,3 +1,14 @@
+AU:
+    # https://en.wikipedia.org/wiki/States_and_territories_of_Australia
+    ACT: Australian Capital Territory
+    JBT: Jervis Bay Territory
+    NSW: New South Wales
+    NT: Northern Territories
+    QLD: Queensland
+    SA: South Australia
+    TAS: Tasmania
+    VIC: Victoria
+    WA: Western Australia
 BR:
     # http://en.wikipedia.org/wiki/States_of_Brazil
     AC: Acre
