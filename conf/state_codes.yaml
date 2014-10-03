@@ -27,18 +27,35 @@ BR:
     SP: São Paulo
     SE: Sergipe
     TO: Tocantins
+CA:
+    AB: Alberta
+    BC: British Columbia
+    MB: Manitoba
+    NB: New Brunswick
+    NL: Newfoundland and Labrador
+    NT: Northwest Territories
+    NS: Nova Scotia
+    NU: Nunavut
+    ON: Ontario
+    PE: Prince Edward Island
+    QC: Quebec
+    SK: Saskatchewan
+    YT: Yukon
 US:
     # http://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States
     AL: Alabama
     AK: Alaska
+    AS: American Samoa
     AZ: Arizona
     AR: Arkansas
     CA: California
     CO: Colorado
     CT: Connecticut
     DE: Delaware
+    DC: District of Columbia
     FL: Florida
     GA: Georgia
+    GU: Guam
     HI: Hawaii
     ID: Idaho
     IL: Illinois
@@ -61,11 +78,14 @@ US:
     NJ: New Jersey
     NM: New Mexico
     NY: New York
+    NC: North Carolina
     ND: North Dakota
+    MP: Northern Mariana Islands
     OH: Ohio
     OK: Oklahoma
     OR: Oregon
     PA: Pennsylvania
+    PR: Puerto Rico
     RI: Rhode Island
     SC: South Carolina
     SD: South Dakota
@@ -74,8 +94,8 @@ US:
     UT: Utah
     VT: Vermont
     VA: Virginia
+    VI: US Virgin Islands
     WA: Washington
     WV: West Virginia
     WI: Wisconsin
     WY: Wyoming
-    DC: District of Columbia
