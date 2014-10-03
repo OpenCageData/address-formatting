@@ -70,7 +70,10 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
     defined at the top of the file. If so, great, just map you
     country_code to the generic template. You may still want to add
     clean up code (see the entry for `DE` as an example).
+  * If not you need to define a new generic rule set
+      * possibly you will need to define new state/region mappings in `conf/state_codes.yaml`
 
+If in doubt, please get in touch
 
 ### The future
 

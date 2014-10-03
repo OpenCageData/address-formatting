@@ -1,3 +1,6 @@
+#
+# generic mappings, specific territories get mapped to these
+#
 generic1: &generic1 |
         {{attention}}
         {{house}}
@@ -34,6 +37,7 @@ default:
     address_template: *generic2
 
 #
+# country / territory specific mappings
 # please keep in alpha order by country code
 #
 
