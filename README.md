@@ -61,13 +61,13 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
 
 1. add a .yaml testcase in `testcases/countries`, using the appropriate ISO 3166-1 alpha-2 code - see `conf/country_codes.yaml`
   * a good way to get sample data is:
-
       * find an addressed location (house, business, etc) in your
         target territory in OpenStreetMap
       * get the coordinates (lat, long) of the location
       * put the coordinates into the [OpenCage Geocoder demo
         page](http://geocoder.opencagedata.com/demo.html)
       * look at the resulting JSON in the *Raw Response* tab
+
 2. edit `conf/countries/worldwide.yaml`
   * Possibly your country/territory uses an existing generic format as
     defined at the top of the file. If so, great, just map you
@@ -75,8 +75,9 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
     clean up code (see the entry for `DE` as an example).
   * If not you need to define a new generic rule set
       * possibly you will need to define new state/region mappings in `conf/state_codes.yaml`
-3. to test you will now need to process the .yaml test via a processer (see above) and ensure the input leads to the desired output. 
 
+3. to test you will now need to process the .yaml test via a processer
+   (see above) and ensure the input leads to the desired output.
 
 If in doubt, please get in touch
 
