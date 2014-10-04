@@ -1,0 +1,18 @@
+---
+# 43.6666,-79.7482
+description: Brampton Centennial Secondary School
+components:
+    city: Brampton
+    country: Canada
+    country_code: ca
+    house_number: 251
+    postcode: L6Y 1Z4
+    road: McMurchy Avenue South
+    school: Brampton Centennial Secondary School
+    state: Ontario
+    suburb: Ridgehill
+expected: Brampton Centennial Secondary School, 251 McMurchy Avenue South, Brampton ON L6Y 1Z4, Canada
+
+
+
+

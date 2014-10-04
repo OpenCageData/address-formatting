@@ -68,6 +68,11 @@ BR:
         {{postcode}}
         {{country}}
 
+
+# Canada
+CA: 
+    address_template: *generic5
+
 # Switzerland
 CH: 
     address_template: *generic1
