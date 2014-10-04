@@ -1,0 +1,13 @@
+---
+# 53.27195, -9.05405
+description: Galway
+components:
+    city: Galway City
+    country: Ireland
+    country_code: ie
+    county: Galway City
+    house_number: 8-9
+    road: Mainguard Street
+    state_district: Connacht
+    suburb: Claddagh
+expected: 8-9 Mainguard Street, Galway City, Connacht, Ireland

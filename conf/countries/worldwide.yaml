@@ -33,6 +33,16 @@ generic4: &generic4 |
         {{#first}} {{city}} || {{town}} || {{state_district}} || {{village}} {{/first}} {{#first}} {{state_code}} || {{state}} {{/first}} {{postcode}}
         {{country}}
 
+generic5: &generic5 |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{house_number}} {{road}}
+        {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
+        {{#first}} {{state_district}} || {{state}} {{/first}}
+        {{country}}
+
+
 default:
     address_template: *generic1
 
@@ -49,6 +59,10 @@ AT:
 AU: 
     address_template: *generic4
 
+# Belgium
+BE: 
+    address_template: *generic1
+
 # Brazil
 BR:
     address_template: |
@@ -59,7 +73,6 @@ BR:
         {{#first}} {{city}} || {{town}} || {{state_district}} || {{village}} {{/first}} - {{#first}} {{state_code}} || {{state}} {{/first}}
         {{postcode}}
         {{country}}
-
 
 # Canada
 CA: 
@@ -97,6 +110,10 @@ FI:
 FK: 
     address_template: *generic2
 
+# Faroe Islands 
+FO: 
+    address_template: *generic1
+
 # France
 FR:
     address_template: *generic3
@@ -111,8 +128,16 @@ GB:
         - ["^London Borough of .+","London"]
         - ["Royal Borough of ",""]
 
+# Ireland
+IE: 
+    address_template: *generic5
+
 # Israel
 IL: 
+    address_template: *generic2
+
+# Isle of Man
+IM: 
     address_template: *generic2
 
 # India
@@ -128,9 +153,17 @@ IN:
         {{state}}
         {{country}}
 
+# Iceland
+IS: 
+    address_template: *generic1
+
 # Italy
 IT: 
     address_template: *generic1
+
+# Luxemburg
+LU:
+    address_template: *generic3
 
 # Nederlands
 NL:
