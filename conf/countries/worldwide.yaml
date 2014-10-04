@@ -13,8 +13,8 @@ generic2: &generic2 |
         {{attention}}
         {{house}}
         {{building}}
-        {{road}} {{house_number}}
-        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
+        {{house_number}} {{road}}
+        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} {{postcode}}
         {{country}}
 
 generic3: &generic3 |
@@ -22,18 +22,10 @@ generic3: &generic3 |
         {{house}}
         {{building}}
         {{house_number}} {{road}}
-        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} {{postcode}}
-        {{country}}
-
-generic4: &generic4 |
-        {{attention}}
-        {{house}}
-        {{building}}
-        {{house_number}} {{road}}
         {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
         {{country}}
 
-generic5: &generic5 |
+generic4: &generic4 |
         {{attention}}
         {{house}}
         {{building}}
@@ -42,7 +34,7 @@ generic5: &generic5 |
         {{country}}
 
 default:
-    address_template: *generic2
+    address_template: *generic1
 
 #
 # country / territory specific mappings
@@ -55,7 +47,7 @@ AT:
 
 # Australia
 AU: 
-    address_template: *generic5
+    address_template: *generic4
 
 # Brazil
 BR:
@@ -71,7 +63,7 @@ BR:
 
 # Canada
 CA: 
-    address_template: *generic5
+    address_template: *generic4
 
 # Switzerland
 CH: 
@@ -89,6 +81,10 @@ DE:
         - ["^Regierungsbezirk ",""]
         - ["^Gemeindefreies Gebiet ",""]
 
+# Denmark
+DK:
+    address_template: *generic1
+
 # Spain
 ES:
     address_template: *generic1
@@ -97,12 +93,16 @@ ES:
 FI: 
     address_template: *generic1
 
+# Falkland Islands - same as GB
+FK: 
+    address_template: *generic2
+
 # France
 FR:
-    address_template: *generic4
+    address_template: *generic3
 
 GB:
-    address_template: *generic3
+    address_template: *generic2
     replace:
         - ["^Borough of ",""]
         - ["^County( of)? ",""]
@@ -111,11 +111,9 @@ GB:
         - ["^London Borough of .+","London"]
         - ["Royal Borough of ",""]
 
-
-
 # Israel
 IL: 
-    address_template: *generic3
+    address_template: *generic2
 
 # India
 # http://en.wikipedia.org/wiki/Address_%28geography%29#India
@@ -133,9 +131,6 @@ IN:
 # Italy
 IT: 
     address_template: *generic1
-
-
-
 
 # Nederlands
 NL:
@@ -155,12 +150,11 @@ PL:
 
 # Singapore
 SG:
-    address_template: *generic4
+    address_template: *generic3
 
 # Sweden
 SW: 
     address_template: *generic1
-
 
 # Turkey
 TR: 
@@ -168,6 +162,6 @@ TR:
 
 # USA
 US: 
-    address_template: *generic5
+    address_template: *generic4
 
 
