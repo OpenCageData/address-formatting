@@ -58,6 +58,10 @@ default:
 # please keep in alpha order by country code
 #
 
+# Andorra
+AD:
+    address_template: *generic3
+
 # Austria
 AT: 
     address_template: *generic1
@@ -172,6 +176,10 @@ IT:
 
 # Luxemburg
 LU:
+    address_template: *generic3
+
+# Monaco
+MC:
     address_template: *generic3
 
 # Nederlands
