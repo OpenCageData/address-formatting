@@ -3,7 +3,6 @@
 
 ### A quick example
 
-
 Given a set of address parts
 
      house_number:  17
@@ -32,26 +31,26 @@ territories around the world. It also contains test cases.
 
 ### Which addresses we're talking about
 
-The intended use-case is database or geocoding systems (forward, reverse, autocomplete) were we know both the country of the address and the language of the user/reader. The address is displayed and not used to print on an envelope.
-It is in use on the [OpenCage Geocoder](http://geocoder.opencagedata.com).
+The intended use-case is database or geocoding systems (forward, reverse, autocomplete) where we know both the country of the address and the language of the user/reader. The address is displayed to a consumer (for example in an app) and not used to print on an envelope for actual postal delivery. We use it to format output from the [OpenCage Geocoder](http://geocoder.opencagedata.com).
 
 We have to deal with
 
    * incomplete data
    * anything with a name (peaks, bridges, bus stops)
-  
-   
-Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-address-formats.html]) we don't have to deal with
 
-   * Apartment, floor numbers
+Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-address-formats.html) we don't have to deal with
+
+   * apartment/flat number, floor numbers
    * PO boxes
    * using the language of the (destination) address
-
   
-### Write your own processing logic
+### Processing logic
 
-We've written a Perl module (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/lokku/perl-Geo-Address-Formatter)) and test suite that uses this configuration, but wanted to make it easy for others to write similar modules in other programming languages. If you do, please let us know so we can list it here. 
+Our goal with this repository is a series of (programming) language independent templates. Those templates can then be processed by whatever software you like. 
 
+We've written a working implementation of a processer in Perl, see (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/lokku/perl-Geo-Address-Formatter)).
+
+If you do write a processor, please let us know so we can list it here. 
 
 ### File format
 
@@ -79,13 +78,13 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
 3. to test you will now need to process the .yaml test via a processer
    (see above) and ensure the input leads to the desired output.
 
-If in doubt, please get in touch
+If in doubt, please get in touch via github issues.
 
 ### The future
 
 Support all countries in the world.
 
-With more test cases in the future the format needs to evolve. For every rule about addresses there are exceptions and edge cases to consider. Maybe version 2 will use a custom [DSL](http://en.wikipedia.org/wiki/Domain-specific_language) or embedded [Lua](http://www.lua.org/about.html).
+With more test cases in the future the format may need to evolve. For every rule about addresses there are exceptions and edge cases to consider. 
 
 Planned features
 
@@ -95,7 +94,7 @@ Planned features
   * de-duplication
   * right-to-left
 
-We welcome your pull requests. Together we can address the world.
+We welcome your pull requests. Together we can address the world!
 
 ### Who are we?
 
@@ -105,7 +104,7 @@ Founded in 2006 and based in London, [Lokku](http://www.lokku.com) are long time
 
 You may enjoy Michael Tandy's [Falsehoods Programmers Believe about Addresses](http://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/).
 
-If it's actual address data you're after, check out [OpenAddresses](http://openaddresses.io/)
+If it's actual address data you're after, check out [OpenAddresses](http://openaddresses.io/).
 
 If you want to turn longitude, latitude into addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](http://geocoder.opencagedata.com).
 
