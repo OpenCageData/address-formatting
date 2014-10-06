@@ -42,6 +42,13 @@ generic5: &generic5 |
         {{#first}} {{state_district}} || {{state}} {{/first}}
         {{country}}
 
+generic6: &generic6 |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{house_number}} {{road}}
+        {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
+        {{country}}
 
 default:
     address_template: *generic1
@@ -130,7 +137,9 @@ GB:
 
 # Ireland
 IE: 
-    address_template: *generic5
+    address_template: *generic6
+    replace:
+        - [" City$",""]
 
 # Israel
 IL: 
