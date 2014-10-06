@@ -1,0 +1,13 @@
+---
+# Lisbon
+description: 38.74547,-9.18519
+components:
+    city: Lisbon
+    country: Portugal
+    country_code: pt
+    county: Lisboa
+    house_number: 11
+    postcode: 1500-203
+    road: Avenida Conselheiro Barjona de Freitas
+    suburb: Benfica
+expected: Avenida Conselheiro Barjona de Freitas 11, 1500-203 Lisbon, Portugal
