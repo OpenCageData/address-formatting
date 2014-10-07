@@ -1,0 +1,16 @@
+---
+description: Pilsen street address 49.74258,13.37732
+components:
+    city: Plze\u0148
+    country: Czech Republic
+    country_code: cz
+    county: okres Plze\u0148-m\u011bsto
+    house_number: 343/10
+    neighbourhood: Bory
+    postcode: 30100
+    road: Resslova
+    state: Jihoz\u00e1pad
+    suburb: Plze\u0148
+expected: Resslova 343/10, 30100 Plze\u0148, Czech Republic
+
+
