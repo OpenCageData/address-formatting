@@ -1,0 +1,16 @@
+#
+# note: need to find a better way to deal with rural addresses
+#
+---
+description: Tallinn street address - 59.430702, 24.714138
+components:
+  city: Tallinn
+  country: Estonia
+  country_code: ee
+  county: Harju maakond
+  house_number: 15
+  postcode: 10613
+  road: Kasvu
+  suburb: Kristiine linnaosa
+expected: Kasvu 15, 10613 Tallinn, Estonia
+

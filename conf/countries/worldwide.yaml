@@ -14,7 +14,7 @@ generic2: &generic2 |
         {{house}}
         {{building}}
         {{house_number}} {{road}}
-        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} {{postcode}}
+        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} || {{county}} {{/first}} {{postcode}}
         {{country}}
 
 generic3: &generic3 |
@@ -49,6 +49,15 @@ generic6: &generic6 |
         {{house_number}} {{road}}
         {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
         {{country}}
+
+generic7: &generic7 |
+        {{attention}}
+        {{house}}
+        {{building}}
+        {{road}} {{house_number}} 
+        {{#first}} {{city}} || {{town}} || {{village}} {{/first}}, {{postcode}} 
+        {{country}}
+
 
 default:
     address_template: *generic1
@@ -107,6 +116,10 @@ DE:
 
 # Denmark
 DK:
+    address_template: *generic1
+
+# Estonia
+EE:
     address_template: *generic1
 
 # Spain
@@ -177,6 +190,10 @@ IT:
 # Luxemburg
 LU:
     address_template: *generic3
+
+# Latvia
+LV:
+    address_template: *generic7
 
 # Monaco
 MC:
