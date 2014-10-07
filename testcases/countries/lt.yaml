@@ -5,10 +5,10 @@ components:
     country: Lithuania
     country_code: lt
     house_number: 5
-    postcode: 2112
+    postcode: 02112
     road: Aduti\u0161kio g.
     state: Vilnius County
     state_district: Vilniaus m. savivaldyb\u0117
     suburb: Naujinink\u0173 seni\u016bnija
-expected: Aduti\u0161kio g. 5, 2112 Vilnius, Lithuania
+expected: Aduti\u0161kio g. 5, 02112 Vilnius, Lithuania
 
