@@ -102,6 +102,10 @@ CA:
 CH: 
     address_template: *generic1
 
+# Czech Republic
+CZ: 
+    address_template: *generic1
+
 # Germany
 DE:
     address_template: *generic1
@@ -218,6 +222,12 @@ PL:
 # Singapore
 SG:
     address_template: *generic3
+
+# Slovakia
+SK: 
+    address_template: *generic1
+    replace:
+        - ["^District of ",""]
 
 # Sweden
 SW: 
