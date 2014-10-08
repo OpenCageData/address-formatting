@@ -8,6 +8,17 @@ components:
 expected: Berlin, Germany
 
 ---
+description: Moabit!
+components:
+    city: Berlin
+    city_district: Mitte
+    country: Germany
+    country_code: de
+    state: Berlin
+    suburb: Moabit
+expected: Moabit, Berlin, Germany
+
+---
 description: Fabisch
 components:
     city: Berlin

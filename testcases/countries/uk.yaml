@@ -24,3 +24,15 @@ components:
     state: England
     state_district: Greater London
 expected: London, United Kingdom
+
+---
+description: just a suburb
+components:
+    city: London Borough of Islington
+    country: United Kingdom
+    country_code: gb
+    county: London
+    state: England
+    state_district: Greater London
+    suburb: Clerkenwell
+expected: Clerkenwell, London, United Kingdom
