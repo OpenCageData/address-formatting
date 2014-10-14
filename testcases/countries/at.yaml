@@ -1,0 +1,14 @@
+---
+description: Salzbug street address
+components:
+    city: Salzburg
+    country: Austria
+    country_code: AT
+    county: Bezirk Salzburg
+    house_number: 5
+    postcode: 5020
+    road: Stauffenstra\u00dfe
+    state: Salzburg (state)
+    suburb: Elisabeth-Vorstadt
+expected: Stauffenstra\u00dfe 5, 5020 Salzburg, Austria
+

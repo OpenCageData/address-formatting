@@ -1,0 +1,14 @@
+---
+description: Riga street address - 56.95095,24.13474
+components:
+    city: Riga
+    country: Latvia
+    country_code: lv
+    county: R\u012bga
+    house_number: 81
+    postcode: LV-1009
+    road: \u0122ertr\u016bdes iela
+    state: Vidzeme
+    suburb: Avoti
+expected: \u0122ertr\u016bdes iela 81, Riga, LV-1009, Latvia
+
