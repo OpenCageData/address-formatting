@@ -1,0 +1,15 @@
+---
+description: house in Oslo
+components:
+    city: Oslo
+    city_district: Gamle Oslo
+    country: Norway
+    country_code: no
+    county: Oslo
+    house_number: 28
+    neighbourhood: Arctanderbyen
+    postcode: 0650
+    road: Åkebergveien
+    state: Oslo
+    suburb: Enerhaugen
+expected: Åkebergveien 28, 0650 Oslo, Norway

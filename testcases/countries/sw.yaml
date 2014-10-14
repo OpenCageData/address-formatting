@@ -1,0 +1,14 @@
+---
+description: Thai House
+components:
+    cafe: Restaurang Thai House
+    country: Sweden
+    country_code: se
+    county: Stockholms län
+    house_number: 7
+    postcode: 194 61
+    road: Kanalvägen
+    state: Stockholms län
+    suburb: Infra City
+    town: Upplands Väsby
+expected: Restaurang Thai House, Kanalvägen 7, 194 61 Upplands Väsby, Sweden

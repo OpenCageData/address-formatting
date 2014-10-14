@@ -1,0 +1,16 @@
+---
+# http://www.central.fi/fi_FI/etusivu/
+description: restaurant Helsinki
+components:
+    city: Helsinki
+    country: Finland
+    country_code: fi
+    county: Helsingin seutukunta
+    house_number: 15
+    postcode: 00140
+    restaurant: Ravintola Central
+    road: Pietarinkatu
+    state: Southern Finland
+    state_district: Southern Finland
+    suburb: Ullanlinna
+expected: Ravintola Central, Pietarinkatu 15, 00140 Helsinki, Finland
