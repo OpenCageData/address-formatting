@@ -16,9 +16,9 @@ aliases:
 ---
 name: residential
 ---
-name: hamlet
----
 name: village
+aliases:
+    - hamlet
 ---
 name: neighbourhood
 aliases:
