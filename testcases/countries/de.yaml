@@ -19,6 +19,27 @@ components:
 expected: Moabit, Berlin, Germany
 
 ---
+description: Köln, NRW 
+components:
+    country: Germany
+    country_code: de
+    county: Cologne
+    state: North Rhine-Westphalia
+    state_district: Regierungsbezirk Köln
+expected: Cologne, North Rhine-Westphalian, Germany
+
+---
+description: Köln, hamlet
+components:
+    country: Germany
+    country_code: de
+    county: Bayern
+    hamlet: Köln
+    state: Free State of Bavaria
+    state_district: Upper Bavaria
+expected: Köln, Bavaria, Germany
+
+---
 description: Fabisch
 components:
     city: Berlin
