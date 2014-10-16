@@ -40,6 +40,14 @@ components:
 expected: Köln, Bavaria, Germany
 
 ---
+description: Bonn formatting
+components:
+    address100: Bonn
+    country: Germany
+    country_code: de
+expected: Bonn, Germany
+
+---
 description: Fabisch
 components:
     city: Berlin
