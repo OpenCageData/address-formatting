@@ -37,7 +37,7 @@ components:
     hamlet: Köln
     state: Free State of Bavaria
     state_district: Upper Bavaria
-expected: Köln, Bavaria, Germany
+expected: Köln, Bayern, Germany
 
 ---
 description: Bonn formatting
