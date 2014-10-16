@@ -1,14 +1,14 @@
 ---
 # 54.89107, 10.40924
-description: 54.89107, 10.40924
+description: 54.89107,10.40924
 components:
     country: Denmark
     country_code: dk
-    county: \u00c6r\u00f8 Municipality
+    county: Ærø Municipality
     house_number: 17A
     neighbourhood: Paradiset
     postcode: 5970
-    road: Bagg\u00e5rde
+    road: Baggårde
     state: Region of Southern Denmark
-    village: \u00c6r\u00f8sk\u00f8bing
-expected: Bagg\u00e5rde 17A, 5970 \u00c6r\u00f8sk\u00f8bing, Denmark
+    village: Ærøskøbing
+expected: Baggårde 17A, 5970 Ærøskøbing, Denmark

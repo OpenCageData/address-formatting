@@ -7,8 +7,8 @@ components:
     county: Bezirk Salzburg
     house_number: 5
     postcode: 5020
-    road: Stauffenstra\u00dfe
+    road: Stauffenstraße
     state: Salzburg (state)
     suburb: Elisabeth-Vorstadt
-expected: Stauffenstra\u00dfe 5, 5020 Salzburg, Austria
+expected: Stauffenstraße 5, 5020 Salzburg, Austria
 
