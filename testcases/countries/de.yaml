@@ -26,7 +26,7 @@ components:
     county: Cologne
     state: North Rhine-Westphalia
     state_district: Regierungsbezirk Köln
-expected: Cologne, North Rhine-Westphalian, Germany
+expected: Cologne, Germany
 
 ---
 description: Köln, hamlet
