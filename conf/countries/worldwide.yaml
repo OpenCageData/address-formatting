@@ -51,6 +51,14 @@ generic7: &generic7 |
         {{#first}} {{city}} || {{town}} || {{village}} {{/first}}, {{postcode}} 
         {{country}}
 
+generic8: &generic8 |
+        {{attention}}
+        {{house}}
+        {{road}}, {{house_number}} 
+        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} {{/first}} {{county}} 
+        {{country}}
+
+
 fallback1: &fallback1 |
         {{attention}}
         {{house}}
@@ -198,7 +206,7 @@ IS:
 
 # Italy
 IT: 
-    address_template: *generic1
+    address_template: *generic8
 
 # Luxemburg
 LU:
@@ -238,6 +246,10 @@ SK:
     replace:
         - ["^District of ",""]
 
+# San Marino - same as IT
+SM: 
+    address_template: *generic8
+
 # Sweden
 SW: 
     address_template: *generic1
@@ -250,4 +262,6 @@ TR:
 US: 
     address_template: *generic4
 
-
+# Vatican City - same as IT
+VA: 
+    address_template: *generic8
