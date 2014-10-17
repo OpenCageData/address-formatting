@@ -4,7 +4,6 @@
 generic1: &generic1 |
         {{attention}}
         {{house}}
-        {{building}}
         {{road}} {{house_number}}
         {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
         {{country}}
@@ -12,7 +11,6 @@ generic1: &generic1 |
 generic2: &generic2 |
         {{attention}}
         {{house}}
-        {{building}}
         {{house_number}} {{road}}
         {{#first}} {{city}} || {{town}} || {{village}} || {{state}} || {{county}} {{/first}} {{postcode}}
         {{country}}
@@ -20,7 +18,6 @@ generic2: &generic2 |
 generic3: &generic3 |
         {{attention}}
         {{house}}
-        {{building}}
         {{house_number}} {{road}}
         {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
         {{country}}
@@ -28,7 +25,6 @@ generic3: &generic3 |
 generic4: &generic4 |
         {{attention}}
         {{house}}
-        {{building}}
         {{house_number}} {{road}}
         {{#first}} {{city}} || {{town}} || {{state_district}} || {{village}} {{/first}} {{#first}} {{state_code}} || {{state}} {{/first}} {{postcode}}
         {{country}}
@@ -36,7 +32,6 @@ generic4: &generic4 |
 generic5: &generic5 |
         {{attention}}
         {{house}}
-        {{building}}
         {{house_number}} {{road}}
         {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
         {{#first}} {{state_district}} || {{state}} {{/first}}
@@ -45,7 +40,6 @@ generic5: &generic5 |
 generic6: &generic6 |
         {{attention}}
         {{house}}
-        {{building}}
         {{house_number}} {{road}}
         {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
         {{country}}
@@ -53,7 +47,6 @@ generic6: &generic6 |
 generic7: &generic7 |
         {{attention}}
         {{house}}
-        {{building}}
         {{road}} {{house_number}} 
         {{#first}} {{city}} || {{town}} || {{village}} {{/first}}, {{postcode}} 
         {{country}}
@@ -61,7 +54,6 @@ generic7: &generic7 |
 fallback1: &fallback1 |
         {{attention}}
         {{house}}
-        {{building}}
         {{road}} {{house_number}}
         {{suburb}}
         {{#first}} {{city}} || {{town}} || {{village}} {{/first}}
@@ -97,7 +89,6 @@ BR:
     address_template: |
         {{attention}}
         {{house}}
-        {{building}}
         {{house_number}} {{road}}
         {{#first}} {{city}} || {{town}} || {{state_district}} || {{village}} {{/first}} - {{#first}} {{state_code}} || {{state}} {{/first}}
         {{postcode}}
@@ -128,6 +119,10 @@ DE:
         - ["^Freistaat ",""]
         - ["^Regierungsbezirk ",""]
         - ["^Gemeindefreies Gebiet ",""]
+    postformat_replace:
+        - ["Berlin, Berlin","Berlin"]
+        - ["Bremen, Bremen","Bremen"]
+        - ["Hamburg, Hamburg","Hamburg"]
 
 # Denmark
 DK:
@@ -167,6 +162,9 @@ GB:
         - ["^Central ",""]
         - ["^London Borough of .+","London"]
         - ["Royal Borough of ",""]
+    postformat_replace:
+        - ["London, London","London"]
+        - ["London, Greater London","London"]
 
 # Ireland
 IE: 
@@ -188,7 +186,6 @@ IN:
     address_template: |
         {{attention}}
         {{house}}
-        {{building}}
         {{house_number}}, {{road}}
         {{suburb}}
         {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} - {{postcode}}
