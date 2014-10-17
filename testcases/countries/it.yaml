@@ -1,0 +1,14 @@
+---
+description: Barletta street address - 41.312006,16.2704745
+components:
+    city: Barletta
+    country: Italy
+    country_code: it
+    county: BT
+    house_number: 13
+    postcode: 76121
+    road: Via Pisacane
+    state: Apulia
+    suburb: Montaltino
+expected: Via Pisacane 13, 76121, Barletta, Italy
+
