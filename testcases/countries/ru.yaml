@@ -1,0 +1,16 @@
+---
+# Russia
+description: cafe near 59.9313605,30.3175201
+components:
+    cafe : Efes Istambul
+    city : Сенной округ
+    house_number : 23
+    postcode : 190000
+    road : Гороховая улица
+    # Saint Petersburg
+    state : Санкт-Петербург 
+    state_district : Адмиралтейский район
+    # Russian Federation
+    country : Российская Федерация 
+    country_code : ru
+expected: Efes Istambul, Гороховая улица 23, Сенной округ, Санкт-Петербург, Российская Федерация, 190000

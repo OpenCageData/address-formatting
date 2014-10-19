@@ -236,6 +236,18 @@ NZ:
 PL:
     address_template: *generic1
 
+# Russia
+RU:
+    address_template: |
+        {{attention}}
+        {{house}}
+        {{road}} {{house_number}}
+        {{suburb}}
+        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
+        {{state}}
+        {{country}}
+        {{postcode}}
+
 # Singapore
 SG:
     address_template: *generic3
