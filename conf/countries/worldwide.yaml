@@ -68,6 +68,16 @@ fallback1: &fallback1 |
         {{#first}} {{county}} || {{state_district}} || {{state}} {{/first}}
         {{country}}
 
+fallback2: &fallback2 |
+        {{attention}}
+        {{house}}
+        {{road}} {{house_number}}
+        {{suburb}}
+        {{#first}} {{city}} || {{town}} || {{village}} {{/first}}
+        {{county}}                            
+        {{#first}} {{state_district}} || {{state}} {{/first}}
+        {{country}}
+
 default:
     address_template: *generic1
     fallback_template: *fallback1
@@ -162,7 +172,6 @@ FR:
 
 GB:
     address_template: *generic2
-    fallback_template: *fallback1
     replace:
         - ["^Borough of ",""]
         - ["^County( of)? ",""]
@@ -273,6 +282,7 @@ TR:
 # USA
 US: 
     address_template: *generic4
+    fallback_template: *fallback2
 
 # Vatican City - same as IT
 VA: 

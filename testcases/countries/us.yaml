@@ -11,6 +11,16 @@ components:
     country: United States of America
     country_code: US
 expected: 301 Hamilton Avenue, Palo Alto CA 94303, United States of America
+
+---
+description: town in CA
+components:
+    city: Palo Alto
+    country: United States of America
+    country_code: US
+    county: Santa Clara County
+    state: California
+expected: Palo Alto, Santa Clara County, California, United States of America
 ---
 description: house number in New York, no city
 components:
