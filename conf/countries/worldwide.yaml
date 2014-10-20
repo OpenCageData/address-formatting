@@ -172,6 +172,14 @@ FR:
 
 GB:
     address_template: *generic2
+    fallback_template: |
+        {{attention}}
+        {{house}}
+        {{road}} {{house_number}}
+        {{suburb}}
+        {{#first}} {{city}} || {{town}} || {{village}} {{/first}}
+        {{county}}
+        {{country}}
     replace:
         - ["^Borough of ",""]
         - ["^County( of)? ",""]
