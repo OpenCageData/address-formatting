@@ -1,0 +1,16 @@
+# Slovenia
+---
+description: hotel in Piran - 45.51410,13.58819
+components:
+   city: Piran / Pirano
+   country: Slovenia
+   country_code: si
+   house: Casino Riviera
+   house_number: 33
+   postcode: 6320
+   road: Obala
+   suburb: Liminjan / Limignano
+expected: Casino Riviera, Obala 33, 6320 Piran / Pirano, Slovenia
+
+
+
