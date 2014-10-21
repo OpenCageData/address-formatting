@@ -1,0 +1,16 @@
+# Croatia
+---
+description: hotel in Dubrovnik - 42.64286,18.10394
+components:
+   city: Dubrovnik
+   country: Croatia
+   country_code: hr
+   county: Dubrovnik-Neretva
+   house_number: 2
+   postcode: 20000
+   road: Marijana Blazica
+   suburb: Pile
+expected: Marijana Blazica 2, 20000 Dubrovnik, Croatia
+
+
+
