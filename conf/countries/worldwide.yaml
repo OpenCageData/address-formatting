@@ -191,6 +191,10 @@ GB:
         - ["London, London","London"]
         - ["London, Greater London","London"]
 
+# Croatia
+HR: 
+    address_template: *generic1
+
 # Ireland
 IE: 
     address_template: *generic6
@@ -268,6 +272,10 @@ RU:
 # Singapore
 SG:
     address_template: *generic3
+
+# Slovenia
+SI: 
+    address_template: *generic1
 
 # Slovakia
 SK: 
