@@ -1,0 +1,20 @@
+# Hungary
+---
+description: house in Budapest - 47.49269,19.03371
+components:
+   city: Budapest
+   city_district: 1. kerület
+   country: Hungary
+   country_code: hu
+   county: Budapesti kistérség
+   house_number: 11
+   neighbourhood: Naphegy
+   postcode: 1111
+   road: Dezső utca
+   state: Közép-Magyarország
+   state_district: Central Hungary
+   suburb: Krisztinaváros
+expected: Budapest, Dezső utca 11, 1111, Hungary
+
+
+

@@ -210,6 +210,15 @@ GB:
 HR: 
     address_template: *generic1
 
+# Hungary
+HU:
+    address_template: |
+        {{attention}}
+        {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
+        {{road}} {{house_number}} 
+        {{postcode}}
+        {{country}}
+
 # Ireland
 IE: 
     address_template: *generic6
