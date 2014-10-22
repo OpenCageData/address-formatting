@@ -37,6 +37,7 @@ generic5: &generic5 |
         {{#first}} {{state_district}} || {{state}} {{/first}}
         {{country}}
 
+# no postal code
 generic6: &generic6 |
         {{attention}}
         {{house}}
@@ -56,6 +57,14 @@ generic8: &generic8 |
         {{house}}
         {{road}}, {{house_number}} 
         {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} {{/first}} {{county}} 
+        {{country}}
+
+generic9: &generic9 |
+        {{attention}}
+        {{house}}
+        {{road}} {{house_number}}
+        {{suburb}} 
+        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
         {{country}}
 
 
@@ -93,6 +102,12 @@ AD:
 # Austria
 AT: 
     address_template: *generic1
+
+# Argentina
+AR: 
+    address_template: *generic9
+    replace:
+        - ["^Autonomous City of ",""]
 
 # Australia
 AU: 
@@ -228,6 +243,10 @@ IS:
 # Italy
 IT: 
     address_template: *generic8
+
+# Liechtenstein, same as Switzerland
+LI: 
+    address_template: *generic1
 
 # Luxemburg
 LU:

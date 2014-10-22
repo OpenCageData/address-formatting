@@ -1,0 +1,18 @@
+# Argentina
+---
+description: SotM 2014 venue -34.59358185, -58.38328315
+components:
+   city: Autonomous City of Buenos Aires
+   city_district: Retiro
+   country: Argentina
+   country_code: ar
+   house: CAI
+   house_number: 1250
+   postcode: C1010AAZ
+   road: Cerrito
+   state: Autonomous City of Buenos Aires
+   suburb: Retiro
+expected: CAI, Cerrito 1250, Retiro, C1010AAZ Buenos Aires, Argentina
+
+
+
