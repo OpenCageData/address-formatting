@@ -1,0 +1,18 @@
+# Romania
+---
+description: building in Cluj - 46.77498,23.59376
+components:
+    city: Cluj-Napoca
+    country: Romania
+    country_code: ro
+    county: Cluj-Napoca
+    house_number: 6
+    postcode: 400157
+    road: Strada Ploiești
+    state: Cluj
+    suburb: Gruia
+expected: Strada Ploiești 6, 400157 Cluj-Napoca, Romania
+
+
+
+
