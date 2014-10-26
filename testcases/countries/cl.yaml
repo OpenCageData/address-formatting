@@ -1,0 +1,18 @@
+# Chile
+---
+description: -33.42983,-70.60620
+components:
+    city: Providencia
+    country: Chile
+    country_code: cl
+    county: Provincia de Santiago
+    house_number: 920
+    neighbourhood: Unidad Vecinal Providencia
+    postcode: 7500000
+    road: Avenida Ricardo Lyon
+    state: XIII Región Metropolitana de Santiago
+    suburb: Providencia
+expected: Avenida Ricardo Lyon 920, 7500000 Providencia, Chile
+
+
+
