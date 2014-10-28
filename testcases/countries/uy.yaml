@@ -1,0 +1,17 @@
+# Uruguay
+---
+description: -34.90338,-54.95706 
+components:
+    city: Maldonado
+    country: Uruguay
+    country_code: uy
+    neighbourhood: Barrio Centro
+    postcode: 20000
+    restaurant: Classic Restaurant y Parrillada
+    road: Román Guerra
+    state: Maldonado
+    suburb: Sarubbi
+expected: Classic Restaurant y Parrillada, Román Guerra, 20000 Maldonado, Uruguay
+
+
+
