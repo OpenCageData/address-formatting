@@ -1,0 +1,16 @@
+# Paraguay
+---
+description: -25.2889244, -57.6466121
+components:
+    bakery: Old Germany German Bakery
+    city: Asuncion
+    country: Paraguay
+    country_code: py
+    postcode: 1409
+    road: Milano
+    state: Distrito Capital de Paraguay
+    suburb: Tacumbú 
+expected: Old Germany German Bakery, Milano, 1409 Asuncion, Paraguay
+
+
+

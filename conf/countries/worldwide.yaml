@@ -289,6 +289,10 @@ NZ:
 PL:
     address_template: *generic1
 
+# Parguay
+PY: 
+    address_template: *generic1
+
 # Romania
 RO: 
     address_template: *generic1
@@ -336,7 +340,7 @@ US:
     address_template: *generic4
     fallback_template: *fallback2
 
-# Uruguay
+# aUruguay
 UY: 
     address_template: *generic1
 
