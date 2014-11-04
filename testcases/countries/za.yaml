@@ -1,0 +1,17 @@
+# South Africa
+---
+description: Cape Town street address -33.95345,18.47252
+components:
+    city: Cape Town
+    city_district: Cape Town Subcouncil 15
+    country: RSA
+    country_code: za
+    county: City of Cape Town
+    house_number: 3
+    postcode: 7700
+    road: Upper Alma Road
+    state: Western Cape
+    suburb: Rosebank
+expected: 3 Upper Alma Road, Rosebank, Cape Town, 7700, RSA
+
+

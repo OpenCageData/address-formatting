@@ -340,10 +340,21 @@ US:
     address_template: *generic4
     fallback_template: *fallback2
 
-# aUruguay
+# Uruguay
 UY: 
     address_template: *generic1
 
 # Vatican City - same as IT
 VA: 
     address_template: *generic8
+
+# South Africa
+ZA: 
+    address_template: |
+        {{attention}}
+        {{house}}
+        {{house_number}} {{road}}
+        {{suburb}} 
+        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} 
+        {{postcode}}
+        {{country}}
