@@ -209,6 +209,7 @@ GB:
     postformat_replace:
         - ["London, London","London"]
         - ["London, Greater London","London"]
+        - ["City of Westminster","London"]
 
 # Croatia
 HR: 

@@ -36,3 +36,19 @@ components:
     state_district: Greater London
     suburb: Clerkenwell
 expected: Clerkenwell, London, United Kingdom
+
+---
+description: City of Westminster, 51.52089885, -0.14007993
+components:
+    city: City of Westminster
+    country: United Kingdom
+    country_code: gb
+    county: London
+    house_number: 115
+    postcode: W1T 5DU
+    road: New Cavendish Street
+    state: England
+    state_district: Greater London
+    suburb: Fitzrovia
+    university: University of Westminster
+expected: University of Westminster, 115 New Cavendish Street, London W1T 5DU, United Kingdom
