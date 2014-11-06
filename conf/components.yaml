@@ -9,12 +9,11 @@ name: building
 aliases:
     - house
 ---
-name: street
+name: road
 aliases:
-    - road
+    - street
     - street_name
----
-name: residential
+    - residential
 ---
 name: village
 aliases:
