@@ -43,6 +43,7 @@ generic6: &generic6 |
         {{house}}
         {{house_number}} {{road}}
         {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
+        {{county}}
         {{country}}
 
 generic7: &generic7 |
