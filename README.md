@@ -102,7 +102,7 @@ Founded in 2006 and based in London, [Lokku](http://www.lokku.com) are long time
 
 ### Further reading
 
-Here's [our blog post anouncing this project],(http://blog.opencagedata.com/post/99059889253/good-looking-addresses-solving-the-berlin-berlin) and the motivations behind it.
+Here's [our blog post anouncing this project](http://blog.opencagedata.com/post/99059889253/good-looking-addresses-solving-the-berlin-berlin) and the motivations behind it.
 
 You may enjoy Michael Tandy's [Falsehoods Programmers Believe about Addresses](http://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/).
 
