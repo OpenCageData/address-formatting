@@ -48,7 +48,7 @@ Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-a
 
 Our goal with this repository is a series of (programming) language independent templates. Those templates can then be processed by whatever software you like. 
 
-We've written a working implementation of a processer in Perl, see (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/lokku/perl-Geo-Address-Formatter)).
+We've written a working implementation of a processer in Perl, see (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/opencagedata/perl-Geo-Address-Formatter)).
 
 If you do write a processor, please let us know so we can list it here. 
 
