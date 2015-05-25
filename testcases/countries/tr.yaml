@@ -1,0 +1,14 @@
+---
+description: hotel in Istanbul
+components:
+    country: Turkey
+    country_code: tr
+    county: Beşiktaş
+    house: Swissotel Bosphorus
+    house_number: 2,
+    postcode: 34357
+    road: Bayıldım Caddesi
+    state: Istanbul
+    suburb: Vişnezade
+    town: Beşiktaş
+expected: Swissotel Bosphorus, Bayıldım Cad., Maçka No:2, 34357 Beşiktaş, Turkey

@@ -335,7 +335,15 @@ SW:
 
 # Turkey
 TR: 
-    address_template: *generic1
+    address_template: |
+        {{attention}}
+        {{house}}
+        {{road}}
+        Maçka No:{{house_number}} 
+        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} 
+        {{country}}
+    replace:
+        - [" Caddesi"," Cad."]
 
 # USA
 US: 
