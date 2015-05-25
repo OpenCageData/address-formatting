@@ -98,7 +98,8 @@ We welcome your pull requests. Together we can address the world!
 
 ### Who are we?
 
-Founded in 2006 and based in London, [Lokku](http://www.lokku.com) are long time supporters of OpenStreetMap and open data initiatives. We run the [OpenCage Geocoder](http://geocoder.opencagedata.com). We’re best known for [Nestoria](http://www.nestoria.com), our property search engine, where we manage lots of data (geo and otherwise). We also run [#geomob](http://geomobldn.org), a meetup of London location based service developers where we do our best to highlight geoinnovation. 
+We run the [OpenCage Geocoder](http://geocoder.opencagedata.com). 
+Previously, before beine spun off as a seperate company, we were a division of [Lokku](http://www.lokku.com), long time supporters of OpenStreetMap and open data initiatives. We also run [#geomob](http://geomobldn.org), a meetup of London location based service developers where we do our best to highlight geoinnovation. 
 
 ### Further reading
 
