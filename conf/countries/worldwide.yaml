@@ -2,91 +2,91 @@
 # generic mappings, specific territories get mapped to these
 #
 generic1: &generic1 |
-        {{attention}}
-        {{house}}
-        {{road}} {{house_number}}
-        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
 generic2: &generic2 |
-        {{attention}}
-        {{house}}
-        {{house_number}} {{road}}
-        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} || {{county}} {{/first}} {{postcode}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}} {{{postcode}}}
+        {{{country}}}
 
 generic3: &generic3 |
-        {{attention}}
-        {{house}}
-        {{house_number}} {{road}}
-        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
 generic4: &generic4 |
-        {{attention}}
-        {{house}}
-        {{house_number}} {{road}}
-        {{#first}} {{city}} || {{town}} || {{state_district}} || {{village}} {{/first}} {{#first}} {{state_code}} || {{state}} {{/first}} {{postcode}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{{country}}}
 
 generic5: &generic5 |
-        {{attention}}
-        {{house}}
-        {{house_number}} {{road}}
-        {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
-        {{#first}} {{state_district}} || {{state}} {{/first}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
 # no postal code
 generic6: &generic6 |
-        {{attention}}
-        {{house}}
-        {{house_number}} {{road}}
-        {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
-        {{county}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{{county}}}
+        {{{country}}}
 
 generic7: &generic7 |
-        {{attention}}
-        {{house}}
-        {{road}} {{house_number}} 
-        {{#first}} {{city}} || {{town}} || {{village}} {{/first}}, {{postcode}} 
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{{postcode}}} 
+        {{{country}}}
 
 generic8: &generic8 |
-        {{attention}}
-        {{house}}
-        {{road}}, {{house_number}} 
-        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} {{/first}} {{county}} 
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}}, {{{house_number}}} 
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{county}}} 
+        {{{country}}}
 
 generic9: &generic9 |
-        {{attention}}
-        {{house}}
-        {{road}} {{house_number}}
-        {{suburb}} 
-        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}} 
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
 
 fallback1: &fallback1 |
-        {{attention}}
-        {{house}}
-        {{road}} {{house_number}}
-        {{suburb}}
-        {{#first}} {{city}} || {{town}} || {{village}} {{/first}}
-        {{#first}} {{county}} || {{state_district}} || {{state}} {{/first}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
 fallback2: &fallback2 |
-        {{attention}}
-        {{house}}
-        {{road}} {{house_number}}
-        {{suburb}}
-        {{#first}} {{city}} || {{town}} || {{village}} {{/first}}
-        {{county}}                            
-        {{#first}} {{state_district}} || {{state}} {{/first}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{county}}}                            
+        {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
 default:
     address_template: *generic1
@@ -121,12 +121,12 @@ BE:
 # Brazil
 BR:
     address_template: |
-        {{attention}}
-        {{house}}
-        {{house_number}} {{road}}
-        {{#first}} {{city}} || {{town}} || {{state_district}} || {{village}} {{/first}} - {{#first}} {{state_code}} || {{state}} {{/first}}
-        {{postcode}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} - {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{{postcode}}}
+        {{{country}}}
 
 # Canada
 CA: 
@@ -193,13 +193,13 @@ FR:
 GB:
     address_template: *generic2
     fallback_template: |
-        {{attention}}
-        {{house}}
-        {{road}} {{house_number}}
-        {{suburb}}
-        {{#first}} {{city}} || {{town}} || {{village}} {{/first}}
-        {{county}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{county}}}
+        {{{country}}}
     replace:
         - ["^Borough of ",""]
         - ["^County( of)? ",""]
@@ -219,11 +219,11 @@ HR:
 # Hungary
 HU:
     address_template: |
-        {{attention}}
-        {{#first}} {{city}} || {{town}} || {{village}} {{/first}} 
-        {{road}} {{house_number}} 
-        {{postcode}}
-        {{country}}
+        {{{attention}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{{road}}} {{{house_number}}} 
+        {{{postcode}}}
+        {{{country}}}
 
 # Ireland
 IE: 
@@ -243,13 +243,13 @@ IM:
 # http://en.wikipedia.org/wiki/Address_%28geography%29#India
 IN:
     address_template: |
-        {{attention}}
-        {{house}}
-        {{house_number}}, {{road}}
-        {{suburb}}
-        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} - {{postcode}}
-        {{state}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} - {{{postcode}}}
+        {{{state}}}
+        {{{country}}}
 
 # Iceland
 IS: 
@@ -302,14 +302,14 @@ RO:
 # Russia
 RU:
     address_template: |
-        {{attention}}
-        {{house}}
-        {{road}} {{house_number}}
-        {{suburb}}
-        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}}
-        {{state}}
-        {{country}}
-        {{postcode}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{state}}}
+        {{{country}}}
+        {{{postcode}}}
 
 # Singapore
 SG:
@@ -336,12 +336,12 @@ SW:
 # Turkey
 TR: 
     address_template: |
-        {{attention}}
-        {{house}}
-        {{road}}
-        Maçka No:{{house_number}} 
-        {{postcode}} {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} 
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}}
+        Maçka No:{{{house_number}}} 
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
+        {{{country}}}
     replace:
         - [" Caddesi"," Cad."]
 
@@ -361,10 +361,10 @@ VA:
 # South Africa
 ZA: 
     address_template: |
-        {{attention}}
-        {{house}}
-        {{house_number}} {{road}}
-        {{suburb}} 
-        {{#first}} {{city}} || {{town}} || {{village}} || {{state}} {{/first}} 
-        {{postcode}}
-        {{country}}
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{{suburb}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
+        {{{postcode}}}
+        {{{country}}}
