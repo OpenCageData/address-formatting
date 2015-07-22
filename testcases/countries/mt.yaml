@@ -1,0 +1,12 @@
+---
+description: pharmacy in Malta - 35.95777,14.36190
+components:
+    city: Mellieha
+    country: 1002
+    country_code: mt
+    pharmacy: Karizia Pharmacy
+    residential: mELLIEHA
+    road: Triq \u0120or\u0121 Borg Olivier
+    state: Malta
+    suburb: I\u010b-\u010airkewwa
+expected: Karizia Pharmacy, Triq \u0120or\u0121 Borg Olivier, Mellieha, Malta

@@ -271,11 +271,20 @@ LU:
 LV:
     address_template: *generic7
 
+# Malta
+MT:
+    address_template: |
+        {{{attention}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{suburb}}} || {{{village}}} {{/first}} 
+        {{{postcode}}}
+        {{{country}}}
+
 # Monaco
 MC:
     address_template: *generic3
 
-# Nederlands
+# Netherlands
 NL:
     address_template: *generic1
 
