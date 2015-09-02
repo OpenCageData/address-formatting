@@ -1,0 +1,13 @@
+# Uzbekistan
+---
+description: bar in Samarkand
+components:
+    city: Samarkand
+    country: Uzbekistan
+    country_code: uz
+    postcode: 140100
+    pub: BLUES Cafe
+    house_number: 66
+    road: Amir Temur street
+    state: Samarkand Province
+expected: 'BLUES Cafe, Amir Temur street 66, Samarkand Province, 140100 Samarkand, Uzbekistan'

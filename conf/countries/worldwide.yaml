@@ -430,6 +430,10 @@ US:
     address_template: *generic4
     fallback_template: *fallback2
 
+# Uzbekistan
+UZ:
+    address_template: *generic9
+
 # Uruguay
 UY: 
     address_template: *generic1
