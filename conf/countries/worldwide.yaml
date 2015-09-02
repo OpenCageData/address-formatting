@@ -275,6 +275,18 @@ HU:
         {{{postcode}}}
         {{{country}}}
 
+# Indonesia
+# https://en.wikipedia.org/wiki/Address_%28geography%29#Indonesia
+ID:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}}
+        {{{state}}}
+        {{{country}}}
+
 # Ireland
 IE: 
     address_template: *generic6
