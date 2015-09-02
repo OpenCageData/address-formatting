@@ -266,6 +266,10 @@ GR:
 HR: 
     address_template: *generic1
 
+# Haiti
+HT:
+    address_template: *generic1
+
 # Hungary
 HU:
     address_template: |
