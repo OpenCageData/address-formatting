@@ -1,0 +1,15 @@
+# Bulgaria
+---
+description: university in Sofia
+components:
+    city: Sofia
+    country: Bulgaria
+    country_code: BG
+    county: Sofia-City Region
+    road: Georgi Sava Rakovski St.
+    state: RJ
+    state_district: Região Metropolitana do Rio de Janeiro
+    suburb: Centre
+    postcode: 1000
+    university: Krastyo Sarafov National Academy for Theatre and Film Arts
+expected: 'Krastyo Sarafov National Academy for Theatre and Film Arts, Georgi Sava Rakovski St., Centre, 1000 Sofia, Bulgaria'
