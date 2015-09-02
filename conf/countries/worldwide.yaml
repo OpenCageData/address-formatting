@@ -69,13 +69,14 @@ generic9: &generic9 |
         {{{country}}}
 
 generic10: &generic10 |
-        {{{country}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
-        {{{suburb}}} 
-        {{{road}}}, {{{house_number}}}
-        {{{house}}}
         {{{attention}}}
-
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{state}}}
+        {{{country}}}
+        {{{postcode}}}
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -138,8 +139,13 @@ BR:
 
 # Belarus
 BY:
-    address_template: *generic10
-
+    address_template: |
+        {{{country}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{suburb}}} 
+        {{{road}}}, {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
 
 # Canada
 CA: 
@@ -323,15 +329,7 @@ RO:
 
 # Russia
 RU:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{road}}} {{{house_number}}}
-        {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
-        {{{state}}}
-        {{{country}}}
-        {{{postcode}}}
+    address_template: *generic10
 
 # Sweden
 SE: 
@@ -370,6 +368,10 @@ TR:
 # Trinidad and Tobago
 TT:
     address_template: *generic4
+
+# Ukraine - same as RU
+UA:
+    address_template: *generic10
 
 # USA
 US: 
