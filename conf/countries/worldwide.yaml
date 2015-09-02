@@ -480,6 +480,10 @@ UY:
 VA: 
     address_template: *generic8
 
+# Venezuela
+VE:
+    address_template: *generic1
+
 # South Africa
 ZA: 
     address_template: |
