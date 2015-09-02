@@ -289,7 +289,7 @@ NL:
     address_template: *generic1
 
 # Norway
-NO:
+"NO":
     address_template: *generic1
 
 # New Zealand
