@@ -140,6 +140,10 @@ AR:
     replace:
         - ["^Autonomous City of ",""]
 
+# Azerbaijan
+AZ:
+    address_template: *generic3
+
 # Australia
 AU: 
     address_template: *generic4
