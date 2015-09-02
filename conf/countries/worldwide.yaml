@@ -321,6 +321,10 @@ MT:
 MC:
     address_template: *generic3
 
+# Moldova
+MD:
+    address_template: *generic8
+
 # Netherlands
 NL:
     address_template: *generic1
