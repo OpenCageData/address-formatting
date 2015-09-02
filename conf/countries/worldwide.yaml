@@ -68,6 +68,14 @@ generic9: &generic9 |
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
 
+generic10: &generic10 |
+        {{{country}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{suburb}}} 
+        {{{road}}}, {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
+
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -117,7 +125,7 @@ AU:
 # Belgium
 BE: 
     address_template: *generic1
-    
+
 # Brazil
 BR:
     address_template: |
@@ -127,6 +135,11 @@ BR:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} - {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{postcode}}}
         {{{country}}}
+
+# Belarus
+BY:
+    address_template: *generic10
+
 
 # Canada
 CA: 
@@ -320,6 +333,10 @@ RU:
         {{{country}}}
         {{{postcode}}}
 
+# Sweden
+SE: 
+    address_template: *generic1
+
 # Singapore
 SG:
     address_template: *generic3
@@ -337,10 +354,6 @@ SK:
 # San Marino - same as IT
 SM: 
     address_template: *generic8
-
-# Sweden
-SE: 
-    address_template: *generic1
 
 # Turkey
 TR: 
