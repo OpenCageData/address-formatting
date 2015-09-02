@@ -1,0 +1,14 @@
+# Colombia
+---
+description: 4.63194, -74.06064
+components:
+    house_number: 33
+    road: Avenida de los Cerros (Circunvalar)
+    city: Bogota
+    neighbourhood: Mariscal Sucre
+    country: Colombia
+    country_code: CO
+    postcode: 110231
+    state: Bogota
+    suburb: Chapinero
+expected: 'Avenida de los Cerros (Circunvalar) 33, Chapinero, 110231 Bogota, Colombia'

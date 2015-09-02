@@ -12,4 +12,4 @@ components:
     country: Spain
     country_code: ES
     postcode: 28004
-expected: 'Circo De Las Tapas, Corredera Baja de San Pablo 21, 28004 Madrid, Spain'
+expected: 'Circo De Las Tapas, Corredera Baja de San Pablo, 21, 28004 Madrid, Spain'
