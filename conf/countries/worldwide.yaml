@@ -341,6 +341,16 @@ NL:
 NZ:
     address_template: *generic1
 
+# Philippines
+PH:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{suburb}}} || {{{state_district}}} {{/first}}
+        {{{postcode}}} {{{state}}}
+        {{{country}}}
+
 # Poland
 PL:
     address_template: *generic1

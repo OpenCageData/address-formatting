@@ -1,0 +1,15 @@
+# Philippines
+---
+description: restaurant in Manila
+components:
+    house_number: 1140
+    road: Alhambra
+    city: Ermita
+    postcode: 1000
+    county: Fifth District
+    country: Philippines
+    country_code: PH
+    restaurant: Emerald Garden
+    state: Metro Manila
+    suburb: Ermita
+expected: 'Emerald Garden, 1140 Alhambra, Emrita, 1000 Metro Manila, Philippines'
