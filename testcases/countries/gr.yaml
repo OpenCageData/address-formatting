@@ -1,0 +1,16 @@
+# Greece
+---
+description: bank in Greece
+components:
+   bank: National Bank of Greece
+   city: Municipality of Athens
+   country: Greece
+   country_code: GR
+   county: Central Athens Regional Unit
+   house_number: 11
+   neighbourhood: Kolonaki
+   postcode: 10673
+   road: Skoufa street
+   state: Attica Administration
+   state_district: Attica
+expected: 'National Bank of Greece, Skoufa street 11, 10673 Municipality of Athens, Greece'
