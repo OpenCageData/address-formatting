@@ -86,6 +86,15 @@ generic11: &generic11 |
         {{{house}}}
         {{{attention}}}
 
+generic12: &generic12 |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} - {{{postcode}}}
+        {{{state}}}
+        {{{country}}}
+
 fallback1: &fallback1 |
         {{{attention}}}
         {{{house}}}
@@ -130,6 +139,10 @@ AR:
 # Australia
 AU: 
     address_template: *generic4
+
+# Bangladesh
+BD:
+    address_template: *generic12
 
 # Belgium
 BE: 
@@ -275,14 +288,7 @@ IM:
 # India
 # http://en.wikipedia.org/wiki/Address_%28geography%29#India
 IN:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{house_number}}}, {{{road}}}
-        {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} - {{{postcode}}}
-        {{{state}}}
-        {{{country}}}
+    address_template: generic12
 
 # Iceland
 IS: 
