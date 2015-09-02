@@ -349,6 +349,10 @@ PY:
 RO: 
     address_template: *generic1
 
+# Serbia
+RS:
+    address_template: *generic1
+
 # Russia
 RU:
     address_template: *generic10
