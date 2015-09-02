@@ -126,6 +126,10 @@ default:
 AD:
     address_template: *generic3
 
+# Armenia
+AM:
+    address_template: *generic1
+
 # Austria
 AT: 
     address_template: *generic1
