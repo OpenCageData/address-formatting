@@ -367,6 +367,10 @@ TR:
     replace:
         - [" Caddesi"," Cad."]
 
+# Trinidad and Tobago
+TT:
+    address_template: *generic4
+
 # USA
 US: 
     address_template: *generic4
