@@ -367,6 +367,10 @@ MD:
 MX:
     address_template: *generic1
 
+# New Caledonia
+NC:
+    address_template: *generic3
+
 # Netherlands
 NL:
     address_template: *generic1
