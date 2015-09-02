@@ -1,0 +1,15 @@
+# Spain
+---
+description: tapas place in Madrid
+components:
+    bar: Circo De Las Tapas
+    house_number: 21
+    road: Corredera Baja de San Pablo
+    city: Madrid
+    city_district: Centro
+    county: Área metropolitana de Madrid y Corredor del Henares
+    residential: Barrio Universidad
+    country: Spain
+    country_code: ES
+    postcode: 28004
+expected: 'Circo De Las Tapas, Corredera Baja de San Pablo 21, 28004 Madrid, Spain'
