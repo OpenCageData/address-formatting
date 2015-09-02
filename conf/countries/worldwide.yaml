@@ -367,6 +367,10 @@ PT:
 PY: 
     address_template: *generic1
 
+# Réunion - same as FR
+RE:
+    address_template: *generic3
+
 # Romania
 RO: 
     address_template: *generic1
