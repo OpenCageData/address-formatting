@@ -286,6 +286,10 @@ LI:
 LU:
     address_template: *generic3
 
+# Lithuania
+LT:
+    address_template: *generic1
+
 # Latvia
 LV:
     address_template: *generic7
