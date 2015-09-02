@@ -78,6 +78,14 @@ generic10: &generic10 |
         {{{country}}}
         {{{postcode}}}
 
+generic11: &generic11 |
+        {{{country}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{suburb}}} 
+        {{{road}}}, {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
+
 fallback1: &fallback1 |
         {{{attention}}}
         {{{house}}}
@@ -139,13 +147,7 @@ BR:
 
 # Belarus
 BY:
-    address_template: |
-        {{{country}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
-        {{{suburb}}} 
-        {{{road}}}, {{{house_number}}}
-        {{{house}}}
-        {{{attention}}}
+    address_template: *generic11
 
 # Canada
 CA: 
@@ -293,6 +295,10 @@ LT:
 # Latvia
 LV:
     address_template: *generic7
+
+# Kazakhstan
+KZ:
+    address_template: *generic11
 
 # Malta
 MT:
