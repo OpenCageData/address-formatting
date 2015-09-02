@@ -178,6 +178,10 @@ CH:
 CL: 
     address_template: *generic1
 
+# Colombia
+CO:
+    address_template: *generic1
+
 # Czech Republic
 CZ: 
     address_template: *generic1
