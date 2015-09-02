@@ -333,6 +333,10 @@ NZ:
 PL:
     address_template: *generic1
 
+# Puerto Rico
+PR:
+    address_template: *generic1
+
 # Portugal
 PT:
     address_template: *generic1
