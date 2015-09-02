@@ -1,0 +1,14 @@
+# Kyrgyzstan
+---
+description: 
+components:
+   city: Бишкек
+   country: Kyrgyzstan
+   country_code: KG
+   county: Аламудунский район
+   cafe: Даамдан
+   house_number: 473
+   postcode: 720033
+   road: Frunze Mikhail Street
+   state: Astana
+expected: 'Kyrgyzstan, 720040 Бишкек, Frunze Mikhail Street, 473, Даамдан'

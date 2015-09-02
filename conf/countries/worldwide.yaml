@@ -296,6 +296,10 @@ LT:
 LV:
     address_template: *generic7
 
+# Kyrgyzstan
+KG:
+    address_template: *generic11
+
 # Kazakhstan
 KZ:
     address_template: *generic11
