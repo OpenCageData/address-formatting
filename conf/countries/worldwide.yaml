@@ -323,6 +323,10 @@ NZ:
 PL:
     address_template: *generic1
 
+# Portugal
+PT:
+    address_template: *generic1
+
 # Parguay
 PY: 
     address_template: *generic1
