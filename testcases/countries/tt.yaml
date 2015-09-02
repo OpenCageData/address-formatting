@@ -10,4 +10,4 @@ components:
     restaurant: More Vino Limited
     country: Trinidad and Tobago
     country_code: TT
-expected: More Vino Limited, 23 O'Connor Street, Woodbrook, Port of Spain, 190130, Trinidad and Tobago
+expected: "More Vino Limited, 23 O'Connor Street, Woodbrook, Port of Spain, 190130, Trinidad and Tobago"
