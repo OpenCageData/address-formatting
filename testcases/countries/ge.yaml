@@ -1,0 +1,12 @@
+---
+description: bar in Tbilisi
+components:
+    bar: Mojito Bar
+    city: Tbilisi
+    country: Georgia
+    country_code: GE
+    house_number: 7
+    postcode: 0114
+    road: Cotton Row
+    suburb: Old Tbilisi Raion
+expected: Mojito Bar, Cotton Row 7, 0114 Tbilisi, Georgia
