@@ -13,4 +13,4 @@ components:
     restaurant: El Carretón
     state_district: Caracas
     state: Capital District
-expected: 'El Carretón, Av. Teresa de La Parra, Parroquia San Pedro 1040, Capital District, Venezuela'
+expected: 'El Carretón, Av. Teresa de La Parra 33, Parroquia San Pedro 1040, Capital District, Venezuela'
