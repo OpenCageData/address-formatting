@@ -174,6 +174,10 @@ BR:
         {{{postcode}}}
         {{{country}}}
 
+# Bermuda
+BM:
+    address_template: *generic2
+
 # Belarus
 BY:
     address_template: *generic11
@@ -366,13 +370,14 @@ KG:
 KZ:
     address_template: *generic11
 
-# Malta
-MT:
+# Morocco
+MA:
     address_template: |
         {{{attention}}}
-        {{{house_number}}} {{{road}}} 
-        {{#first}} {{{city}}} || {{{town}}} || {{{suburb}}} || {{{village}}} {{/first}} 
-        {{{postcode}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
 
 # Monaco
@@ -382,6 +387,15 @@ MC:
 # Moldova
 MD:
     address_template: *generic8
+
+# Malta
+MT:
+    address_template: |
+        {{{attention}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{suburb}}} || {{{village}}} {{/first}} 
+        {{{postcode}}}
+        {{{country}}}
 
 # Mexico
 MX:
@@ -503,6 +517,10 @@ SK:
 # San Marino - same as IT
 SM: 
     address_template: *generic8
+
+# Tunisia
+TN:
+    address_template: *generic3
 
 # Turkey
 TR: 
