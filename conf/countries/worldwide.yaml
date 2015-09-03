@@ -238,6 +238,10 @@ DE:
 DK:
     address_template: *generic1
 
+# Algeria
+DZ:
+    address_template: *generic3
+
 # Ecuador
 EC:
     address_template: |
