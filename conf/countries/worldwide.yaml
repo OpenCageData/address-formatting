@@ -403,6 +403,10 @@ MC:
 MD:
     address_template: *generic8
 
+# Macedonia
+MK:
+    address_template: *generic1
+
 # Malta
 MT:
     address_template: |
