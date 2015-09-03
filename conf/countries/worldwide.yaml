@@ -208,6 +208,10 @@ CO:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
 
+# Cuba
+CU:
+    address_template: *generic1
+
 # Czech Republic
 CZ: 
     address_template: *generic1
