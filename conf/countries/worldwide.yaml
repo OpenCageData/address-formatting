@@ -148,6 +148,10 @@ AZ:
 AU: 
     address_template: *generic4
 
+# Bosnia
+BA:
+    address_template: *generic1
+
 # Bangladesh
 BD:
     address_template: *generic12
