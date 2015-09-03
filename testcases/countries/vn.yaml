@@ -1,0 +1,13 @@
+# Vietnam
+---
+description: bar in Nha Trang
+components:
+    road: Tran Quang Khai
+    city: Nha Trang
+    country: Vietnam
+    country_code: VN
+    postcode: 48058
+    bar: Why Not Bar
+    suburb: Tan Lap District
+    state: Khanh Hoa province
+expected: 'Why Not Bar, Tran Quang Khai, Tan Lap District, Nha Trang, Khanh Hoa province 48058, Vietnam'

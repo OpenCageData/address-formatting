@@ -385,7 +385,7 @@ MX:
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
 
@@ -513,6 +513,16 @@ VE:
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{{postcode}}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
+# Vietnam
+VN:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
+        {{{state}}} {{{postcode}}}
         {{{country}}}
 
 # South Africa
