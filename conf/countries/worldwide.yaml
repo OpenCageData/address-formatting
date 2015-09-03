@@ -178,6 +178,10 @@ BR:
 BM:
     address_template: *generic2
 
+# Bolivia
+BO:
+    address_template: *generic1
+
 # Belarus
 BY:
     address_template: *generic11
@@ -229,6 +233,17 @@ DE:
 # Denmark
 DK:
     address_template: *generic1
+
+# Ecuador
+EC:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
+        {{{country}}}
 
 # Estonia
 EE:
