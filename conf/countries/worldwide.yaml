@@ -451,6 +451,15 @@ RS:
 RU:
     address_template: *generic10
 
+# Saudi Arabia
+SA:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}, {{#first}} {{{village}}} || {{{city_district}}} || {{{suburb}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} {{/first}} {{{postcode}}}
+        {{{country}}}
+
 # Sweden
 SE: 
     address_template: *generic1
