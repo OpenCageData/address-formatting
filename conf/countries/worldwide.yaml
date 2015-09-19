@@ -172,7 +172,22 @@ EE:
 
 # Spain
 ES:
-    address_template: *generic1
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} 
+        {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}}
+        {{{country}}}
+    fallback_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{state}}} || {{{county}}} {{/first}}
+        {{{country}}}
+
 
 # Finnland
 FI: 

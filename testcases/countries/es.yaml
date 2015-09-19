@@ -1,0 +1,23 @@
+---
+description: Barcelona
+components:
+     city: Barcelona
+     country: Spain
+     country_code: es
+     county: BCN
+     state: Catalonia
+expected: Barcelona, Catalonia, Spain
+---
+description: 41.39266,2.19790
+components:
+     city: Barcelona
+     country: Spain
+     country_code: es
+     county: BCN
+     house_number: 17
+     pedestrian: Avinguda del Bogatell
+     postcode: 08005
+     public_building: Biblioteca Xavier Benguerel
+     state: Catalonia
+     suburb: la Vila Olímpica del Poblenou
+expected: Biblioteca Xavier Benguerel, Avinguda del Bogatell, 17, 08005 Barcelona, Spain
