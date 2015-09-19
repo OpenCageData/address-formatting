@@ -96,13 +96,14 @@ default:
 # please keep in alpha order by country code
 #
 
+
 # Andorra
 AD:
     address_template: *generic3
 
-# Austria
-AT: 
-    address_template: *generic1
+# United Arab Emirates
+AE:
+    address_template: *generic5
 
 # Argentina
 AR: 
@@ -110,14 +111,26 @@ AR:
     replace:
         - ["^Autonomous City of ",""]
 
+# Austria
+AT: 
+    address_template: *generic1
+
 # Australia
 AU: 
     address_template: *generic4
+
+# Bosnia and Herzegovina
+BA: 
+    address_template: *generic1
 
 # Belgium
 BE: 
     address_template: *generic1
     
+# Bulgaria
+BG: 
+    address_template: *generic1
+
 # Brazil
 BR:
     address_template: |
