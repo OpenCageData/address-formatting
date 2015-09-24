@@ -122,6 +122,7 @@ default:
 # please keep in alpha order by country code
 #
 
+
 # Andorra
 AD:
     address_template: *generic3
@@ -130,15 +131,19 @@ AD:
 AM:
     address_template: *generic1
 
-# Austria
-AT: 
-    address_template: *generic1
+# United Arab Emirates
+AE:
+    address_template: *generic5
 
 # Argentina
 AR: 
     address_template: *generic9
     replace:
         - ["^Autonomous City of ",""]
+
+# Austria
+AT: 
+    address_template: *generic1
 
 # Azerbaijan
 AZ:
@@ -266,9 +271,17 @@ ES:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{{road}}}, {{{house_number}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{{state}}}
+        {{{road}}} 
+        {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}}
+        {{{country}}}
+    fallback_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{state}}} || {{{county}}} {{/first}}
         {{{country}}}
 
 # Finnland
