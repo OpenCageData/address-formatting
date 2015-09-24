@@ -12,4 +12,5 @@ components:
     restaurant: Emerald Garden
     state: Metro Manila
     suburb: Ermita
-expected: 'Emerald Garden, 1140 Alhambra, Emrita, 1000 Metro Manila, Philippines'
+expected: 'Emerald Garden, 1140 Alhambra, Ermita, 1000 Metro Manila, Philippines'
+
