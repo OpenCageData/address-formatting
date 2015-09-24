@@ -221,6 +221,9 @@ CO:
         {{{suburb}}}
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
+    postformat_replace:
+        - ["Bogota, Bogota","Bogota"]
+
 
 # Cuba
 CU:
