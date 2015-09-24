@@ -11,4 +11,7 @@ components:
     country_code: MX
     state: Federal District
     postcode: 06100
-expected: 'Wallace Whisky Bar, Avenida Tamaulipas 45, Cuauhtémoc, 28004 Mexico City, Federal District, Mexico'
+expected: 'Wallace Whisky Bar, Avenida Tamaulipas 45, Cuauhtémoc, 06100 Mexico City, Federal District, Mexico'
+
+
+
