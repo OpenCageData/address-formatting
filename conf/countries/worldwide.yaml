@@ -607,7 +607,14 @@ US:
 
 # Uzbekistan
 UZ:
-    address_template: *generic9
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{state}}} || {{{state_district}}} {{/first}} 
+        {{{country}}}
+        {{{postcode}}}
 
 # Uruguay
 UY: 
