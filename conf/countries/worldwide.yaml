@@ -53,6 +53,7 @@ generic7: &generic7 |
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{{postcode}}} 
         {{{country}}}
 
+# postcode and county
 generic8: &generic8 |
         {{{attention}}}
         {{{house}}}
@@ -434,7 +435,13 @@ MC:
 
 # Moldova
 MD:
-    address_template: *generic8
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}}, {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
 
 # Macedonia
 MK:
