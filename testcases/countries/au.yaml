@@ -12,6 +12,6 @@ components:
     road: William Street
     state: Victoria
     suburb: Melbourne
-expected: Melbourne Magistrates' Court, 223 William Street, Melbourne, VIC 3000, Australia
+expected: Melbourne Magistrates' Court, 223 William Street, Melbourne VIC 3000, Australia
 
 
