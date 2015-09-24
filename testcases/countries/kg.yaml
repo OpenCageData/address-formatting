@@ -11,4 +11,6 @@ components:
    postcode: 720033
    road: Frunze Mikhail Street
    state: Astana
-expected: 'Kyrgyzstan, 720040 Бишкек, Frunze Mikhail Street, 473, Даамдан'
+expected: 'Kyrgyzstan, 720033 Бишкек, Frunze Mikhail Street, 473, Даамдан'
+
+
