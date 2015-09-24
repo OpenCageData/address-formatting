@@ -421,13 +421,7 @@ KZ:
 
 # Morocco
 MA:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{house_number}}} {{{road}}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
-        {{{country}}}
+    address_template: *generic1
 
 # Monaco
 MC:
