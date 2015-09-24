@@ -515,9 +515,10 @@ PH:
 PL:
     address_template: *generic1
 
-# Puerto Rico
+# Puerto Rico, same as USA
 PR:
     address_template: *generic1
+    fallback_template: *fallback2
 
 # Portugal
 PT:
@@ -611,6 +612,11 @@ UA:
         {{{postcode}}} 
         {{{country}}}
 
+# US Minor Outlying Islands, same as USA
+UM: 
+    address_template: *generic4
+    fallback_template: *fallback2
+
 # USA
 US: 
     address_template: *generic4
@@ -643,6 +649,11 @@ VE:
         {{{road}}} {{{house_number}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{{postcode}}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
+
+# US Virgin Islands, same as USA
+VI: 
+    address_template: *generic4
+    fallback_template: *fallback2
 
 # Vietnam
 VN:
