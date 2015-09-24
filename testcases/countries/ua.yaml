@@ -2,11 +2,12 @@
 description: bar in Kiev
 components:
     city : Kyiv
-    county: Solomianskyi district
+    suburb: Solomianskyi district
     country: Ukraine
     country_code: UA
     house_number: 2д
     bar: Утка Bar
     postcode : 03038
     road : Protasiv Yar Street
-expected: 'Ukraine, 03038 Kyiv, Solomianskyi district, Protasiv Yar Street, 2д, Утка Bar'
+expected: 'Утка Bar, Protasiv Yar Street, 2д, Solomianskyi district, Kyiv, 03038, Ukraine'
+

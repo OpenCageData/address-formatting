@@ -596,9 +596,16 @@ TT:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{{postcode}}}
         {{{country}}}
 
-# Ukraine - same as RU
+# Ukraine
 UA:
-    address_template: *generic10
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}}, {{{house_number}}}
+        {{{suburb}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{postcode}}} 
+        {{{country}}}
 
 # USA
 US: 
