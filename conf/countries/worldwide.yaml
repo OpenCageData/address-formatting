@@ -588,7 +588,13 @@ TR:
 
 # Trinidad and Tobago
 TT:
-    address_template: *generic4
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{{postcode}}}
+        {{{country}}}
 
 # Ukraine - same as RU
 UA:
