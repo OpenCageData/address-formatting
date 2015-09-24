@@ -1,0 +1,15 @@
+# Serbia
+---
+description: restaurant in Belgrade
+components:
+    restaurant: Ресторан Лидо
+    city: Belgrade
+    country: Serbia
+    country_code: RS
+    neighbourhood: Donji Grad
+    house_number: 2
+    postcode: 11080
+    road: Goce Delceva
+    state: Central Serbia
+    suburb: Zemun
+expected: Ресторан Лидо, Goce Delceva 2, 11080 Belgrade, Serbia

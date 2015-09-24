@@ -1,0 +1,14 @@
+# Kazakhstan
+---
+description: 
+components:
+   city: Astana
+   country: Kazakhstan
+   country_code: KZ
+   county: район Сарыарка
+   name: Хива
+   house_number: 24
+   postcode: 010000
+   road: улица Конституции
+   state: Astana
+expected: 'Kazakhstan, 010000 Astana, улица Конституции, 24, Хива'

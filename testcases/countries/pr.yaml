@@ -1,0 +1,13 @@
+# Puerto Rico
+---
+description: bar in San Juan
+components:
+    bar: Wisos Velillas Bar
+    house_number: 252
+    road: Calle San Francisco
+    city: San Juan Antiguo
+    country: Puerto Rico
+    country_code: PR
+    county: San Juan
+    postcode: 00901
+expected: 'Wisos Velillas Bar, Calle San Francisco 252, 00901 San Juan Antiguo, Puerto Rico'

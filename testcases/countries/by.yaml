@@ -1,0 +1,12 @@
+---
+description: National Art Museum in Minsk
+components:
+    city : Minsk
+    city_district: Ленинский район
+    country: Belarus
+    country_code: BY
+    house_number: 20
+    museum : Национальный художественный музей
+    postcode : 220030
+    road : улица Ленина
+expected: 'Belarus, 220030 Minsk, Ленинский район, улица Ленина, 20, Национальный художественный музей'

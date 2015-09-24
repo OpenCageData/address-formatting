@@ -26,7 +26,7 @@ generic4: &generic4 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
 generic5: &generic5 |
@@ -68,6 +68,32 @@ generic9: &generic9 |
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
 
+generic10: &generic10 |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{state}}}
+        {{{country}}}
+        {{{postcode}}}
+
+generic11: &generic11 |
+        {{{country}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{suburb}}} 
+        {{{road}}}, {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
+
+generic12: &generic12 |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} - {{{postcode}}}
+        {{{state}}}
+        {{{country}}}
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -101,6 +127,10 @@ default:
 AD:
     address_template: *generic3
 
+# Armenia
+AM:
+    address_template: *generic1
+
 # United Arab Emirates
 AE:
     address_template: *generic5
@@ -115,21 +145,29 @@ AR:
 AT: 
     address_template: *generic1
 
+# Azerbaijan
+AZ:
+    address_template: *generic3
+
 # Australia
 AU: 
     address_template: *generic4
 
-# Bosnia and Herzegovina
-BA: 
+# Bosnia
+BA:
     address_template: *generic1
+
+# Bangladesh
+BD:
+    address_template: *generic12
 
 # Belgium
 BE: 
     address_template: *generic1
-    
+
 # Bulgaria
-BG: 
-    address_template: *generic1
+BG:
+    address_template: *generic9
 
 # Brazil
 BR:
@@ -141,6 +179,18 @@ BR:
         {{{postcode}}}
         {{{country}}}
 
+# Bermuda
+BM:
+    address_template: *generic2
+
+# Bolivia
+BO:
+    address_template: *generic1
+
+# Belarus
+BY:
+    address_template: *generic11
+
 # Canada
 CA: 
     address_template: *generic4
@@ -151,6 +201,20 @@ CH:
 
 # Chile
 CL: 
+    address_template: *generic1
+
+# Colombia
+CO:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
+# Cuba
+CU:
     address_template: *generic1
 
 # Czech Republic
@@ -179,6 +243,25 @@ DE:
 DK:
     address_template: *generic1
 
+# Dominican Republic
+DO:
+    address_template: *generic1
+
+# Algeria
+DZ:
+    address_template: *generic3
+
+# Ecuador
+EC:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
+        {{{country}}}
+
 # Estonia
 EE:
     address_template: *generic1
@@ -200,7 +283,6 @@ ES:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{#first}} {{{state}}} || {{{county}}} {{/first}}
         {{{country}}}
-
 
 # Finnland
 FI: 
@@ -240,8 +322,20 @@ GB:
         - ["London, Greater London","London"]
         - ["City of Westminster","London"]
 
+# Georgia
+GE:
+    address_template: *generic1
+
+# Greece
+GR:
+    address_template: *generic1
+
 # Croatia
 HR: 
+    address_template: *generic1
+
+# Haiti
+HT:
     address_template: *generic1
 
 # Hungary
@@ -251,6 +345,18 @@ HU:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
         {{{road}}} {{{house_number}}} 
         {{{postcode}}}
+        {{{country}}}
+
+# Indonesia
+# https://en.wikipedia.org/wiki/Address_%28geography%29#Indonesia
+ID:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}}
+        {{{state}}}
         {{{country}}}
 
 # Ireland
@@ -270,14 +376,7 @@ IM:
 # India
 # http://en.wikipedia.org/wiki/Address_%28geography%29#India
 IN:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{house_number}}}, {{{road}}}
-        {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} - {{{postcode}}}
-        {{{state}}}
-        {{{country}}}
+    address_template: generic12
 
 # Iceland
 IS: 
@@ -295,9 +394,43 @@ LI:
 LU:
     address_template: *generic3
 
+# Lithuania
+LT:
+    address_template: *generic1
+
 # Latvia
 LV:
     address_template: *generic7
+
+# Kyrgyzstan
+KG:
+    address_template: *generic11
+
+# Kazakhstan
+KZ:
+    address_template: *generic11
+
+# Morocco
+MA:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
+# Monaco
+MC:
+    address_template: *generic3
+
+# Moldova
+MD:
+    address_template: *generic8
+
+# Macedonia
+MK:
+    address_template: *generic1
 
 # Malta
 MT:
@@ -308,8 +441,30 @@ MT:
         {{{postcode}}}
         {{{country}}}
 
-# Monaco
-MC:
+# Mexico
+MX:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
+
+# Malaysia
+MY:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{state}}}
+        {{{country}}}
+
+# New Caledonia
+NC:
     address_template: *generic3
 
 # Netherlands
@@ -317,36 +472,77 @@ NL:
     address_template: *generic1
 
 # Norway
-NO:
+"NO":
     address_template: *generic1
 
 # New Zealand
 NZ:
     address_template: *generic1
 
+# Peru
+PE:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
+# Philippines
+PH:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{suburb}}} || {{{state_district}}} {{/first}}
+        {{{postcode}}} {{{state}}}
+        {{{country}}}
+
 # Poland
 PL:
+    address_template: *generic1
+
+# Puerto Rico
+PR:
+    address_template: *generic1
+
+# Portugal
+PT:
     address_template: *generic1
 
 # Parguay
 PY: 
     address_template: *generic1
 
+# Réunion - same as FR
+RE:
+    address_template: *generic3
+
 # Romania
 RO: 
     address_template: *generic1
 
+# Serbia
+RS:
+    address_template: *generic1
+
 # Russia
 RU:
+    address_template: *generic10
+
+# Saudi Arabia
+SA:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{{road}}} {{{house_number}}}
-        {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
-        {{{state}}}
+        {{{house_number}}} {{{road}}}, {{#first}} {{{village}}} || {{{city_district}}} || {{{suburb}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} {{/first}} {{{postcode}}}
         {{{country}}}
-        {{{postcode}}}
+
+# Sweden
+SE: 
+    address_template: *generic1
 
 # Singapore
 SG:
@@ -366,9 +562,9 @@ SK:
 SM: 
     address_template: *generic8
 
-# Sweden
-SW: 
-    address_template: *generic1
+# Tunisia
+TN:
+    address_template: *generic3
 
 # Turkey
 TR: 
@@ -382,10 +578,22 @@ TR:
     replace:
         - [" Caddesi"," Cad."]
 
+# Trinidad and Tobago
+TT:
+    address_template: *generic4
+
+# Ukraine - same as RU
+UA:
+    address_template: *generic10
+
 # USA
 US: 
     address_template: *generic4
     fallback_template: *fallback2
+
+# Uzbekistan
+UZ:
+    address_template: *generic9
 
 # Uruguay
 UY: 
@@ -394,6 +602,25 @@ UY:
 # Vatican City - same as IT
 VA: 
     address_template: *generic8
+
+# Venezuela
+VE:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{{postcode}}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
+# Vietnam
+VN:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
+        {{{state}}} {{{postcode}}}
+        {{{country}}}
 
 # South Africa
 ZA: 
@@ -404,4 +631,14 @@ ZA:
         {{{suburb}}} 
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
         {{{postcode}}}
+        {{{country}}}
+
+# Zimbabwe
+ZW:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{{suburb}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
         {{{country}}}

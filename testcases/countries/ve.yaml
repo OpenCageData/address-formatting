@@ -1,0 +1,16 @@
+# Venezuela
+---
+description: restaurant in Caracas
+components:
+    house_number: 33
+    road: Av. Teresa de La Parra
+    city: Parroquia San Pedro
+    county: Municipio Libertador
+    neighbourhood: Los Chaguaramos
+    country: Venezuela
+    country_code: VE
+    postcode: 1040
+    restaurant: El Carretón
+    state_district: Caracas
+    state: Capital District
+expected: 'El Carretón, Av. Teresa de La Parra 33, Parroquia San Pedro 1040, Capital District, Venezuela'

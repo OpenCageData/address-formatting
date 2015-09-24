@@ -1,0 +1,12 @@
+# Peru
+---
+description: bar in San Juan
+components:
+    pub: Discoteca Ophera
+    county: Huaural
+    road: TUPAC AMARU
+    town: Huacho
+    country: Peru
+    country_code: PE
+    state: Lima
+expected: 'Discoteca Ophera, TUPAC AMARU, Huacho, Peru'

@@ -1,0 +1,14 @@
+# Mexico
+---
+description: bar in Mexico City
+components:
+    pub: Wallace Whisky Bar
+    house_number: 45
+    road: Avenida Tamaulipas
+    city: Mexico City
+    city_district: Cuauhtémoc
+    country: Mexico
+    country_code: MX
+    state: Federal District
+    postcode: 06100
+expected: 'Wallace Whisky Bar, Avenida Tamaulipas 45, Cuauhtémoc, 28004 Mexico City, Federal District, Mexico'
