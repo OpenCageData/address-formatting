@@ -388,7 +388,7 @@ IM:
 # India
 # http://en.wikipedia.org/wiki/Address_%28geography%29#India
 IN:
-    address_template: generic12
+    address_template: *generic12
 
 # Iceland
 IS: 
