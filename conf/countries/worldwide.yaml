@@ -202,7 +202,7 @@ BY:
 
 # Canada
 CA: 
-    address_template: *generic13
+    address_template: *generic4
 
 # Switzerland
 CH: 
