@@ -1,0 +1,29 @@
+# Tanzania
+# in Dar es Salaam
+---
+description: CWE Hotel in Dar es Salaam -6.83009,39.24981
+components:
+    city: Dar es Salaam,
+    city_district: Buguruni
+    country: Tanzania
+    country_code: tz
+    hotel: CWE Hotel
+    postcode: 78570
+    road: Mivinjeni Street
+    state: Dar es Salaam
+    suburb: Mivinjeni
+expected: "CWE Hotel, Mivinjeni Street, 78570 Dar es Salaam, Tanzania"
+
+# 
+# in another city
+---
+description: Ruvuma Regional Hospital -10.68053,35.65144
+components:
+    city: Songea
+    country: Tanzania
+    country_code: tz
+    hospital: Ruvuma Regional Hospital
+    road: Sokoine Road
+    state: Ruvuma
+    state_district: Songea
+expected: "Ruvuma Regional Hospital, Sokoine Road, Songea, Ruvuma, Tanzania"

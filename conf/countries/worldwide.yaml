@@ -103,6 +103,16 @@ generic13: &generic13 |
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
+# postcode and state
+generic14: &generic14 |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
+        {{{country}}}
+
+
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -600,6 +610,12 @@ TT:
         {{{suburb}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{{postcode}}}
         {{{country}}}
+
+# Tanzania
+TZ:
+    address_template: *generic14
+    postformat_replace:
+        - ["Dar es Salaam, Dar es Salaam","Dar es Salaam"]
 
 # Ukraine
 UA:
