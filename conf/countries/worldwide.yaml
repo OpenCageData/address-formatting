@@ -103,6 +103,16 @@ generic13: &generic13 |
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
+# postcode and state
+generic14: &generic14 |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
+        {{{country}}}
+
+
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -121,6 +131,15 @@ fallback2: &fallback2 |
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{county}}}                            
         {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
+fallback3: &fallback3 |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{county}}}
         {{{country}}}
 
 default:
@@ -178,6 +197,18 @@ BE:
 BG:
     address_template: *generic9
 
+# Saint Barthélemy - same as FR
+BL:
+    address_template: *generic3
+
+# Bermuda
+BM:
+    address_template: *generic2
+
+# Bolivia
+BO:
+    address_template: *generic1
+
 # Brazil
 BR:
     address_template: |
@@ -187,14 +218,6 @@ BR:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} - {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{postcode}}}
         {{{country}}}
-
-# Bermuda
-BM:
-    address_template: *generic2
-
-# Bolivia
-BO:
-    address_template: *generic1
 
 # Belarus
 BY:
@@ -228,6 +251,10 @@ CO:
 # Cuba
 CU:
     address_template: *generic1
+
+# Christmas Island - same as Australia
+CX: 
+    address_template: *generic13
 
 # Czech Republic
 CZ: 
@@ -303,6 +330,7 @@ FI:
 # Falkland Islands - same as GB
 FK: 
     address_template: *generic2
+    fallback_template: *fallback3
 
 # Faroe Islands 
 FO: 
@@ -314,14 +342,7 @@ FR:
 
 GB:
     address_template: *generic2
-    fallback_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{road}}} {{{house_number}}}
-        {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{{county}}}
-        {{{country}}}
+    fallback_template: *fallback3
     replace:
         - ["^Borough of ",""]
         - ["^County( of)? ",""]
@@ -338,9 +359,31 @@ GB:
 GE:
     address_template: *generic1
 
+# French Guiana - same as FR
+GF:
+    address_template: *generic3
+
+# Guernsey - same as UK
+GG:
+    address_template: *generic2
+    fallback_template: *fallback3
+
 # Greece
 GR:
     address_template: *generic1
+
+# Guadeloupe - same as FR
+GP:
+    address_template: *generic3
+
+# South Georgia and the South Sandwich Islands - same as UK
+GS:
+    address_template: *generic2
+    fallback_template: *fallback3
+
+# Heard Island and McDonald Islands - same as Australia
+HM: 
+    address_template: *generic13
 
 # Croatia
 HR: 
@@ -390,6 +433,11 @@ IM:
 IN:
     address_template: *generic12
 
+# British Indian Ocean Territory - same as UK
+IO:
+    address_template: *generic2
+    fallback_template: *fallback3
+
 # Iceland
 IS: 
     address_template: *generic1
@@ -397,6 +445,11 @@ IS:
 # Italy
 IT: 
     address_template: *generic8
+
+# Jersey - same as UK
+JE:
+    address_template: *generic2
+    fallback_template: *fallback3
 
 # Liechtenstein, same as Switzerland
 LI: 
@@ -453,6 +506,10 @@ MT:
         {{{postcode}}}
         {{{country}}}
 
+# Martinique - same as FR
+MQ:
+    address_template: *generic3
+
 # Mexico
 MX:
     address_template: |
@@ -479,11 +536,16 @@ MY:
 NC:
     address_template: *generic3
 
+# Norfolk Island - same as Australia
+NF: 
+    address_template: *generic13
+
 # Netherlands
 NL:
     address_template: *generic1
 
 # Norway
+# quoted since python interprets it as a boolean. Silly python!
 "NO":
     address_template: *generic1
 
@@ -501,6 +563,10 @@ PE:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
+# French Polynesia - same as FR
+PF:
+    address_template: *generic3
+
 # Philippines
 PH:
     address_template: |
@@ -514,6 +580,10 @@ PH:
 # Poland
 PL:
     address_template: *generic1
+
+# Saint Pierre and Miquelon - same as FR
+PM:
+    address_template: *generic3
 
 # Puerto Rico, same as USA
 PR:
@@ -561,8 +631,17 @@ SE:
 SG:
     address_template: *generic3
 
+# Saint Helena, Ascension and Tristan da Cunha - same as UK
+SH:
+    address_template: *generic2
+    fallback_template: *fallback3
+
 # Slovenia
 SI: 
+    address_template: *generic1
+
+# Svalbard and Jan Mayen - same as Norway
+SJ:
     address_template: *generic1
 
 # Slovakia
@@ -574,6 +653,15 @@ SK:
 # San Marino - same as IT
 SM: 
     address_template: *generic8
+
+# Turks and Caicos Islands - same as UK
+TC:
+    address_template: *generic2
+    fallback_template: *fallback3
+
+# French Southern and Antarctic Lands - same as FR
+TF:
+    address_template: *generic3
 
 # Tunisia
 TN:
@@ -592,6 +680,12 @@ TT:
         {{{suburb}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{{postcode}}}
         {{{country}}}
+
+# Tanzania
+TZ:
+    address_template: *generic14
+    postformat_replace:
+        - ["Dar es Salaam, Dar es Salaam","Dar es Salaam"]
 
 # Ukraine
 UA:
@@ -656,6 +750,10 @@ VN:
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
         {{{state}}} {{{postcode}}}
         {{{country}}}
+
+# Mayotte - same as FR
+YT:
+    address_template: *generic3
 
 # South Africa
 ZA: 
