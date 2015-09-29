@@ -669,15 +669,7 @@ TN:
 
 # Turkey
 TR: 
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{road}}}
-        Maçka No:{{{house_number}}} 
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
-        {{{country}}}
-    replace:
-        - [" Caddesi"," Cad."]
+    address_template: *generic1
 
 # Trinidad and Tobago
 TT:
