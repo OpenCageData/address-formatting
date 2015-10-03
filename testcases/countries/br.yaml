@@ -10,3 +10,19 @@ components:
     state_district: Região Metropolitana do Rio de Janeiro
     suburb: Maracanã
 expected: 'Avenida Maracanã, Rio de Janeiro - RJ, Brazil'
+---
+description: format postcode correctly
+components:
+    city: Belo Horizonte
+    city_district: Regional Centro-Sul
+    country: Brazil
+    country_code: br
+    county: Microrregião Belo Horizonte
+    neighbourhood: Centro
+    postcode: 30170011
+    road: Rua Rio de Janiero
+    state: Minas Gerais
+    state_district: Mesorregião Metropolitana de Belo Horizonte
+    suburb: Centro
+expected: 'Rua Rio de Janiero, Belo Horizonte - MG, 30170-011, Brazil'
+

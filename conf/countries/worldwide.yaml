@@ -218,6 +218,8 @@ BR:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} - {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{postcode}}}
         {{{country}}}
+    postformat_replace:
+        - ["\b(\d{5})(\d{3})\b","$1-$2"]
 
 # Belarus
 BY:
