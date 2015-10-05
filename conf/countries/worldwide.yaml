@@ -453,6 +453,17 @@ JE:
     address_template: *generic2
     fallback_template: *fallback3
 
+# Kenya
+KE:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state}}} || {{{village}}} {{/first}}
+        {{{postcode}}}
+        {{{country}}}
+
+
 # Liechtenstein, same as Switzerland
 LI: 
     address_template: *generic1

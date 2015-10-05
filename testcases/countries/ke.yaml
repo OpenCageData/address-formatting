@@ -1,0 +1,13 @@
+# Kenya
+---
+description: Building in downtown Nairobi -1.28599,36.82206
+components:
+    building: Jubilee Insurance Place
+    city: Nairobi
+    country: Kenya
+    country_code: ke
+    postcode: 46464
+    road: Wabera Street
+    state: Nairobi
+    suburb: Madaraka Estate
+expected: "Jubilee Insurance Place, Wabera Street, Nairobi, 46464, Kenya"
