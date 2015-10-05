@@ -5,9 +5,9 @@ name: house_number
 ---
 name: street_number
 ---
-name: building
+name: house
 aliases:
-    - house
+    - building
 ---
 name: road
 aliases:
