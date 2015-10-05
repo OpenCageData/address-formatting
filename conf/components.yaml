@@ -8,12 +8,14 @@ name: street_number
 name: house
 aliases:
     - building
+    - public_building
 ---
 name: road
 aliases:
     - street
     - street_name
     - residential
+    - pedestrian
 ---
 name: village
 aliases:
