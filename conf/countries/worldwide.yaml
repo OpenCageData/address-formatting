@@ -103,6 +103,7 @@ generic13: &generic13 |
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
+
 # postcode and state
 generic14: &generic14 |
         {{{attention}}}
@@ -113,6 +114,13 @@ generic14: &generic14 |
         {{{country}}}
 
 
+# comma before house number
+generic15: &generic15 |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}}, {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}}
+        {{{country}}}
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -140,6 +148,15 @@ fallback3: &fallback3 |
         {{{suburb}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{county}}}
+        {{{country}}}
+
+fallback4: &fallback4 |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{suburb}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{state}}} || {{{county}}} {{/first}}
         {{{country}}}
 
 default:
@@ -309,21 +326,8 @@ EE:
 
 # Spain
 ES:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{road}}} 
-        {{{house_number}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}}
-        {{{country}}}
-    fallback_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{road}}} {{{house_number}}}
-        {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{#first}} {{{state}}} || {{{county}}} {{/first}}
-        {{{country}}}
+    address_template: *generic15
+    fallback_template: *fallback4
 
 # Finnland
 FI: 
@@ -544,6 +548,11 @@ MY:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{state}}}
         {{{country}}}
+
+# Mozambique
+MZ:
+    address_template: *generic15
+    fallback_template: *fallback4
 
 # New Caledonia
 NC:

@@ -1,0 +1,15 @@
+# Mozambique
+---
+description: Building in Maputo -25.96585,32.59418
+components:
+    address29: Sturrock Shipping
+    city: Cidade de Maputo
+    city_district: Distrito Urbano de KaMpfumo
+    country: Mozambique
+    country_code: mz
+    house_number: 362
+    postcode: 1100
+    road: Avenida Mao Tsé Tung
+    state: Maputo
+    suburb: Polana Cimento B
+expected: "Sturrock Shipping, Avenida Mao Tsé Tung, 362, 1100 Cidade de Maputo, Mozambique"
