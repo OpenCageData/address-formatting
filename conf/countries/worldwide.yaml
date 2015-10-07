@@ -467,23 +467,6 @@ KE:
         {{{postcode}}}
         {{{country}}}
 
-
-# Liechtenstein, same as Switzerland
-LI: 
-    address_template: *generic1
-
-# Luxemburg
-LU:
-    address_template: *generic3
-
-# Lithuania
-LT:
-    address_template: *generic1
-
-# Latvia
-LV:
-    address_template: *generic7
-
 # Kyrgyzstan
 KG:
     address_template: *generic11
@@ -491,6 +474,26 @@ KG:
 # Kazakhstan
 KZ:
     address_template: *generic11
+
+# Liechtenstein, same as Switzerland
+LI: 
+    address_template: *generic1
+
+# Lesotho
+LS:
+    address_template: *generic2
+
+# Lithuania
+LT:
+    address_template: *generic1
+
+# Luxemburg
+LU:
+    address_template: *generic3
+
+# Latvia
+LV:
+    address_template: *generic7
 
 # Morocco
 MA:

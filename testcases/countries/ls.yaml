@@ -1,0 +1,15 @@
+# Lesotho
+---
+description: Bank in Maseru: -29.31459, 27.48446
+components:
+    bank: Nedbank
+    city: Maseru
+    country: Lesotho
+    country_code: ls
+    postcode: 100
+    road: Kingsway
+    state: Maseru
+    suburb: Cathedral Area
+expected: Nedbank, Kingsway, Maseru 100, Lesotho
+
+
