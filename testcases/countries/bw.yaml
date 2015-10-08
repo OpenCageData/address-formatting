@@ -1,0 +1,13 @@
+# Botswana
+---
+description: Bank in Gaborone: -24.65739,25.91755
+components:
+    bank: Bank Gaborone
+    city: Gaborone
+    country: Botswana
+    country_code: bw
+    road: Queens Road
+    state: South-East District
+expected: Bank Gaborone, Queens Road, Gaborone, Botswana
+
+

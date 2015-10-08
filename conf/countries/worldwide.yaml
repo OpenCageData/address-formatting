@@ -1,6 +1,7 @@
 #
 # generic mappings, specific territories get mapped to these
 #
+# postcode before city
 generic1: &generic1 |
         {{{attention}}}
         {{{house}}}
@@ -8,6 +9,7 @@ generic1: &generic1 |
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
 
+# postcode after city
 generic2: &generic2 |
         {{{attention}}}
         {{{house}}}
@@ -15,6 +17,7 @@ generic2: &generic2 |
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
+# postcode before city
 generic3: &generic3 |
         {{{attention}}}
         {{{house}}}
@@ -22,6 +25,7 @@ generic3: &generic3 |
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
 
+# postcode after state
 generic4: &generic4 |
         {{{attention}}}
         {{{house}}}
@@ -37,7 +41,7 @@ generic5: &generic5 |
         {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
         {{{country}}}
 
-# no postal code
+# no postcode
 generic6: &generic6 |
         {{{attention}}}
         {{{house}}}
@@ -237,6 +241,16 @@ BR:
         {{{country}}}
     postformat_replace:
         - ["\b(\d{5})(\d{3})\b","$1-$2"]
+
+# Botswana
+BW:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{{country}}}
 
 # Belarus
 BY:
