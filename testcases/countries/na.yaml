@@ -1,0 +1,16 @@
+# Namibia
+---
+description: Hotel in Swakopmund, -22.67877,14.52302
+components:
+    city: Swakopmund
+    country: Namibia
+    country_code: na
+    hotel: Hotel Zum Kaiser
+    house_number: 4
+    road: Sam Nujoma Avenue (Kaiser Wilhelm St)
+    state: Erongo Region
+    suburb: Central
+expected: Hotel Zum Kaiser, 4 Sam Nujoma Avenue (Kaiser Wilhelm St), Swakopmund, Namibia
+
+
+

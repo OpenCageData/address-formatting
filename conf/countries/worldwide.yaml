@@ -554,7 +554,6 @@ MX:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
 
-
 # Malaysia
 MY:
     address_template: |
@@ -570,6 +569,10 @@ MY:
 MZ:
     address_template: *generic15
     fallback_template: *fallback4
+
+# Namibia
+NA: 
+    address_template: *generic2
 
 # New Caledonia
 NC:
