@@ -33,6 +33,7 @@ generic4: &generic4 |
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
+# no postcode
 generic5: &generic5 |
         {{{attention}}}
         {{{house}}}
@@ -50,6 +51,7 @@ generic6: &generic6 |
         {{{county}}}
         {{{country}}}
 
+# no postcode
 generic7: &generic7 |
         {{{attention}}}
         {{{house}}}
@@ -176,13 +178,17 @@ default:
 AD:
     address_template: *generic3
 
+# United Arab Emirates
+AE:
+    address_template: *generic5
+
 # Armenia
 AM:
     address_template: *generic1
 
-# United Arab Emirates
-AE:
-    address_template: *generic5
+# Angola
+AO:
+    address_template: *generic7
 
 # Argentina
 AR: 

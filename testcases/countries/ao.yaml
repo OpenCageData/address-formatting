@@ -1,0 +1,18 @@
+# Angola
+---
+description: Embassy in Luanda, -8.81044,13.23588
+components:
+    building: Embassy of the Federal Republic of Germany
+    city: Luanda
+    country: Angola
+    country_code: ao
+    house_number: 120
+    neighbourhood: Mutamba
+    road: Avenida 4 de Fevereiro
+    state: Luanda
+expected: Embassy of the Federal Republic of Germany, Avenida 4 de Fevereiro 120, Luanda, Angola
+
+
+
+
+
