@@ -820,6 +820,5 @@ ZW:
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{suburb}}} 
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
         {{{country}}}

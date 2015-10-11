@@ -1,0 +1,16 @@
+# Zimbabwe
+---
+description: Embassy in Harare, -17.82107,31.04553
+components:
+    building: Russian Embassy
+    city: Harare
+    country: Zimbabwe
+    country_code: zw
+    postcode: 00263
+    road: Colquhoun Street
+    state: Harare Province
+    suburb: Avondale West
+expected: Russian Embassy, Colquhoun Street, Harare, Zimbabwe
+
+
+
