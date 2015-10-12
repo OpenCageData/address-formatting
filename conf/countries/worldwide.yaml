@@ -814,6 +814,10 @@ ZA:
         {{{postcode}}}
         {{{country}}}
 
+# Zambia
+ZM:
+    address_template: *generic3
+
 # Zimbabwe
 ZW:
     address_template: |

@@ -1,0 +1,16 @@
+# Zambia
+---
+description: Post Office in Lusaka, -15.41667,28.28225
+components:
+    city: Lusaka
+    country: Zambia
+    country_code: zm
+    post_office: Central Post Office
+    postcode: 34681
+    road: Church Road
+    state: Lusaka Province
+    suburb: Luneta
+expected: Central Post Office, Church Road, 34681 Lusaka, Zambia
+
+
+
