@@ -12,7 +12,7 @@ components:
     state: England
     state_district: Greater London
     suburb: Clerkenwell
-expected: Lokku Ltd, 82 Clerkenwell Road, London EC1M 5RF, England, United Kingdom
+expected: Lokku Ltd, 82 Clerkenwell Road, London EC1M 5RF, United Kingdom
 
 ---
 description: London
