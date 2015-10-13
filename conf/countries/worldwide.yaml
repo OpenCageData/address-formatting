@@ -14,10 +14,8 @@ generic2: &generic2 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{suburb}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} {{/first}} {{{postcode}}}
-        {{{state}}}
-        {{{country}}}
+        {{#first}} {{{country}}} || {{{state}}} {{/first}}
 
 # postcode before city
 generic3: &generic3 |
