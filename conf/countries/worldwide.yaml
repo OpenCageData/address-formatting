@@ -14,8 +14,8 @@ generic2: &generic2 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}} {{{postcode}}}
-        {{{country}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{country}}} || {{{state}}} {{/first}}
 
 # postcode before city
 generic3: &generic3 |
@@ -152,7 +152,7 @@ fallback2: &fallback2 |
         {{{road}}} {{{house_number}}}
         {{{suburb}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{{county}}}                            
+        {{{county}}}
         {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
         {{{country}}}
 
@@ -163,6 +163,7 @@ fallback3: &fallback3 |
         {{{suburb}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{county}}}
+        {{{state}}}
         {{{country}}}
 
 fallback4: &fallback4 |

@@ -23,7 +23,7 @@ components:
     county: London
     state: England
     state_district: Greater London
-expected: London, United Kingdom
+expected: London, England, United Kingdom
 
 ---
 description: just a suburb
@@ -35,7 +35,7 @@ components:
     state: England
     state_district: Greater London
     suburb: Clerkenwell
-expected: Clerkenwell, London, United Kingdom
+expected: Clerkenwell, London, England, United Kingdom
 
 ---
 description: City of Westminster, 51.52089885, -0.14007993
