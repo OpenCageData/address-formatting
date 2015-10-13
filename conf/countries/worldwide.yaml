@@ -119,7 +119,6 @@ generic14: &generic14 |
         {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
         {{{country}}}
 
-
 # comma before house number
 generic15: &generic15 |
         {{{attention}}}
@@ -127,6 +126,16 @@ generic15: &generic15 |
         {{{road}}}, {{{house_number}}}
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}}
         {{{country}}}
+
+# no postcode, no state, just city
+generic16: &generic16 |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
+        {{{country}}}
+
+
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -746,6 +755,10 @@ UA:
         {{{postcode}}} 
         {{{country}}}
 
+# Uganda
+UG:
+    address_template: *generic16
+
 # US Minor Outlying Islands, same as USA
 UM: 
     address_template: *generic4
@@ -820,9 +833,4 @@ ZM:
 
 # Zimbabwe
 ZW:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
-        {{{country}}}
+    address_template: *generic16

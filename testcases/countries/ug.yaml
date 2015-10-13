@@ -1,0 +1,19 @@
+# Uganda
+---
+description: Bank in Kampala, 0.31220, 32.58532
+components:
+    building: Orient Plaza
+    city: Kampala
+    country: Uganda
+    country_code: ug
+    county: Kampala
+    house_number: 6/6A
+    neighbourhood: Nakivubo
+    postcode: 7063
+    road: Kampala Road
+    state: Central Region
+    suburb: Kibuli
+expected: Orient Plaza, 6/6A Kampala Road, Kampala, Uganda
+
+
+
