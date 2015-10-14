@@ -1,0 +1,17 @@
+# Burundi
+---
+description: Office in Bujumbura, -3.38341,29.36166
+components:
+    building: Bonauto s.a.
+    city: Bujumbura
+    country: Burundi
+    country_code: bi
+    house_number: 17
+    postcode: 2730
+    road: Avenue du Commerce
+    state: Bujumbura Mairie
+    suburb: Building Bata
+expected: Bonauto s.a., Avenue du Commerce 17, Bujumbura, Burundi
+
+
+

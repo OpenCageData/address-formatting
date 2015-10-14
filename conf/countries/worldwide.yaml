@@ -135,7 +135,13 @@ generic16: &generic16 |
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
-
+# no postcode, no state, just city
+generic16: &generic17 |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
+        {{{country}}}
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -233,6 +239,10 @@ BE:
 # Bulgaria
 BG:
     address_template: *generic9
+
+# Burundi
+BI:
+    address_template: *generic17
 
 # Saint Barthélemy - same as FR
 BL:
