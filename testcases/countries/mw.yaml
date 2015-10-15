@@ -1,0 +1,16 @@
+# Malawi
+---
+description: building in Lilongwe, -13.97910,33.76927
+components:
+    building: Mpatsa House
+    city: Lilongwe
+    country: Malawi
+    country_code: mw
+    residential: Chilambula
+    road: Paul Kagame Road
+    state: Central
+expected: Mpatsa House, Paul Kagame Road, Lilongwe, Malawi
+
+
+
+

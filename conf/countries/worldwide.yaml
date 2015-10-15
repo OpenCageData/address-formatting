@@ -571,6 +571,10 @@ MT:
 MQ:
     address_template: *generic3
 
+# Malawi
+MW:
+    address_template: *generic16
+
 # Mexico
 MX:
     address_template: |
