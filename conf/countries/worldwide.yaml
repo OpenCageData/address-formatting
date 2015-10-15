@@ -727,6 +727,16 @@ SK:
 SM: 
     address_template: *generic8
 
+# Swaziland
+SZ: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{postcode}}} 
+        {{{country}}}
+
 # Turks and Caicos Islands - same as UK
 TC:
     address_template: *generic2

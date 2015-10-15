@@ -1,0 +1,16 @@
+# Swaziland
+---
+description: Manzini Club, -26.4943,31.3894
+components:
+    country: Swaziland
+    country_code: sz
+    county: Inkhundla Manzini
+    postcode: M100
+    road: Kelly Street
+    sports_centre: Manzini Club
+    state: Sifundza seManzini
+    town: Manzini
+expected: Manzini Club, Kelly Street, Manzini, M100, Swaziland
+
+
+
