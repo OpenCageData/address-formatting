@@ -1,0 +1,16 @@
+# Ethiopia
+---
+description: Hotel in Swakopmund, -22.67877,14.52302
+components:
+    city: Addis Abeba
+    country: Ethiopia
+    country_code: et
+    library: National Library & Archives
+    postcode: 3001
+    road: Yared Street
+    state: Addis Ababa
+    suburb: Beherawi
+expected: National Library & Archives, Yared Street, 3001 Addis Abeba, Ethiopia
+
+
+
