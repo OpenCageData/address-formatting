@@ -136,7 +136,7 @@ generic16: &generic16 |
         {{{country}}}
 
 # no postcode, no state, just city
-generic16: &generic17 |
+generic17: &generic17 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}} 
@@ -418,6 +418,10 @@ GF:
 GG:
     address_template: *generic2
     fallback_template: *fallback3
+
+# Ghana
+GH:
+    address_template: *generic16
 
 # Greece
 GR:

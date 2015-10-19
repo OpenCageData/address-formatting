@@ -1,0 +1,18 @@
+# Ghana
+---
+description: Bank in Accra, 5.56008,-0.20236
+components:
+            building: Ecobank
+            city: Accra
+            country: Ghana
+            country_code: gh
+            county: Accra Metropolitan
+            postcode: 233
+            road: 7th Avenue
+            state: Greater Accra Region
+            suburb: West Ridge
+expected: Ecobank, 7th Avenue, Accra, Ghana
+
+
+
+
