@@ -1,0 +1,16 @@
+# Togo
+---
+description: Govt building in Lomé, 6.12259,1.21944
+components:
+            city:  Lomé
+            country:  Togo
+            country_code:  tg
+            postcode:  BP: 353
+            public_building:  Palais de Justice
+            road:  Aveenue de la Cooperation
+            state:  Maritime Region
+            suburb:  Hanoukopé
+expected: Palais de Justice, Aveenue de la Cooperation, Lomé, Togo
+
+
+
