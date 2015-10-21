@@ -630,6 +630,17 @@ NC:
 NF: 
     address_template: *generic13
 
+# Nigeria
+NG: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}}
+        {{{state}}}
+        {{{country}}}
+
+
 # Netherlands
 NL:
     address_template: *generic1

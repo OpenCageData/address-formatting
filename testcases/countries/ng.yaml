@@ -1,0 +1,16 @@
+# Nigeria
+---
+description: Hotel in Lagos, -22.67877,14.52302
+components:
+            building: Maro Polo Hotel
+            country: Nigeria
+            country_code: ng
+            county: Eti Osa
+            road: Yeni Crescent
+            state: Lagos
+            village: Maiyegun
+expected: Maro Polo Hotel, Yeni Crescent, Maiyegun, Lagos, Nigeria
+
+
+
+
