@@ -1,0 +1,17 @@
+# Côte d'Ivoire
+---
+description: post office in Abidjan
+components:
+            city: Treichville
+            country: Côte d'Ivoire
+            country_code: ci
+            neighbourhood: Zone Industriele de Treichville
+            post_office: La Poste
+            postcode: 00225
+            road: Boulevard de Marseille
+            state: Abidjan
+            suburb: Zone 2b
+expected: La Poste, Boulevard de Marseille, Treichville, Côte d'Ivoire
+
+
+

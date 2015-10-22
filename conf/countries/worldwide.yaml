@@ -299,6 +299,10 @@ CA:
 CH: 
     address_template: *generic1
 
+# Côte d'Ivoire
+CI: 
+    address_template: *generic16
+
 # Chile
 CL: 
     address_template: *generic1
