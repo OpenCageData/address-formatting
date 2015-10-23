@@ -1,0 +1,15 @@
+# Benin
+---
+description: house in Cotonou
+components:
+            country: Benin
+            country_code: bj
+            county: 12e Arrondissement
+            house_number: 504
+            road: Rue 12.168
+            state: Littoral
+            suburb: Cadjehoun
+expected: 504, Rue 12.168, Cadjehoun, Benin
+
+
+

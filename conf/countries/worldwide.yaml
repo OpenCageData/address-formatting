@@ -148,7 +148,7 @@ generic18: &generic18 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}}, {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{suburb}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
 
@@ -248,6 +248,10 @@ BE:
 # Bulgaria
 BG:
     address_template: *generic9
+
+# Benin
+BJ:
+    address_template: *generic18
 
 # Burundi
 BI:
