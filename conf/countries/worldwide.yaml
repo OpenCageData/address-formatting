@@ -279,7 +279,7 @@ BR:
         {{{postcode}}}
         {{{country}}}
     postformat_replace:
-        - ["\b(\d{5})(\d{3})\b","$1-$2"]
+        - ["\\b(\\d{5})(\\d{3})\\b","$1-$2"]
 
 # Botswana
 BW:
