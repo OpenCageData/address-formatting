@@ -1,0 +1,18 @@
+# Cameroon
+---
+description: UN building in Yaoundé, 3.85890,11.51580
+components:
+            building: ONUDI
+            city: Yaoundé III
+            country: Cameroon
+            country_code: cm
+            county: CUY
+            postcode: 11852
+            road: rue 3.025
+            state: Centre
+            suburb: Centre Administratif
+expected: ONUDI, rue 3.025, Yaoundé III, Cameroon
+
+
+
+
