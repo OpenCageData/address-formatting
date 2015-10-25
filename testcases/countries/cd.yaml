@@ -1,0 +1,17 @@
+# Democratic Republic of the Congo
+---
+description: Embassy in Kinshasa
+components:
+            building: Embassy of the Federal Republic of Germany
+            country: Congo-Kinshasa
+            country_code: cd
+            house_number: 82
+            postcode: 243
+            road: Avenue du Roi Baudouin
+            state: Kinshasa
+            suburb: Royal
+            town: Gombe
+expected: Embassy of the Federal Republic of Germany, 82, Avenue du Roi Baudouin, Gombe, Congo-Kinshasa
+
+
+

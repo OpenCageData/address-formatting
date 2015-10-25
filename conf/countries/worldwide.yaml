@@ -299,6 +299,10 @@ BY:
 CA: 
     address_template: *generic4
 
+# Democratic Republic of the Congo
+CD:
+    address_template: *generic18
+
 # Switzerland
 CH: 
     address_template: *generic1
@@ -326,7 +330,6 @@ CO:
         {{{country}}}
     postformat_replace:
         - ["Bogota, Bogota","Bogota"]
-
 
 # Cuba
 CU:
