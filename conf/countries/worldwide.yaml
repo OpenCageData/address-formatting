@@ -693,6 +693,18 @@ PH:
         {{{postcode}}} {{{state}}}
         {{{country}}}
 
+# Pakistan
+PK:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{{suburb}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} {{{postcode}}} 
+
+        {{{country}}}
+
+
 # Poland
 PL:
     address_template: *generic1

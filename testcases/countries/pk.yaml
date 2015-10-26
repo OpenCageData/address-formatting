@@ -1,0 +1,17 @@
+# Pakistan
+---
+description: Hotel in Karachi, 24.84292,66.99589
+components:
+            building: Avari Beach Luxury Hotel
+            city: Karachi
+            country: Pakistan
+            country_code: pk
+            county: Karachi District
+            postcode: 75000
+            road: Khan Road
+            state: Sindh
+            suburb: Lyari Town
+expected: Avari Beach Luxury Hotel, Khan Road, Lyari Town, Karachi 75000, Pakistan
+
+
+
