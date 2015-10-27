@@ -331,6 +331,15 @@ CO:
     postformat_replace:
         - ["Bogota, Bogota","Bogota"]
 
+# Costa Rica
+CR:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{state}}}, {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}} {{{country}}}
+
 # Cuba
 CU:
     address_template: *generic1

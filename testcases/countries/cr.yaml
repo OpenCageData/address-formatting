@@ -1,0 +1,17 @@
+# Costa Rica
+---
+description: Court in Limón, 9.99403,-83.02745
+components:
+            city: Limón
+            country: Costa Rica
+            country_code: cr
+            courthouse: Tribunales de Justicia
+            neighbourhood: Barrio Hospital
+            postcode: 70101
+            road: Calle 2 - Romualdo Segura
+            state: Limón
+expected: Tribunales de Justicia, Calle 2 - Romualdo Segura, Limón, Barrio Hospital, 70101 Costa Rica
+
+
+
+
