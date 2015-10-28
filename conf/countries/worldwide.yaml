@@ -764,6 +764,10 @@ SA:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
+# Sudan
+SD: 
+    address_template: *generic1
+
 # Sweden
 SE: 
     address_template: *generic1

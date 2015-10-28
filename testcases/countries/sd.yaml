@@ -1,0 +1,18 @@
+# Sudan
+---
+description: Train station in Khartoum, 15.5953,32.5285
+components:
+            building: Khartoum Train Station
+            city: Khartoum
+            country: Sudan
+            country_code: sd
+            neighbourhood: Railway
+            postcode: 11114
+            road: Al Imam Al Mahdi Road
+            state: al-Khartum
+            suburb: Downtown
+expected: Khartoum Train Station, Al Imam Al Mahdi Road, 11114 Khartoum, Sudan
+
+
+
+
