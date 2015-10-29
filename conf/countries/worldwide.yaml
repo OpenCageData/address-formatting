@@ -151,6 +151,14 @@ generic18: &generic18 |
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{suburb}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
+# suburb and postcode after city
+generic19: &generic19 |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -561,6 +569,10 @@ KZ:
 LI: 
     address_template: *generic1
 
+# Sri Lanka
+LK:
+    address_template: *generic19
+
 # Lesotho
 LS:
     address_template: *generic2
@@ -680,13 +692,7 @@ NZ:
 
 # Peru
 PE:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{road}}} {{{house_number}}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
-        {{{country}}}
+    address_template: *generic19
 
 # French Polynesia - same as FR
 PF:
