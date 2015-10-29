@@ -160,6 +160,16 @@ generic19: &generic19 |
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
+# suburb and postcode after city
+generic20: &generic20 |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
+
 fallback1: &fallback1 |
         {{{attention}}}
         {{{house}}}
@@ -571,7 +581,7 @@ LI:
 
 # Sri Lanka
 LK:
-    address_template: *generic19
+    address_template: *generic20
 
 # Lesotho
 LS:
