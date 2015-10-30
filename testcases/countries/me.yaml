@@ -1,0 +1,15 @@
+# Montenegro
+---
+description: Hotel in Kotor, 42.42550,18.77045
+components:
+            country: Montenegro
+            country_code: me
+            county: Opština Kotor
+            hotel: Hotel Maria
+            house_number: 449
+            pedestrian: Trg Sv. Luke
+            postcode: 85339
+            suburb: Škaljari
+            town: Kotor
+expected: Hotel Maria, Trg Sv. Luke 449, 85339 Kotor, Montenegro
+

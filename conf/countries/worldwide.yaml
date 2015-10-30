@@ -616,6 +616,9 @@ MD:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
 
+# Montenegro
+ME:
+    address_template: *generic1
 
 # Macedonia
 MK:
