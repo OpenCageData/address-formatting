@@ -620,6 +620,16 @@ MD:
 ME:
     address_template: *generic1
 
+# Madagascar
+MG:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{{country}}}
+
 # Macedonia
 MK:
     address_template: *generic1

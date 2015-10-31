@@ -1,0 +1,16 @@
+# Madagascar
+---
+description: Embassy in Antananarivo, -18.90744,47.52145
+components:
+            building: Ambassade de l'Inde
+            city: Antananarivo
+            country: Madagascar
+            country_code: mg
+            postcode: 1
+            road: Làlana Rajhonson Emile
+            state: Province d'Antananarivo
+            suburb: Tsaralalana
+expected: Ambassade de l'Inde, Làlana Rajhonson Emile, Tsaralalana, 1 Antananarivo, Madagascar
+
+
+
