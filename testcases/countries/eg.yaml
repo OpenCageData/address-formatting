@@ -1,0 +1,17 @@
+# Egypt
+---
+description: Cultural Centre in Giza, 30.04248,31.22369
+components:
+            city: Giza
+            country: Egypt
+            country_code: eg
+            museum: National Cultural Centre
+            postcode: 11231
+            road: Mahmoud Mokhtar
+            state: Giza Governorate
+            suburb: Dokki
+expected: National Cultural Centre, Mahmoud Mokhtar, Dokki, Giza, 11231, Egypt
+
+
+
+
