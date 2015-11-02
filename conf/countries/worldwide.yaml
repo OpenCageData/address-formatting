@@ -595,6 +595,10 @@ LI:
 LK:
     address_template: *generic20
 
+# Liberia
+LR:
+    address_template: *generic1
+
 # Lesotho
 LS:
     address_template: *generic2

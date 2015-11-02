@@ -1,0 +1,18 @@
+# Liberia
+---
+description: Hotel in Monrovia, 6.31756,-10.80689
+components:
+            city: Monrovia
+            country: Liberia
+            country_code: lr
+            county: Greater Monrovia
+            neighbourhood: Vai Town
+            postcode: 1000
+            public_building: Palm Hotel
+            road: Broad Street
+            state: Montserrado County
+            suburb: Crown Hill
+expected: Palm Hotel, Broad Street, 1000 Monrovia, Liberia
+
+
+
