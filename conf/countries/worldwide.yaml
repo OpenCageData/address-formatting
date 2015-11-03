@@ -275,6 +275,10 @@ BD:
 BE: 
     address_template: *generic1
 
+# Burkina Faso
+BF:
+    address_template: *generic6
+
 # Bulgaria
 BG:
     address_template: *generic9

@@ -1,0 +1,18 @@
+# Burkina Faso
+---
+description: Bank in Ouagadougou, 12.36884,-1.52794
+components:
+            bank: Ecobank
+            city: Ouagadougou
+            country: Burkina Faso
+            country_code: bf
+            postcode: 13
+            region: Centre
+            residential: Ouagadougou
+            road: Avenue Nelson Mandela
+            state_district: Kadiogo
+            suburb: Bilbalogho
+expected: Ecobank, Avenue Nelson Mandela, Ouagadougou, Burkina Faso
+
+
+
