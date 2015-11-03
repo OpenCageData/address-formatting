@@ -1,0 +1,16 @@
+# Albania
+---
+description: Bank in Tiranë, 41.32036,19.82343
+components:
+            bank: Raiffeisen Bank
+            city: Tiranë
+            country: Albania
+            country_code: al
+            county: Tiranë
+            postcode: 1001
+            road: Papa Gjon Pali II
+expected: Raiffeisen Bank, Papa Gjon Pali II, 1001-Tiranë, Albania
+
+
+
+

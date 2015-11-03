@@ -225,6 +225,18 @@ AD:
 AE:
     address_template: *generic5
 
+# Albania
+AL:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
+        {{{country}}}
+    postformat_replace:
+        # fix the postcode to add - after numbers
+        - [", (\\d{4}) ([^,]*), ",", $1-$2, "]
+
 # Armenia
 AM:
     address_template: *generic1
