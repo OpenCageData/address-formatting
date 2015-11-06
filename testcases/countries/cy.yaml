@@ -1,0 +1,17 @@
+# Cyprus
+---
+description: Bank in Limassol, 34.67398,33.04388
+components:
+            bank: Bank of Cyprus
+            city: Limassol
+            country: Cyprus
+            country_code: cy
+            county: Limassol
+            pedestrian: Agiou Andreou
+            postcode: 3042
+            state: Cyprus
+            suburb: Mesa Geitonia
+expected: Bank of Cyprus, Agiou Andreou, 3042 Limassol, Cyprus
+
+
+

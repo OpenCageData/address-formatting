@@ -382,6 +382,10 @@ CU:
 CX: 
     address_template: *generic13
 
+# Cyprus
+CY: 
+    address_template: *generic1
+
 # Czech Republic
 CZ: 
     address_template: *generic1
