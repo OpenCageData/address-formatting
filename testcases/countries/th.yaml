@@ -1,0 +1,21 @@
+# Thailand
+# see https://en.wikipedia.org/wiki/Thai_addressing_system
+#
+#    Plot/House number, Village
+#    Road
+#    Subdistrict, District
+#    Province Postal Code
+#    THAILAND 
+---
+description: School in Bangkok, 13.7101,100.5088
+components:
+            country: Thailand
+            country_code: th
+            neighbourhood: Wat Phraya Krai
+            postcode: 10120
+            road: Thanon Charoen Krung
+            school: Shrewsbury International School
+            state: Bangkok
+            suburb: Bang Kho Laem District
+expected: Shrewsbury International School, Thanon Charoen Krung, Wat Phraya Krai, Bang Kho Laem District, Bangkok 10120, Thailand
+
