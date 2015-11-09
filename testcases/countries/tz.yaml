@@ -27,3 +27,15 @@ components:
     state: Ruvuma
     state_district: Songea
 expected: "Ruvuma Regional Hospital, Sokoine Road, Songea, Ruvuma, Tanzania"
+
+# 
+# in countryside, no town
+---
+description: -4.22466,35.72255
+components:
+            country: Tanzania
+            country_code: tz
+            road: T14
+            state: Manyara
+            state_district: Babati
+expected: "T14, Babati, Manyara, Tanzania"
