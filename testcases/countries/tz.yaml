@@ -39,3 +39,11 @@ components:
             state: Manyara
             state_district: Babati
 expected: "T14, Babati, Manyara, Tanzania"
+---
+description: -4.29340,35.30726
+components:
+            country: Tanzania
+            country_code: tz
+            state: Manyara
+            state_district: Babati
+expected: "Babati, Manyara, Tanzania"

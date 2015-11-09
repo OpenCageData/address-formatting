@@ -928,6 +928,7 @@ TT:
 # Tanzania
 TZ:
     address_template: *generic14
+    fallback_template: *generic14
     postformat_replace:
         - ["Dar es Salaam, Dar es Salaam","Dar es Salaam"]
 
