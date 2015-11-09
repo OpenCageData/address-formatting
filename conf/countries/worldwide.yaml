@@ -519,6 +519,15 @@ GS:
     address_template: *generic2
     fallback_template: *fallback3
 
+# Hong Kong
+HK:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{{state_district}}}
+        {{{state}}}
+
 # Heard Island and McDonald Islands - same as Australia
 HM: 
     address_template: *generic13

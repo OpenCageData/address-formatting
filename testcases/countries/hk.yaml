@@ -1,0 +1,16 @@
+# Hong Kong
+---
+description: Cinema in HK, 22.29987,114.17933
+components:
+            cinema: Chinachem Golden Plaza Cinema
+            country: Hong Kong
+            country_code: hk
+            county: Yau Tsim Mong District
+            road: Science Museum Road
+            state: Hong Kong
+            state_district: Kowloon
+            suburb: Tsim Sha Tsui
+expected: Chinachem Golden Plaza Cinema, Science Museum Road, Kowloon, Hong Kong
+
+
+
