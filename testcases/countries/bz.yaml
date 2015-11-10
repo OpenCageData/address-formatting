@@ -1,0 +1,16 @@
+# Belize
+---
+description: Supermarket in Belmopan, 17.2547,-88.7645
+components:
+            city: Belmopan
+            country: Belize
+            country_code: bz
+            county: Cayo District
+            road: Nim Li Punit Street
+            state: Cayo
+            supermarket: Fransico Supermarket
+expected: Fransico Supermarket, Nim Li Punit Street, Belmopan, Belize
+
+
+
+

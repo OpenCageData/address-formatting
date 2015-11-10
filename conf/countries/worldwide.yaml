@@ -329,6 +329,10 @@ BW:
 BY:
     address_template: *generic11
 
+# Belize
+BZ:
+    address_template: *generic16
+
 # Canada
 CA: 
     address_template: *generic4
