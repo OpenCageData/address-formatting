@@ -1,0 +1,19 @@
+# Honduras
+---
+description: post office in Tegucigalpa, 14.10631,-87.20813
+components:
+            city: Tegucigalpa
+            country: Honduras
+            country_code: hn
+            county: Tegucigalpa
+            footway: Paseo Liquidambar
+            post_office: Correo Nacional de Honduras
+            postcode: 504
+            state: Francisco Morazán
+            suburb: El Jazmin
+expected: Correo Nacional de Honduras, Paseo Liquidambar, 504 Tegucigalpa, Honduras
+
+
+
+
+

@@ -535,6 +535,10 @@ HK:
 HM: 
     address_template: *generic13
 
+# Honduras
+HN: 
+    address_template: *generic1
+
 # Croatia
 HR: 
     address_template: *generic1
