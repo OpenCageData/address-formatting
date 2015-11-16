@@ -80,11 +80,19 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
 
 If in doubt, please get in touch via github issues.
 
+### Formatting rules
+
+Currently we support the following formatting rules:
+
+* `replace:` regex that operates on the input values, useful for removing bureaucratic cruft like "London Borough of ". Note if you define the regex starting with format _X=_, for example _city=_ it should operate only on values with that key
+* `postformat_replace:` regex that operates on the final output
+
 ### The future
 
 Support all countries in the world.
 
-With more test cases in the future the format may need to evolve. For every rule about addresses there are exceptions and edge cases to consider. 
+With more test cases in the future the format may need to evolve. 
+For every rule about addresses there are exceptions and edge cases to consider. 
 
 Planned features
 
