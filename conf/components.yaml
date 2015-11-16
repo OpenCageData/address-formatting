@@ -12,6 +12,7 @@ aliases:
 ---
 name: road
 aliases:
+    - footway
     - street
     - street_name
     - residential
