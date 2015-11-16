@@ -98,6 +98,7 @@ Planned features
 
   * shorten/abbreviate addresses, e.g. 'Hoover Str' instead of 'Hoover Street'
   * basic formatting of 8/9 digit postcodes
+  * define rules for postcode format specifically
   * text highlighting
   * de-duplication
   * right-to-left
