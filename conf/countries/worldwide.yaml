@@ -109,7 +109,6 @@ generic13: &generic13 |
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
-
 # postcode and state
 generic14: &generic14 |
         {{{attention}}}
@@ -762,6 +761,21 @@ NL:
 NZ:
     address_template: *generic1
 
+# Panama
+PA:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
+        {{{state}}}
+        {{{country}}}
+    replace:
+        - ["city=Panama","Panama City"]
+        - ["city=Panamá","Ciudad de Panamá"]
+
 # Peru
 PE:
     address_template: *generic19
@@ -790,7 +804,6 @@ PK:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} {{{postcode}}} 
 
         {{{country}}}
-
 
 # Poland
 PL:
