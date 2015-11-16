@@ -21,3 +21,14 @@ components:
      state: Catalonia
      suburb: la Vila Olímpica del Poblenou
 expected: Biblioteca Xavier Benguerel, Avinguda del Bogatell, 17, 08005 Barcelona, Spain
+---
+description: Donostia multipostcode, reject long postcode
+components:
+            city: San Sebastián
+            country: Spain
+            country_code: es
+            county: Gipuzkoa
+            postcode: 20001;20002;20003;20004;20005;20006;20007;20008;20009;20010;20011;20012;20013;20014;20015;20016;20017;20018
+            state: Basque Country
+expected:  San Sebastián, Basque Country, Spain
+
