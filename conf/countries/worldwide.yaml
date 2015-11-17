@@ -806,7 +806,6 @@ PK:
         {{{house_number}}} {{{road}}}
         {{{suburb}}} 
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} {{{postcode}}} 
-
         {{{country}}}
 
 # Poland
@@ -893,6 +892,19 @@ SK:
 # San Marino - same as IT
 SM: 
     address_template: *generic8
+
+# El Salvador
+SV: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{{postcode}}} - {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{{state}}} 
+        {{{country}}}
+    postformat_replace:
+        - [", - ",", "]
+
 
 # Swaziland
 SZ: 

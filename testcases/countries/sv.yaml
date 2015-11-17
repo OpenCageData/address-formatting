@@ -1,0 +1,32 @@
+# El Salvador
+---
+description: Government building in San Salvador, 13.69928,-89.19845
+components:
+            building: Ministerio de Salud
+            city: San Salvador
+            country: El Salvador
+            country_code: sv
+            house_number: 827
+            neighbourhood: Centro Urbano IVU
+            postcode: 503
+            road: Calle Arce
+            state: Departamento de San Salvador
+            suburb: Comunidad Tutunichapa
+expected: Ministerio de Salud, Calle Arce 827, 503 - San Salvador, Departamento de San Salvador, El Salvador
+---
+description: no floating dash if no postcode
+components:
+            building: Ministerio de Salud
+            city: San Salvador
+            country: El Salvador
+            country_code: sv
+            house_number: 827
+            neighbourhood: Centro Urbano IVU
+            road: Calle Arce
+            state: Departamento de San Salvador
+            suburb: Comunidad Tutunichapa
+expected: Ministerio de Salud, Calle Arce 827, San Salvador, Departamento de San Salvador, El Salvador
+
+
+
+
