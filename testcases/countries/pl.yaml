@@ -11,3 +11,16 @@ components:
     country: Poland
     country_code: PL
 expected: 'Adama Asnyka 1, 59-700 Bolesławiec, Poland'
+---
+description: exclude garbage input, 50.01009,20.99881
+components:
+            city: Tarnów
+            country: Poland
+            country_code: pl
+            county: Tarnów
+            fuel: http://ump.waw.pl/ retrieved 11:18:52 11/17/09 (UMP-Tarnow/src/POI-paliwo.pnt-converted.txt)
+            neighbourhood: XXVI Lecia
+            postcode: 33-106
+            road: Mostowa
+            state: Lesser Poland Voivodeship
+expected: Mostowa, 33-106 Tarnów, Poland
