@@ -51,7 +51,7 @@ generic6: &generic6 |
         {{{county}}}
         {{{country}}}
 
-# no postcode
+# city, postcode
 generic7: &generic7 |
         {{{attention}}}
         {{{house}}}
@@ -93,6 +93,7 @@ generic11: &generic11 |
         {{{house}}}
         {{{attention}}}
 
+# city - postcode
 generic12: &generic12 |
         {{{attention}}}
         {{{house}}}
@@ -888,6 +889,10 @@ SK:
     address_template: *generic1
     replace:
         - ["^District of ",""]
+
+# Sierra Leone
+SL:
+    address_template: *generic16
 
 # San Marino - same as IT
 SM: 
