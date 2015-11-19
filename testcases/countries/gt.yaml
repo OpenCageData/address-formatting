@@ -1,0 +1,19 @@
+# Guatemala
+---
+description: Bank in Guatemala City, 14.63133,-90.51752
+components:
+            bank: Banco Reformador
+            city: Guatemala City
+            country: Guatemala
+            country_code: gt
+            county: Guatemala City
+            house_number: 18 calle 3-70 Zona 1
+            postcode: 01004
+            road: Transmetro Eje Sur
+            state: Guatemala
+            suburb: Zona 1
+expected: Banco Reformador, Transmetro Eje Sur 18 calle 3-70 Zona 1, 01004-Guatemala City, Guatemala
+
+
+
+

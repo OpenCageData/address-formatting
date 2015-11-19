@@ -523,6 +523,19 @@ GS:
     address_template: *generic2
     fallback_template: *fallback3
 
+# Guatemala
+GT:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{postcode}}}-{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{country}}}
+    postformat_replace:
+        - [", (\d{5})- ",", $1-"]
+        - [", -",", "]
+
+
 # Hong Kong
 HK:
     address_template: |
