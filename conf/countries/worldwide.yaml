@@ -532,7 +532,7 @@ GT:
         {{{postcode}}}-{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
     postformat_replace:
-        - [", (\d{5})- ",", $1-"]
+        - [", (\\d{5})- ",", $1-"]
         - [", -",", "]
 
 
