@@ -1,0 +1,18 @@
+# Mali
+---
+description: Embassy in Bamako, 12.64230,-7.97833
+components:
+            building: Ambassade de Russie
+            city: Bamako
+            country: Mali
+            country_code: ml
+            county: Bamako District
+            postcode: E4373
+            road: Rue 415
+            state: Bamako District
+            suburb: Niaréla 
+expected: Ambassade de Russie, Rue 415, Bamako, Mali
+
+
+
+

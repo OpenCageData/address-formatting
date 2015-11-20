@@ -700,6 +700,10 @@ MG:
 MK:
     address_template: *generic1
 
+# Mali
+ML:
+    address_template: *generic17
+
 # Malta
 MT:
     address_template: |
