@@ -633,6 +633,16 @@ KE:
 KG:
     address_template: *generic11
 
+# Comoros
+KM:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{suburb}}}
+        {{{country}}}
+
 # Kazakhstan
 KZ:
     address_template: *generic11

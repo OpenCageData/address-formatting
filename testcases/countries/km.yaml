@@ -1,0 +1,14 @@
+# Comoros
+---
+description: court in Moroni, -11.70181,43.25485
+components:
+            city: Moroni
+            country: Comoros
+            country_code: km
+            courthouse: Palais de Justice
+            road: RN2
+            state: Grande Comore
+expected: Palais de Justice, RN2, Moroni, Comoros
+
+
+
