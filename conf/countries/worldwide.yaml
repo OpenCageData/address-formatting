@@ -412,6 +412,12 @@ DE:
         - ["Bremen, Bremen","Bremen"]
         - ["Hamburg, Hamburg","Hamburg"]
 
+# Djibouti
+DJ:
+    address_template: *generic16
+    replace:
+        - ["city=Djibouti","Djibouti-Ville"]
+
 # Denmark
 DK:
     address_template: *generic1

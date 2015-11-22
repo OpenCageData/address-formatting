@@ -1,0 +1,16 @@
+# Djibouti
+---
+description: Restaurant in Djibouti (city), 11.59302,43.14587
+components:
+            city: Djibouti
+            country: Djibouti
+            country_code: dj
+            neighbourhood: Place Mahmoud Harbi
+            restaurant: Blue Nile
+            road: Ethiopia Street
+            state: Djibouti
+            suburb: District 1
+expected: Blue Nile, Ethiopia Street, Djibouti-Ville, Djibouti
+
+
+
