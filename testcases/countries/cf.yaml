@@ -1,0 +1,14 @@
+# Central African Republic
+---
+description: Bank in Bangui, 4.36223,18.58393
+components:
+            bank: Ecobank
+            city: Bangui
+            country: Central African Republic
+            country_code: cf
+            road: Rue de Navarre
+            state: Ombella M\'Poko
+expected: Ecobank, Rue de Navarre, Bangui, Central African Republic
+
+
+

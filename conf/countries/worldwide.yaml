@@ -341,6 +341,10 @@ CA:
 CD:
     address_template: *generic18
 
+# Central African Republic
+CF:
+    address_template: *generic17
+
 # Switzerland
 CH: 
     address_template: *generic1
