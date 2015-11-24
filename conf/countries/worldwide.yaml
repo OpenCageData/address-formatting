@@ -935,6 +935,10 @@ SL:
 SM: 
     address_template: *generic8
 
+# South Sudan
+SS: 
+    address_template: *generic17
+
 # El Salvador
 SV: 
     address_template: |
