@@ -1,0 +1,16 @@
+# Eritrea
+---
+description: Court in Asmara, 15.33621,38.94195
+components:
+            city: Asmara
+            country: Eritrea
+            country_code: er
+            courthouse: High Court of Eritrea
+            postcode: 1004
+            road: Harnet Avenue
+            state: Maekel Region
+expected: High Court of Eritrea, Harnet Avenue, Asmara, Eritrea
+
+
+
+

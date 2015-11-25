@@ -456,10 +456,13 @@ EG:
         {{{postcode}}} 
         {{{country}}}
 
-
 # Estonia
 EE:
     address_template: *generic1
+
+# Eritrea
+ER:
+    address_template: *generic17
 
 # Spain
 ES:
