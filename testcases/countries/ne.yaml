@@ -1,0 +1,19 @@
+# Niger
+---
+description: Embassy in Niamey, 13.52012,2.09463
+components:
+            address: Embassy of the Federal Republic of Germany
+            city: Niamey
+            country: Niger
+            country_code: ne
+            house_number: 71
+            postcode: 13416
+            road: Boulevard Général De Gaulle
+            state: Niamey
+            suburb: Plateau
+            village: Néini Goungou
+expected: Embassy of the Federal Republic of Germany, 71, Boulevard Général De Gaulle, Niamey, Niger
+
+
+
+

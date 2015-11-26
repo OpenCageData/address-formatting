@@ -778,6 +778,16 @@ NA:
 NC:
     address_template: *generic3
 
+# Niger
+NE: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} 
+        {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{country}}}
+
 # Norfolk Island - same as Australia
 NF: 
     address_template: *generic13
