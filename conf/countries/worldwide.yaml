@@ -948,6 +948,10 @@ SL:
 SM: 
     address_template: *generic8
 
+# Senegal
+SN:
+    address_template: *generic3
+
 # South Sudan
 SS: 
     address_template: *generic17

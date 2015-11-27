@@ -1,0 +1,16 @@
+# Senegal
+---
+description: Hotel in Dakar, 14.66731,-17.43996
+components:
+            city: Dakar
+            country: Senegal
+            country_code: sn
+            hotel: Hotel ndjambour
+            postcode: 24951
+            road: Rue Carnot
+            state: Dakar
+            suburb: Plateau
+expected: Hotel ndjambour, Rue Carnot, 24951 Dakar, Senegal
+
+
+
