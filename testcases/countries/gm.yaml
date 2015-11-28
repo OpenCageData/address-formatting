@@ -1,0 +1,14 @@
+# The Gambia
+---
+description: Library in Banjul, 13.45956,-16.58501
+components:
+            city: Banjul
+            country: The Gambia
+            country_code: gm
+            library: Gambia National Library
+            road: Reg Pye Lane
+            state: Banjul
+expected: Gambia National Library, Reg Pye Lane, Banjul, The Gambia
+
+
+

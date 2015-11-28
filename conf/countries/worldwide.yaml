@@ -523,6 +523,10 @@ GG:
 GH:
     address_template: *generic16
 
+# The Gambia
+GM:
+    address_template: *generic16
+
 # Greece
 GR:
     address_template: *generic1
