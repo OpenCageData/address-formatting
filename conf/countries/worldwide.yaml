@@ -527,6 +527,10 @@ GH:
 GM:
     address_template: *generic16
 
+# Guinea
+GN:
+    address_template: *generic14
+
 # Greece
 GR:
     address_template: *generic1
