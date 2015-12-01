@@ -1,0 +1,18 @@
+# Guinea-Bissau
+---
+description: Embassy in Bissau, 11.86213,-15.58436
+components:
+            building: Embaixada d'Espanha
+            city: Bissau
+            country: Guinea-Bissau
+            country_code: gw
+            neighbourhood: Tchada
+            road: Praça dos Herois Nacionais
+            state: Setor autónomo de Bissau
+            suburb: Reino
+expected: Embaixada d'Espanha, Praça dos Herois Nacionais, Bissau, Guinea-Bissau
+
+
+
+
+

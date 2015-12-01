@@ -556,6 +556,9 @@ GT:
         - [", (\\d{5})- ",", $1-"]
         - [", -",", "]
 
+# Guinea-Bissau
+GW:
+    address_template: *generic1
 
 # Hong Kong
 HK:
