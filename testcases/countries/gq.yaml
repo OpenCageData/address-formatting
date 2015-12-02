@@ -1,0 +1,17 @@
+# Equatorial Guinea
+---
+description: Restaurant in Malabo, 3.75719,8.78163
+components:
+            city: Malabo
+            country: Equatorial Guinea
+            country_code: gq
+            neighbourhood: Los Ángeles
+            restaurant: Treasure Island
+            road: Av de la Independencia
+            state: Bioko Norte
+            suburb: Santa Isabel
+expected: Treasure Island, Av de la Independencia, Malabo, Equatorial Guinea
+
+
+
+
