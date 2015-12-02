@@ -116,8 +116,8 @@ generic14: &generic14 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state_district}}} {{/first}}
+        {{{state}}}
         {{{country}}}
 
 # postcode and comma before house number
