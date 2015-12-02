@@ -11,4 +11,4 @@ components:
    postcode: 010000
    road: улица Конституции
    state: Astana
-expected: 'Kazakhstan, 010000 Astana, улица Конституции, 24, Хива'
+expected: 'Kazakhstan, Astana, 010000 Astana, улица Конституции, 24, Хива'
