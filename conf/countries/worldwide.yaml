@@ -80,14 +80,15 @@ generic10: &generic10 |
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{state}}}
         {{{country}}}
         {{{postcode}}}
 
 generic11: &generic11 |
         {{{country}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{state}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{suburb}}} 
         {{{road}}}, {{{house_number}}}
         {{{house}}}
@@ -99,7 +100,7 @@ generic12: &generic12 |
         {{{house}}}
         {{{house_number}}}, {{{road}}}
         {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} - {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} - {{{postcode}}}
         {{{state}}}
         {{{country}}}
 
@@ -115,8 +116,8 @@ generic14: &generic14 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || || {{{state_district}}} || {{{state}}} {{/first}}
-        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state_district}}} {{/first}}
+        {{{state}}}
         {{{country}}}
 
 # postcode and comma before house number
