@@ -346,6 +346,10 @@ CD:
 CF:
     address_template: *generic17
 
+# Republic of the Congo / Congo-Brazzaville
+CG:
+    address_template: *generic18
+
 # Switzerland
 CH: 
     address_template: *generic1

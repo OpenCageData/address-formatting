@@ -1,0 +1,17 @@
+# Republic of the Congo / Congo-Brazzaville
+---
+description: Embassy in Brazzaville, -4.26708,15.27797
+components:
+            embassy: South Africa (Embassy)
+            city: Brazzaville
+            country: Congo-Brazzaville
+            country_code: cg
+            neighbourhood: Plateau des 15 ans
+            road: rue de Maya-maya
+            state: Brazzaville
+            suburb: Poto-Poto
+expected: South Africa (Embassy), rue de Maya-maya, Brazzaville, Congo-Brazzaville
+
+
+
+
