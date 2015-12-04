@@ -416,6 +416,7 @@ DE:
         - ["^Freistaat ",""]
         - ["^Regierungsbezirk ",""]
         - ["^Gemeindefreies Gebiet ",""]
+        - ["city=Alt-Berlin","Berlin"]
     postformat_replace:
         - ["Berlin, Berlin","Berlin"]
         - ["Bremen, Bremen","Bremen"]

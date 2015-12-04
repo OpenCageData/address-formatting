@@ -19,6 +19,21 @@ components:
 expected: Moabit, Berlin, Germany
 
 ---
+description: Alt-berlin
+components:
+            city: Alt-Berlin
+            city_district: Mitte
+            country: Germany
+            country_code: de
+            house_number: 7
+            neighbourhood: Scheunenviertel
+            pedestrian: Gontardstraße
+            postcode: 10178
+            state: Berlin
+            suburb: Mitte
+expected: Gontardstraße 7, 10178 Berlin, Germany
+
+---
 description: Köln, NRW 
 components:
     country: Germany
