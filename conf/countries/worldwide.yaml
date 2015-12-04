@@ -495,6 +495,16 @@ FO:
 FR:
     address_template: *generic3
 
+# Gabon
+GA:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
 GB:
     address_template: *generic2
     fallback_template: *fallback3
