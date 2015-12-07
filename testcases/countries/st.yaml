@@ -1,0 +1,16 @@
+# São Tomé and Príncipe
+---
+description: Library in São Tomé, 0.34004,6.73701
+components:
+            city: São Tomé
+            country: São Tomé and Príncipe
+            country_code: st
+            county: Agua Grande
+            library: Biblioteca Nacional
+            road: Avenida das Naçoes Unidas
+            state: São Tomé Province
+            suburb: Riboque
+expected: Biblioteca Nacional, Avenida das Naçoes Unidas, São Tomé, São Tomé and Príncipe
+
+
+

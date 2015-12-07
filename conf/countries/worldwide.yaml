@@ -987,6 +987,10 @@ SN:
 SS: 
     address_template: *generic17
 
+# São Tomé and Príncipe
+ST:
+    address_template: *generic17
+
 # El Salvador
 SV: 
     address_template: |
