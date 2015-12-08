@@ -1,0 +1,18 @@
+# Cabo Verde
+---
+description: Bank in Praia, 14.91887,-23.50912
+components:
+            bank: Banco de Cabo Verde
+            city: Praia
+            country: Cape Verde
+            country_code: cv
+            county: Praia
+            neighbourhood: Bela Vista
+            postcode: 7600
+            road: Avenida Amilcar Cabral
+            suburb: Várzea
+expected: Banco de Cabo Verde, Avenida Amilcar Cabral, 7600-Praia, Cape Verde
+
+
+
+
