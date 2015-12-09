@@ -1,3 +1,19 @@
+# Sweden
+---
+description: Hotel in Göteborg, 57.70012,11.96993
+components:
+            city: Gothenburg
+            city_district: Centrum
+            country: Sweden
+            country_code: se
+            county: Göteborgs och Bohus län
+            hotel: Poseidon
+            house_number: 33
+            postcode: 41134
+            road: Storgatan
+            state: Västra Götalands län
+            suburb: Vasastaden
+expected: Poseidon, Storgatan 33, 411 34 Gothenburg, Sweden
 ---
 description: Thai House
 components:
