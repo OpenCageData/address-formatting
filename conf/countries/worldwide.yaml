@@ -170,6 +170,15 @@ generic20: &generic20 |
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
+# suburb and city, no postcode
+generic21: &generic21 |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
+        {{{country}}}
+
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -989,6 +998,10 @@ SM:
 # Senegal
 SN:
     address_template: *generic3
+
+# Suriname
+SR:
+    address_template: *generic21
 
 # South Sudan
 SS: 

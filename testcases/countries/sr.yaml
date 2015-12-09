@@ -1,0 +1,16 @@
+# Suriname
+---
+description: School in Paramaribo, 5.83041,-55.18020
+components:
+            city: Paramaribo
+            country: Suriname
+            country_code: sr
+            county: Distrikt Paramaribo
+            house_number: 7
+            postcode: 597
+            road: Simonsweg
+            school: R.D. Simonsschool
+expected: R.D. Simonsschool, Simonsweg 7, Paramaribo, Suriname
+
+
+
