@@ -1043,6 +1043,10 @@ TC:
     address_template: *generic2
     fallback_template: *fallback3
 
+# Chad
+TD: 
+    address_template: *generic21
+
 # French Southern and Antarctic Lands - same as FR
 TF:
     address_template: *generic3

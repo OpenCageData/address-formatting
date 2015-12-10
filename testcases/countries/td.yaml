@@ -1,0 +1,15 @@
+# Chad
+---
+description: Hotel in N'Djamena, 12.11417,15.03121
+components:
+            city: N'Djamena
+            country: Chad
+            country_code: td
+            hotel: Le Meridien - Chari
+            postcode: 456
+            road: Boulevard de Strasbourg
+            state: N'Djamena Region
+expected: Le Meridien - Chari, Boulevard de Strasbourg, N'Djamena, Chad
+
+
+
