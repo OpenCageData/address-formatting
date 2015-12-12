@@ -774,6 +774,18 @@ MK:
 ML:
     address_template: *generic17
 
+# Mongolia
+MN:
+    address_template: |
+        {{{attention}}}
+        {{{city_district}}} 
+        {{#first}} {{{suburb}}} || {{{neighbourhood}}} {{/first}}
+        {{{road}}} 
+        {{{house_number}}} 
+        {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{{country}}}
+
 # Malta
 MT:
     address_template: |
