@@ -1,0 +1,16 @@
+# Cambodia
+---
+description: Hotel in Phnom Penh, 11.55983,104.93653
+components:
+            city: Phnom Penh
+            country: Cambodia
+            country_code: kh
+            hotel: Cambodiana
+            postcode: 12301
+            road: Preah Sisowath Quay
+            state: Phnom Penh
+            suburb: Daun Penh
+expected: Cambodiana, Preah Sisowath Quay, Daun Penh, Phnom Penh 12301, Cambodia
+
+
+

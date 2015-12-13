@@ -693,6 +693,17 @@ KE:
 KG:
     address_template: *generic11
 
+# Cambodia
+KH:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
+
 # Comoros
 KM:
     address_template: |
