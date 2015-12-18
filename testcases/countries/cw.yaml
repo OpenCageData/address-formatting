@@ -1,0 +1,18 @@
+# Curaçao
+---
+description: Address in Willemstad, 12.11148,-68.94561
+components:
+            country: Curaçao
+            country_code: cw
+            house_number: 14
+            neighbourhood: Colon
+            postcode: 0000NA
+            road: Jan Erasmusstraat
+            state: Curaçao
+            suburb: Seru Domi
+            town: Willemstad
+expected: Jan Erasmusstraat 14, Willemstad, Curaçao
+
+
+
+
