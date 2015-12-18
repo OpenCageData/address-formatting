@@ -407,6 +407,10 @@ CV:
         # fix the postcode to add - after numbers
         - [", (\\d{4}) ([^,]*), ",", $1-$2, "]
 
+# Curaçao
+CW: 
+    address_template: *generic17
+
 # Christmas Island - same as Australia
 CX: 
     address_template: *generic13
