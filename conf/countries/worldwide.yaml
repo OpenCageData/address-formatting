@@ -876,6 +876,10 @@ NG:
 # Netherlands
 NL:
     address_template: *generic1
+    postformat_replace:
+        # fix the postcode to make it \d\d\d\d \w\w
+        - [", (\\d{4})(\\w{2}) ",", $1 $2 "]
+
 
 # Norway
 # quoted since python interprets it as a boolean. Silly python!
