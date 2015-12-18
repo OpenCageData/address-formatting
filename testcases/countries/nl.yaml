@@ -1,0 +1,36 @@
+# Netherlands
+---
+description: Address in Amsterdam, 52.36519,4.89683
+components:
+            city: Amsterdam
+            city_district: Centrum
+            country: The Netherlands
+            country_code: nl
+            county: MRA
+            house_number: 573
+            postcode: 1017CD
+            road: Herengracht
+            state: North Holland
+            suburb: Amsterdam
+expected: Herengracht 573, 1017 CD Amsterdam, The Netherlands
+
+
+# Curaçao
+# correctly use CW template not standard NL template
+---
+description: Address in Willemstad, Curaçao 12.11148,-68.94561
+components:
+            country: The Netherlands
+            country_code: nl
+            house_number: 14
+            neighbourhood: Colon
+            postcode: 0000NA
+            road: Jan Erasmusstraat
+            state: Curaçao
+            suburb: Seru Domi
+            town: Willemstad
+expected: Jan Erasmusstraat 14, Willemstad, Curaçao
+
+
+
+
