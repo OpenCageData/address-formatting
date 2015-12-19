@@ -14,6 +14,22 @@ components:
             suburb: Amsterdam
 expected: Herengracht 573, 1017 CD Amsterdam, The Netherlands
 
+# Netherlands auf nederlands
+---
+description: Address in Amsterdam in Dutch, 52.36519,4.89683
+components:
+            city: Amsterdam
+            city_district: Centrum
+            country: Koninkrijk der Nederlanden
+            country_code: nl
+            county: MRA
+            house_number: 573
+            postcode: 1017CD
+            road: Herengracht
+            state: North Holland
+            suburb: Amsterdam
+expected: Herengracht 573, 1017 CD Amsterdam, Nederland
+
 
 # Curaçao
 # correctly use CW template not standard NL template
