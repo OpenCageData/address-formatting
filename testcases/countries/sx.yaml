@@ -1,0 +1,18 @@
+# Sint Maarten
+---
+description: Resort in Sint Maarten, 18.02823,-63.09426
+components:
+            city: Sint Maarten
+            country: Sint Maarten
+            country_code: sx
+            hotel: La Vista Beach Resort
+            neighbourhood: Pelican Key
+            postcode: 46226
+            road: Billy Folly Road
+            state: Sint Maarten (State of)
+            suburb: Saint John's Estate
+expected: La Vista Beach Resort, Billy Folly Road, Sint Maarten
+
+
+
+

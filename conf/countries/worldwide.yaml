@@ -1058,6 +1058,9 @@ SV:
     postformat_replace:
         - [", - ",", "]
 
+# Sint Maarten
+SX: 
+    address_template: *generic17
 
 # Swaziland
 SZ: 
