@@ -1,0 +1,16 @@
+# Åland Islands, part of Finnland
+---
+# https://en.wikipedia.org/wiki/%C3%85land_Islands
+description: Post office in Mariehamn
+components:
+            country: Åland Islands
+            country_code: ax
+            county: Åland Islands
+            post_box: Posten Åland
+            postcode: 22101
+            road: Nygatan
+            state: Åland
+            state_district: Regional State Agency Åland
+            suburb: Johannebo
+            town: Mariehamn
+expected: Posten Åland, Nygatan, 22101 Mariehamn, Åland, Finland
