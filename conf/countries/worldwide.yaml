@@ -265,13 +265,17 @@ AR:
 AT: 
     address_template: *generic1
 
-# Azerbaijan
-AZ:
-    address_template: *generic3
-
 # Australia
 AU: 
     address_template: *generic13
+
+# Aruba
+AW: 
+    address_template: *generic17
+
+# Azerbaijan
+AZ:
+    address_template: *generic3
 
 # Bosnia
 BA:

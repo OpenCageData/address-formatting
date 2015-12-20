@@ -30,7 +30,6 @@ components:
             suburb: Amsterdam
 expected: Herengracht 573, 1017 CD Amsterdam, Nederland
 
-
 # Curaçao
 # correctly use CW template not standard NL template
 ---
@@ -46,6 +45,21 @@ components:
             suburb: Seru Domi
             town: Willemstad
 expected: Jan Erasmusstraat 14, Willemstad, Curaçao
+
+# Aruba
+# correctly use AW template not standard NL template
+---
+description: Parliament in Oranjestad, Aruba, 12.51781,-70.03646
+components:
+            name: Parliament of Aruba
+            country: The Netherlands
+            country_code: nl
+            house_number: LSB 70
+            road: L.G. Smith Boulevard
+            state: Aruba
+            town: Oranjestad
+expected: Parliament of Aruba, L.G. Smith Boulevard LSB 70, Oranjestad, Aruba
+
 
 
 
