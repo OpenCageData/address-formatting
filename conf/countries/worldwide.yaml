@@ -179,6 +179,15 @@ generic21: &generic21 |
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
+# comma after housenumber, postcode before city
+generic22: &generic22 |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
+
 
 fallback1: &fallback1 |
         {{{attention}}}
@@ -729,6 +738,10 @@ KM:
 # Kazakhstan
 KZ:
     address_template: *generic11
+
+# Laos
+LA: 
+    address_template: *generic22
 
 # Liechtenstein, same as Switzerland
 LI: 

@@ -1,0 +1,15 @@
+# Laos
+---
+description: Govt department building in Vientiane, 17.96306,102.61438
+components:
+            city: Vientiane
+            country: Laos
+            country_code: la
+            postcode: 01003
+            public_building: Ministre de la santé
+            road: Mahosot Road
+            state: Vientiane Capital
+expected: Ministre de la santé, Mahosot Road, 01003 Vientiane, Laos
+
+
+
