@@ -317,6 +317,10 @@ BM:
 BO:
     address_template: *generic1
 
+# Dutch Caribbean / Bonaire
+BQ:
+    address_template: *generic17
+
 # Brazil
 BR:
     address_template: |
