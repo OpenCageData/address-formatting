@@ -282,6 +282,10 @@ AU:
 AW: 
     address_template: *generic17
 
+# Åland Islands, part of Finnland
+AX: 
+    address_template: *generic1
+
 # Azerbaijan
 AZ:
     address_template: *generic3
@@ -468,6 +472,10 @@ DJ:
 # Denmark
 DK:
     address_template: *generic1
+
+# Dominica
+DM:
+    address_template: *generic16
 
 # Dominican Republic
 DO:

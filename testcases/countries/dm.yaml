@@ -1,0 +1,17 @@
+# Dominica
+---
+description: Post office in Roseau, 15.29811,-61.38928
+components:
+            country: Dominica
+            country_code: dm
+            post_office: General Post Office
+            postcode: 00109-800
+            road: Drury Lane
+            state: Saint George Parish
+            suburb: Potters Ville
+            town: Roseau
+expected: General Post Office, Drury Lane, Roseau, Dominica
+
+
+
+
