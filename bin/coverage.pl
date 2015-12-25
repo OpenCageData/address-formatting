@@ -21,7 +21,7 @@ if ($help) {
     exit(0);
 }
 
-# get the list of countries from 
+# get the list of countries
 my %countries;
 my $country_file = "../conf/country_codes.yaml";
 open my $FH, "<", $country_file or die "unable to open $country_file $!";
@@ -62,8 +62,7 @@ open my $RFH, "<", $rules_file or die "unable to open $rules_file $!";
 my %rules;
 while (my $line = <$RFH>){
     chomp($line);
-   
-    if ($line =~ m/^(\w\w):\s*$/){
+    if ($line =~ m/^"?(\w\w)"?:\s*$/){
         $rules{$1} = 1;
     }
 }
