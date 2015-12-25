@@ -1,0 +1,16 @@
+# Greenland
+---
+description: Address in Nuuk, 64.17660,-51.73981
+components:
+            city: Nuuk
+            country: Greenland
+            country_code: gl
+            house_number: 18
+            neighbourhood: Qernertunnguit
+            pedestrian: Imaneq
+            postcode: 3900
+            suburb: Qaurunnguaq
+expected: Imaneq 18, 3900 Nuuk, Greenland
+
+
+
