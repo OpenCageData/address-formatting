@@ -629,6 +629,11 @@ GT:
 GW:
     address_template: *generic1
 
+# Guyana
+GY:
+    address_template: *generic16
+
+
 # Hong Kong
 HK:
     address_template: |

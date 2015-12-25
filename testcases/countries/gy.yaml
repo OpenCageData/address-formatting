@@ -1,0 +1,16 @@
+# Guyana
+---
+description: Bank in Georgetown, 6.81913,-58.16213
+components:
+            bank: Scotiabank (Carmichael St. Branch)
+            city: Georgetown
+            country: Guyana
+            country_code: gy
+            county: Demerara-Mahaica Region
+            postcode: 101147
+            road: Carmichael Street
+expected: Scotiabank (Carmichael St. Branch), Carmichael Street, Georgetown, Guyana
+
+
+
+
