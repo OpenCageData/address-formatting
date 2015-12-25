@@ -77,6 +77,20 @@ if ($details){
 }
 
 
+# find territories without rules or tests
+my %neither;
+foreach my $cc (sort keys %countries){
+    next if (defined($rules{$cc}));
+    next if (defined($test_countries{$cc}));
+    $neither{$cc} = 1;
+}
+print scalar(keys %neither) . " territories have neither rules nor tests\n";
+if ($details){
+    print "Territories with no test and no rules:\n";
+    foreach my $cc (sort keys %neither){
+        print "\t" . $cc . "\t". $countries{$cc}. "\n";
+    }
+}
 
 
 
