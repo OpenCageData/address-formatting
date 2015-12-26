@@ -1139,6 +1139,11 @@ TH:
         {{{state}}} {{{postcode}}} 
         {{{country}}}
 
+# Turkmenistan
+TM: 
+    address_template: *generic22
+
+
 # Tunisia
 TN:
     address_template: *generic3

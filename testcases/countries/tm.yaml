@@ -1,0 +1,17 @@
+# Turkmenistan
+---
+description: Theatre in Ashgabat, 37.9432,58.3878
+components:
+            city: Ashgabat
+            country: Turkmenistan
+            country_code: tm
+            postcode: 744000
+            road: Kemine (2035) kocesi
+            state: Ahal
+            theatre: National Drama Theatre
+expected: National Drama Theatre, Kemine (2035) kocesi, 744000 Ashgabat, Turkmenistan
+
+
+
+
+
