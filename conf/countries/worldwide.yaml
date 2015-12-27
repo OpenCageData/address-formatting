@@ -717,6 +717,10 @@ JE:
     address_template: *generic2
     fallback_template: *fallback3
 
+# Jamaica
+JM:
+    address_template: *generic16
+
 # Kenya
 KE:
     address_template: |

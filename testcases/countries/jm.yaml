@@ -1,0 +1,16 @@
+# Jamaica
+---
+description: building in Spanish Town, 17.99588,-76.95424
+components:
+            building: Old Court House
+            city: Spanish Town
+            country: Jamaica
+            country_code: jm
+            county: Saint Catherine
+            neighbourhood: Tawes Meadows
+            road: Constitution Street
+            state_district: Middlesex County
+expected: Old Court House, Constitution Street, Spanish Town, Jamaica
+
+
+
