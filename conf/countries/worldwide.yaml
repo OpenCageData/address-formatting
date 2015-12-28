@@ -71,7 +71,7 @@ generic9: &generic9 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{suburb}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
 
@@ -89,7 +89,7 @@ generic11: &generic11 |
         {{{country}}}
         {{{state}}}
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{{suburb}}} 
+        {{{suburb}}}
         {{{road}}}, {{{house_number}}}
         {{{house}}}
         {{{attention}}}
@@ -99,7 +99,7 @@ generic12: &generic12 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}}, {{{road}}}
-        {{{suburb}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} - {{{postcode}}}
         {{{state}}}
         {{{country}}}
@@ -149,7 +149,7 @@ generic18: &generic18 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}}, {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{suburb}}} || {{{state}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
 # suburb and postcode after city
@@ -346,6 +346,15 @@ BR:
     postformat_replace:
         - ["\\b(\\d{5})(\\d{3})\\b","$1-$2"]
 
+# Bhutan
+BT:
+    address_template: |
+        {{{attention}}}
+        {{{road}}} {{{house_number}}}, {{{house}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
 # Botswana
 BW:
     address_template: |
@@ -402,7 +411,7 @@ CO:
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{suburb}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
     postformat_replace:
@@ -753,7 +762,7 @@ KM:
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{{suburb}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{country}}}
 
 # Kazakhstan
@@ -976,7 +985,7 @@ PK:
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{suburb}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
@@ -1162,7 +1171,7 @@ TT:
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{suburb}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{{postcode}}}
         {{{country}}}
 
@@ -1179,7 +1188,7 @@ UA:
         {{{attention}}}
         {{{house}}}
         {{{road}}}, {{{house_number}}}
-        {{{suburb}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{postcode}}} 
         {{{country}}}
@@ -1251,7 +1260,7 @@ ZA:
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{suburb}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
         {{{postcode}}}
         {{{country}}}

@@ -1,0 +1,15 @@
+# Bhutan
+---
+description: National Bank in Thimphu, 27.47370,89.63880
+components:
+            bank: Bhutan National Bank
+            city: Thimphu
+            country: Bhutan
+            country_code: bt
+            postcode: 810
+            road: Chang Lam
+            state: Thimphu District
+expected: Bhutan National Bank, Chang Lam, Thimphu 810, Bhutan
+
+
+
