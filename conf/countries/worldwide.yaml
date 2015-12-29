@@ -346,6 +346,16 @@ BR:
     postformat_replace:
         - ["\\b(\\d{5})(\\d{3})\\b","$1-$2"]
 
+# Bahamas
+BS:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{{county}}} 
+        {{{country}}}
+
 # Bhutan
 BT:
     address_template: |

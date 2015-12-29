@@ -1,0 +1,14 @@
+# Bahamas
+---
+description: Court in Nassau, 25.07705,-77.34052
+components:
+            city: Nassau
+            country: The Bahamas
+            country_code: bs
+            county: New Providence
+            courthouse: Supreme Court
+            road: Bank Lane
+expected: Supreme Court, Bank Lane, Nassau, New Providence, The Bahamas
+
+
+
