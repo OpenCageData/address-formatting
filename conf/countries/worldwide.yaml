@@ -294,6 +294,10 @@ AZ:
 BA:
     address_template: *generic1
 
+# Barbados
+BB:
+    address_template: *generic16
+
 # Bangladesh
 BD:
     address_template: *generic12

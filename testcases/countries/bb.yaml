@@ -1,0 +1,16 @@
+# Barbados
+---
+description: Post Office in Bridgetown, 13.09821,-59.62049
+components:
+            city: Bridgetown
+            country: Barbados
+            country_code: bb
+            county: Saint Michael
+            neighbourhood: New Orleans
+            post_office: General Post Office
+            postcode: BB11093
+            road: Cheapside Road
+expected: General Post Office, Cheapside Road, Bridgetown, Barbados
+
+
+
