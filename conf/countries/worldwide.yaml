@@ -787,6 +787,10 @@ KZ:
 LA: 
     address_template: *generic22
 
+# Saint Lucia
+LC:
+    address_template: *generic17
+
 # Liechtenstein, same as Switzerland
 LI: 
     address_template: *generic1

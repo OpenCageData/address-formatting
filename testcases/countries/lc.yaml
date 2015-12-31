@@ -1,0 +1,13 @@
+# Saint Lucia
+---
+description: Bank in Castries, 14.01001,-60.99186
+components:
+            bank: First Caribbean International Bank
+            country: Saint Lucia
+            country_code: lc
+            road: Bridge Street
+            town: Castries
+expected: First Caribbean International Bank, Bridge Street, Castries, Saint Lucia
+
+
+
