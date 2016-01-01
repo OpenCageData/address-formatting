@@ -244,6 +244,15 @@ AD:
 AE:
     address_template: *generic5
 
+# Anguilla
+AI:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{postcode}}} {{{country}}}
+
 # Albania
 AL:
     address_template: |
