@@ -339,6 +339,17 @@ BL:
 BM:
     address_template: *generic2
 
+# Brunei
+BN:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
+
 # Bolivia
 BO:
     address_template: *generic1

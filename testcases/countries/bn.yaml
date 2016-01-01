@@ -1,0 +1,15 @@
+# Brunei
+---
+description: Hotel in Bandar Seri Begawan, 4.90720,114.91566
+components:
+            building: Gadong Centrepoint
+            city: Bandar Seri Begawan
+            country: Brunei
+            country_code: bn
+            county: Brunei-Muara
+            postcode: BE4119
+            road: Simpang 137
+expected: Gadong Centrepoint, Simpang 137, Bandar Seri Begawan, Brunei-Muara BE4119, Brunei
+
+
+
