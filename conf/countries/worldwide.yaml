@@ -610,6 +610,10 @@ GB:
         - ["City of Westminster","London"]
         - ["London, England, United Kingdom","London, United Kingdom"]
 
+# Grenada
+GD:
+    address_template: *generic17
+
 # Georgia
 GE:
     address_template: *generic1
