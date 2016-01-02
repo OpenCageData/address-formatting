@@ -244,6 +244,10 @@ AD:
 AE:
     address_template: *generic5
 
+# Antigua and Barbuda
+AG:
+    address_template: *generic16
+
 # Anguilla
 AI:
     address_template: |

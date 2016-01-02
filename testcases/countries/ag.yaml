@@ -1,0 +1,14 @@
+# Antigua and Barbuda
+---
+description: Bank in St. John's, 17.12150,-61.84405
+components:
+            bank: Scotiabank
+            country: Antigua and Barbuda
+            country_code: ag
+            postcode: Anu
+            road: High Street
+            town: St. John's
+expected: Scotiabank, High Street, St. John's, Antigua and Barbuda
+
+
+
