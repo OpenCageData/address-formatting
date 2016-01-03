@@ -1,0 +1,17 @@
+# Cayman Islands
+---
+description: address in George Town, 19.29619,-81.38217
+components:
+            building: Butterfield Place
+            city: George Town
+            country: Cayman Islands
+            country_code: ky
+            house_number: 12
+            postcode: KY1-1103
+            road: Albert Panton Street
+            suburb: Rock Hole Road
+expected: Butterfield Place, 12 Albert Panton Street, George Town KY1-1103, Cayman Islands
+
+
+
+

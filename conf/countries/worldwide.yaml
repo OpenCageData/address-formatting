@@ -684,7 +684,6 @@ GW:
 GY:
     address_template: *generic16
 
-
 # Hong Kong
 HK:
     address_template: |
@@ -806,6 +805,10 @@ KM:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{country}}}
+
+# Cayman Islands
+KY:
+    address_template: *generic2
 
 # Kazakhstan
 KZ:
