@@ -1,0 +1,13 @@
+# Kiribati
+---
+description: Bank in Bairiki, 1.33010,172.97850
+components:
+            bank: The ANZ Bank
+            city: Tarawa Teinainano
+            country: Kiribati
+            country_code: ki
+            road: Postplatz
+expected: The ANZ Bank, Postplatz, Tarawa Teinainano, Kiribati
+
+
+

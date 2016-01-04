@@ -795,6 +795,9 @@ KH:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
+# Kiribati
+KI:
+    address_template: *generic17
 
 # Comoros
 KM:
