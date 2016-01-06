@@ -1,0 +1,16 @@
+# Papau New Guinea
+---
+description: Hotel in Port Moresby, -9.47861,147.15138
+components:
+            city: Port Moresby
+            country: Papua New Guinea
+            country_code: pg
+            county: National Capital District
+            hotel: Crowne Plaza Hotel
+            road: Mary Street
+            state: National Capital District
+            suburb: Ela Beach
+expected: Crowne Plaza Hotel, Mary Street, Port Moresby National Capital District, Papua New Guinea
+
+
+

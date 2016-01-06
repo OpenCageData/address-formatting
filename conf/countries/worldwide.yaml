@@ -1021,6 +1021,15 @@ PE:
 PF:
     address_template: *generic3
 
+# Papau New Guinea
+PG:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} {{{state}}} 
+        {{{country}}}
+
 # Philippines
 PH:
     address_template: |
