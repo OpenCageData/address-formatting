@@ -904,6 +904,11 @@ MN:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
         {{{country}}}
 
+
+# Montserrat
+MS:
+    address_template: *generic16
+
 # Malta
 MT:
     address_template: |
