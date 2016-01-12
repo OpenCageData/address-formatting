@@ -1218,6 +1218,10 @@ TH:
         {{{state}}} {{{postcode}}} 
         {{{country}}}
 
+# Timor-Leste/East Timor
+TL: 
+    address_template: *generic17
+
 # Turkmenistan
 TM: 
     address_template: *generic22

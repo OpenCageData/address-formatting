@@ -1,0 +1,16 @@
+# Timor-Leste / East Timor
+---
+description: Embassy in Dili, -8.54990,125.56677
+components:
+            embassy: Embaixada do Brasil
+            country: East Timor
+            country_code: tl
+            hamlet: Palapasot
+            postcode: 10
+            road: Rua César Maria de Serpa Rosa
+            state: Dili
+expected: Embaixada do Brasil, Rua César Maria de Serpa Rosa, Palapasot, East Timor
+
+
+
+
