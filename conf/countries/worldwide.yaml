@@ -435,6 +435,10 @@ CH:
 CI: 
     address_template: *generic16
 
+# Cook Islands
+CK: 
+    address_template: *generic16
+
 # Chile
 CL: 
     address_template: *generic1

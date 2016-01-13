@@ -1,0 +1,13 @@
+# Cook Islands
+---
+description: Hospital in north of Rarotonga, -21.2042,-159.7654
+components:
+            city: Te-Au-O-Tonga
+            country: Cook Islands
+            country_code: ck
+            hospital: Old Hospital
+            road: Ara Tapu
+expected: Old Hospital, Ara Tapu, Te-Au-O-Tonga, Cook Islands
+
+
+
