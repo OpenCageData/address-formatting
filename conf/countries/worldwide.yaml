@@ -896,6 +896,16 @@ MK:
 ML:
     address_template: *generic17
 
+# Myanmar (Burma)
+MM:
+    address_template: | 
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}, {{{postcode}}} 
+        {{{country}}}
+
+
 # Mongolia
 MN:
     address_template: |
