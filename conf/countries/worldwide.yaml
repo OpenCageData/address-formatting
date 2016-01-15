@@ -998,7 +998,6 @@ NG:
         {{{state}}}
         {{{country}}}
 
-
 # Netherlands
 NL:
     address_template: *generic1
@@ -1012,6 +1011,17 @@ NL:
 # quoted since python interprets it as a boolean. Silly python!
 "NO":
     address_template: *generic1
+
+
+# Nepal
+NP: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{suburb}}} || {{{neighbourhood}}} || {{{city}}} {{/first}}
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{city}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
 
 # New Zealand
 NZ:

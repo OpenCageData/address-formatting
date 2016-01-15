@@ -1,0 +1,20 @@
+# Nepal
+---
+description: mall in Kathmandu, 27.69410,85.31334
+components:
+            city: Kathmandu
+            country: Nepal
+            country_code: np
+            county: Kathmandu
+            mall: United World Trade Centre
+            neighbourhood: Hyumat
+            postcode: 2243
+            road: Tripureshwor Marg
+            state: Central Development Region
+            state_district: Bagmati
+            suburb: Kuleshwor
+expected: United World Trade Centre, Tripureshwor Marg, Kuleshwor, Kathmandu 2243, Nepal
+
+
+
+
