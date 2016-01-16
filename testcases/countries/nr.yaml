@@ -1,0 +1,13 @@
+# Nauru
+---
+description: Parliment building in Yaren, -0.54741,166.91734
+components:
+            country: Nauru
+            country_code: nr
+            public_building: Parliament
+            road: Island Ring Road
+            village: Yaren
+expected: Parliament, Island Ring Road, Yaren, Nauru
+
+
+

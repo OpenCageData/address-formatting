@@ -1023,6 +1023,10 @@ NP:
         {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{city}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
+# Nauru
+NR:
+    address_template: *generic16
+
 # New Zealand
 NZ:
     address_template: *generic1
