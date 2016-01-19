@@ -579,6 +579,10 @@ ET:
 FI: 
     address_template: *generic1
 
+# Fiji
+FJ: 
+    address_template: *generic16
+
 # Falkland Islands - same as GB
 FK: 
     address_template: *generic2

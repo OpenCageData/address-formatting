@@ -1,0 +1,15 @@
+# Fiji
+---
+description: Library in Suva, -18.14221,178.42309
+components:
+            city: Suva
+            country: Fiji
+            country_code: fj
+            library: Suva City Library
+            road: Victoria Parade
+            state: Central
+            suburb: The Domain
+expected: Suva City Library, Victoria Parade, Suva, Fiji
+
+
+
