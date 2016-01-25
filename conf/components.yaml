@@ -39,6 +39,7 @@ name: state_district
 ---
 name: state
 aliases:
+    - province
     - state_code
 ---
 name: region
