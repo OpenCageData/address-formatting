@@ -817,6 +817,17 @@ KM:
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{country}}}
 
+# Saint Kitts and Nevis
+KN: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} || {{{island}}} {{/first}}
+        {{{country}}}
+
+
+
 # Cayman Islands
 KY:
     address_template: *generic2

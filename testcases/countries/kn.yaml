@@ -1,0 +1,14 @@
+# Saint Kitts and Nevis
+---
+description: Restaurant in Basseterre, 17.29535,-62.72366
+components:
+      country: Saint Kitts and Nevis
+      country_code: kn
+      province: Saint Kitts
+      restaurant: Ballahoo Restaurant
+      road: Fort Street
+      town: Basseterre
+expected: Ballahoo Restaurant, Fort Street, Basseterre, Saint Kitts, Saint Kitts and Nevis
+
+
+
