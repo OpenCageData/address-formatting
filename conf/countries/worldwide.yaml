@@ -951,6 +951,10 @@ MT:
 MQ:
     address_template: *generic3
 
+# Maldives
+MV:
+    address_template: *generic2
+
 # Malawi
 MW:
     address_template: *generic16

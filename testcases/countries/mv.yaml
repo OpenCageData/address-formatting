@@ -1,0 +1,16 @@
+# Maldives
+---
+description: Radio station in Malé, 4.17244,73.50311
+components:
+            address29: Voice of Maledives
+            city: Malé
+            country: Maldives
+            country_code: mv
+            postcode: 20237
+            road: Buruzu Magu
+            state: Malé
+expected: Voice of Maledives, Buruzu Magu, Malé 20237, Maldives
+
+
+
+
