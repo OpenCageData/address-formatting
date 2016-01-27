@@ -1,0 +1,16 @@
+# Tajikistan
+---
+description: building in Душанбе, 38.55404,68.76598
+components:
+        city: Dushanbe
+        country: Tajikistan
+        country_code: tj
+        county: Rudaki District
+        house_number: 160
+        postcode: 734018
+        road: Mushfiki Street
+        state: Districts of Republican Subordination
+expected: Mushfiki Street 160, 734018 Dushanbe, Tajikistan
+
+
+
