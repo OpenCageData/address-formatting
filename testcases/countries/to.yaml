@@ -1,0 +1,16 @@
+# Tonga
+---
+description: Bank in Ma'ufanga, -21.13647,-175.19540
+components:
+        bank: National Reserve Bank of Tonga
+        country: Tonga
+        country_code: to
+        neighbourhood: Fongoloa
+        road: Hala Sālote
+        state: Vahe Kolofo'ou
+        suburb: Kolofo'ou
+        town: Ma'ufanga
+expected: National Reserve Bank of Tonga, Hala Sālote, Ma'ufanga, Tonga
+
+
+

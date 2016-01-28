@@ -1277,10 +1277,13 @@ TL:
 TM: 
     address_template: *generic22
 
-
 # Tunisia
 TN:
     address_template: *generic3
+
+# Tonga
+TO: 
+    address_template: *generic16
 
 # Turkey
 TR: 
