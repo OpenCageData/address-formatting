@@ -1330,6 +1330,10 @@ UM:
 US: 
     address_template: *generic4
     fallback_template: *fallback2
+    postformat_replace:
+        - [", US$",", United States of America"]
+        - [", USA$",", United States of America"]
+        - [", United States$",", United States of America"]
 
 # Uzbekistan
 UZ:
