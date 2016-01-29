@@ -1378,6 +1378,10 @@ VN:
         {{{state}}} {{{postcode}}}
         {{{country}}}
 
+# Samoa
+WS:
+    address_template: *generic17
+
 # Mayotte - same as FR
 YT:
     address_template: *generic3

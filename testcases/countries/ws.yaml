@@ -1,0 +1,14 @@
+# Samoa
+---
+description: post office in Āpia, -13.83128,-171.76770
+components:
+        city: Āpia
+        country: Samoa
+        country_code: ws
+        post_office: Samoa Post Office
+        road: Beach Road
+        suburb: Tuanaimato
+expected: Samoa Post Office, Beach Road, Āpia, Samoa
+
+
+
