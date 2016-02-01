@@ -283,6 +283,12 @@ AR:
     replace:
         - ["^Autonomous City of ",""]
 
+# American Samoa
+AS: 
+    use_country: US
+    change_country: United States of America
+    add_component: state=American Samoa
+
 # Austria
 AT: 
     address_template: *generic1
@@ -296,8 +302,9 @@ AW:
     address_template: *generic17
 
 # Åland Islands, part of Finnland
-AX: 
-    address_template: *generic1
+AX:
+    use_country: FI
+    change_country: Åland, Finland
 
 # Azerbaijan
 AZ:
@@ -337,7 +344,8 @@ BI:
 
 # Saint Barthélemy - same as FR
 BL:
-    address_template: *generic3
+    use_country: FR
+    change_country: France     
 
 # Bermuda
 BM:
@@ -360,7 +368,8 @@ BO:
 
 # Dutch Caribbean / Bonaire
 BQ:
-    address_template: *generic17
+    use_country: NL
+    change_country: Caribbean Netherlands, The Netherlands
 
 # Brazil
 BR:
@@ -414,6 +423,11 @@ BZ:
 # Canada
 CA: 
     address_template: *generic4
+
+# Cocos (Keeling) Islands
+CC:
+    use_country: AU
+    change_country: Australia
 
 # Democratic Republic of the Congo
 CD:
@@ -485,7 +499,8 @@ CW:
 
 # Christmas Island - same as Australia
 CX: 
-    address_template: *generic13
+    use_country: AU
+    change_country: Christmas Island, Australia
 
 # Cyprus
 CY: 
@@ -587,10 +602,11 @@ FI:
 FJ: 
     address_template: *generic16
 
-# Falkland Islands - same as GB
+# Falkland Islands
 FK: 
-    address_template: *generic2
-    fallback_template: *fallback3
+    use_country: GB
+    change_country: United Kingdom
+    add_component: county=Falkland Islands
 
 # Faroe Islands 
 FO: 
@@ -636,12 +652,14 @@ GE:
 
 # French Guiana - same as FR
 GF:
-    address_template: *generic3
+    use_country: FR
+    change_country: France     
 
 # Guernsey - same as UK
 GG:
-    address_template: *generic2
-    fallback_template: *fallback3
+    use_country: GB
+    change_country: United Kingdom
+    add_component: county=Channel Islands
 
 # Ghana
 GH:
@@ -669,12 +687,14 @@ GR:
 
 # Guadeloupe - same as FR
 GP:
-    address_template: *generic3
+    use_country: FR
+    change_country: France     
 
 # South Georgia and the South Sandwich Islands - same as UK
 GS:
-    address_template: *generic2
-    fallback_template: *fallback3
+    use_country: GB
+    change_country: United Kingdom
+    add_component: county=South Georgia
 
 # Guatemala
 GT:
@@ -707,7 +727,9 @@ HK:
 
 # Heard Island and McDonald Islands - same as Australia
 HM: 
-    address_template: *generic13
+    use_country: AU
+    change_country: Australia
+    add_component: state=Heard Island and McDonald Islands
 
 # Honduras
 HN: 
@@ -763,8 +785,9 @@ IN:
 
 # British Indian Ocean Territory - same as UK
 IO:
-    address_template: *generic2
-    fallback_template: *fallback3
+    use_country: GB
+    change_country: United Kingdom
+    add_component: county=British Indian Ocean Territory
 
 # Iceland
 IS: 
@@ -776,8 +799,9 @@ IT:
 
 # Jersey - same as UK
 JE:
-    address_template: *generic2
-    fallback_template: *fallback3
+    use_country: GB
+    change_country: United Kingdom
+    add_component: county=Channel Islands
 
 # Jamaica
 JM:
@@ -850,7 +874,7 @@ LC:
 
 # Liechtenstein, same as Switzerland
 LI: 
-    address_template: *generic1
+    use_country: CH
 
 # Sri Lanka
 LK:
@@ -897,6 +921,12 @@ MD:
 ME:
     address_template: *generic1
 
+# Marsall Islands
+MH:
+    use_country: US
+    change_country: United States of America
+    add_component: state=Marsall Islands
+
 # Madagascar
 MG:
     address_template: |
@@ -937,6 +967,11 @@ MN:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
         {{{country}}}
 
+# Northern Mariana Islands
+MP:
+    use_country: US
+    change_country: United States of America
+    add_component: state=Northern Mariana Islands
 
 # Montserrat
 MS:
@@ -1009,7 +1044,8 @@ NE:
 
 # Norfolk Island - same as Australia
 NF: 
-    address_template: *generic13
+    use_country: AU
+    change_country: Norfolk Island, Australia
 
 # Nigeria
 NG: 
@@ -1116,12 +1152,19 @@ PM:
 
 # Puerto Rico, same as USA
 PR:
-    address_template: *generic1
-    fallback_template: *fallback2
+    use_country: US
+    change_country: United States of America
+    add_component: state=Puerto Rico
 
 # Portugal
 PT:
     address_template: *generic1
+
+# Palau
+PW: 
+    use_country: US
+    change_country: United States of America
+    add_component: state=Palau
 
 # Parguay
 PY: 
@@ -1174,8 +1217,8 @@ SG:
 
 # Saint Helena, Ascension and Tristan da Cunha - same as UK
 SH:
-    address_template: *generic2
-    fallback_template: *fallback3
+    use_country: GB
+    change_country: United Kingdom
 
 # Slovenia
 SI: 
@@ -1183,7 +1226,7 @@ SI:
 
 # Svalbard and Jan Mayen - same as Norway
 SJ:
-    address_template: *generic1
+    use_country: NO
 
 # Slovakia
 SK: 
@@ -1197,7 +1240,7 @@ SL:
 
 # San Marino - same as IT
 SM: 
-    address_template: *generic8
+    use_country: IT
 
 # Senegal
 SN:
@@ -1243,8 +1286,7 @@ SZ:
 
 # Turks and Caicos Islands - same as UK
 TC:
-    address_template: *generic2
-    fallback_template: *fallback3
+    use_country: GB
 
 # Chad
 TD: 
@@ -1327,8 +1369,9 @@ UG:
 
 # US Minor Outlying Islands, same as USA
 UM: 
-    address_template: *generic4
-    fallback_template: *fallback2
+    use_country: US
+    change_country: United States of America
+    add_component: state=US Minor Outlying Islands
 
 # USA
 US: 
@@ -1356,7 +1399,7 @@ UY:
 
 # Vatican City - same as IT
 VA: 
-    address_template: *generic8
+    use_country: IT
 
 # Venezuela
 VE:
@@ -1369,8 +1412,9 @@ VE:
 
 # US Virgin Islands, same as USA
 VI: 
-    address_template: *generic4
-    fallback_template: *fallback2
+    use_country: US
+    change_country: United States of America
+    add_component: state=US Virgin Islands
 
 # Vietnam
 VN:
@@ -1388,7 +1432,8 @@ WS:
 
 # Mayotte - same as FR
 YT:
-    address_template: *generic3
+    use_country: FR
+    change_country: France     
 
 # South Africa
 ZA: 

@@ -10,4 +10,4 @@ components:
     country_code: PR
     county: San Juan
     postcode: 00901
-expected: 'Wisos Velillas Bar, Calle San Francisco 252, 00901 San Juan Antiguo, Puerto Rico'
+expected: 'Wisos Velillas Bar, 252 Calle San Francisco, San Juan Antiguo, PR 00901, United States of America'

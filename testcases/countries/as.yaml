@@ -1,0 +1,17 @@
+# American Samoa
+# unincorporated territory of the United States
+#
+---
+description: Building in Pago Pago, -14.28181,-170.68354
+components:
+        building: Executive Office Building (American Samoa Government)
+        country: American Samoa
+        country_code: as
+        county: Ituau
+        postcode: 96799
+        road: Route 001
+        village: Faganeanea
+expected: Executive Office Building (American Samoa Government), Route 001, Faganeanea, AS 96799, United States of America
+
+
+
