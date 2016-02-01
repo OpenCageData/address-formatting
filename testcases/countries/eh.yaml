@@ -1,0 +1,18 @@
+# Western Sahara 
+# note - unclear legal status, claimed as part of Morocco
+# see: https://en.wikipedia.org/wiki/Western_Sahara
+# 
+---
+description: Hotel in Laayoune, 27.15658,-13.20123
+components:
+        country: Western Sahara
+        country_code: eh
+        county: Pachalik de Laâyoune
+        hotel: Hôtel Al-Massira
+        postcode: 70036
+        road: Boulevard de la Mecque
+        state_district: Laayoune Province
+expected: Hôtel Al-Massira, Boulevard de la Mecque, Pachalik de Laâyoune, Western Sahara
+
+
+

@@ -133,7 +133,7 @@ generic16: &generic16 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
 # no postcode, no state, just city
@@ -141,7 +141,7 @@ generic17: &generic17 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}} 
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
 # no postcode, just city comma after house number
@@ -561,6 +561,10 @@ EG:
 # Estonia
 EE:
     address_template: *generic1
+
+# Western Sahara
+EH:
+    address_template: *generic17
 
 # Eritrea
 ER:
