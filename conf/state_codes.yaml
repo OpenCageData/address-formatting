@@ -1,6 +1,8 @@
 AU:
     # https://en.wikipedia.org/wiki/States_and_territories_of_Australia
+    AAT: Australian Antarctic Territory
     ACT: Australian Capital Territory
+    HIMI: Heard Island and McDonald Islands
     JBT: Jervis Bay Territory
     NSW: New South Wales
     NT: Northern Territories
@@ -79,7 +81,7 @@ US:
     ME: Maine
     MD: Maryland
     MA: Massachusetts
-    MH: Micronesia 
+    MH: Marsall Islands
     MI: Michigan
     MN: Minnesota
     MS: Mississippi
