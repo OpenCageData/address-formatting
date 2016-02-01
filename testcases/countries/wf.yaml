@@ -1,0 +1,14 @@
+# Wallis and Futuna
+---
+description: Building in Mata'utu
+components:
+        building: Palais royal d'Uvéa
+        country: France, Wallis-et-Futuna (eaux territoriales)
+        country_code: wf
+        road: RT1
+        state: Wallis and Futuna
+        town: Mata'utu
+expected: Palais royal d'Uvéa, RT1, Mata'utu, Wallis-et-Futuna, France
+
+
+

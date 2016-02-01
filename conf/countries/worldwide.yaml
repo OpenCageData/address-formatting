@@ -1426,6 +1426,11 @@ VN:
         {{{state}}} {{{postcode}}}
         {{{country}}}
 
+# Wallis and Futuna, same as France
+WF:
+    use_country: FR
+    change_country: Wallis-et-Futuna, France     
+
 # Samoa
 WS:
     address_template: *generic17
