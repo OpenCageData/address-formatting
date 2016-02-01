@@ -65,6 +65,7 @@ US:
     DE: Delaware
     DC: District of Columbia
     FL: Florida
+    FM: Micronesia
     GA: Georgia
     GU: Guam
     HI: Hawaii
@@ -78,10 +79,12 @@ US:
     ME: Maine
     MD: Maryland
     MA: Massachusetts
+    MH: Micronesia 
     MI: Michigan
     MN: Minnesota
     MS: Mississippi
     MO: Missouri
+    MP: Northern Mariana Islands
     MT: Montana
     NE: Nebraska
     NV: Nevada
@@ -97,6 +100,7 @@ US:
     OR: Oregon
     PA: Pennsylvania
     PR: Puerto Rico
+    PW: Palau
     RI: Rhode Island
     SC: South Carolina
     SD: South Dakota
