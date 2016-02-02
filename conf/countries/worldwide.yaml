@@ -1436,6 +1436,10 @@ VN:
         {{{state}}} {{{postcode}}}
         {{{country}}}
 
+# Vanuatu
+VU:
+    address_template: *generic17
+
 # Wallis and Futuna, same as France
 WF:
     use_country: FR
