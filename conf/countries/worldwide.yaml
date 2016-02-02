@@ -1325,6 +1325,11 @@ TH:
 TJ:
     address_template: *generic1
 
+# Tokelau, territory of New Zealand
+TK:
+    use_country: NZ
+    change_country: Tokulau, New Zealand
+
 # Timor-Leste/East Timor
 TL: 
     address_template: *generic17
@@ -1353,6 +1358,16 @@ TT:
         {{{house_number}}} {{{road}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{{postcode}}}
+        {{{country}}}
+
+# Tuvalu
+TV: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{island}}} {{/first}}
         {{{country}}}
 
 # Tanzania

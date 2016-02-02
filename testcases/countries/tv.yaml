@@ -1,0 +1,13 @@
+# Tuvalu
+---
+description: office in Funafuti, -8.52706,179.19302
+components:
+        city: Funafuti
+        country: Tuvalu
+        country_code: tv
+        public_building: Philatelic Office
+        road: Vaiaku Road
+expected: Philatelic Office, Vaiaku Road, Funafuti, Tuvalu
+
+
+
