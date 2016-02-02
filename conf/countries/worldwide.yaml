@@ -677,6 +677,11 @@ GM:
 GN:
     address_template: *generic14
 
+# Guadeloupe - same as FR
+GP:
+    use_country: FR
+    change_country: France     
+
 # Equatorial Guinea
 GQ: 
     address_template: *generic17
@@ -684,11 +689,6 @@ GQ:
 # Greece
 GR:
     address_template: *generic1
-
-# Guadeloupe - same as FR
-GP:
-    use_country: FR
-    change_country: France     
 
 # South Georgia and the South Sandwich Islands - same as UK
 GS:
@@ -707,6 +707,12 @@ GT:
     postformat_replace:
         - [", (\\d{5})- ",", $1-"]
         - [", -",", "]
+
+# Guam
+GU: 
+    use_country: US
+    change_country: United States of America
+    add_component: state=Guam
 
 # Guinea-Bissau
 GW:
