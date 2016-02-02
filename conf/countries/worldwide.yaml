@@ -402,6 +402,11 @@ BT:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
+# Bouvet Island
+BV:
+    use_country: BV
+    change_country: Bouvet Island, Norway
+
 # Botswana
 BW:
     address_template: |
