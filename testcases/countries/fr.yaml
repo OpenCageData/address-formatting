@@ -12,7 +12,9 @@ components:
      state: Midi-Pyrénées
      suburb: Toulouse Ouest
 expected: 17 Rue du Médecin-Colonel Calbairac, 31000 Toulouse, France
+#
 # French Guyana - part of France, but has its own country code
+#
 ---
 description: House in Cayenne, 4.93802,-52.32985
 components:
