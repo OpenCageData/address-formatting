@@ -1,0 +1,13 @@
+# Niue
+---
+description: Bank in Alofi, -19.05440,-169.92024
+components:
+        bank: Kiwibank
+        country: Niue
+        country_code: nu
+        road: Tuila Road
+        town: Alofi
+expected: Kiwibank, Tuila Road, Alofi, Niue
+
+
+
