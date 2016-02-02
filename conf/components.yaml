@@ -1,6 +1,4 @@
 # ordered list, smallest to largest
-name: locality
----
 name: house_number
 ---
 name: street_number
@@ -21,6 +19,7 @@ aliases:
 name: village
 aliases:
     - hamlet
+    - locality
 ---
 name: neighbourhood
 aliases:
