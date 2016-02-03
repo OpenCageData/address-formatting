@@ -1,0 +1,15 @@
+# Seychelles
+---
+description: Hotel near Victoria, -4.62549,55.44879
+components:
+        city: Victoria
+        country: Seychelles
+        country_code: sc
+        hotel: Bel Air Hotel
+        island: Mahé
+        postcode: SEZ
+        road: Chemin Bel Air
+expected: Bel Air Hotel, Chemin Bel Air, Victoria, Mahé, Seychelles
+
+
+

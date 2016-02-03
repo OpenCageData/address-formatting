@@ -1216,6 +1216,17 @@ SA:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
+# Seychelles
+SC: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{island}}} {{/first}} 
+        {{{island}}}
+        {{{country}}}
+
+
 # Sudan
 SD: 
     address_template: *generic1
@@ -1226,7 +1237,6 @@ SE:
     postformat_replace:
         # fix the postcode to make it \d\d\d \d\d
         - [", (\\d{3})(\\d{2}) ",", $1 $2 "]
-
 
 # Singapore
 SG:
