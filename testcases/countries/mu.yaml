@@ -1,0 +1,17 @@
+# Mauritious
+---
+description: Govt Building in Port Louis, -20.16189,57.50158
+components:
+        building: State Bank of Mauritius
+        city: Port Louis
+        country: Mauritius
+        country_code: mu
+        house_number: 1
+        neighbourhood: Caudan Waterfront
+        postcode: 230
+        road: Queen Elizabeth II Avenue
+        state: Port Louis
+expected: State Bank of Mauritius, 1, Queen Elizabeth II Avenue, Port Louis, Mauritius
+
+
+

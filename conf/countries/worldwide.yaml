@@ -187,8 +187,6 @@ generic22: &generic22 |
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
 
-
-
 fallback1: &fallback1 |
         {{{attention}}}
         {{{house}}}
@@ -1000,6 +998,10 @@ MT:
 # Martinique - same as FR
 MQ:
     address_template: *generic3
+
+# Mauritius
+MU:
+    address_template: *generic18
 
 # Maldives
 MV:
