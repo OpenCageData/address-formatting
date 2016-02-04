@@ -1,0 +1,16 @@
+# Federated States of Micronesia
+---
+description: library in Kolonia, 6.95813,158.20911
+components:
+        country: Federated States of Micronesia
+        country_code: fm
+        library: Pohnpei Public Library
+        postcode: 96941
+        road: Kaselehlia
+        state: Pohnpei
+        town: Kolonia
+expected: Pohnpei Public Library, Kaselehlia, Kolonia, FM 96941, United States of America
+
+
+
+

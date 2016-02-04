@@ -611,6 +611,12 @@ FK:
     change_country: United Kingdom
     add_component: county=Falkland Islands
 
+# Federated States of Micronesia
+FM: 
+    use_country: US
+    change_country: United States of America
+    add_component: state=Micronesia
+
 # Faroe Islands 
 FO: 
     address_template: *generic1
