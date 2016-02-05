@@ -1,0 +1,14 @@
+# Gibraltar
+---
+description: Museum in Gibraltar, 36.13887,-5.35441
+components:
+        country: Gibraltar
+        country_code: gi
+        house_number: 18-20
+        museum: Gibraltar Museum
+        pedestrian: Bomb House Lane
+        town: Gibraltar
+expected: Gibraltar Museum, 18-20 Bomb House Lane, Gibraltar
+
+
+

@@ -674,6 +674,10 @@ GG:
 GH:
     address_template: *generic16
 
+# Gibraltar
+GI: 
+    address_template: *generic16
+
 # Greenland
 GL:
     address_template: *generic1
