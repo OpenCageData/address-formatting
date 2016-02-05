@@ -1222,6 +1222,10 @@ SA:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
+# Solomon Islands
+SB: 
+    address_template: *generic17
+
 # Seychelles
 SC: 
     address_template: |
@@ -1231,7 +1235,6 @@ SC:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{island}}} {{/first}} 
         {{{island}}}
         {{{country}}}
-
 
 # Sudan
 SD: 

@@ -1,0 +1,14 @@
+# Solomon Islands
+---
+description: Library in Honiara, -9.43683,159.96441
+components:
+        city: Honiara
+        country: Solomon Islands
+        country_code: sb
+        library: Solomon Islands National Library
+        road: Mendana Avenue
+        state: Capital Territory
+expected: Solomon Islands National Library, Mendana Avenue, Honiara, Solomon Islands
+
+
+
