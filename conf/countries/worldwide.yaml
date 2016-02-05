@@ -1458,6 +1458,15 @@ VE:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{{postcode}}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
 
+# British Virgin Islands
+VG:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{{island}}}
+        {{{country}}}, {{{postcode}}}
+
 # US Virgin Islands, same as USA
 VI: 
     use_country: US

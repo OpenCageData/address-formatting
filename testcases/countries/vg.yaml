@@ -1,0 +1,17 @@
+# British Virgin Islands
+---
+description: Govt building in Road Town, 18.42132,-64.61601
+components:
+        building: Government of the BVI
+        country: British Virgin Islands
+        country_code: vg
+        house_number: 33
+        island: Tortola
+        postcode: VG1110
+        road: Admin Drive
+        town: Road Town
+expected: Government of the BVI, 33 Admin Drive, Road Town, Tortola, British Virgin Islands, VG1110
+
+
+
+
