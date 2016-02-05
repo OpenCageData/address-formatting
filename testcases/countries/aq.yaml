@@ -1,0 +1,15 @@
+# Antarctica
+---
+description: Building at McMurdo Station, -77.8460,166.7359
+components:
+        building: Oil Separator Building
+        continent: Antarctica
+        country: Antarctica
+        country_code: aq
+        house_number: 72
+        road: McMurdo Roads
+        town: McMurdo Station
+expected: Oil Separator Building, McMurdo Station, Antarctica
+
+
+

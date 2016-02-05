@@ -275,6 +275,14 @@ AM:
 AO:
     address_template: *generic7
 
+# Antarctica
+AQ:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{country}}} || {{{continent}}} {{/first}}
+
 # Argentina
 AR: 
     address_template: *generic9
