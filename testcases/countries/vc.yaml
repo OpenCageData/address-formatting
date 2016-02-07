@@ -1,0 +1,14 @@
+# Saint Vincent and the Grenadines
+---
+description: Bank in Kingstown, 13.15545,-61.22592
+components:
+        bank: Bank of St Vincent and the Grenadines
+        city: Kingstown
+        country: Saint Vincent and the Grenadines
+        country_code: vc
+        county: Saint George
+        road: Grenville Street
+expected: Bank of St Vincent and the Grenadines, Grenville Street, Kingstown, Saint Vincent and the Grenadines
+
+
+

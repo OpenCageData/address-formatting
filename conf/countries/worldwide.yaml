@@ -1464,6 +1464,10 @@ UY:
 VA: 
     use_country: IT
 
+# Saint Vincent and the Grenadines
+VC: 
+    address_template: *generic17
+
 # Venezuela
 VE:
     address_template: |
