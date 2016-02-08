@@ -1299,6 +1299,10 @@ SM:
 SN:
     address_template: *generic3
 
+# Somalia
+SO: 
+    address_template: *generic21
+
 # Suriname
 SR:
     address_template: *generic21

@@ -1,0 +1,18 @@
+# Somalia
+---
+description: Hotel in Mogadishu, 2.03459,45.34384
+components:
+        building: Urubu Hotel
+        city: Mogadishu
+        city_district: Xamar Weyne
+        country: Somalia
+        country_code: so
+        county: Mogadishu
+        road: Port Road
+        state: Banadir
+        suburb: Xamar Weyne
+expected: Urubu Hotel, Port Road, Xamar Weyne, Mogadishu, Somalia
+
+
+
+
