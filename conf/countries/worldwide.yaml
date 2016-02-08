@@ -948,6 +948,11 @@ MD:
 ME:
     address_template: *generic1
 
+# Collectivité de Saint-Martin
+MF:
+    use_country: FR
+    change_country: France     
+
 # Marsall Islands
 MH:
     use_country: US

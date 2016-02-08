@@ -1,0 +1,16 @@
+# Collectivité de Saint-Martin (Overseas collectivity of France)
+---
+description: Post office in Marigot, 18.06671,-63.08566
+components:
+        country: Saint-Martin
+        country_code: mf
+        post_office: Bureau de Poste
+        postcode: 97150
+        road: Rue de La Poste
+        state: Saint-Martin
+        suburb: Concordia
+        town: Marigot
+expected: Bureau de Poste, Rue de La Poste, 97150 Marigot, France
+
+
+
