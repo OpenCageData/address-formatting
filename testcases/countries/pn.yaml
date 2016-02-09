@@ -1,0 +1,15 @@
+# Pitcairn Islands, legally part of UK
+# see: https://en.wikipedia.org/wiki/Pitcairn_Islands
+---
+description: Health center in Adamstown, -25.06572,-130.10004
+components:
+        country: Pitcairn Islands
+        country_code: pn
+        hospital: Pitcairn Health Centre
+        residential: Adamstown
+        road: Hill of Difficulty
+        town: Adamstown
+expected: Pitcairn Health Centre, Adamstown, Pitcairn Islands
+
+
+

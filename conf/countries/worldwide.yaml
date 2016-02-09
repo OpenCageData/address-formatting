@@ -1190,6 +1190,14 @@ PL:
 PM:
     address_template: *generic3
 
+# Pitcairn Islands
+PN:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{island}}} {{/first}} 
+        {{{country}}}
+
 # Puerto Rico, same as USA
 PR:
     use_country: US
