@@ -42,15 +42,20 @@ Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-a
 
    * apartment/flat number, floor numbers
    * PO boxes
-   * using the language of the (destination) address
+   * translating the language of the (destination) address. Whatever langauge is input is output. 
   
 ### Processing logic
 
 Our goal with this repository is a series of (programming) language independent templates. Those templates can then be processed by whatever software you like. 
 
-We've written a working implementation of a processer in Perl, see (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/opencagedata/perl-Geo-Address-Formatter)).
+We've written, use and maintain a working implementation of a processer in Perl, see (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/opencagedata/perl-Geo-Address-Formatter)). 
 
+We would love there to be other langauge implementations. 
 If you do write a processor, please let us know so we can list it here. 
+
+### Coverage
+
+A detailed breakdown of test and configuration coverage can be found by running `bin/coverage.pl`. A list of all known territories is in `conf/country_codes.yaml` Note: the list is simple all officially assigned [ISO 3166-1 alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements), and is not a political statement on whether or not these territories are or are not or should or should not be political states. 
 
 ### File format
 
@@ -86,6 +91,9 @@ Currently we support the following formatting rules:
 
 * `replace:` regex that operates on the input values, useful for removing bureaucratic cruft like "London Borough of ". Note if you define the regex starting with format _X=_, for example _city=_ it should operate only on values with that key
 * `postformat_replace:` regex that operates on the final output
+* `add_component:` with a value of the form `component=XXXX`
+* `change_country:` change the country value of the input, useful for dependent territories. Can include a substitution like `$state` so that that component value is then inserted into the new country value. See `testcases/countries/sh.yaml` for an example.
+* `use_country:` use the formating configuration of another country, useful for dependent territories to avoid duplicating configuration
 
 ### The future
 
@@ -93,6 +101,7 @@ Support all countries in the world.
 
 With more test cases in the future the format may need to evolve. 
 For every rule about addresses there are exceptions and edge cases to consider. 
+More test cases are always needed.
 
 Planned features
 
