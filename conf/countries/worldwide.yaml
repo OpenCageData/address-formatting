@@ -1279,7 +1279,7 @@ SG:
 # Saint Helena, Ascension and Tristan da Cunha - same as UK
 SH:
     use_country: GB
-    change_country: United Kingdom
+    change_country: $state, United Kingdom
 
 # Slovenia
 SI: 

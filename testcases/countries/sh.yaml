@@ -1,0 +1,25 @@
+# Saint Helena, Ascension and Tristan da Cunha
+---
+description: Museum in Jamestown, Saint Helena, -15.92498,-5.71862
+components:
+        country: Saint Helena, Ascension and Tristan da Cunha
+        country_code: sh
+        public_building: Museum of St Helena
+        road: Castle Terrace
+        state: Saint Helena
+        town: Jamestown
+expected: Museum of St Helena, Castle Terrace, Jamestown, Saint Helena, United Kingdom
+
+---
+description: Building on Tristan de Cunha, -37.06714,-12.31022
+components:
+        community_centre: Prince Philip Hall
+        country: Saint Helena, Ascension and Tristan da Cunha
+        country_code: sh
+        hamlet: Edinburgh of the Seven Seas
+        postcode: TDCU 1ZZ
+        state: Tristan da Cunha
+expected: Prince Philip Hall, Edinburgh of the Seven Seas TDCU 1ZZ, Tristan da Cunha, United Kingdom
+
+
+
