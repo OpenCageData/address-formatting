@@ -816,6 +816,10 @@ IO:
     change_country: United Kingdom
     add_component: county=British Indian Ocean Territory
 
+# Iran
+IR: 
+    address_template: *generic17
+
 # Iceland
 IS: 
     address_template: *generic1
