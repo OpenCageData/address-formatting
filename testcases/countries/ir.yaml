@@ -3,14 +3,38 @@
 
 description: Tower in Tehran, 35.699,51.33810
 components:
-            attraction: Azadi Tower,
-            city: Tehran,
-            country: Iran,
-            country_code: ir,
-            postcode: 1351956118,
-            road: Azadi Square,
-            state: Tehran,
+            attraction: Azadi Tower
+            city: Tehran
+            country: Iran
+            country_code: ir
+            postcode: 1351956118
+            road: Azadi Square
+            state: Tehran
             suburb: Ostad Moein
 expected: Azadi Tower, Azadi Square, Tehran, Iran
 
+description: cinema in Tehran, 35.7012,51.3994
+components: 
+        cinema: سپیده
+        city: Tehran
+        country: Iran
+        country_code: ir
+        postcode: 1313913994
+        road: انقلاب اسلامی
+        state: Tehran
+        suburb: سنگلج
+expected: سپیده,انقلاب اسلامی,1313913994,Tehran
+# as you know Farsi is right to left and when you have a text with a mixture of Farsi and English most editors go crazy. Here as you see the order becomes a mess. 
+# Also, geoid titles are not ideal. When you say "سپیده", noone knows what you are talking about. 
 
+description: hospital in Tehran, 35.71173,51.41473
+components:
+        city: Tehran
+        country: Iran
+        country_code: ir
+        hospital: آبان
+        postcode: 1599836511
+        road: Ostad Nejatollahi Street
+        state: Tehran
+        suburb: بهارستان
+expected: آبان,Ostad Nejatollahi Street, 1599836511, Tehran
