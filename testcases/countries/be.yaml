@@ -1,0 +1,16 @@
+# Belgium
+---
+description: Restaurant in Antwerp, 51.21038,4.39812
+components:
+        city: Antwerp
+        city_district: Antwerpen
+        country: Belgium
+        country_code: be
+        county: Antwerp
+        house_number: 63
+        neighbourhood: Sint-Andries
+        postcode: 2000
+        restaurant: Meat & Eat
+        road: Vrijheidstraat
+        state: Flanders
+expected: Meat & Eat, Vrijheidstraat 63, 2000 Antwerp, Belgium
