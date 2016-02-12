@@ -520,6 +520,10 @@ CY:
 # Czech Republic
 CZ: 
     address_template: *generic1
+    postformat_replace:
+        # fix the postcode to make it \d\d\d \d\d 
+        - [", (\\d{3})(\\d{2}) ",", $1 $2 "]
+
 
 # Germany
 DE:
