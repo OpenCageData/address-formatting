@@ -5,6 +5,8 @@
 # 
 use strict;
 use warnings;
+use utf8;
+use feature "unicode_strings";
 
 use Data::Dumper;
 use Getopt::Long;
@@ -25,7 +27,7 @@ if ($help) {
 # get the list of countries
 my %countries;
 my $country_file = dirname(__FILE__) . "/../conf/country_codes.yaml";
-open my $FH, "<", $country_file or die "unable to open $country_file $!";
+open my $FH, "<:encoding(UTF-8)", $country_file or die "unable to open $country_file $!";
 while (my $line = <$FH>){
     chomp($line);
     if ($line =~ m/^(\w\w): \# (.*)$/){
@@ -59,7 +61,7 @@ if ($details){
 
 # which countries have rules?
 my $rules_file = dirname(__FILE__) . '/../conf/countries/worldwide.yaml';
-open my $RFH, "<", $rules_file or die "unable to open $rules_file $!";
+open my $RFH, "<:encoding(UTF-8)", $rules_file or die "unable to open $rules_file $!";
 my %rules;
 while (my $line = <$RFH>){
     chomp($line);
