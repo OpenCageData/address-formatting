@@ -1,0 +1,46 @@
+# Tunisia
+---
+description: main theatre in Tunis 36.79900,10.18083
+components:
+    city: Tunis
+    country: Tunisia
+    country_code: tn
+    postcode: 1000
+    road: Rue de Grèce نهج اليونان
+    state: Tunis
+    state_district: Bab Bhar
+    theatre: Théâtre Municipal de Tunis المسرح البلدي بتونس
+expected: |
+    Théâtre Municipal de Tunis المسرح البلدي بتونس
+    Rue de Grèce نهج اليونان
+    1000 Tunis
+    Tunisia
+---
+description: cinema in Sousse 35.83053,10.64063
+components:
+    cinema: Cinéma Palace
+    city: Sousse
+    country: Tunisia
+    country_code: tn
+    postcode: 4000
+    road: Rue Pasteur
+    state: Sousse
+    suburb: Sousse Riadh
+expected: Cinéma Palace, Rue Pasteur, 4000 Sousse, Tunisia
+---
+description: hospital in Sfax 34.7411,10.7590
+components:
+    city: صفاقس
+    country: Tunisia
+    country_code: tn
+    county: Sfax Medina
+    hospital: CNSS
+    postcode: 3000
+    road: RN 1 طو
+    state: Sfax
+    suburb: صفاقس الجديدة
+expected: |
+    CNSS
+    RN 1 طو
+    3000 Sfax
+    Tunisia
