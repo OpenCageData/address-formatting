@@ -1,0 +1,17 @@
+# New Zealand
+---
+description: House in Wellington, -41.29789,174.78511
+components:
+        city: Wellington
+        country: New Zealand
+        country_code: nz
+        county: Wellington City
+        house_number: 53
+        postcode: 6011
+        road: Pirie Street
+        state: Wellington
+        suburb: Mount Victoria
+expected: 53 Pirie Street, Mount Victoria, Wellington 6011, New Zealand
+
+
+

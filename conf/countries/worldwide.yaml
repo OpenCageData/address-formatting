@@ -1136,7 +1136,7 @@ NU:
 
 # New Zealand
 NZ:
-    address_template: *generic1
+    address_template: *generic20
 
 # Panama
 PA:
