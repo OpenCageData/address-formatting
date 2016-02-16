@@ -8,7 +8,11 @@ components:
         library: Solomon Islands National Library
         road: Mendana Avenue
         state: Capital Territory
-expected: Solomon Islands National Library, Mendana Avenue, Honiara, Solomon Islands
+expected:  |
+    Solomon Islands National Library
+    Mendana Avenue
+    Honiara
+    Solomon Islands
 
 
 

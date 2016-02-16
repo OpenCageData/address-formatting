@@ -10,7 +10,11 @@ components:
             road: rue de Maya-maya
             state: Brazzaville
             suburb: Poto-Poto
-expected: South Africa (Embassy), rue de Maya-maya, Brazzaville, Congo-Brazzaville
+expected:  |
+    South Africa (Embassy)
+    rue de Maya-maya
+    Brazzaville
+    Congo-Brazzaville
 
 
 

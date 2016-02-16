@@ -8,7 +8,11 @@ components:
         road: RT1
         state: Wallis and Futuna
         town: Mata'utu
-expected: Palais royal d'Uvéa, RT1, Mata'utu, Wallis-et-Futuna, France
+expected:  |
+    Palais royal d'Uvéa
+    RT1
+    Mata'utu
+    Wallis-et-Futuna, France
 
 
 

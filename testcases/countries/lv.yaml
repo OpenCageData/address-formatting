@@ -4,11 +4,14 @@ components:
     city: Riga
     country: Latvia
     country_code: lv
-    county: R\u012bga
+    county: Rīga
     house_number: 81
     postcode: LV-1009
-    road: \u0122ertr\u016bdes iela
+    road: Ģertrūdes iela
     state: Vidzeme
     suburb: Avoti
-expected: \u0122ertr\u016bdes iela 81, Riga, LV-1009, Latvia
+expected:  |
+    Ģertrūdes iela 81
+    Riga, LV-1009
+    Latvia
 

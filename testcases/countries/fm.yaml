@@ -9,7 +9,11 @@ components:
         road: Kaselehlia
         state: Pohnpei
         town: Kolonia
-expected: Pohnpei Public Library, Kaselehlia, Kolonia, FM 96941, United States of America
+expected:  |
+    Pohnpei Public Library
+    Kaselehlia
+    Kolonia, FM 96941
+    United States of America
 
 
 

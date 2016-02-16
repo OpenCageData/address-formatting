@@ -10,7 +10,11 @@ components:
             state: Hong Kong
             state_district: Kowloon
             suburb: Tsim Sha Tsui
-expected: Chinachem Golden Plaza Cinema, Science Museum Road, Kowloon, Hong Kong
+expected:  |
+    Chinachem Golden Plaza Cinema
+    Science Museum Road
+    Kowloon
+    Hong Kong
 
 
 

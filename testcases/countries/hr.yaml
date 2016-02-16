@@ -10,7 +10,10 @@ components:
    postcode: 20000
    road: Marijana Blazica
    suburb: Pile
-expected: Marijana Blazica 2, 20000 Dubrovnik, Croatia
+expected:  |
+    Marijana Blazica 2
+    20000 Dubrovnik
+    Croatia
 
 
 

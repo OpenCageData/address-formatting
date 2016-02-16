@@ -8,7 +8,11 @@ components:
             library: Gambia National Library
             road: Reg Pye Lane
             state: Banjul
-expected: Gambia National Library, Reg Pye Lane, Banjul, The Gambia
+expected:  |
+    Gambia National Library
+    Reg Pye Lane
+    Banjul
+    The Gambia
 
 
 

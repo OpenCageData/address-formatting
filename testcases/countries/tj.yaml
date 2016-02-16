@@ -10,7 +10,10 @@ components:
         postcode: 734018
         road: Mushfiki Street
         state: Districts of Republican Subordination
-expected: Mushfiki Street 160, 734018 Dushanbe, Tajikistan
+expected:  |
+    Mushfiki Street 160
+    734018 Dushanbe
+    Tajikistan
 
 
 

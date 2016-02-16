@@ -8,7 +8,10 @@ components:
         museum: Gibraltar Museum
         pedestrian: Bomb House Lane
         town: Gibraltar
-expected: Gibraltar Museum, 18-20 Bomb House Lane, Gibraltar
+expected:  |
+    Gibraltar Museum
+    18-20 Bomb House Lane
+    Gibraltar
 
 
 

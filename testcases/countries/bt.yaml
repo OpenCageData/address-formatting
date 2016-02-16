@@ -9,7 +9,11 @@ components:
             postcode: 810
             road: Chang Lam
             state: Thimphu District
-expected: Bhutan National Bank, Chang Lam, Thimphu 810, Bhutan
+expected:  |
+    Bhutan National Bank
+    Chang Lam
+    Thimphu 810
+    Bhutan
 
 
 

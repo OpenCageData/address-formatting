@@ -7,7 +7,11 @@ components:
             country_code: lc
             road: Bridge Street
             town: Castries
-expected: First Caribbean International Bank, Bridge Street, Castries, Saint Lucia
+expected:  |
+    First Caribbean International Bank
+    Bridge Street
+    Castries
+    Saint Lucia
 
 
 

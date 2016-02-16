@@ -9,7 +9,10 @@ components:
         house_number: 72
         road: McMurdo Roads
         town: McMurdo Station
-expected: Oil Separator Building, McMurdo Station, Antarctica
+expected:  |
+    Oil Separator Building
+    McMurdo Station
+    Antarctica
 
 
 

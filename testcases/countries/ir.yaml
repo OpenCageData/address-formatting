@@ -11,6 +11,10 @@ components:
             road: Azadi Square
             state: Tehran
             suburb: Ostad Moein
-expected: Azadi Tower, Azadi Square, Tehran, Iran
+expected:  |
+    Azadi Tower
+    Azadi Square
+    Tehran
+    Iran
 
 

@@ -8,7 +8,12 @@ components:
             county: New Providence
             courthouse: Supreme Court
             road: Bank Lane
-expected: Supreme Court, Bank Lane, Nassau, New Providence, The Bahamas
+expected:  |
+    Supreme Court
+    Bank Lane
+    Nassau
+    New Providence
+    The Bahamas
 
 
 

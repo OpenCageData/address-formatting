@@ -9,7 +9,11 @@ components:
             road: Farer Plaza
             suburb: Gerald's
             town: Brades
-expected: Government Headquarters, Farer Plaza, Brades, Montserrat
+expected:  |
+    Government Headquarters
+    Farer Plaza
+    Brades
+    Montserrat
 
 
 

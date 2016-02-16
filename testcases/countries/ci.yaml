@@ -11,7 +11,11 @@ components:
             road: Boulevard de Marseille
             state: Abidjan
             suburb: Zone 2b
-expected: La Poste, Boulevard de Marseille, Treichville, Côte d'Ivoire
+expected:  |
+    La Poste
+    Boulevard de Marseille
+    Treichville
+    Côte d'Ivoire
 
 
 

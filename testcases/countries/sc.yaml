@@ -9,7 +9,12 @@ components:
         island: Mahé
         postcode: SEZ
         road: Chemin Bel Air
-expected: Bel Air Hotel, Chemin Bel Air, Victoria, Mahé, Seychelles
+expected:  |
+    Bel Air Hotel
+    Chemin Bel Air
+    Victoria
+    Mahé
+    Seychelles
 
 
 

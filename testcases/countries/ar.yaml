@@ -12,7 +12,12 @@ components:
    road: Cerrito
    state: Autonomous City of Buenos Aires
    suburb: Retiro
-expected: CAI, Cerrito 1250, Retiro, C1010AAZ Buenos Aires, Argentina
+expected:  |
+    CAI
+    Cerrito 1250
+    Retiro
+    C1010AAZ Buenos Aires
+    Argentina
 
 
 

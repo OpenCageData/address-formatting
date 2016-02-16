@@ -11,5 +11,9 @@ components:
             postcode: 85339
             suburb: Škaljari
             town: Kotor
-expected: Hotel Maria, Trg Sv. Luke 449, 85339 Kotor, Montenegro
+expected:  |
+    Hotel Maria
+    Trg Sv. Luke 449
+    85339 Kotor
+    Montenegro
 

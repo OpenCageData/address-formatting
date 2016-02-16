@@ -12,7 +12,11 @@ components:
             state: Western Area
             state_district: Western Area Urban
             suburb: Kingtom
-expected: St Thomas Primary School, BISMARK JOHNSON ST, Freetown, Sierra Leone
+expected:  |
+    St Thomas Primary School
+    BISMARK JOHNSON ST
+    Freetown
+    Sierra Leone
 
 
 

@@ -13,4 +13,8 @@ components:
         restaurant: Meat & Eat
         road: Vrijheidstraat
         state: Flanders
-expected: Meat & Eat, Vrijheidstraat 63, 2000 Antwerp, Belgium
+expected:  |
+    Meat & Eat
+    Vrijheidstraat 63
+    2000 Antwerp
+    Belgium

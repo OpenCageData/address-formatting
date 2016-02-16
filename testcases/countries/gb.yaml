@@ -12,7 +12,11 @@ components:
     state: England
     state_district: Greater London
     suburb: Clerkenwell
-expected: Lokku Ltd, 82 Clerkenwell Road, London EC1M 5RF, United Kingdom
+expected:  |
+    Lokku Ltd
+    82 Clerkenwell Road
+    London EC1M 5RF
+    United Kingdom
 
 ---
 description: London
@@ -23,7 +27,9 @@ components:
     county: London
     state: England
     state_district: Greater London
-expected: London, United Kingdom
+expected:  |
+    London
+    United Kingdom
 
 ---
 description: Manchester
@@ -33,7 +39,10 @@ components:
     country_code: GB
     county: Manchester
     state: England
-expected: Manchester, England, United Kingdom
+expected:  |
+    Manchester
+    England
+    United Kingdom
 
 
 ---
@@ -46,7 +55,10 @@ components:
     state: England
     state_district: Greater London
     suburb: Clerkenwell
-expected: Clerkenwell, London, United Kingdom
+expected:  |
+    Clerkenwell
+    London
+    United Kingdom
 
 ---
 description: City of Westminster, 51.52089885, -0.14007993
@@ -62,4 +74,8 @@ components:
     state_district: Greater London
     suburb: Fitzrovia
     university: University of Westminster
-expected: University of Westminster, 115 New Cavendish Street, London W1T 5DU, United Kingdom
+expected:  |
+    University of Westminster
+    115 New Cavendish Street
+    London W1T 5DU
+    United Kingdom

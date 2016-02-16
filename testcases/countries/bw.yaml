@@ -8,6 +8,10 @@ components:
     country_code: bw
     road: Queens Road
     state: South-East District
-expected: Bank Gaborone, Queens Road, Gaborone, Botswana
+expected:  |
+    Bank Gaborone
+    Queens Road
+    Gaborone
+    Botswana
 
 

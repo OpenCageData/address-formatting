@@ -9,4 +9,8 @@ components:
     road: Triq \u0120or\u0121 Borg Olivier
     state: Malta
     suburb: I\u010b-\u010airkewwa
-expected: Karizia Pharmacy, Triq \u0120or\u0121 Borg Olivier, Mellieha, Malta
+expected:  |
+    Karizia Pharmacy
+    Triq \u0120or\u0121 Borg Olivier
+    Mellieha
+    Malta

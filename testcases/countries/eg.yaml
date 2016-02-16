@@ -10,7 +10,13 @@ components:
             road: Mahmoud Mokhtar
             state: Giza Governorate
             suburb: Dokki
-expected: National Cultural Centre, Mahmoud Mokhtar, Dokki, Giza, 11231, Egypt
+expected:  |
+    National Cultural Centre
+    Mahmoud Mokhtar
+    Dokki
+    Giza
+    11231
+    Egypt
 
 
 

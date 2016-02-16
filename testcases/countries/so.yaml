@@ -11,7 +11,12 @@ components:
         road: Port Road
         state: Banadir
         suburb: Xamar Weyne
-expected: Urubu Hotel, Port Road, Xamar Weyne, Mogadishu, Somalia
+expected:  |
+    Urubu Hotel
+    Port Road
+    Xamar Weyne
+    Mogadishu
+    Somalia
 
 
 

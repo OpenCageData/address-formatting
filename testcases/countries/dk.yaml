@@ -11,4 +11,7 @@ components:
     road: Baggårde
     state: Region of Southern Denmark
     village: Ærøskøbing
-expected: Baggårde 17A, 5970 Ærøskøbing, Denmark
+expected:  |
+    Baggårde 17A
+    5970 Ærøskøbing
+    Denmark

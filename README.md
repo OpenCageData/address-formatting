@@ -24,7 +24,9 @@ you want to write logic to compile addresses in the format consumers expect
 
 or perhaps simply
 
-	Rue du Médecin-Colonel Calbairac, Toulouse
+	Rue du Médecin-Colonel Calbairac
+        Toulouse
+        France
 
 This repository contains templates for various address formats used in
 territories around the world. It also contains test cases.
@@ -105,11 +107,9 @@ More test cases are always needed.
 
 Planned features
 
-  * shorten/abbreviate addresses, e.g. 'Hoover Str' instead of 'Hoover Street'
-  * basic formatting of 8/9 digit postcodes
+  * optionally shorten/abbreviate addresses, e.g. 'Hoover Str' instead of 'Hoover Street'
+  * basic error checking, for example ignore things which obviously can not be postcodes
   * define rules for postcode format specifically
-  * text highlighting
-  * de-duplication
   * right-to-left
 
 We welcome your pull requests. Together we can address the world!

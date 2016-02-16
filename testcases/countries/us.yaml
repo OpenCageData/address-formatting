@@ -10,7 +10,10 @@ components:
     state: California
     country: United States of America
     country_code: US
-expected: 301 Hamilton Avenue, Palo Alto, CA 94303, United States of America
+expected:  |
+    301 Hamilton Avenue
+    Palo Alto, CA 94303
+    United States of America
 
 ---
 description: correct "USA"
@@ -24,7 +27,10 @@ components:
     state: California
     country: USA
     country_code: US
-expected: 301 Hamilton Avenue, Palo Alto, CA 94303, United States of America
+expected:  |
+    301 Hamilton Avenue
+    Palo Alto, CA 94303
+    United States of America
 
 ---
 description: correct "United States"
@@ -38,7 +44,10 @@ components:
     state: California
     country: United States
     country_code: US
-expected: 301 Hamilton Avenue, Palo Alto, CA 94303, United States of America
+expected:  |
+    301 Hamilton Avenue
+    Palo Alto, CA 94303
+    United States of America
 
 ---
 description: correct "US"
@@ -52,7 +61,10 @@ components:
     state: California
     country: US
     country_code: US
-expected: 301 Hamilton Avenue, Palo Alto, CA 94303, United States of America
+expected:  |
+    301 Hamilton Avenue
+    Palo Alto, CA 94303
+    United States of America
 
 ---
 description: town in CA
@@ -62,7 +74,11 @@ components:
     country_code: US
     county: Santa Clara County
     state: California
-expected: Palo Alto, Santa Clara County, California, United States of America
+expected:  |
+    Palo Alto
+    Santa Clara County
+    California
+    United States of America
 ---
 description: house number in New York, no city
 components:
@@ -75,4 +91,7 @@ components:
     state: New York
     country: United States of America
     country_code: US
-expected: 175 Varick Street, New York City, NY 10014, United States of America
+expected:  |
+    175 Varick Street
+    New York City, NY 10014
+    United States of America

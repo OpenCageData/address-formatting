@@ -11,7 +11,11 @@ components:
     road: Román Guerra
     state: Maldonado
     suburb: Sarubbi
-expected: Classic Restaurant y Parrillada, Román Guerra, 20000 Maldonado, Uruguay
+expected:  |
+    Classic Restaurant y Parrillada
+    Román Guerra
+    20000 Maldonado
+    Uruguay
 
 
 

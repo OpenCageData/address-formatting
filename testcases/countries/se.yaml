@@ -13,7 +13,11 @@ components:
             road: Storgatan
             state: Västra Götalands län
             suburb: Vasastaden
-expected: Poseidon, Storgatan 33, 411 34 Gothenburg, Sweden
+expected:  |
+    Poseidon
+    Storgatan 33
+    411 34 Gothenburg
+    Sweden
 ---
 description: Thai House
 components:
@@ -27,4 +31,8 @@ components:
     state: Stockholms län
     suburb: Infra City
     town: Upplands Väsby
-expected: Restaurang Thai House, Kanalvägen 7, 194 61 Upplands Väsby, Sweden
+expected:  |
+    Restaurang Thai House
+    Kanalvägen 7
+    194 61 Upplands Väsby
+    Sweden

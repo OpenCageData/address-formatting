@@ -11,7 +11,11 @@ components:
     school: Brampton Centennial Secondary School
     state: Ontario
     suburb: Ridgehill
-expected: Brampton Centennial Secondary School, 251 McMurchy Avenue South, Brampton, ON L6Y 1Z4, Canada
+expected:  |
+    Brampton Centennial Secondary School
+    251 McMurchy Avenue South
+    Brampton, ON L6Y 1Z4
+    Canada
 
 
 

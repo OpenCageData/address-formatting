@@ -8,7 +8,11 @@ components:
         guest_house: Room with a view
         road: Rue de Paris Street
         state: Shefa Province
-expected: Room with a view, Rue de Paris Street, Port Vila, Vanuatu
+expected:  |
+    Room with a view
+    Rue de Paris Street
+    Port Vila
+    Vanuatu
 
 
 

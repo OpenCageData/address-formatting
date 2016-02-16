@@ -7,7 +7,11 @@ components:
         country_code: nu
         road: Tuila Road
         town: Alofi
-expected: Kiwibank, Tuila Road, Alofi, Niue
+expected:  |
+    Kiwibank
+    Tuila Road
+    Alofi
+    Niue
 
 
 

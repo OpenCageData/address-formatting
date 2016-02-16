@@ -10,7 +10,11 @@ components:
             road: ဆိပ်ကမ်းသာလမ်း - Seik Kan Tha St
             state: Yangon
             town: Kyauktada
-expected: The Strand Hotel, 92 ဆိပ်ကမ်းသာလမ်း - Seik Kan Tha St, Kyauktada, 11182, Myanmar
+expected:  |
+    The Strand Hotel
+    92 ဆိပ်ကမ်းသာလမ်း - Seik Kan Tha St
+    Kyauktada, 11182
+    Myanmar
 
 
 

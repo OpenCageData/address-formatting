@@ -9,4 +9,8 @@ components:
     country: Peru
     country_code: PE
     state: Lima
-expected: 'Discoteca Ophera, TUPAC AMARU, Huacho, Peru'
+expected:  |
+    Discoteca Ophera
+    TUPAC AMARU
+    Huacho
+    Peru

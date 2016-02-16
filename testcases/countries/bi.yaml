@@ -11,7 +11,11 @@ components:
     road: Avenue du Commerce
     state: Bujumbura Mairie
     suburb: Building Bata
-expected: Bonauto s.a., Avenue du Commerce 17, Bujumbura, Burundi
+expected:  |
+    Bonauto s.a.
+    Avenue du Commerce 17
+    Bujumbura
+    Burundi
 
 
 

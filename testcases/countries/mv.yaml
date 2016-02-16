@@ -9,7 +9,11 @@ components:
             postcode: 20237
             road: Buruzu Magu
             state: Malé
-expected: Voice of Maledives, Buruzu Magu, Malé 20237, Maldives
+expected:  |
+    Voice of Maledives
+    Buruzu Magu
+    Malé 20237
+    Maldives
 
 
 

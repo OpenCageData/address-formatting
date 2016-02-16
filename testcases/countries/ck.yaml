@@ -7,7 +7,11 @@ components:
             country_code: ck
             hospital: Old Hospital
             road: Ara Tapu
-expected: Old Hospital, Ara Tapu, Te-Au-O-Tonga, Cook Islands
+expected:  |
+    Old Hospital
+    Ara Tapu
+    Te-Au-O-Tonga
+    Cook Islands
 
 
 

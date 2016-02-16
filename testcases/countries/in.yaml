@@ -11,5 +11,11 @@ components:
     restaurant: Anand Bhavan (vegetarian)
     state: Telangana
     suburb: Charminar
-expected: 'Anand Bhavan (vegetarian), uppuguda, Charminar, Hyderabad - 500064, Telangana, India'
+expected:  |
+    Anand Bhavan (vegetarian)
+    uppuguda
+    Charminar
+    Hyderabad - 500064
+    Telangana
+    India
 

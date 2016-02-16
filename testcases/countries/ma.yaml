@@ -11,4 +11,8 @@ components:
     state: Marrakech-Tensift-El Haouz
     suburb: Bab Doukkala
     townhall: Hotel de Ville
-expected: 'Hotel de Ville, Rue El Adala, Marrakesh, Morocco'
+expected:  |
+    Hotel de Ville
+    Rue El Adala
+    Marrakesh
+    Morocco

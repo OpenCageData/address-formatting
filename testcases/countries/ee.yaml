@@ -12,5 +12,8 @@ components:
   postcode: 10613
   road: Kasvu
   suburb: Kristiine linnaosa
-expected: Kasvu 15, 10613 Tallinn, Estonia
+expected:  |
+    Kasvu 15
+    10613 Tallinn
+    Estonia
 

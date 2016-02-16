@@ -12,7 +12,12 @@ components:
             state: Niamey
             suburb: Plateau
             village: Néini Goungou
-expected: Embassy of the Federal Republic of Germany, 71, Boulevard Général De Gaulle, Niamey, Niger
+expected:  |
+    Embassy of the Federal Republic of Germany
+    71
+    Boulevard Général De Gaulle
+    Niamey
+    Niger
 
 
 

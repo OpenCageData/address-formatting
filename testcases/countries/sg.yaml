@@ -8,4 +8,6 @@ components:
     neighbourhood: Chinatown
     road: Shenton Way
     suburb: Shenton Way
-expected: 76 Shenton Way, Singapore
+expected:  |
+    76 Shenton Way
+    Singapore

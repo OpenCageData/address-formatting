@@ -12,7 +12,11 @@ components:
             road: Avenue Nelson Mandela
             state_district: Kadiogo
             suburb: Bilbalogho
-expected: Ecobank, Avenue Nelson Mandela, Ouagadougou, Burkina Faso
+expected:  |
+    Ecobank
+    Avenue Nelson Mandela
+    Ouagadougou
+    Burkina Faso
 
 
 

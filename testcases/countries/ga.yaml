@@ -12,7 +12,12 @@ components:
             road: Rue Ange M'ba
             state: Estuaire
             suburb: Nombakele
-expected: Consulat De France, Rue Ange M'ba, Nombakele, Libreville, Gabon
+expected:  |
+    Consulat De France
+    Rue Ange M'ba
+    Nombakele
+    Libreville
+    Gabon
 
 
 

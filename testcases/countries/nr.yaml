@@ -7,7 +7,11 @@ components:
             public_building: Parliament
             road: Island Ring Road
             village: Yaren
-expected: Parliament, Island Ring Road, Yaren, Nauru
+expected:  |
+    Parliament
+    Island Ring Road
+    Yaren
+    Nauru
 
 
 

@@ -17,5 +17,10 @@ components:
             school: Shrewsbury International School
             state: Bangkok
             suburb: Bang Kho Laem District
-expected: Shrewsbury International School, Thanon Charoen Krung, Wat Phraya Krai, Bang Kho Laem District, Bangkok 10120, Thailand
+expected:  |
+    Shrewsbury International School
+    Thanon Charoen Krung
+    Wat Phraya Krai, Bang Kho Laem District
+    Bangkok 10120
+    Thailand
 

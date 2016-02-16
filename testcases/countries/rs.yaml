@@ -12,4 +12,8 @@ components:
     road: Goce Delceva
     state: Central Serbia
     suburb: Zemun
-expected: Ресторан Лидо, Goce Delceva 2, 11080 Belgrade, Serbia
+expected:  |
+    Ресторан Лидо
+    Goce Delceva 2
+    11080 Belgrade
+    Serbia

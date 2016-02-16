@@ -8,7 +8,12 @@ components:
             guest_house: Panama House Bed & Breakfast
             road: Avenida 1 C Norte
             suburb: El Cangrejo
-expected: Panama House Bed & Breakfast, Avenida 1 C Norte, El Cangrejo, Ciudad de Panamá, Panamá
+expected:  |
+    Panama House Bed & Breakfast
+    Avenida 1 C Norte
+    El Cangrejo
+    Ciudad de Panamá
+    Panamá
 ---
 description: Pharmacy in Nueva California, 8.77977,-82.64522
 components:
@@ -18,7 +23,12 @@ components:
             pharmacy: Celina
             road: Volcan-Rio Sereno
             state: Chiriquí
-expected: Celina, Volcan-Rio Sereno, Nueva California, Chiriquí, Panama
+expected:  |
+    Celina
+    Volcan-Rio Sereno
+    Nueva California
+    Chiriquí
+    Panama
 
 
 

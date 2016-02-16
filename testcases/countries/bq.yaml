@@ -9,7 +9,11 @@ components:
             school: Parokia San Bernardo
             state: Caribbean Netherlands
             suburb: Sabana
-expected: Parokia San Bernardo, Kaya Libertador Simon Bolivar, Bonaire, Caribbean Netherlands, The Netherlands
+expected:  |
+    Parokia San Bernardo
+    Kaya Libertador Simon Bolivar
+    Bonaire
+    Caribbean Netherlands
 
 
 

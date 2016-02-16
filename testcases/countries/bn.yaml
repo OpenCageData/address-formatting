@@ -9,7 +9,12 @@ components:
             county: Brunei-Muara
             postcode: BE4119
             road: Simpang 137
-expected: Gadong Centrepoint, Simpang 137, Bandar Seri Begawan, Brunei-Muara BE4119, Brunei
+expected:  |
+    Gadong Centrepoint
+    Simpang 137
+    Bandar Seri Begawan
+    Brunei-Muara BE4119
+    Brunei
 
 
 

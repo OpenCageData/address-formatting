@@ -10,7 +10,11 @@ components:
         state: Saint-Martin
         suburb: Concordia
         town: Marigot
-expected: Bureau de Poste, Rue de La Poste, 97150 Marigot, France
+expected:  |
+    Bureau de Poste
+    Rue de La Poste
+    97150 Marigot
+    France
 
 
 

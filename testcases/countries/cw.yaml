@@ -11,7 +11,10 @@ components:
             state: Curaçao
             suburb: Seru Domi
             town: Willemstad
-expected: Jan Erasmusstraat 14, Willemstad, Curaçao
+expected:  |
+    Jan Erasmusstraat 14
+    Willemstad
+    Curaçao
 
 
 

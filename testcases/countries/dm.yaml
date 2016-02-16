@@ -10,7 +10,11 @@ components:
             state: Saint George Parish
             suburb: Potters Ville
             town: Roseau
-expected: General Post Office, Drury Lane, Roseau, Dominica
+expected:  |
+    General Post Office
+    Drury Lane
+    Roseau
+    Dominica
 
 
 

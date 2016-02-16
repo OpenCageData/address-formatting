@@ -10,7 +10,10 @@ components:
     road: Mainguard Street
     state_district: Connacht
     suburb: Claddagh
-expected: 8-9 Mainguard Street, Galway, Ireland
+expected:  |
+    8-9 Mainguard Street
+    Galway
+    Ireland
 
 ---
 # 52.65417, -7.25222
@@ -21,7 +24,9 @@ components:
     county: Kilkenny
     state: Leinster
     town: Kilkenny
-expected: Kilkenny, Ireland
+expected:  |
+    Kilkenny
+    Ireland
 
 ---
 # Friar's Hill - 52.54593995, -6.95706874120767
@@ -33,4 +38,8 @@ components:
     residential: Friar's Hill
     state_district: Leinster
     town: Graiguenamanagh
-expected: Friar's Hill, Graiguenamanagh, County Kilkenny, Ireland
+expected:  |
+    Friar's Hill
+    Graiguenamanagh
+    County Kilkenny
+    Ireland

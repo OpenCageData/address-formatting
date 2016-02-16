@@ -9,7 +9,11 @@ components:
             postcode: 456
             road: Boulevard de Strasbourg
             state: N'Djamena Region
-expected: Le Meridien - Chari, Boulevard de Strasbourg, N'Djamena, Chad
+expected:  |
+    Le Meridien - Chari
+    Boulevard de Strasbourg
+    N'Djamena
+    Chad
 
 
 

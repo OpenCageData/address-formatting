@@ -10,7 +10,10 @@ components:
         postcode: 96913
         road: Father San Vitores Street
         state: Guam
-expected: 258 Father San Vitores Street, Tamuning, GU 96913, United States of America
+expected:  |
+    258 Father San Vitores Street
+    Tamuning, GU 96913
+    United States of America
 
 
 

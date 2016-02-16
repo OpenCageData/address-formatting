@@ -265,7 +265,7 @@ AL:
         {{{country}}}
     postformat_replace:
         # fix the postcode to add - after numbers
-        - [", (\\d{4}) ([^,]*), ",", $1-$2, "]
+        - ["\n(\\d{4}) ([^,]*)\n","\n$1-$2\n"]
 
 # Armenia
 AM:
@@ -375,7 +375,7 @@ BO:
 # Dutch Caribbean / Bonaire
 BQ:
     use_country: NL
-    change_country: Caribbean Netherlands, The Netherlands
+    change_country: Caribbean Netherlands
 
 # Brazil
 BR:
@@ -502,7 +502,7 @@ CV:
     address_template: *generic1
     postformat_replace:
         # fix the postcode to add - after numbers
-        - [", (\\d{4}) ([^,]*), ",", $1-$2, "]
+        - ["\n(\\d{4}) ([^,]*)\n","\n$1-$2\n"]
 
 # Curaçao
 CW: 
@@ -522,7 +522,7 @@ CZ:
     address_template: *generic1
     postformat_replace:
         # fix the postcode to make it \d\d\d \d\d 
-        - [", (\\d{3})(\\d{2}) ",", $1 $2 "]
+        - ["\n(\\d{3})(\\d{2}) ","\n$1 $2 "]
 
 
 # Germany
@@ -540,9 +540,9 @@ DE:
         - ["^Gemeindefreies Gebiet ",""]
         - ["city=Alt-Berlin","Berlin"]
     postformat_replace:
-        - ["Berlin, Berlin","Berlin"]
-        - ["Bremen, Bremen","Bremen"]
-        - ["Hamburg, Hamburg","Hamburg"]
+        - ["Berlin\nBerlin","Berlin"]
+        - ["Bremen\nBremen","Bremen"]
+        - ["Hamburg\nHamburg","Hamburg"]
 
 # Djibouti
 DJ:
@@ -661,7 +661,8 @@ GB:
         - ["London, London","London"]
         - ["London, Greater London","London"]
         - ["City of Westminster","London"]
-        - ["London, England, United Kingdom","London, United Kingdom"]
+        - [", United Kingdom$","\nUnited Kingdom"]
+        - ["London\nEngland\nUnited Kingdom","London\nUnited Kingdom"]
 
 # Grenada
 GD:
@@ -730,8 +731,8 @@ GT:
         {{{postcode}}}-{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
         {{{country}}}
     postformat_replace:
-        - [", (\\d{5})- ",", $1-"]
-        - [", -",", "]
+        - ["\n(\\d{5})- ","\n$1-"]
+        - ["\n -","\n"]
 
 # Guam
 GU: 
@@ -1106,8 +1107,8 @@ NL:
     address_template: *generic1
     postformat_replace:
         # fix the postcode to make it \d\d\d\d \w\w
-        - [", (\\d{4})(\\w{2}) ",", $1 $2 "]
-        - [", Koninkrijk der Nederlanden$",", Nederland"]
+        - ["\n(\\d{4})(\\w{2}) ","\n$1 $2 "]
+        - ["\nKoninkrijk der Nederlanden$","\nNederland"]
 
 
 # Norway
@@ -1278,7 +1279,7 @@ SE:
     address_template: *generic1
     postformat_replace:
         # fix the postcode to make it \d\d\d \d\d
-        - [", (\\d{3})(\\d{2}) ",", $1 $2 "]
+        - ["\n(\\d{3})(\\d{2}) ","\n$1 $2 "]
 
 # Singapore
 SG:
@@ -1341,7 +1342,7 @@ SV:
         {{{state}}} 
         {{{country}}}
     postformat_replace:
-        - [", - ",", "]
+        - ["\n- ","\n "]
 
 # Sint Maarten
 SX: 
@@ -1438,7 +1439,7 @@ TZ:
     address_template: *generic14
     fallback_template: *generic14
     postformat_replace:
-        - ["Dar es Salaam, Dar es Salaam","Dar es Salaam"]
+        - ["Dar es Salaam\nDar es Salaam","Dar es Salaam"]
 
 # Ukraine
 UA:
@@ -1466,9 +1467,9 @@ US:
     address_template: *generic4
     fallback_template: *fallback2
     postformat_replace:
-        - [", US$",", United States of America"]
-        - [", USA$",", United States of America"]
-        - [", United States$",", United States of America"]
+        - ["\nUS$","\nUnited States of America"]
+        - ["\nUSA$","\nUnited States of America"]
+        - ["\nUnited States$","\nUnited States of America"]
 
 # Uzbekistan
 UZ:

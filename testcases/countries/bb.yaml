@@ -10,7 +10,11 @@ components:
             post_office: General Post Office
             postcode: BB11093
             road: Cheapside Road
-expected: General Post Office, Cheapside Road, Bridgetown, Barbados
+expected:  |
+    General Post Office
+    Cheapside Road
+    Bridgetown
+    Barbados
 
 
 

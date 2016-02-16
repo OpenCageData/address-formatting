@@ -11,7 +11,11 @@ components:
             road: Rue 415
             state: Bamako District
             suburb: Niaréla 
-expected: Ambassade de Russie, Rue 415, Bamako, Mali
+expected:  |
+    Ambassade de Russie
+    Rue 415
+    Bamako
+    Mali
 
 
 

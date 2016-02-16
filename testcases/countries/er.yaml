@@ -9,7 +9,11 @@ components:
             postcode: 1004
             road: Harnet Avenue
             state: Maekel Region
-expected: High Court of Eritrea, Harnet Avenue, Asmara, Eritrea
+expected:  |
+    High Court of Eritrea
+    Harnet Avenue
+    Asmara
+    Eritrea
 
 
 

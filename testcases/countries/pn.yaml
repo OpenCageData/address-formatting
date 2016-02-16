@@ -9,7 +9,10 @@ components:
         residential: Adamstown
         road: Hill of Difficulty
         town: Adamstown
-expected: Pitcairn Health Centre, Adamstown, Pitcairn Islands
+expected:  |
+    Pitcairn Health Centre
+    Adamstown
+    Pitcairn Islands
 
 
 

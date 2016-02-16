@@ -11,7 +11,11 @@ components:
         postcode: 230
         road: Queen Elizabeth II Avenue
         state: Port Louis
-expected: State Bank of Mauritius, 1, Queen Elizabeth II Avenue, Port Louis, Mauritius
+expected:  |
+    State Bank of Mauritius
+    1, Queen Elizabeth II Avenue
+    Port Louis
+    Mauritius
 
 
 

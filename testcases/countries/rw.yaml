@@ -11,7 +11,11 @@ components:
     road: KN 82 Street
     state: Kigali City
     suburb: Nyarugenge
-expected: Energy Water and Sanitation Authority head office, KN 82 Street, Kigali, Rwanda
+expected:  |
+    Energy Water and Sanitation Authority head office
+    KN 82 Street
+    Kigali
+    Rwanda
 
 
 

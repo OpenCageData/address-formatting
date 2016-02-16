@@ -13,4 +13,8 @@ components:
     state: Southern Finland
     state_district: Southern Finland
     suburb: Ullanlinna
-expected: Ravintola Central, Pietarinkatu 15, 00140 Helsinki, Finland
+expected:  |
+    Ravintola Central
+    Pietarinkatu 15
+    00140 Helsinki
+    Finland

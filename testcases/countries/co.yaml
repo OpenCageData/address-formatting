@@ -11,4 +11,8 @@ components:
     postcode: 110231
     state: Bogota
     suburb: Chapinero
-expected: 'Avenida de los Cerros (Circunvalar) 33, Chapinero, 110231 Bogota, Colombia'
+expected:  |
+    Avenida de los Cerros (Circunvalar) 33
+    Chapinero
+    110231 Bogota
+    Colombia

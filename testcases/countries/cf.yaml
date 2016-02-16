@@ -8,7 +8,11 @@ components:
             country_code: cf
             road: Rue de Navarre
             state: Ombella M\'Poko
-expected: Ecobank, Rue de Navarre, Bangui, Central African Republic
+expected:  |
+    Ecobank
+    Rue de Navarre
+    Bangui
+    Central African Republic
 
 
 

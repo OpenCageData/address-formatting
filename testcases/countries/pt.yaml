@@ -10,4 +10,7 @@ components:
     postcode: 1500-203
     road: Avenida Conselheiro Barjona de Freitas
     suburb: Benfica
-expected: Avenida Conselheiro Barjona de Freitas 11, 1500-203 Lisbon, Portugal
+expected:  |
+    Avenida Conselheiro Barjona de Freitas 11
+    1500-203 Lisbon
+    Portugal

@@ -10,7 +10,12 @@ components:
             road: Preah Sisowath Quay
             state: Phnom Penh
             suburb: Daun Penh
-expected: Cambodiana, Preah Sisowath Quay, Daun Penh, Phnom Penh 12301, Cambodia
+expected:  |
+    Cambodiana
+    Preah Sisowath Quay
+    Daun Penh
+    Phnom Penh 12301
+    Cambodia
 
 
 

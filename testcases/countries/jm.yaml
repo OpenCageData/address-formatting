@@ -10,7 +10,11 @@ components:
             neighbourhood: Tawes Meadows
             road: Constitution Street
             state_district: Middlesex County
-expected: Old Court House, Constitution Street, Spanish Town, Jamaica
+expected:  |
+    Old Court House
+    Constitution Street
+    Spanish Town
+    Jamaica
 
 
 

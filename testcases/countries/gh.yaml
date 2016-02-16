@@ -11,7 +11,11 @@ components:
             road: 7th Avenue
             state: Greater Accra Region
             suburb: West Ridge
-expected: Ecobank, 7th Avenue, Accra, Ghana
+expected:  |
+    Ecobank
+    7th Avenue
+    Accra
+    Ghana
 
 
 

@@ -8,7 +8,11 @@ components:
             house_number: LSB 70
             road: L.G. Smith Boulevard
             town: Oranjestad
-expected: Parliament of Aruba, L.G. Smith Boulevard LSB 70, Oranjestad, Aruba
+expected:  |
+    Parliament of Aruba
+    L.G. Smith Boulevard LSB 70
+    Oranjestad
+    Aruba
 
 
 

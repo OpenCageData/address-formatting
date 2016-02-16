@@ -11,7 +11,11 @@ components:
             postcode: 7600
             road: Avenida Amilcar Cabral
             suburb: Várzea
-expected: Banco de Cabo Verde, Avenida Amilcar Cabral, 7600-Praia, Cape Verde
+expected:  |
+    Banco de Cabo Verde
+    Avenida Amilcar Cabral
+    7600-Praia
+    Cape Verde
 
 
 

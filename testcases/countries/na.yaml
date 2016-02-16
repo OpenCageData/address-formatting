@@ -10,7 +10,11 @@ components:
     road: Sam Nujoma Avenue (Kaiser Wilhelm St)
     state: Erongo Region
     suburb: Central
-expected: Hotel Zum Kaiser, 4 Sam Nujoma Avenue (Kaiser Wilhelm St), Swakopmund, Namibia
+expected:  |
+    Hotel Zum Kaiser
+    4 Sam Nujoma Avenue (Kaiser Wilhelm St)
+    Swakopmund
+    Namibia
 
 
 

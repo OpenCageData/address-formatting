@@ -12,6 +12,11 @@ components:
     road: Upper Alma Road
     state: Western Cape
     suburb: Rosebank
-expected: 3 Upper Alma Road, Rosebank, Cape Town, 7700, RSA
+expected:  |
+    3 Upper Alma Road
+    Rosebank
+    Cape Town
+    7700
+    RSA
 
 

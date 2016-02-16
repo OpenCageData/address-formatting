@@ -11,7 +11,10 @@ components:
     road: Strada Ploiești
     state: Cluj
     suburb: Gruia
-expected: Strada Ploiești 6, 400157 Cluj-Napoca, Romania
+expected:  |
+    Strada Ploiești 6
+    400157 Cluj-Napoca
+    Romania
 
 
 

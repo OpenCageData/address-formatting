@@ -9,7 +9,11 @@ components:
             road: Nim Li Punit Street
             state: Cayo
             supermarket: Fransico Supermarket
-expected: Fransico Supermarket, Nim Li Punit Street, Belmopan, Belize
+expected:  |
+    Fransico Supermarket
+    Nim Li Punit Street
+    Belmopan
+    Belize
 
 
 

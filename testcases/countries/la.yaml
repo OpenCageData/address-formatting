@@ -9,7 +9,11 @@ components:
             public_building: Ministre de la santé
             road: Mahosot Road
             state: Vientiane Capital
-expected: Ministre de la santé, Mahosot Road, 01003 Vientiane, Laos
+expected:  |
+    Ministre de la santé
+    Mahosot Road
+    01003 Vientiane
+    Laos
 
 
 

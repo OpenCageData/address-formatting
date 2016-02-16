@@ -9,7 +9,11 @@ components:
             road: Kokora Road
             state: Central Equatoria
             suburb: Governments Cantonment
-expected: Diakonie Katastrophenhilfe, Kokora Road, Juba, South Sudan
+expected:  |
+    Diakonie Katastrophenhilfe
+    Kokora Road
+    Juba
+    South Sudan
 
 
 

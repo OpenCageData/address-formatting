@@ -12,7 +12,11 @@ components:
         postcode: 70036
         road: Boulevard de la Mecque
         state_district: Laayoune Province
-expected: Hôtel Al-Massira, Boulevard de la Mecque, Pachalik de Laâyoune, Western Sahara
+expected:  |
+    Hôtel Al-Massira
+    Boulevard de la Mecque
+    Pachalik de Laâyoune
+    Western Sahara
 
 
 

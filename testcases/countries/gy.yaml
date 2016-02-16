@@ -9,7 +9,11 @@ components:
             county: Demerara-Mahaica Region
             postcode: 101147
             road: Carmichael Street
-expected: Scotiabank (Carmichael St. Branch), Carmichael Street, Georgetown, Guyana
+expected:  |
+    Scotiabank (Carmichael St. Branch)
+    Carmichael Street
+    Georgetown
+    Guyana
 
 
 

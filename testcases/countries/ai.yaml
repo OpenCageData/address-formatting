@@ -8,7 +8,11 @@ components:
             postcode: AI-2640
             road: The Valley Road
             town: The Valley
-expected: Department Of Lands And Surveys, The Valley Road, The Valley, AI-2640 Anguilla
+expected:  |
+    Department Of Lands And Surveys
+    The Valley Road
+    The Valley
+    AI-2640 Anguilla
 
 
 

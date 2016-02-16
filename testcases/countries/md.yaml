@@ -10,4 +10,8 @@ components:
     museum: Muzeul de Istorie
     road: str. 31 August 1989
     postcode: MD-2012
-expected: 'Muzeul de Istorie, str. 31 August 1989, 121a, MD-2012 Chișinău, Moldova'
+expected:  |
+    Muzeul de Istorie
+    str. 31 August 1989, 121a
+    MD-2012 Chișinău
+    Moldova

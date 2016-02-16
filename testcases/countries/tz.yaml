@@ -12,7 +12,11 @@ components:
     road: Mivinjeni Street
     state: Dar es Salaam
     suburb: Mivinjeni
-expected: "CWE Hotel, Mivinjeni Street, 78570 Dar es Salaam, Tanzania"
+expected:  |
+    CWE Hotel
+    Mivinjeni Street
+    78570 Dar es Salaam
+    Tanzania
 
 # 
 # in another city
@@ -26,7 +30,12 @@ components:
     road: Sokoine Road
     state: Ruvuma
     state_district: Songea
-expected: "Ruvuma Regional Hospital, Sokoine Road, Songea, Ruvuma, Tanzania"
+expected:  |
+    Ruvuma Regional Hospital
+    Sokoine Road
+    Songea
+    Ruvuma
+    Tanzania
 
 # 
 # in countryside, no town
@@ -38,7 +47,11 @@ components:
             road: T14
             state: Manyara
             state_district: Babati
-expected: "T14, Babati, Manyara, Tanzania"
+expected:  |
+    T14
+    Babati
+    Manyara
+    Tanzania
 ---
 description: -4.29340,35.30726
 components:
@@ -46,4 +59,7 @@ components:
             country_code: tz
             state: Manyara
             state_district: Babati
-expected: "Babati, Manyara, Tanzania"
+expected:  |
+    Babati
+    Manyara
+    Tanzania

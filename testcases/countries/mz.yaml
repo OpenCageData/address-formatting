@@ -12,4 +12,8 @@ components:
     road: Avenida Mao Tsé Tung
     state: Maputo
     suburb: Polana Cimento B
-expected: "Sturrock Shipping, Avenida Mao Tsé Tung, 362, 1100 Cidade de Maputo, Mozambique"
+expected:  |
+    Sturrock Shipping
+    Avenida Mao Tsé Tung, 362
+    1100 Cidade de Maputo
+    Mozambique

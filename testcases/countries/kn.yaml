@@ -8,7 +8,11 @@ components:
       restaurant: Ballahoo Restaurant
       road: Fort Street
       town: Basseterre
-expected: Ballahoo Restaurant, Fort Street, Basseterre, Saint Kitts, Saint Kitts and Nevis
+expected:  |
+    Ballahoo Restaurant
+    Fort Street
+    Basseterre, Saint Kitts
+    Saint Kitts and Nevis
 
 
 

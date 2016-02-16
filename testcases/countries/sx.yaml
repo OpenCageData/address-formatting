@@ -11,7 +11,10 @@ components:
             road: Billy Folly Road
             state: Sint Maarten (State of)
             suburb: Saint John's Estate
-expected: La Vista Beach Resort, Billy Folly Road, Sint Maarten
+expected:  |
+    La Vista Beach Resort
+    Billy Folly Road
+    Sint Maarten
 
 
 

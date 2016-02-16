@@ -10,7 +10,11 @@ components:
             road: Av de la Independencia
             state: Bioko Norte
             suburb: Santa Isabel
-expected: Treasure Island, Av de la Independencia, Malabo, Equatorial Guinea
+expected:  |
+    Treasure Island
+    Av de la Independencia
+    Malabo
+    Equatorial Guinea
 
 
 

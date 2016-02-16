@@ -8,7 +8,11 @@ components:
         post_office: Samoa Post Office
         road: Beach Road
         suburb: Tuanaimato
-expected: Samoa Post Office, Beach Road, Āpia, Samoa
+expected:  |
+    Samoa Post Office
+    Beach Road
+    Āpia
+    Samoa
 
 
 

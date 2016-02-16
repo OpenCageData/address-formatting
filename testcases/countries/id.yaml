@@ -10,4 +10,10 @@ components:
    postcode: 12960
    road: Epicentrum Boulevard Barat
    state: Jakarta Special Capital Region
-expected: 'Moodz Gastro Bar, Epicentrum Boulevard Barat, 1. kerület, RW 05 12960, Jakarta Special Capital Region, Indonesia'
+expected:  |
+    Moodz Gastro Bar
+    Epicentrum Boulevard Barat
+    1. kerület
+    RW 05 12960
+    Jakarta Special Capital Region
+    Indonesia

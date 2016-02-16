@@ -9,7 +9,12 @@ components:
             road: Yeni Crescent
             state: Lagos
             village: Maiyegun
-expected: Maro Polo Hotel, Yeni Crescent, Maiyegun, Lagos, Nigeria
+expected:  |
+    Maro Polo Hotel
+    Yeni Crescent
+    Maiyegun
+    Lagos
+    Nigeria
 
 
 

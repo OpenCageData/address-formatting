@@ -10,4 +10,10 @@ components:
     house_number: 66
     road: Amir Temur street
     state: Samarkand Province
-expected: 'BLUES Cafe, Amir Temur street 66, Samarkand, Samarkand Province, Uzbekistan, 140100'
+expected:  |
+    BLUES Cafe
+    Amir Temur street 66
+    Samarkand
+    Samarkand Province
+    Uzbekistan
+    140100

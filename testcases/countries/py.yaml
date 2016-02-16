@@ -10,7 +10,11 @@ components:
     road: Milano
     state: Distrito Capital de Paraguay
     suburb: Tacumbú 
-expected: Old Germany German Bakery, Milano, 1409 Asuncion, Paraguay
+expected:  |
+    Old Germany German Bakery
+    Milano
+    1409 Asuncion
+    Paraguay
 
 
 

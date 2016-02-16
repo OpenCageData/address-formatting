@@ -5,7 +5,9 @@ components:
     country: Germany
     country_code: DE
     state: Berlin
-expected: Berlin, Germany
+expected:  |
+    Berlin
+    Germany
 
 ---
 description: Moabit!
@@ -16,7 +18,10 @@ components:
     country_code: de
     state: Berlin
     suburb: Moabit
-expected: Moabit, Berlin, Germany
+expected:  |
+    Moabit
+    Berlin
+    Germany
 
 ---
 description: Alt-berlin
@@ -31,7 +36,10 @@ components:
             postcode: 10178
             state: Berlin
             suburb: Mitte
-expected: Gontardstraße 7, 10178 Berlin, Germany
+expected:  |
+    Gontardstraße 7
+    10178 Berlin
+    Germany
 
 ---
 description: Köln, NRW 
@@ -41,7 +49,9 @@ components:
     county: Cologne
     state: North Rhine-Westphalia
     state_district: Regierungsbezirk Köln
-expected: Cologne, Germany
+expected:  |
+    Cologne
+    Germany
 
 ---
 description: Köln, hamlet
@@ -52,7 +62,10 @@ components:
     hamlet: Köln
     state: Free State of Bavaria
     state_district: Upper Bavaria
-expected: Köln, Bayern, Germany
+expected:  |
+    Köln
+    Bayern
+    Germany
 
 ---
 description: Bonn formatting
@@ -60,7 +73,9 @@ components:
     address100: Bonn
     country: Germany
     country_code: de
-expected: Bonn, Germany
+expected:  |
+    Bonn
+    Germany
 
 ---
 description: Fabisch
@@ -76,7 +91,11 @@ components:
     road: Rosenthaler Straße
     state: Berlin
     suburb: Mitte
-expected: Fabisch, Rosenthaler Straße 1, 10119 Berlin, Germany
+expected:  |
+    Fabisch
+    Rosenthaler Straße 1
+    10119 Berlin
+    Germany
 
 ---
 description: Fabisch no city
@@ -91,7 +110,11 @@ components:
     road: Rosenthaler Straße
     state: Berlin
     suburb: Mitte
-expected: Fabisch, Rosenthaler Straße 1, 10119 Berlin, Germany
+expected:  |
+    Fabisch
+    Rosenthaler Straße 1
+    10119 Berlin
+    Germany
 
 ---
 description: Heyerode
@@ -104,7 +127,9 @@ components:
     postcode: 99988
     state: Thüringen
     village: Heyerode
-expected: 99988 Heyerode, Germany
+expected:  |
+    99988 Heyerode
+    Germany
 
 ---
 description: Berlin state
@@ -112,7 +137,9 @@ components:
     country: Germany
     country_code: de
     state: Berlin
-expected: Berlin, Germany
+expected:  |
+    Berlin
+    Germany
 
 ---
 description: no middle comma
@@ -126,4 +153,8 @@ components:
     state: Rhineland-Palatinate
     station: Landstuhl
     suburb: Melkerei
-expected: Landstuhl, Bahnstraße, 66849 Landstuhl, Germany
+expected:  |
+    Landstuhl
+    Bahnstraße
+    66849 Landstuhl
+    Germany

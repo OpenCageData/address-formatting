@@ -11,7 +11,11 @@ components:
             road: Al Imam Al Mahdi Road
             state: al-Khartum
             suburb: Downtown
-expected: Khartoum Train Station, Al Imam Al Mahdi Road, 11114 Khartoum, Sudan
+expected:  |
+    Khartoum Train Station
+    Al Imam Al Mahdi Road
+    11114 Khartoum
+    Sudan
 
 
 

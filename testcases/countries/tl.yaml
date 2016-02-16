@@ -9,7 +9,11 @@ components:
             postcode: 10
             road: Rua César Maria de Serpa Rosa
             state: Dili
-expected: Embaixada do Brasil, Rua César Maria de Serpa Rosa, Palapasot, East Timor
+expected:  |
+    Embaixada do Brasil
+    Rua César Maria de Serpa Rosa
+    Palapasot
+    East Timor
 
 
 

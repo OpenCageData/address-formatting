@@ -12,6 +12,9 @@ components:
     road: Panenská
     state: Region of Bratislava
     suburb: Staré Mesto
-expected: Panenská 666/20, 811 03 Bratislava I, Slovakia
+expected:  |
+    Panenská 666/20
+    811 03 Bratislava I
+    Slovakia
 
 

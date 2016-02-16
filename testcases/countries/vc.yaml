@@ -8,7 +8,11 @@ components:
         country_code: vc
         county: Saint George
         road: Grenville Street
-expected: Bank of St Vincent and the Grenadines, Grenville Street, Kingstown, Saint Vincent and the Grenadines
+expected:  |
+    Bank of St Vincent and the Grenadines
+    Grenville Street
+    Kingstown
+    Saint Vincent and the Grenadines
 
 
 

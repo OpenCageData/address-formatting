@@ -10,7 +10,11 @@ components:
             road: Ethiopia Street
             state: Djibouti
             suburb: District 1
-expected: Blue Nile, Ethiopia Street, Djibouti-Ville, Djibouti
+expected:  |
+    Blue Nile
+    Ethiopia Street
+    Djibouti-Ville
+    Djibouti
 
 
 

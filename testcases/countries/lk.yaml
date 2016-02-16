@@ -11,7 +11,12 @@ components:
             state: Western Province
             state_district: Colombo District
             suburb: Suduwella
-expected: Colombo Lotus Tower, D. R. Wijewardene Mawatha, Suduwella, Colombo 00200, Sri Lanka
+expected:  |
+    Colombo Lotus Tower
+    D. R. Wijewardene Mawatha
+    Suduwella
+    Colombo 00200
+    Sri Lanka
 
 
 

@@ -10,4 +10,9 @@ components:
     bar: Why Not Bar
     suburb: Tan Lap District
     state: Khanh Hoa province
-expected: 'Why Not Bar, Tran Quang Khai, Tan Lap District, Nha Trang, Khanh Hoa province 48058, Vietnam'
+expected:  |
+    Why Not Bar
+    Tran Quang Khai
+    Tan Lap District, Nha Trang
+    Khanh Hoa province 48058
+    Vietnam

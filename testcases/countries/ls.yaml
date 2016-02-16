@@ -10,6 +10,10 @@ components:
     road: Kingsway
     state: Maseru
     suburb: Cathedral Area
-expected: Nedbank, Kingsway, Maseru 100, Lesotho
+expected:  |
+    Nedbank
+    Kingsway
+    Maseru 100
+    Lesotho
 
 

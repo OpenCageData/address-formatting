@@ -12,4 +12,7 @@ components:
     road: Åkebergveien
     state: Oslo
     suburb: Enerhaugen
-expected: Åkebergveien 28, 0650 Oslo, Norway
+expected:  |
+    Åkebergveien 28
+    0650 Oslo
+    Norway

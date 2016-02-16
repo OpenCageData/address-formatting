@@ -11,7 +11,11 @@ components:
         postcode: 96799
         road: Route 001
         village: Faganeanea
-expected: Executive Office Building (American Samoa Government), Route 001, Faganeanea, AS 96799, United States of America
+expected:  |
+    Executive Office Building (American Samoa Government)
+    Route 001
+    Faganeanea, AS 96799
+    United States of America
 
 
 

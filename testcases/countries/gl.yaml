@@ -10,7 +10,10 @@ components:
             pedestrian: Imaneq
             postcode: 3900
             suburb: Qaurunnguaq
-expected: Imaneq 18, 3900 Nuuk, Greenland
+expected:  |
+    Imaneq 18
+    3900 Nuuk
+    Greenland
 
 
 

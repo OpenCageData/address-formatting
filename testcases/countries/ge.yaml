@@ -9,4 +9,8 @@ components:
     postcode: 0114
     road: Cotton Row
     suburb: Old Tbilisi Raion
-expected: Mojito Bar, Cotton Row 7, 0114 Tbilisi, Georgia
+expected:  |
+    Mojito Bar
+    Cotton Row 7
+    0114 Tbilisi
+    Georgia

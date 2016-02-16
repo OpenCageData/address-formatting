@@ -12,7 +12,10 @@ components:
     road: Avenida Ricardo Lyon
     state: XIII Región Metropolitana de Santiago
     suburb: Providencia
-expected: Avenida Ricardo Lyon 920, 7500000 Providencia, Chile
+expected:  |
+    Avenida Ricardo Lyon 920
+    7500000 Providencia
+    Chile
 
 
 

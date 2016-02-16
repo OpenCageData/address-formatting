@@ -9,7 +9,11 @@ components:
             road: Kemine (2035) kocesi
             state: Ahal
             theatre: National Drama Theatre
-expected: National Drama Theatre, Kemine (2035) kocesi, 744000 Ashgabat, Turkmenistan
+expected:  |
+    National Drama Theatre
+    Kemine (2035) kocesi
+    744000 Ashgabat
+    Turkmenistan
 
 
 

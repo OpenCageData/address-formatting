@@ -10,7 +10,12 @@ components:
     sports_centre: Manzini Club
     state: Sifundza seManzini
     town: Manzini
-expected: Manzini Club, Kelly Street, Manzini, M100, Swaziland
+expected:  |
+    Manzini Club
+    Kelly Street
+    Manzini
+    M100
+    Swaziland
 
 
 

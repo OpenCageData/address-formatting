@@ -9,7 +9,12 @@ components:
             postcode:  00976
             road:  Seoul street
             state:  Border Ulan Bator - Töv
-expected: TDB картын төв, Seoul street, 00976, Ulaanbaatar, Mongolia
+expected:  |
+    TDB картын төв
+    Seoul street
+    00976
+    Ulaanbaatar
+    Mongolia
 
 
 

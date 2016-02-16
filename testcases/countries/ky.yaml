@@ -10,7 +10,11 @@ components:
             postcode: KY1-1103
             road: Albert Panton Street
             suburb: Rock Hole Road
-expected: Butterfield Place, 12 Albert Panton Street, George Town KY1-1103, Cayman Islands
+expected:  |
+    Butterfield Place
+    12 Albert Panton Street
+    George Town KY1-1103
+    Cayman Islands
 
 
 

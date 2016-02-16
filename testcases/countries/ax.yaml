@@ -13,4 +13,8 @@ components:
             state_district: Regional State Agency Åland
             suburb: Johannebo
             town: Mariehamn
-expected: Posten Åland, Nygatan, 22101 Mariehamn, Åland, Finland
+expected:  |
+    Posten Åland
+    Nygatan
+    22101 Mariehamn
+    Åland, Finland

@@ -10,7 +10,11 @@ components:
     road: Yared Street
     state: Addis Ababa
     suburb: Beherawi
-expected: National Library & Archives, Yared Street, 3001 Addis Abeba, Ethiopia
+expected:  |
+    National Library & Archives
+    Yared Street
+    3001 Addis Abeba
+    Ethiopia
 
 
 

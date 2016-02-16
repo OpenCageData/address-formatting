@@ -9,7 +9,11 @@ components:
             county: Tiranë
             postcode: 1001
             road: Papa Gjon Pali II
-expected: Raiffeisen Bank, Papa Gjon Pali II, 1001-Tiranë, Albania
+expected:  |
+    Raiffeisen Bank
+    Papa Gjon Pali II
+    1001-Tiranë
+    Albania
 
 
 

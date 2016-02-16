@@ -10,4 +10,9 @@ components:
     road: Wabera Street
     state: Nairobi
     suburb: Madaraka Estate
-expected: "Jubilee Insurance Place, Wabera Street, Nairobi, 46464, Kenya"
+expected:  |
+    Jubilee Insurance Place
+    Wabera Street
+    Nairobi
+    46464
+    Kenya

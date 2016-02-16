@@ -11,7 +11,11 @@ components:
             postcode: 504
             state: Francisco Morazán
             suburb: El Jazmin
-expected: Correo Nacional de Honduras, Paseo Liquidambar, 504 Tegucigalpa, Honduras
+expected:  |
+    Correo Nacional de Honduras
+    Paseo Liquidambar
+    504 Tegucigalpa
+    Honduras
 
 
 

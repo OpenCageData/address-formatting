@@ -10,7 +10,12 @@ components:
             road: Làlana Rajhonson Emile
             state: Province d'Antananarivo
             suburb: Tsaralalana
-expected: Ambassade de l'Inde, Làlana Rajhonson Emile, Tsaralalana, 1 Antananarivo, Madagascar
+expected:  |
+    Ambassade de l'Inde
+    Làlana Rajhonson Emile
+    Tsaralalana
+    1 Antananarivo
+    Madagascar
 
 
 

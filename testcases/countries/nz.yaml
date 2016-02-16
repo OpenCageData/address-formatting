@@ -11,7 +11,8 @@ components:
         road: Pirie Street
         state: Wellington
         suburb: Mount Victoria
-expected: 53 Pirie Street, Mount Victoria, Wellington 6011, New Zealand
-
-
-
+expected:  |
+    53 Pirie Street
+    Mount Victoria
+    Wellington 6011
+    New Zealand

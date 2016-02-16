@@ -8,7 +8,11 @@ components:
             courthouse: Palais de Justice
             road: RN2
             state: Grande Comore
-expected: Palais de Justice, RN2, Moroni, Comoros
+expected:  |
+    Palais de Justice
+    RN2
+    Moroni
+    Comoros
 
 
 

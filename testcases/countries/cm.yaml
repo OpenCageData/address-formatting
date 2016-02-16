@@ -11,7 +11,11 @@ components:
             road: rue 3.025
             state: Centre
             suburb: Centre Administratif
-expected: ONUDI, rue 3.025, Yaoundé III, Cameroon
+expected:  |
+    ONUDI
+    rue 3.025
+    Yaoundé III
+    Cameroon
 
 
 

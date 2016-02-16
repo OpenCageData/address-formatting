@@ -10,7 +10,11 @@ components:
             road: Mary Street
             state: National Capital District
             suburb: Ela Beach
-expected: Crowne Plaza Hotel, Mary Street, Port Moresby National Capital District, Papua New Guinea
+expected:  |
+    Crowne Plaza Hotel
+    Mary Street
+    Port Moresby National Capital District
+    Papua New Guinea
 
 
 

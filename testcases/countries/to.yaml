@@ -10,7 +10,11 @@ components:
         state: Vahe Kolofo'ou
         suburb: Kolofo'ou
         town: Ma'ufanga
-expected: National Reserve Bank of Tonga, Hala Sālote, Ma'ufanga, Tonga
+expected:  |
+    National Reserve Bank of Tonga
+    Hala Sālote
+    Ma'ufanga
+    Tonga
 
 
 

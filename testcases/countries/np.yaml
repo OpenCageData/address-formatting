@@ -13,7 +13,12 @@ components:
             state: Central Development Region
             state_district: Bagmati
             suburb: Kuleshwor
-expected: United World Trade Centre, Tripureshwor Marg, Kuleshwor, Kathmandu 2243, Nepal
+expected:  |
+    United World Trade Centre
+    Tripureshwor Marg
+    Kuleshwor
+    Kathmandu 2243
+    Nepal
 
 
 

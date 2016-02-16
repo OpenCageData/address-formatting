@@ -10,7 +10,11 @@ components:
             road: Praça dos Herois Nacionais
             state: Setor autónomo de Bissau
             suburb: Reino
-expected: Embaixada d'Espanha, Praça dos Herois Nacionais, Bissau, Guinea-Bissau
+expected:  |
+    Embaixada d'Espanha
+    Praça dos Herois Nacionais
+    Bissau
+    Guinea-Bissau
 
 
 

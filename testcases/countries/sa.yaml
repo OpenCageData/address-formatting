@@ -9,4 +9,8 @@ components:
     postcode: 12844
     road: شارع الوزير
     region: Riyadh Region
-expected: 'National Museum of Saudi Arabia, شارع الوزير, Riyadh 12844, Saudi Arabia'
+expected:  |
+    National Museum of Saudi Arabia
+    شارع الوزير
+    Riyadh 12844
+    Saudi Arabia

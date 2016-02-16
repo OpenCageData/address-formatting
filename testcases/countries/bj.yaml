@@ -9,7 +9,10 @@ components:
             road: Rue 12.168
             state: Littoral
             suburb: Cadjehoun
-expected: 504, Rue 12.168, Cadjehoun, Benin
+expected:  |
+    504, Rue 12.168
+    Cadjehoun
+    Benin
 
 
 

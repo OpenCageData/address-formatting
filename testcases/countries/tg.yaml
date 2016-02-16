@@ -10,7 +10,11 @@ components:
             road:  Aveenue de la Cooperation
             state:  Maritime Region
             suburb:  Hanoukopé
-expected: Palais de Justice, Aveenue de la Cooperation, Lomé, Togo
+expected:  |
+    Palais de Justice
+    Aveenue de la Cooperation
+    Lomé
+    Togo
 
 
 

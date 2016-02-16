@@ -9,7 +9,11 @@ components:
     residential: Chilambula
     road: Paul Kagame Road
     state: Central
-expected: Mpatsa House, Paul Kagame Road, Lilongwe, Malawi
+expected:  |
+    Mpatsa House
+    Paul Kagame Road
+    Lilongwe
+    Malawi
 
 
 

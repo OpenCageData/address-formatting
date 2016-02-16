@@ -12,7 +12,11 @@ components:
             road: Transmetro Eje Sur
             state: Guatemala
             suburb: Zona 1
-expected: Banco Reformador, Transmetro Eje Sur 18 calle 3-70 Zona 1, 01004-Guatemala City, Guatemala
+expected:  |
+    Banco Reformador
+    Transmetro Eje Sur 18 calle 3-70 Zona 1
+    01004-Guatemala City
+    Guatemala
 
 
 

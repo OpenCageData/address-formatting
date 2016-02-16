@@ -13,7 +13,11 @@ components:
     road: Kampala Road
     state: Central Region
     suburb: Kibuli
-expected: Orient Plaza, 6/6A Kampala Road, Kampala, Uganda
+expected:  |
+    Orient Plaza
+    6/6A Kampala Road
+    Kampala
+    Uganda
 
 
 

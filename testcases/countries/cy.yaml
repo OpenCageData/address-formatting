@@ -11,7 +11,11 @@ components:
             postcode: 3042
             state: Cyprus
             suburb: Mesa Geitonia
-expected: Bank of Cyprus, Agiou Andreou, 3042 Limassol, Cyprus
+expected:  |
+    Bank of Cyprus
+    Agiou Andreou
+    3042 Limassol
+    Cyprus
 
 
 

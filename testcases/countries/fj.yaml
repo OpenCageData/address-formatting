@@ -9,7 +9,11 @@ components:
             road: Victoria Parade
             state: Central
             suburb: The Domain
-expected: Suva City Library, Victoria Parade, Suva, Fiji
+expected:  |
+    Suva City Library
+    Victoria Parade
+    Suva
+    Fiji
 
 
 

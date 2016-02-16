@@ -12,7 +12,11 @@ components:
             road: Broad Street
             state: Montserrado County
             suburb: Crown Hill
-expected: Palm Hotel, Broad Street, 1000 Monrovia, Liberia
+expected:  |
+    Palm Hotel
+    Broad Street
+    1000 Monrovia
+    Liberia
 
 
 

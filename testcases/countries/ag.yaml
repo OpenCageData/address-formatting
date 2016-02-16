@@ -8,7 +8,11 @@ components:
             postcode: Anu
             road: High Street
             town: St. John's
-expected: Scotiabank, High Street, St. John's, Antigua and Barbuda
+expected:  |
+    Scotiabank
+    High Street
+    St. John's
+    Antigua and Barbuda
 
 
 

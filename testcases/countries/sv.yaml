@@ -12,7 +12,12 @@ components:
             road: Calle Arce
             state: Departamento de San Salvador
             suburb: Comunidad Tutunichapa
-expected: Ministerio de Salud, Calle Arce 827, 503 - San Salvador, Departamento de San Salvador, El Salvador
+expected:  |
+    Ministerio de Salud
+    Calle Arce 827
+    503 - San Salvador
+    Departamento de San Salvador
+    El Salvador
 ---
 description: no floating dash if no postcode
 components:
@@ -25,7 +30,12 @@ components:
             road: Calle Arce
             state: Departamento de San Salvador
             suburb: Comunidad Tutunichapa
-expected: Ministerio de Salud, Calle Arce 827, San Salvador, Departamento de San Salvador, El Salvador
+expected:  |
+    Ministerio de Salud
+    Calle Arce 827
+    San Salvador
+    Departamento de San Salvador
+    El Salvador
 
 
 

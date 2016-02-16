@@ -11,7 +11,11 @@ components:
             state: Kinshasa
             suburb: Royal
             town: Gombe
-expected: Embassy of the Federal Republic of Germany, 82, Avenue du Roi Baudouin, Gombe, Congo-Kinshasa
+expected:  |
+    Embassy of the Federal Republic of Germany
+    82, Avenue du Roi Baudouin
+    Gombe
+    Congo-Kinshasa
 
 
 

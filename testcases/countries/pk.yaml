@@ -11,7 +11,12 @@ components:
             road: Khan Road
             state: Sindh
             suburb: Lyari Town
-expected: Avari Beach Luxury Hotel, Khan Road, Lyari Town, Karachi 75000, Pakistan
+expected:  |
+    Avari Beach Luxury Hotel
+    Khan Road
+    Lyari Town
+    Karachi 75000
+    Pakistan
 
 
 

@@ -9,7 +9,12 @@ components:
             road: 8e Avenue
             state: Conakry
             suburb: Almamiya 2
-expected: L'Art de la Table, 8e Avenue, Kaloum, Conakry, Guinea
+expected:  |
+    L'Art de la Table
+    8e Avenue
+    Kaloum
+    Conakry
+    Guinea
 
 
 

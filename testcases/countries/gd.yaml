@@ -8,7 +8,11 @@ components:
             country_code: gd
             road: Bruce Street
             suburb: Belmont
-expected: Republic Bank Grenada, Bruce Street, St. George's, Grenada
+expected:  |
+    Republic Bank Grenada
+    Bruce Street
+    St. George's
+    Grenada
 
 
 

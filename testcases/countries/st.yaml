@@ -10,7 +10,11 @@ components:
             road: Avenida das Naçoes Unidas
             state: São Tomé Province
             suburb: Riboque
-expected: Biblioteca Nacional, Avenida das Naçoes Unidas, São Tomé, São Tomé and Príncipe
+expected:  |
+    Biblioteca Nacional
+    Avenida das Naçoes Unidas
+    São Tomé
+    São Tomé and Príncipe
 
 
 

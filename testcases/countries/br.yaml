@@ -9,7 +9,10 @@ components:
     state: RJ
     state_district: Região Metropolitana do Rio de Janeiro
     suburb: Maracanã
-expected: 'Avenida Maracanã, Rio de Janeiro - RJ, Brazil'
+expected:  |
+    Avenida Maracanã
+    Rio de Janeiro - RJ
+    Brazil
 ---
 description: format postcode correctly
 components:
@@ -24,5 +27,9 @@ components:
     state: Minas Gerais
     state_district: Mesorregião Metropolitana de Belo Horizonte
     suburb: Centro
-expected: 'Rua Rio de Janiero, Belo Horizonte - MG, 30170-011, Brazil'
+expected:  |
+    Rua Rio de Janiero
+    Belo Horizonte - MG
+    30170-011
+    Brazil
 

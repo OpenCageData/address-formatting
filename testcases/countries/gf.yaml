@@ -11,4 +11,7 @@ components:
             road: Rue du Lieutenant Becker
             state: French Guiana
             town: Cayenne
-expected: 53 Rue du Lieutenant Becker, 97300 Cayenne, France
+expected:  |
+    53 Rue du Lieutenant Becker
+    97300 Cayenne
+    France

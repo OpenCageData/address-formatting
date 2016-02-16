@@ -10,7 +10,11 @@ components:
             postcode: 70101
             road: Calle 2 - Romualdo Segura
             state: Limón
-expected: Tribunales de Justicia, Calle 2 - Romualdo Segura, Limón, Barrio Hospital, 70101 Costa Rica
+expected:  |
+    Tribunales de Justicia
+    Calle 2 - Romualdo Segura
+    Limón, Barrio Hospital
+    70101 Costa Rica
 
 
 

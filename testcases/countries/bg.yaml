@@ -12,4 +12,9 @@ components:
     suburb: Centre
     postcode: 1000
     university: Krastyo Sarafov National Academy for Theatre and Film Arts
-expected: 'Krastyo Sarafov National Academy for Theatre and Film Arts, Georgi Sava Rakovski St., Centre, 1000 Sofia, Bulgaria'
+expected:  |
+    Krastyo Sarafov National Academy for Theatre and Film Arts
+    Georgi Sava Rakovski St.
+    Centre
+    1000 Sofia
+    Bulgaria

@@ -10,7 +10,11 @@ components:
             postcode: 597
             road: Simonsweg
             school: R.D. Simonsschool
-expected: R.D. Simonsschool, Simonsweg 7, Paramaribo, Suriname
+expected:  |
+    R.D. Simonsschool
+    Simonsweg 7
+    Paramaribo
+    Suriname
 
 
 
