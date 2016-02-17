@@ -26,7 +26,11 @@ components:
     road: Rue Pasteur
     state: Sousse
     suburb: Sousse Riadh
-expected: Cinéma Palace, Rue Pasteur, 4000 Sousse, Tunisia
+expected: |
+    Cinéma Palace
+    Rue Pasteur
+    4000 Sousse
+    Tunisia
 ---
 description: hospital in Sfax 34.7411,10.7590
 components:
@@ -42,5 +46,5 @@ components:
 expected: |
     CNSS
     RN 1 طو
-    3000 Sfax
+    3000 صفاقس
     Tunisia
