@@ -5,9 +5,12 @@
 # 
 use strict;
 use warnings;
+use utf8;
+use feature "unicode_strings";
 
 use Data::Dumper;
 use Getopt::Long;
+use File::Basename qw(dirname);
 
 my $help    = 0;
 my $details = 0;
@@ -23,8 +26,8 @@ if ($help) {
 
 # get the list of countries
 my %countries;
-my $country_file = "../conf/country_codes.yaml";
-open my $FH, "<", $country_file or die "unable to open $country_file $!";
+my $country_file = dirname(__FILE__) . "/../conf/country_codes.yaml";
+open my $FH, "<:encoding(UTF-8)", $country_file or die "unable to open $country_file $!";
 while (my $line = <$FH>){
     chomp($line);
     if ($line =~ m/^(\w\w): \# (.*)$/){
@@ -36,7 +39,7 @@ print "We are aware of " . scalar(keys %countries) . " territories \n";
 
 
 # which countries have tests?
-my $test_dir = '../testcases/countries';
+my $test_dir = dirname(__FILE__) . '/../testcases/countries';
 opendir(my $dh, $test_dir) || die "Error: Couldn't opendir($test_dir): $!\n";
 my @files = grep { -f "$test_dir/$_" } readdir($dh);
 closedir($dh);
@@ -57,8 +60,8 @@ if ($details){
 }
 
 # which countries have rules?
-my $rules_file = '../conf/countries/worldwide.yaml';
-open my $RFH, "<", $rules_file or die "unable to open $rules_file $!";
+my $rules_file = dirname(__FILE__) . '/../conf/countries/worldwide.yaml';
+open my $RFH, "<:encoding(UTF-8)", $rules_file or die "unable to open $rules_file $!";
 my %rules;
 while (my $line = <$RFH>){
     chomp($line);
