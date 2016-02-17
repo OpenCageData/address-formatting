@@ -1,0 +1,18 @@
+# Armenia
+---
+description: Building in Yerevan, 40.18045,44.51534
+components:
+        city: Yerevan
+        country: Armenia
+        country_code: am
+        house_number: 8
+        postcode: 0010
+        road: Abovyan street
+expected:  |
+    8 Abovyan street
+    0100
+    Yerevan
+    Armenia
+
+
+
