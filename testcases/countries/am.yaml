@@ -10,7 +10,7 @@ components:
         road: Abovyan street
 expected:  |
     8 Abovyan street
-    0100
+    0010
     Yerevan
     Armenia
 
