@@ -1,0 +1,19 @@
+# Iceland
+---
+description: Building in Reykjavik, 64.14436,-21.93335
+components:
+        city: Reykjavik
+        country: Iceland
+        country_code: is
+        house_number: 15
+        postcode: 101
+        road: Bergstaðastræti
+        state_district: Capital Region
+        suburb: Austurbær
+expected:  |
+    Bergstaðastræti 15
+    101 Reykjavik
+    Iceland
+
+
+
