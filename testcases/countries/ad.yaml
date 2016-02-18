@@ -1,0 +1,20 @@
+# Andorra
+---
+description: Building in Andorra la Vella, 42.50830,1.53014
+components:
+        country: Andorra
+        country_code: ad
+        county: Andorra la Vella
+        house_number: 88
+        neighbourhood: Centre històric
+        postcode: AD500
+        road: Avinguda Meritxell
+        town: Andorra la Vella
+expected:  |
+    88 Avinguda Meritxell
+    AD500 Andorra la Vella
+    Andorra
+
+
+
+
