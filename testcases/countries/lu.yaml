@@ -1,0 +1,22 @@
+# Luxemburg
+---
+description: Building in Luxemburg, 49.60484,6.12045
+components:
+        address29: Comed
+        city: Luxembourg
+        country: Luxemburg
+        country_code: lu
+        county: Canton Luxembourg
+        house_number: 13
+        postcode: 2016
+        road: Route d'Esch
+        suburb: Hollerich
+expected:  |
+    Comed
+    13 Route d'Esch
+    2016 Luxembourg
+    Luxemburg
+
+
+
+
