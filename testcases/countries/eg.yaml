@@ -68,3 +68,22 @@ expected: |
         Tanta
         31111
         Egypt
+---
+description: Same univerisity, language=ar, 30.79623,2C30.99934
+components:
+        city: ‏طنطا 
+        college: جامعة طنطا 
+        country: مصر 
+        country_code: eg 
+        postcode: 31111 
+        road: شارع محب 
+        state: ‏محافظة الغربي 
+        suburb: محلة مرحوم
+expected: |
+        جامعة طنطا
+        شارع محب
+        محلة مرحوم
+        طنطا
+        31111
+        مصر
+
