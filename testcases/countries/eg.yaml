@@ -33,7 +33,6 @@ expected: |
             Fakhry Abdel-Nur
             Abbasseya
             Cairo
-            Cairo
             11381
             Egypt
 ---
@@ -75,7 +74,7 @@ components:
         college: جامعة طنطا 
         country: مصر 
         country_code: eg 
-        postcode: 31111 
+        postcode: 31111
         road: شارع محب 
         state: ‏محافظة الغربي 
         suburb: محلة مرحوم
@@ -83,7 +82,7 @@ expected: |
         جامعة طنطا
         شارع محب
         محلة مرحوم
-        طنطا
+        ‏طنطا
         31111
         مصر
 
