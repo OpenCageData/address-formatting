@@ -1,0 +1,54 @@
+# United Arab Emirates
+---
+description: L'Arabia Hotel, 24.37253,54.53801
+components:
+    city: Abu Dhabi
+    country: United Arab Emirates
+    country_code: ae
+    hotel: L'Arabia hotel
+    postcode: 277
+    road: 28th Street
+    state: Abu Dhabi
+    suburb: Police Officers City
+expected: L'Arabia hotel, 28th Street, Abu Dhabi, United Arab Emirates
+---
+description: L'Arabia Hotel, language=ar, 24.37253,54.53801
+components:
+    city: أبو ظبي
+    country: الإمارات العربية المتحدة
+    country_code: ae
+    hotel: L'Arabia hotel
+    postcode: 277
+    road: 28th Street
+    state: أبو ظبي
+    suburb: Police Officers City
+expected: |
+    L'Arabia hotel
+    28th Street
+    أبو ظبي
+    الإمارات العربية المتحدة
+---
+description: Pizza hut, 24.37289,54.51820
+components:
+    city: Abu Dhabi
+    country: United Arab Emirates
+    country_code: ae
+    postcode: 277
+    restaurant: Pizza Hut
+    road: 8th Street
+    state: Abu Dhabi
+    suburb: Police Officers City
+expected: Pizza Hut, 8th Street, Abu Dhabi, United Arab Emirates
+---
+description: Thumbay Hospital, 25.28130/55.36503
+components:
+    city: Dubai
+    country: United Arab Emirates
+    country_code: ae
+    hospital: Thumbay Hospital,
+    postcode: 47602
+    residential: Al Qusais 1
+    road: Street 4
+    state: Dubai
+    suburb: Al Qusais 1
+expected: Thumbay Hospital, Street 4, Dubai, United Arab Emirates
