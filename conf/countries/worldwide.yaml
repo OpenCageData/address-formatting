@@ -865,6 +865,10 @@ JE:
 JM:
     address_template: *generic16
 
+# Jordan
+JO:
+    address_template: *generic2
+
 # Kenya
 KE:
     address_template: |

@@ -10,8 +10,7 @@ components:
     road: Husni Fareez Street
     state: Amman
 expected: |
-    Jordan National Gallery of Fine Arts
-    Building 1
+    Jordan National Gallery of Fine Arts, Building 1
     Husni Fareez Street
     Amman 11190
     Jordan
@@ -56,7 +55,7 @@ components:
     road: جبل عرفات
     state: Amman
     suburb: Sweifieh
-expected:
+expected: |
     Khalifeh Mall
     جبل عرفات
     Amman 11183
