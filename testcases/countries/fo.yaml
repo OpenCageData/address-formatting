@@ -1,0 +1,20 @@
+# Faroe Islands
+---
+description: Bank in Tórshavn, 62.01111,-6.77396
+components:
+        bank: Bank Nordik
+        country: Territorial waters of Faroe Islands
+        country_code: fo
+        house_number: 17
+        postcode: 100
+        road: Steinagøta
+        state: Streymoy region
+        town: Tórshavn
+expected:  |
+    Bank Nordik
+    Steinagøta 17
+    100 Tórshavn
+    Faroe Islands
+
+
+

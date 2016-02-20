@@ -643,6 +643,8 @@ FM:
 # Faroe Islands 
 FO: 
     address_template: *generic1
+    postformat_replace:
+        - ["Territorial waters of Faroe Islands","Faroe Islands"]
 
 # France
 FR:
