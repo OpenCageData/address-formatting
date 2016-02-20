@@ -17,7 +17,73 @@ expected:  |
     Giza
     11231
     Egypt
-
-
-
+---
+description: Policy academy, 30.06864,31.28709
+components:
+            city: Cairo
+            country: Egypt
+            country_code: eg
+            postcode: 11381
+            road: Fakhry Abdel-Nur
+            state: Cairo Governorate
+            suburb: Abbasseya
+            university: Police Academy
+expected: |
+            Police Academy
+            Fakhry Abdel-Nur
+            Abbasseya
+            Cairo
+            Cairo
+            11381
+            Egypt
+---
+description: Mosque, 25.69992,32.63965
+components:
+            city: Luxor
+            country: Egypt
+            country_code: eg
+            pedestrian: Sphinx Alley
+            place_of_worship: Abu Haggag Mosque
+            state: Luxor Governate
+expected: |
+            Abu Haggag Mosque
+            Sphinx Alley
+            Luxor
+            Egypt
+---
+description: University, 30.79623,30.99934
+components:
+        city: Tanta
+        college: Tanta University
+        country: Egypt
+        country_code: eg
+        postcode: 31111
+        road: Mohebb
+        state: Gharbiyya Governorate
+        suburb: Mahlet Marhoum
+expected: |
+        Tanta University
+        Mohebb
+        Mahlet Marhoum
+        Tanta
+        31111
+        Egypt
+---
+description: Same univerisity, language=ar, 30.79623,2C30.99934
+components:
+        city: ‏طنطا 
+        college: جامعة طنطا 
+        country: مصر 
+        country_code: eg 
+        postcode: 31111 
+        road: شارع محب 
+        state: ‏محافظة الغربي 
+        suburb: محلة مرحوم
+expected: |
+        جامعة طنطا
+        شارع محب
+        محلة مرحوم
+        طنطا
+        31111
+        مصر
 

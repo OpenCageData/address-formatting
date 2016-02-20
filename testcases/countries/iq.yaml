@@ -1,0 +1,75 @@
+# Iraq
+---
+description: Supermarket, 33.3559,44.4015
+components:
+    city: Baghdad
+    city_district: Rusafa
+    country: Iraq
+    country_code: iq
+    county: Al Resafa
+    postcode: 222
+    road: A86/N11/D383
+    state: Baghdad
+    suburb: Mustansiriya
+    supermarket: al mustansriya Central Market
+expected: |
+    al mustansriya Central Market
+    Rusafa
+    A86/N11/D383
+    Baghdad
+    222
+    Iraq
+---
+description: Supermarket, language=ar, 33.3559,44.4015
+components:
+    city: بغداد
+    city_district: Rusafa
+    country: العراق
+    country_code: iq
+    county: Al Resafa
+    postcode: 222
+    road: A86/N11/D383
+    state: محافظة بغداد
+    suburb: Mustansiriya
+    supermarket: al mustansriya Central Market
+expected: |
+    al mustansriya Central Market
+    Rusafa
+    A86/N11/D383
+    بغداد
+    222
+    العراق
+---
+description: Hospital, 36.32326,43.12339
+components:
+    city: Mosul
+    country: Iraq
+    country_code: iq
+    county: Al Mnsul Qadha
+    hospital: Mosul General Hospital
+    road: الجسر الرابع
+    state: Nineveh
+    suburb: وادي حجر
+expected: |
+    Mosul General Hospital
+    الجسر الرابع
+    Mosul
+    Iraq
+---
+description: Town hall, 33.23623,44.31577
+components:
+    city: Baghdad
+    city_district: Rasheed
+    country: Iraq
+    country_code: iq
+    county: Karkh
+    road: شارع قطر الندى
+    state: Baghdad
+    suburb: Resala
+    townhall: Masgd
+expected: |
+    Masgd
+    Rasheed
+    شارع قطر الندى
+    Rasheed
+    Iraq

@@ -1,0 +1,79 @@
+# Jordan
+---
+description: Gallery, 31.95791,35.91522
+components:
+    city: Amman
+    country: Jordan
+    country_code: jo
+    museum: Jordan National Gallery of Fine Arts, Building 1
+    postcode: 11190
+    road: Husni Fareez Street
+    state: Amman
+expected: |
+    Jordan National Gallery of Fine Arts
+    Building 1
+    Husni Fareez Street
+    Amman 11190
+    Jordan
+---
+description: Supermarket, 31.95101,35.91891
+components:
+    city: Amman
+    country: Jordan
+    country_code: jo
+    postcode: 11183
+    road: Abu Al Wafa Al Dajani Street
+    state: Amman
+    supermarket: هَبوب - Haboob
+expected: |
+    هَبوب - Haboob
+    Abu Al Wafa Al Dajani Street
+    Amman 11183
+    Jordan
+---
+description: Supermarket, language=ar, 31.95101,35.91891
+components:
+    city: عمان
+    country: الأردن
+    country_code: jo
+    postcode: 11183
+    road: Abu Al Wafa Al Dajani Street
+    state: ‏محافظة العاصمة‎
+    supermarket: هَبوب
+expected: |
+    هَبوب
+    Abu Al Wafa Al Dajani Street
+    عمان 11183
+    الأردن
+---
+description: Dental clinic, 31.91740,35.89150
+components:
+    building: Khalifeh Mall
+    city: Amman
+    country: Jordan
+    country_code: jo
+    postcode: 11183
+    road: جبل عرفات
+    state: Amman
+    suburb: Sweifieh
+expected:
+    Khalifeh Mall
+    جبل عرفات
+    Amman 11183
+    Jordan
+---
+description: Dental clinic, language=ar, 31.91740,35.89150
+components:
+    building: خليفة مول
+    city: عمان
+    country: الأردن
+    country_code: jo
+    postcode: 11183
+    road: جبل عرفات
+    state: ‏محافظة العاصمة‎
+    suburb: حي الصويفية
+expected: |
+    خليفة مول
+    جبل عرفات
+    عمان 11183
+    الأردن
