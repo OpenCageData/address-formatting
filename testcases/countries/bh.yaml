@@ -9,7 +9,11 @@ components:
     state: Central Governorate
     supermarket: Ramaz
     town: Isa Town
-expected: Ramaz, Al-Doha Avenue, Isa Town 814, Bahrain
+expected: |
+    Ramaz
+    Al-Doha Avenue
+    Isa Town 814
+    Bahrain
 ---
 description: Supermarket, language=ar, 26.16969,50.55565
 components:
@@ -36,7 +40,11 @@ components:
     road: 2115,
     state: Capital Governorate
     suburb: Gudaibiya
-expected: Kerala Saloon, 2115, Manama 301, Bahrain
+expected: |
+    Kerala Saloon
+    2115
+    Manama 301
+    Bahrain
 ---
 description: Health Centre, 26.23556,50.59452
 components:
@@ -48,4 +56,8 @@ components:
     road: 1910,
     state: Capital Governorate
     suburb: Al Hoora
-expected: Al Hoora Health Centre, 1910, Manama 317, Bahrain
+expected: |
+    Al Hoora Health Centre
+    1910
+    Manama 317
+    Bahrain

@@ -9,7 +9,12 @@ components:
     postcode: 11190
     road: Husni Fareez Street
     state: Amman
-expected: Jordan National Gallery of Fine Arts, Building 1, Husni Fareez Street, Amman 11190, Jordan
+expected: |
+    Jordan National Gallery of Fine Arts
+    Building 1
+    Husni Fareez Street
+    Amman 11190
+    Jordan
 ---
 description: Supermarket, 31.95101,35.91891
 components:

@@ -12,7 +12,13 @@ components:
     state: Baghdad
     suburb: Mustansiriya
     supermarket: al mustansriya Central Market
-expected: al mustansriya Central Market, Rusafa, A86/N11/D383, Baghdad, 222, Iraq
+expected: |
+    al mustansriya Central Market
+    Rusafa
+    A86/N11/D383
+    Baghdad
+    222
+    Iraq
 ---
 description: Supermarket, language=ar, 33.3559,44.4015
 components:

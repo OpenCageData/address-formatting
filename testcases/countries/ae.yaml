@@ -10,7 +10,11 @@ components:
     road: 28th Street
     state: Abu Dhabi
     suburb: Police Officers City
-expected: L'Arabia hotel, 28th Street, Abu Dhabi, United Arab Emirates
+expected: |
+    L'Arabia hotel
+    28th Street
+    Abu Dhabi
+    United Arab Emirates
 ---
 description: L'Arabia Hotel, language=ar, 24.37253,54.53801
 components:
@@ -38,7 +42,11 @@ components:
     road: 8th Street
     state: Abu Dhabi
     suburb: Police Officers City
-expected: Pizza Hut, 8th Street, Abu Dhabi, United Arab Emirates
+expected: |
+    Pizza Hut
+    8th Street
+    Abu Dhabi
+    United Arab Emirates
 ---
 description: Thumbay Hospital, 25.28130/55.36503
 components:
@@ -51,4 +59,8 @@ components:
     road: Street 4
     state: Dubai
     suburb: Al Qusais 1
-expected: Thumbay Hospital, Street 4, Dubai, United Arab Emirates
+expected: |
+    Thumbay Hospital
+    Street 4
+    Dubai
+    United Arab Emirates
