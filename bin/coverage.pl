@@ -35,7 +35,8 @@ while (my $line = <$FH>){
     }
 }
 close $FH;
-print "We are aware of " . scalar(keys %countries) . " territories \n";
+my $total_countries = scalar(keys %countries); 
+print "We are aware of " . $total_countries . " territories \n";
 
 
 # which countries have tests?
@@ -50,7 +51,10 @@ foreach my $f (sort @files){
     $f = uc($f);
     $test_countries{$f} = 1;
 }
-print "We have tests for " . scalar(keys %test_countries) . " territories \n";
+my $test_countries = scalar(keys %test_countries);
+my $test_perc = int(100 * $test_countries / $total_countries );
+print "We have tests for " .  $test_countries . ' ('
+    . $test_perc . '%) territories' .  "\n";
 if ($details){
     print "We need tests for:\n";
     foreach my $cc (sort keys %countries){
@@ -70,7 +74,11 @@ while (my $line = <$RFH>){
     }
 }
 close $RFH;
-print "We have rules for " . scalar(keys %rules) . " territories \n";
+my $rules_countries = scalar(keys %rules);
+my $rules_perc = int(100 * $rules_countries / $total_countries );
+print "We have rules for " .  $rules_countries . ' ('
+    . $rules_perc . '%) territories' . "\n";
+
 if ($details){
     print "We need rules for:\n";
     foreach my $cc (sort keys %countries){
@@ -79,7 +87,6 @@ if ($details){
     }
 }
 
-
 # find territories without rules or tests
 my %neither;
 foreach my $cc (sort keys %countries){
@@ -87,17 +94,15 @@ foreach my $cc (sort keys %countries){
     next if (defined($test_countries{$cc}));
     $neither{$cc} = 1;
 }
-print scalar(keys %neither) . " territories have neither rules nor tests\n";
+my $neither_countries = scalar(keys %neither);
+my $neither_perc = int(100 * $neither_countries / $total_countries );
+print $neither_countries . ' (' . $neither_perc . '%) territories have neither rules nor tests' . "\n";
 if ($details){
     print "Territories with no test and no rules:\n";
     foreach my $cc (sort keys %neither){
         print "\t" . $cc . "\t". $countries{$cc}. "\n";
     }
 }
-
-
-
-
 
 
 sub usage {
