@@ -347,13 +347,17 @@ BF:
 BG:
     address_template: *generic9
 
-# Benin
-BJ:
-    address_template: *generic18
+# Bahrain
+BH:
+    address_template: *generic2
 
 # Burundi
 BI:
     address_template: *generic17
+
+# Benin
+BJ:
+    address_template: *generic18
 
 # Saint Barthélemy - same as FR
 BL:
@@ -827,6 +831,17 @@ IO:
     use_country: GB
     change_country: United Kingdom
     add_component: county=British Indian Ocean Territory
+
+# Iraq
+IQ: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{city_district}}} 
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state}}} || {{{village}}} {{/first}}
+        {{{postcode}}}
+        {{{country}}}
 
 # Iran
 IR: 
