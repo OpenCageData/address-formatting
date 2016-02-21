@@ -1,0 +1,21 @@
+# Switzerland
+---
+description: Building in Zurich, 47.37476,8.54393
+components:
+        city: Zurich
+        country: Switzerland
+        country_code: ch
+        county: Bezirk Zürich
+        house_number: 2
+        pedestrian: Häringstrasse
+        postcode: 8001
+        state: Zurich
+        suburb: Altstadt
+expected:  |
+    Häringstrasse 2
+    8001 Zurich
+    Switzerland
+
+
+
+
