@@ -1,0 +1,69 @@
+# Kuwait
+---
+description: Supermarket at 29.2612,47.9658
+components:
+    city: Jaleeb Al Shoyoukh
+    country: Kuwait
+    country_code: kw
+    postcode: 32018
+    road: 79 St
+    state: Farwaniya
+    suburb: Al Dajeej
+    supermarket: Sultan Center Wholesale
+expected: |
+    Sultan Center Wholesale
+    Al Dajeej
+    79 St
+    32018 Jaleeb Al Shoyoukh
+    Kuwait
+---
+description: Supermarket, language=ar, 29.2612,47.9658
+components:
+    city: جليب الشيوخ
+    country: الكويت
+    country_code: kw
+    postcode: 32018
+    road: 79 St
+    state: الفروانية
+    suburb: الضجيج
+    supermarket: Sultan Center Wholesale
+expected: |
+    Sultan Center Wholesale
+    الضجيج
+    79 St
+    32018 جليب الشيوخ
+    الكويت
+---
+description: Hospital, 29.33765,47.97917
+components:
+    city: Shuwaikh Residential
+    country: Kuwait
+    country_code: kw
+    hospital: Faiha Primary Healthcare Center
+    postcode: 13009
+    road: Third Ring Road
+    state: Al Asimah
+    suburb: Faiha
+expected: |
+    Faiha Primary Healthcare Center
+    Faiha
+    Third Ring Road
+    13009 Shuwaikh Residential
+    Kuwait
+---
+description: National Library, 29.37496,47.96875
+components:
+    building: Kuwait National Library
+    city: Kuwait City
+    country: Kuwait
+    country_code: kw
+    postcode: 13009
+    road: Gulf Road
+    state: Al Asimah
+    suburb: Dasma
+expected: |
+    Dasma
+    Gulf Road
+    Kuwait National Library
+    13009 Kuwait City
+    Kuwait

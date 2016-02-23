@@ -1,0 +1,80 @@
+# Lebanon
+---
+description: Cinema, 33.88591,35.50907
+components:
+    cinema: Circuit Empire Sodeco
+    city: Beirut
+    country: Lebanon
+    country_code: lb
+    postcode: 2052 6703
+    road: Damascus Road
+    state: Beirut Governorate
+    suburb: Achrafieh
+expected: |
+    Circuit Empire Sodeco
+    Damascus Road
+    Beirut 2052 6703
+    Lebanon
+---
+# This is a tricky case, as the postcode "2052 6703" could get displayed like
+# "6703 2052" in some situations, which is incorrect. The solution to this is
+# to replace the space character with a non-breaking space U+00A0.
+description: Cinema, language=ar, 33.88591,35.50907
+components:
+    cinema: سيركوي امبير سوديكو
+    city: بيروت
+    country: الجمهورية اللبنانية
+    country_code: lb
+    postcode: 2052 6703
+    road: طريق الشام
+    state: محافظة بيروت
+    suburb: الأشرفية
+expected: |
+    سيركوي امبير سوديكو
+    طريق الشام
+    بيروت 2052 6703
+    الجمهورية اللبنانية
+---
+description: Restaurant, 33.89821,35.47893
+components:
+    city: Beirut
+    country: Lebanon
+    country_code: lb
+    restaurant: Kushari Society
+    road: Rue Mahatma Gandhi
+    state: Beirut Governorate
+    suburb: Ras Beirut
+expected: |
+    Kushari Society
+    Rue Mahatma Gandhi
+    Beirut
+    Lebanon
+---
+description: Restaurant, language=ar, 33.89821,35.47893
+components:
+    city: بيروت
+    country: الجمهورية اللبنانية
+    country_code: lb
+    restaurant: Kushari Society
+    road: شارع المهتما غاندي
+    state: محافظة بيروت
+    suburb: رأس بيروت
+expected: |
+    Kushari Society
+    شارع المهتما غاندي
+    بيروت
+    الجمهورية اللبنانية
+---
+description: Supermarket, 34.43088,35.83017
+components:
+    city: Tripoli
+    country: Lebanon
+    country_code: lb
+    road: شارع عشير الدايه
+    state: Qada Tarablos
+    supermarket: SEVEN TO TWELVE
+expected: |
+    SEVEN TO TWELVE
+    شارع عشير الدايه
+    Tripoli
+    Lebanon
