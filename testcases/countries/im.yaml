@@ -1,0 +1,19 @@
+# Isle of Man
+---
+description: Address in Douglas, 54.14906,-4.47949
+components:
+        address29: 3FM
+        country: Isle of Man
+        country_code: im
+        county: Middle
+        house_number: 45
+        postcode: IM1 2AY
+        road: Victoria Street
+        town: Douglas
+expected:  |
+    3FM
+    45 Victoria Street
+    Douglas IM1 2AY
+    Isle of Man
+
+
