@@ -1222,6 +1222,10 @@ PK:
 # Poland
 PL:
     address_template: *generic1
+    postformat_replace:
+        # fix the postcode to make it \d\d-\d\d\d 
+        - ["\n(\\d{2})(\\w{3}) ","\n$1-$2 "]
+
 
 # Saint Pierre and Miquelon - same as FR
 PM:

@@ -30,3 +30,22 @@ expected:  |
     Mostowa
     33-106 Tarnów
     Poland
+---
+description: ensure postcode well formatted, 53.43888,14.57544
+components:
+        city: Szczecin
+        city_district: Śródmieście
+        country: Poland
+        country_code: pl
+        county: Szczecin
+        house_number: 19
+        neighbourhood: Grabowo
+        postcode: 71637
+        road: Teofila Firlika
+        state: West Pomeranian Voivodeship
+        suburb: Drzetowo-Grabowo
+expected:  |
+    Teofila Firlika 19
+    71-637 Szczecin
+    Poland
+
