@@ -1,0 +1,18 @@
+# Liechtenstein
+---
+description: Museum in Vaduz, 47.13947,9.52215
+components:
+        country: Liechtenstein
+        country_code: li
+        county: Wahlkreis Oberland
+        house_number: 32
+        museum: Kunstmuseum Liechtenstein
+        pedestrian: Städtle
+        postcode: 9490
+        village: Vaduz
+expected:  |
+    Kunstmuseum Liechtenstein
+    Städtle 32
+    9490 Vaduz
+    Liechtenstein
+
