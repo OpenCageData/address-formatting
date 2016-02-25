@@ -1,0 +1,19 @@
+# Bermuda
+---
+description: Post office in Flatt's, 32.31976,-64.73605
+components:
+        country: Bermuda
+        country_code: bm
+        county: Devonshire
+        house_number: 65
+        post_office: Flatt's Post Office
+        postcode: FL 04
+        road: Middle Road
+expected:  |
+    Flatt's Post Office
+    65 Middle Road
+    Devonshire FL 04
+    Bermuda
+
+
+
