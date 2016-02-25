@@ -24,7 +24,7 @@ you want to write logic to compile addresses in the format consumers expect
 
 or perhaps simply
 
-	Rue du Médecin-Colonel Calbairac
+        Rue du Médecin-Colonel Calbairac
         Toulouse
         France
 
