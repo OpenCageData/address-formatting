@@ -18,22 +18,22 @@ Given a set of address parts
 
 you want to write logic to compile addresses in the format consumers expect
 
-	17 Rue du Médecin-Colonel Calbairac
-	31000 Toulouse
-	France
+    17 Rue du Médecin-Colonel Calbairac
+    31000 Toulouse
+    France
 
 or perhaps simply
 
-        Rue du Médecin-Colonel Calbairac
-        Toulouse
-        France
+    Rue du Médecin-Colonel Calbairac
+    Toulouse
+    France
 
 This repository contains templates for various address formats used in
 territories around the world. It also contains test cases.
 
 ### Which addresses we're talking about
 
-The intended use-case is database or geocoding systems (forward, reverse, autocomplete) where we know both the country of the address and the language of the user/reader. The address is displayed to a consumer (for example in an app) and not used to print on an envelope for actual postal delivery. We use it to format output from the [OpenCage Geocoder](http://geocoder.opencagedata.com).
+The intended use-case is database or geocoding systems (forward, reverse, autocomplete) where we know both the country of the address and the language of the user/reader. The address is displayed to a consumer (for example in an app) and not used to print on an envelope for actual postal delivery. We use it to format output from the [OpenCage Geocoder](https://geocoder.opencagedata.com).
 
 We have to deal with
 
@@ -71,7 +71,7 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
         target territory in OpenStreetMap
       * get the coordinates (lat, long) of the location
       * put the coordinates into the [OpenCage Geocoder demo
-        page](http://geocoder.opencagedata.com/demo.html)
+        page](https://geocoder.opencagedata.com/demo)
       * look at the resulting JSON in the *Raw Response* tab
 
 2. edit `conf/countries/worldwide.yaml`
@@ -116,7 +116,7 @@ We welcome your pull requests. Together we can address the world!
 
 ### Who are we?
 
-We run the [OpenCage Geocoder](http://geocoder.opencagedata.com). 
+We run the [OpenCage Geocoder](https://geocoder.opencagedata.com). 
 Previously, before beine spun off as a seperate company, we were a division of [Lokku](http://www.lokku.com), long time supporters of OpenStreetMap and open data initiatives. We also run [#geomob](http://geomobldn.org), a meetup of London location based service developers where we do our best to highlight geoinnovation. 
 
 ### Further reading
@@ -127,6 +127,6 @@ You may enjoy Michael Tandy's [Falsehoods Programmers Believe about Addresses](h
 
 If it's actual address data you're after, check out [OpenAddresses](http://openaddresses.io/).
 
-If you want to turn longitude, latitude into addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](http://geocoder.opencagedata.com).
+If you want to turn longitude, latitude into addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](https://geocoder.opencagedata.com).
 
 If all this convinces you address are evil, please check out [what3words](http://what3words.com/) which allows you to dispense with them entirely. 
