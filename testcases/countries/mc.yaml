@@ -1,0 +1,20 @@
+# Monaco
+---
+description: Hotel in Monaco, 43.73917,7.42224
+components:
+        country: Monaco
+        country_code: mc
+        hotel: Novotel
+        house_number: 16
+        postcode: 98000
+        road: Boulevard Princesse Charlotte
+        suburb: Monte-Carlo
+        town: Monaco
+expected:  |
+    Novotel
+    16 Boulevard Princesse Charlotte
+    98000 Monaco
+    Monaco
+
+
+
