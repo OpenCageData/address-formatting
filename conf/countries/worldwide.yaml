@@ -1464,6 +1464,10 @@ TV:
         {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{island}}} {{/first}}
         {{{country}}}
 
+# Taiwan
+TW: 
+    address_template: *generic20
+
 # Tanzania
 TZ:
     address_template: *generic14
