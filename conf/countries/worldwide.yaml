@@ -690,11 +690,10 @@ GF:
     use_country: FR
     change_country: France     
 
-# Guernsey - same as UK
+# Guernsey - same format as UK, but not part of UK
 GG:
     use_country: GB
-    change_country: United Kingdom
-    add_component: county=Channel Islands
+    change_country: Guernsey, Channel Islands
 
 # Ghana
 GH:
@@ -857,11 +856,10 @@ IS:
 IT: 
     address_template: *generic8
 
-# Jersey - same as UK
+# Jersey - same format as UK, but not part of UK
 JE:
     use_country: GB
-    change_country: United Kingdom
-    add_component: county=Channel Islands
+    change_country: Jersey, Channel Islands
 
 # Jamaica
 JM:

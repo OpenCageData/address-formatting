@@ -1,0 +1,15 @@
+# Jersey in Channel Islands
+---
+description: Building in Saing Helier, 49.18619,-2.10716
+components:
+        country: Jersey
+        country_code: je
+        house_number: 5
+        postcode: JE2 4TN
+        road: Le Geyt Street
+        state: Jersey
+        town: Saint Helier
+expected:  |
+    5 Le Geyt Street
+    Saint Helier JE2 4TN
+    Jersey, Channel Islands

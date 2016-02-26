@@ -1,0 +1,19 @@
+# Guernsey in Channel Islands
+---
+description: Post office in Saint Peter Port, 49.45676,-2.53688
+components:
+        country: Guernsey
+        country_code: gg
+        post_box: Post Office
+        postcode: GY1
+        road: Le Marchant Street
+        state: Guernsey
+        town: Saint Peter Port
+expected:  |
+    Post Office
+    Le Marchant Street
+    Saint Peter Port GY1
+    Guernsey, Channel Islands
+
+
+
