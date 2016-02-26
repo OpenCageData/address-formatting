@@ -1,0 +1,19 @@
+# Falkland Islands
+---
+description: Hotel in Stanley, -51.69328,-57.86325
+components:
+        building: Rose Hotel
+        country: Falkland Islands
+        country_code: fk
+        house_number: 1
+        residential: Port Stanley
+        road: Brisbane Road
+        town: Stanley, Falkland Islands
+expected:  |
+    Rose Hotel
+    1 Brisbane Road
+    Stanley, Falkland Islands
+    United Kingdom
+
+
+
