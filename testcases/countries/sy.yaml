@@ -1,0 +1,81 @@
+# Syria
+---
+description: Plastic surgery clinic, 33.52042,36.29148
+components:
+    city: Damascus
+    clinic: Plastic Surgery Clinic
+    country: Syria
+    country_code: sy
+    neighbourhood: Baramkeh
+    pedestrian: سوق الصالحية
+    state: Rif Dimashq
+    suburb: Kafar Sousseh
+expected: |
+    Plastic Surgery Clinic
+    Baramkeh
+    Damascus
+    Syria
+---
+description: Plastic surgery clinic, language=ar, 33.52042,36.29148
+components:
+    city: دمشق
+    clinic: عيادة الجراحة التجميلية
+    country: الجمهورية العربية السورية
+    country_code: sy
+    neighbourhood: البرامكة
+    pedestrian: شارع جمال عبد الناصر
+    state: ريف دمشق
+    suburb: كفر سوسه
+expected: |
+    عيادة الجراحة التجميلية
+    البرامكة
+    دمشق
+    الجمهورية العربية السورية
+---
+description: Pharmacy, 33.51929,36.31770
+components:
+    city: Damascus
+    country: Syria
+    country_code: sy
+    pharmacy: Maooneh
+    road: Albeirudi Street
+    state: Rif Dimashq
+    suburb: Soufanieh
+expected: |
+    Maooneh
+    Albeirudi Street
+    Soufanieh
+    Damascus
+    Syria
+---
+description: Pharmacy, language=ar, 33.51929,36.31770
+components:
+    city: دمشق
+    country: الجمهورية العربية السورية
+    country_code: sy
+    pharmacy: المعونة
+    road: شارع البيرودي
+    state: ريف دمشق
+    suburb: Soufanieh
+expected: |
+    المعونة
+    شارع البيرودي
+    Soufanieh
+    دمشق
+    الجمهورية العربية السورية
+---
+description: Mosque, 36.19821,37.15467
+components:
+    city: Aleppo
+    country: Syria
+    country_code: sy
+    neighbourhood: Al Jdeida
+    pedestrian: Souq el Attarine
+    place_of_worship: Al Bahramiyeh Mosque
+    state: Aleppo
+    suburb: حي باب النيرب
+expected: |
+    Al Bahramiyeh Mosque
+    حي باب النيرب
+    Aleppo
+    Syria

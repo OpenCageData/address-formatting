@@ -1,0 +1,46 @@
+# Qatar
+---
+description: Bank, 25.28695,51.54133
+components:
+    bank: ahlibank Merqab Branch
+    city: Doha
+    country: Qatar
+    country_code: qa
+    postcode: 22050
+    road: Al Muthaf Street
+    state: Doha
+    suburb: (Sharg Zone) - Aslata (18)
+expected: |
+    ahlibank Merqab Branch
+    Al Muthaf Street
+    Doha
+    Qatar
+---
+description: Supermarket, 25.7144,51.5301
+components:
+    country: Qatar
+    country_code: qa
+    postcode: 41
+    road: Main Al Thakira Street
+    state: Al Khawr
+    supermarket: Al Meera
+    town: Al Thakira
+expected: |
+    Al Meera
+    Main Al Thakira Street
+    Al Thakira
+    Qatar
+---
+description: Pharmacy, 25.16318,51.59828
+components:
+    country: Qatar
+    country_code: qa
+    pharmacy: Al Ayaan Pharmacy, Wakra
+    road: Abdul Rahman Bin Jasim Street
+    state: Al Wakrah
+    town: Al Wakrah
+expected: |
+    Al Ayaan Pharmacy, Wakra
+    Abdul Rahman Bin Jasim Street
+    Al Wakrah
+    Qatar

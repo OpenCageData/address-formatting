@@ -1,0 +1,70 @@
+# Oman
+---
+description: Supermarket, 23.6004,58.5395
+components:
+    city: Muscat, Oman
+    country: Oman
+    country_code: om
+    postcode: 116
+    residential: Muscat
+    road: Al Noor Street
+    state: Muscat
+    supermarket: Fathima Super Market
+expected: |
+    Fathima Super Market
+    Al Noor Street
+    116
+    Muscat, Oman
+    Muscat
+    Oman
+---
+description: Supermarket, language=ar, 23.6004,58.5395
+components:
+    city: Muscat, Oman
+    country: سلطنة عمان
+    country_code: om
+    postcode: 116
+    residential: Muscat
+    road: Al Noor Street
+    state: محافظة مسقط
+    supermarket: Fathima Super Market
+expected: |
+    Fathima Super Market
+    Al Noor Street
+    116
+    Muscat, Oman
+    محافظة مسقط
+    سلطنة عمان
+---
+description: Bakery, 23.59524,58.44763
+components:
+    bakery: Muscat Bakery
+    city: Muscat, Oman
+    country: Oman
+    country_code: om
+    postcode: 1727
+    road: Street 3305
+    state: Muscat
+    suburb: Madinat al Sultan Qaboos
+expected: |
+    Muscat Bakery
+    Street 3305
+    1727
+    Muscat, Oman
+    Muscat
+    Oman
+---
+description: Medical complex, 17.01483,54.09010
+components:
+    city: Salalah
+    clinic: Al Zahir Medical Complex
+    country: Oman
+    country_code: om
+    road: Al Nahdah Street
+    state: Dhofar
+expected: |
+    Al Zahir Medical Complex
+    Al Nahdah Street
+    Salalah
+    Dhofar
+    Oman

@@ -1,0 +1,77 @@
+# Lybia
+---
+description: Hotel, 32.88945,13.17402
+components:
+    city: Tripoli
+    country: Libya
+    country_code: ly
+    hotel: Capital Hotel
+    postcode: 82510
+    road: Arasafi
+    state: Tripoli
+    suburb: Old City المدينة القديمه
+expected: |
+    Capital Hotel
+    Arasafi
+    Tripoli
+    Libya
+---
+description: Hotel, language=ar 32.88945,13.17402
+components:
+    city: طرابلس
+    country: ليبيا
+    country_code: ly
+    hotel: Capital Hotel
+    postcode: 82510
+    road: Arasafi
+    state: طرابلس
+    suburb: Old City المدينة القديمه
+expected: |
+    Capital Hotel
+    Arasafi
+    طرابلس
+    ليبيا
+---
+description: Supermarket, 32.88791,13.21650
+components:
+    city: Tripoli
+    country: Libya
+    country_code: ly
+    postcode: 82510
+    road: Shara Muhammad Soukny
+    state: Tripoli
+    suburb: Bab Tajura
+    supermarket: Suuq Nufleen
+expected: |
+    Suuq Nufleen
+    Shara Muhammad Soukny
+    Tripoli
+    Libya
+---
+description: Convenience store, 31.92505,12.24794
+components:
+    city: Az zintan
+    country: Libya
+    country_code: ly
+    road: طريق الصلوعة
+    shop: محل مواد غدائية
+    state: Jabal al Gharbi
+expected: |
+    محل مواد غدائية
+    طريق الصلوعة
+    Az zintan
+    Libya
+---
+description: Convenience store, language=ar, 31.92505,12.24794
+components:
+    city: الزنتان
+    country: ليبيا
+    country_code: ly
+    road: طريق الصلوعة
+    shop: محل مواد غدائية
+    state: الجبل الغربي
+expected: |
+    محل مواد غدائية
+    طريق الصلوعة
+    الزنتان
+    ليبيا

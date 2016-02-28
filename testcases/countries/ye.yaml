@@ -1,0 +1,60 @@
+# Yemen
+---
+description: Shop, 15.28562,44.23028
+components:
+    city: Sanʿaʾ
+    country: Yemen
+    country_code: ye
+    county: Qada Sana
+    mall: Yassin Spices
+    road: شارع الحربي
+expected: |
+    Yassin Spices
+    شارع الحربي
+    Sanʿaʾ
+    Yemen
+---
+description: Shop, language=ar, 15.28562,44.23028
+components:
+    city: صنعاء
+    country: اليمن
+    country_code: ye
+    county: قضاء صنعاء
+    mall: بهارات ياسين
+    road: شارع الحربي
+expected: |
+    بهارات ياسين
+    شارع الحربي
+    صنعاء
+    اليمن
+---
+description: Central bank, 15.34924,44.20724
+components:
+    bank: Centeral Bank of Yemen
+    city: Sanʿaʾ
+    country: Yemen
+    country_code: ye
+    county: Qada Sana
+    postcode: 01
+    road: Al Zubayri Street
+expected: |
+    Centeral Bank of Yemen
+    Al Zubayri Street
+    Sanʿaʾ
+    Yemen
+---
+description: Pizzaria, 12.77954,45.04418
+components:
+    city: Aden
+    country: Yemen
+    country_code: ye
+    county: Aden Directorate
+    fast_food: Pizza
+    residential: كريتر
+    road: خط صيرة
+    state: ‘Adan Governorate
+expected: |
+    Pizza
+    خط صيرة
+    Aden
+    Yemen

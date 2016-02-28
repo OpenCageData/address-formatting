@@ -1,0 +1,58 @@
+# Mauritania
+---
+description: Health centre, 18.1174,-15.9174
+components:
+    city: Nouakchott
+    country: Mauritania
+    country_code: mr
+    hospital: CENTRE DE SANTE
+    road: Route de la Résistance
+    state: Nouakchott
+expected: |
+    CENTRE DE SANTE
+    Route de la Résistance
+    Nouakchott
+    Mauritania
+---
+description: Health centre, language=ar, 18.1174,-15.9174
+components:
+    city: نواكشوط
+    country: موريتانيا
+    country_code: mr
+    hospital: CENTRE DE SANTE
+    road: Route de la Résistance
+    state: نواكشوط
+expected: |
+    CENTRE DE SANTE
+    Route de la Résistance
+    نواكشوط
+    موريتانيا
+---
+description: Mosque, 18.06802,-15.98678
+components:
+    city: Nouakchott
+    country: Mauritania
+    country_code: mr
+    place_of_worship: Mosquée du Qatar
+    postcode: 170
+    road: Route Famille Dia
+    state: Nouakchott
+expected: |
+    Mosquée du Qatar
+    Route Famille Dia
+    Nouakchott
+    Mauritania
+---
+description: Hospital, 20.9565,-17.0332
+components:
+    country: Mauritania
+    country_code: mr
+    hospital: Hôpital Régional de Nouadhibou
+    road: N2
+    state: Dakhlet Nouadhibou
+    town: Nouadhibou
+expected: |
+    Hôpital Régional de Nouadhibou
+    N2
+    Nouadhibou
+    Mauritania
