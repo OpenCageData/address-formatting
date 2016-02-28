@@ -13,7 +13,7 @@ components:
 expected: |
     Circuit Empire Sodeco
     Damascus Road
-    Beirut 2052 6703
+    Beirut 2052 6703
     Lebanon
 ---
 # This is a tricky case, as the postcode "2052 6703" could get displayed like

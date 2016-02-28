@@ -939,6 +939,15 @@ KZ:
 LA: 
     address_template: *generic22
 
+# Lebanon
+LB: 
+    address_template: *generic2
+    postformat_replace:
+        # fix the postcode to make it nonbreaking space
+       - [" (\\d{4}) (\\d{4})\n"," $1 $2\n"]
+ #       - ["\n(\\d{4}) (\\d{4}) ","\n$1 $2 "]
+
+
 # Saint Lucia
 LC:
     address_template: *generic17
