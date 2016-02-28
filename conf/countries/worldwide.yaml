@@ -1261,6 +1261,10 @@ PW:
 PY: 
     address_template: *generic1
 
+# Qatar
+QA:
+    address_template: *generic17
+
 # Réunion - same as FR
 RE:
     address_template: *generic3
