@@ -962,6 +962,10 @@ LU:
 LV:
     address_template: *generic7
 
+# Libya
+LY:
+    address_template: *generic17
+
 # Morocco
 MA:
     address_template: *generic1
@@ -1179,7 +1183,6 @@ OM:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
         {{{state}}}
         {{{country}}}
-
 
 # Panama
 PA:
