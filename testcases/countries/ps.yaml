@@ -1,0 +1,110 @@
+# Palestine
+#
+# Note that postal addresses seem to follow Israeli format and end with "via Isreal",
+# according to 
+# https://www.informatica.com/products/data-quality/data-as-a-service/address-verification/address-formats.html?code=PSE
+#
+# I removed "via Israel" since we are not using postal addresses, and followed 
+# the more detailed Israeli format found at
+# https://www.informatica.com/products/data-quality/data-as-a-service/address-verification/address-formats.html?code=ISR
+---
+description: Hostel, 31.90204,35.20281
+components:
+    country: Palestine
+    country_code: ps
+    hostel: Hostel in Ramallah
+    house_number: 12
+    postcode: 700074
+    road: Al-Nuzha Street
+    state: Area A
+    state_district: Ramallah and al-Bireh Governorate
+    suburb: Ramallah Altahtah
+    town: Ramallah
+expected: |
+    Hostel in Ramallah
+    12 Al-Nuzha Street
+    700074 Ramallah
+    Palestine
+---
+description: Hostel, language=ar, 31.90204,35.20281
+    country: فلسطين
+    country_code: ps
+    hostel: Hostel in Ramallah
+    house_number: 12
+    postcode: 700074
+    road: شارع النزهة
+    state: منطقة A
+    state_district: محافظة رام الله والبيرة
+    suburb: رام الله التحتة
+    town: رام الله
+expected: |
+    Hostel in Ramallah
+    12 شارع النزهة
+    700074 رام الله
+    فلسطين
+---
+description: Doctor's office, 32.22369,35.25941
+components:
+    city: Nablus
+    country: Palestine
+    country_code: ps
+    doctors: Al Adham X-ray
+    road: Sufian Street
+    state: Area A
+    state_district: Nablus Governorate
+    suburb: Old City
+expected: |
+    Al Adham X-ray
+    Sufian Street
+    Nablus
+    Palestine
+---
+description: Doctor's office, language=ar, 32.22369,35.25941
+components:
+    city: Nablus
+    country: فلسطين
+    country_code: ps
+    doctors: الادهم للاشعه
+    road: شارع سفيان
+    state: منطقة A
+    state_district: محافظة نابلس
+    suburb: البلدة القديمة
+expected: |
+    الادهم للاشعه
+    شارع سفيان
+    Nablus
+    فلسطين
+---
+description: Optician, 31.50804,34.45912
+components:
+    city: Gaza
+    country: Palestine
+    country_code: ps
+    doctors: Khorsheed Optician
+    postcode: 00972
+    region: Gaza Strip
+    road: Omar Al-Mukhtar St.
+    state_district: Gaza Governorate
+    suburb: Saknat az Zarqa
+expected: |
+    Khorsheed Optician
+    Omar Al-Mukhtar St.
+    00972 Gaza
+    Palestine
+---
+description: Optician, language=ar, 31.50804,34.45912
+components:
+    city: غزة
+    country: فلسطين
+    country_code: ps
+    doctors: خورشيد للبصريات
+    postcode: 00972
+    region: ‏قطاع غزّة‎
+    road: شارع عمر المختار
+    state_district: غزة
+    suburb: ثكنة الزرقاء
+expected: |
+    خورشيد للبصريات
+    شارع عمر المختار
+    00972 غزة
+    فلسطين
