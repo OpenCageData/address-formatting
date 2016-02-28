@@ -916,7 +916,16 @@ KN:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} || {{{island}}} {{/first}}
         {{{country}}}
 
+# Kuwait
+KW:
+    address_template: |
+        {{{attention}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
 
+        {{{road}}} 
+        {{{house_number}}} {{{house}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{country}}}
 
 # Cayman Islands
 KY:
