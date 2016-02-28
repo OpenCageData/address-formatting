@@ -1057,6 +1057,10 @@ MT:
 MQ:
     address_template: *generic3
 
+# Mauritania
+MR:
+    address_template: *generic18
+
 # Mauritius
 MU:
     address_template: *generic18
