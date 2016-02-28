@@ -816,7 +816,7 @@ IE:
 
 # Israel
 IL: 
-    address_template: *generic2
+    address_template: *generic3
 
 # Isle of Man
 IM: 
@@ -1246,6 +1246,10 @@ PR:
     use_country: US
     change_country: United States of America
     add_component: state=Puerto Rico
+
+# Palestine
+PS:
+    use_country: IL
 
 # Portugal
 PT:

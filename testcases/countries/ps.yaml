@@ -27,6 +27,7 @@ expected: |
     Palestine
 ---
 description: Hostel, language=ar, 31.90204,35.20281
+components:
     country: فلسطين
     country_code: ps
     hostel: Hostel in Ramallah
@@ -108,3 +109,4 @@ expected: |
     شارع عمر المختار
     00972 غزة
     فلسطين
+
