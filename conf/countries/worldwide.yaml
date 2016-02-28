@@ -1579,6 +1579,11 @@ WF:
 WS:
     address_template: *generic17
 
+# Yemen
+YE:
+    address_template: *generic18
+
+
 # Mayotte - same as FR
 YT:
     use_country: FR
