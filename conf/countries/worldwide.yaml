@@ -1169,6 +1169,18 @@ NU:
 NZ:
     address_template: *generic20
 
+# Oman
+OM:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
+        {{{state}}}
+        {{{country}}}
+
+
 # Panama
 PA:
     address_template: |
