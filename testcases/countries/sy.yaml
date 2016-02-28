@@ -12,6 +12,7 @@ components:
     suburb: Kafar Sousseh
 expected: |
     Plastic Surgery Clinic
+    سوق الصالحية
     Baramkeh
     Damascus
     Syria
@@ -28,6 +29,7 @@ components:
     suburb: كفر سوسه
 expected: |
     عيادة الجراحة التجميلية
+    شارع جمال عبد الناصر
     البرامكة
     دمشق
     الجمهورية العربية السورية
@@ -76,6 +78,7 @@ components:
     suburb: حي باب النيرب
 expected: |
     Al Bahramiyeh Mosque
-    حي باب النيرب
+    Souq el Attarine
+    Al Jdeida
     Aleppo
     Syria

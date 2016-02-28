@@ -1382,6 +1382,18 @@ SV:
 SX: 
     address_template: *generic17
 
+# Syria
+SY: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}}, {{{house_number}}}
+        {{#first}} {{{village}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{state}}} {{/first}}
+        
+        {{{country}}}
+
+
 # Swaziland
 SZ: 
     address_template: |
@@ -1582,7 +1594,6 @@ WS:
 # Yemen
 YE:
     address_template: *generic18
-
 
 # Mayotte - same as FR
 YT:
