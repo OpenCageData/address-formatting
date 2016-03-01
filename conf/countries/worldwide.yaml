@@ -892,7 +892,7 @@ KH:
         {{{house}}}
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
 # Kiribati
@@ -917,6 +917,16 @@ KN:
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} || {{{island}}} {{/first}}
         {{{country}}}
+
+# Republic of Korea / South Korea
+KR: 
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
 
 # Kuwait
 KW:

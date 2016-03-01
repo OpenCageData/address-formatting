@@ -1,0 +1,21 @@
+# Republic of Korea (South Korea)
+---
+description: Hotel in Gangnam, Seoul, 37.49675,127.02755
+components:
+        city: Seoul
+        city_district: 서초2동 (Seocho2-dong)
+        country: South Korea
+        country_code: kr
+        hotel: Haeundae Grand Hotel
+        postcode: 135-934
+        road: Seocho-daero 74-gil
+        town: Seocho-gu
+        village: Seocho-dong
+expected:  |
+    Haeundae Grand Hotel
+    Seocho-daero 74-gil
+    서초2동 (Seocho2-dong), Seoul, 135-934
+    South Korea
+
+
+
