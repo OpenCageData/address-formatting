@@ -1,0 +1,19 @@
+# Afghanistan
+---
+description: Government building in Kandahar, 31.6110,65.6963
+components:
+        building: Kandahar Institute of Health Sciences
+        city: Kandahar
+        country: Afghanistan
+        country_code: af
+        road: Kandahar-Herat Highway
+        state: Kandahar
+expected:  |
+    Kandahar Institute of Health Sciences
+    Kandahar-Herat Highway
+    Kandahar
+    Afghanistan
+
+
+
+

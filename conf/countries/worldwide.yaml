@@ -242,6 +242,10 @@ AD:
 AE:
     address_template: *generic5
 
+# Angola
+AF:
+    address_template: *generic21
+
 # Antigua and Barbuda
 AG:
     address_template: *generic16
