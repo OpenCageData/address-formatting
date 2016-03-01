@@ -875,6 +875,20 @@ JM:
 JO:
     address_template: *generic2
 
+# Japan
+JP:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} || {{{state_district}}} {{/first}} {{{postcode}}}
+        {{{country}}}
+    postformat_replace:
+        # fix the postcode to make it \d\d\d-\d\d\d\d
+        - [" (\\d{3})(\\d{4})\n"," $1-$2\n"]
+
+
 # Kenya
 KE:
     address_template: |

@@ -1,0 +1,22 @@
+# Japan
+---
+description: Restaurant in Hiroshima, 34.38227,132.44032
+components:
+        city: Hiroshima
+        country: Japan
+        country_code: jp
+        county: Aki County
+        postcode: 7300846
+        restaurant: 食辛房
+        road: 舟入通り
+        state: Chugoku Region
+        suburb: Naka Ward
+expected:  |
+    食辛房
+    舟入通り
+    Naka Ward
+    Hiroshima, Chugoku Region 730-0846
+    Japan
+
+
+
