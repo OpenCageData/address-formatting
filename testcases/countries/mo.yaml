@@ -1,0 +1,23 @@
+# Macau
+# note in OSM, returns country_code = cn
+---
+description: Building in Macau, 22.16096,113.55467
+components:
+        building: 第四座欣濠軒 Torre 4
+        country: Macau
+        country_code: mo
+        county: 嘉模堂區 Nossa Senhora do Carmo
+        house_number: 641
+        road: 南京街 Rua de Nam Keng
+        state: Macao
+        state_district: Taipa
+        suburb: Taipa
+        village: Taipa Old Village
+expected:  |
+    第四座欣濠軒 Torre 4
+    南京街 Rua de Nam Keng 641
+    Taipa
+    Macau
+
+
+

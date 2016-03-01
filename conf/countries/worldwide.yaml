@@ -888,7 +888,6 @@ JP:
         # fix the postcode to make it \d\d\d-\d\d\d\d
         - [" (\\d{3})(\\d{4})\n"," $1-$2\n"]
 
-
 # Kenya
 KE:
     address_template: |
@@ -1088,6 +1087,16 @@ MN:
         {{{postcode}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
         {{{country}}}
+
+# Macau
+MO:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{village}}} || {{{state_district}}} {{/first}}
+        {{{country}}}
+
 
 # Northern Mariana Islands
 MP:
