@@ -1,0 +1,19 @@
+# Bolivia
+---
+description: Bank in La Paz, -16.49607,-68.14860
+components:
+        bank: Banco Los Andes Pro Credite
+        city: Municipio Nuestra Senora de La Paz
+        country: Bolivia
+        country_code: bo
+        county: Provincia Murillo
+        postcode: 8686
+        road: José María Achá
+        state: La Paz Departament
+        suburb: Gran Poder
+expected:  |
+    Banco Los Andes Pro Credite
+    José María Achá
+    La Paz
+    Bolivia
+

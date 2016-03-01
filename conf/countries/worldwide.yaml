@@ -381,7 +381,9 @@ BN:
 
 # Bolivia
 BO:
-    address_template: *generic1
+    address_template: *generic17
+    replace:
+        - ["^Municipio Nuestra Senora de ",""]
 
 # Dutch Caribbean / Bonaire
 BQ:
