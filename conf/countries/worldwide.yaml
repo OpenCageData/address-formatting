@@ -918,6 +918,10 @@ KN:
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} || {{{island}}} {{/first}}
         {{{country}}}
 
+# Democratic People's Republic of Korea / North Korea
+KP: 
+    address_template: *generic21
+
 # Republic of Korea / South Korea
 KR: 
     address_template: |
@@ -926,7 +930,6 @@ KR:
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} {{/first}} {{{postcode}}} 
         {{{country}}}
-
 
 # Kuwait
 KW:

@@ -1,0 +1,21 @@
+# Democratic People's Republic of Korea / North Korea
+---
+description: Library in Pyongyang, 39.0203,125.7490
+components:
+        city: Pyongyang
+        country: North Korea
+        country_code: kp
+        library: Grand People's Study House
+        road: Somun Street
+        state: Pyongyang
+        state_district: Central District
+        suburb: 동신3동 (Tongsin 3-dong)
+expected:  |
+    Grand People's Study House
+    Somun Street
+    동신3동 (Tongsin 3-dong)
+    Pyongyang
+    North Korea
+
+
+
