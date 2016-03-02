@@ -1,0 +1,28 @@
+# Nicaragua
+# note: Nicaragua has a very unique address system
+# see https://vianica.com/nicaragua/practical-info/14-forward.html?id=14-addresses.html
+# this test just tries to do the best we can with the data we have
+
+---
+description: Post Office in Managua, 12.15550,-86.27209
+components:
+        city: Managua
+        city_district: District I
+        country: Nicaragua
+        country_code: ni
+        county: Managua (Municipio)
+        pedestrian: Plaza de la República
+        postcode: 11001
+        public_building: Antiguo Palacio de Gobierno
+        state: Managua
+        suburb: Centro Histórico Cultural
+expected:  |
+    Antiguo Palacio de Gobierno
+    Plaza de la República
+    Centro Histórico Cultural
+    Managua
+    Nicaragua
+
+
+
+

@@ -1196,6 +1196,10 @@ NG:
         {{{state}}}
         {{{country}}}
 
+# Nicaragua
+NI:
+    address_template: *generic21
+
 # Netherlands
 NL:
     address_template: *generic1
