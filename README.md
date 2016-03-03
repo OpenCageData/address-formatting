@@ -106,18 +106,13 @@ Currently we support the following formatting rules:
 
 ### The future
 
-Support all countries in the world.
-
-With more test cases in the future the format may need to evolve. 
-For every rule about addresses there are exceptions and edge cases to consider. 
-More test cases are always needed.
+More tests! For every rule about addresses there are exceptions and edge cases to consider. More test cases are always needed.
 
 Planned features
 
   * optionally shorten/abbreviate addresses, e.g. 'Hoover Str' instead of 'Hoover Street'
   * basic error checking, for example ignore things which obviously can not be postcodes
   * define rules for postcode format specifically
-  * right-to-left
 
 We welcome your pull requests. Together we can address the world!
 
