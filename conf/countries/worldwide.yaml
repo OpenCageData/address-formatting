@@ -1603,6 +1603,9 @@ UM:
 US: 
     address_template: *generic4
     fallback_template: *fallback2
+    replace:
+        - ["state=United States Virgin Islands","US Virgin Islands"]
+        - ["state=USVI","US Virgin Islands"]
     postformat_replace:
         - ["\nUS$","\nUnited States of America"]
         - ["\nUSA$","\nUnited States of America"]

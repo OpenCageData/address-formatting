@@ -95,3 +95,21 @@ expected:  |
     175 Varick Street
     New York City, NY 10014
     United States of America
+#
+# United States Virgin Islands
+---
+description: Library in Charlotte Amalie, 18.34119,-64.93546
+components:
+        country: United States of America
+        country_code: us
+        county: St. Thomas Island
+        library: Enid M Baa Library and Archives
+        postcode: 00803
+        road: Dronningens Gade
+        state: United States Virgin Islands
+        town: Charlotte Amalie
+expected:  |
+    Enid M Baa Library and Archives
+    Dronningens Gade
+    Charlotte Amalie, VI 00803
+    United States of America
