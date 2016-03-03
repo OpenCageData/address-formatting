@@ -489,6 +489,17 @@ CL:
 CM: 
     address_template: *generic17
 
+CN:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{county}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
+
 # Colombia
 CO:
     address_template: |

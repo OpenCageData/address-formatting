@@ -1,0 +1,24 @@
+# China
+---
+description: Building in Shanghai, 31.23980,121.49316
+components:
+        building: 万向大厦
+        country: China
+        country_code: cn
+        county: Pudong New District
+        house_number: 99号
+        neighbourhood: Lijuazul
+        postcode: 200120
+        road: West Lujiazui Road
+        state: Shanghai
+expected:  |
+    万向大厦
+    99号 West Lujiazui Road
+    Lijuazul
+    Pudong New District
+    Shanghai 200120
+    China
+
+
+
+
