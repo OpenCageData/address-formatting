@@ -1194,7 +1194,8 @@ NE:
 # Norfolk Island - same as Australia
 NF: 
     use_country: AU
-    change_country: Norfolk Island, Australia
+    add_component: state=Norfolk Island
+    change_country: Australia
 
 # Nigeria
 NG: 

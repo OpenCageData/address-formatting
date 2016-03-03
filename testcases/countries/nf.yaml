@@ -1,0 +1,16 @@
+# Norfolk Island, external territory of Australia
+---
+description: Shop in Burnt Pine, -29.03214,167.94704
+components:
+        country: Norfolk Island
+        country_code: nf
+        postcode: 2899
+        road: Mitchells Lane
+        supermarket: P & R Groceries
+        town: Burnt Pine
+expected:  |
+    P & R Groceries
+    Mitchells Lane
+    Burnt Pine Norfolk Island 2899
+    Australia
+
