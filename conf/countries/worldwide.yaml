@@ -589,7 +589,6 @@ EC:
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{postcode}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
         {{{country}}}

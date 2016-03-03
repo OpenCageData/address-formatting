@@ -1,0 +1,23 @@
+# Ecuador
+---
+description: University building in Quito, -0.19972,-78.50708
+components:
+        building: Centro de Matematica
+        city: Quito
+        city_district: Quito
+        country: Ecuador
+        country_code: ec
+        county: Quito
+        postcode: 170521
+        road: Jerónimo Leiton
+        state: Pichincha
+        suburb: Rumipamba
+expected:  |
+    Centro de Matematica
+    Jerónimo Leiton
+    170521
+    Quito
+    Ecuador
+
+
+
