@@ -1,0 +1,19 @@
+# San Marino
+---
+description: Restaurant in City of San Marino, 43.93596,12.44716
+components:
+        country: San Marino
+        country_code: sm
+        pedestrian: Contrada Santa Croce
+        postcode: 47893
+        restaurant: Pier piz. rist.
+        town: City of San Marino
+expected:  |
+    Pier piz. rist.
+    Contrada Santa Croce
+    47893 City of San Marino
+    San Marino
+
+
+
+
