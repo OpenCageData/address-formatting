@@ -1,0 +1,17 @@
+# Vatican City / Holy See
+---
+description: Building in Vatican City, 41.90586,12.45105
+components:
+        building: Gallinaro Tower
+        country: Vatican City
+        country_code: va
+        postcode: 00120
+        road: Viale San Benedetto
+expected:  |
+    Gallinaro Tower
+    Viale San Benedetto
+    00120
+    Vatican City
+
+
+
