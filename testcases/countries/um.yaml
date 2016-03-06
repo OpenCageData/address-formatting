@@ -1,0 +1,14 @@
+# United States Minor Outlying Ismalds
+---
+description: Wake Island, 19.29337,166.64899
+components:
+        country: United States Minor Outlying Islands
+        country_code: um
+        island: Wake Island
+expected:  |
+    US Minor Outlying Islands
+    United States of America
+
+
+
+
