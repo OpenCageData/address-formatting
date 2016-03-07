@@ -1281,6 +1281,9 @@ PE:
 # French Polynesia - same as FR
 PF:
     address_template: *generic3
+    replace:
+        - ["Polynésie française, Îles du Vent \(eaux territoriales\)","Polynésie française"]
+
 
 # Papau New Guinea
 PG:

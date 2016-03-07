@@ -1,0 +1,20 @@
+# French Polynesia
+---
+description: Office in Papeete, -17.53714,-149.56608
+components:
+        building: Mairie (bureaux administratifs)
+        city: Papeete
+        country: Polynésie française, Îles du Vent (eaux territoriales)
+        country_code: pf
+        county: Îles du Vent
+        postcode: 98714
+        road: Rue des Remparts
+        state: French Polynesia
+expected:  |
+    Mairie (bureaux administratifs)
+    Rue des Remparts
+    98714 Papeete
+    Polynésie française
+
+
+
