@@ -668,6 +668,7 @@ FR:
     replace:
         - ["Polynésie française, Îles du Vent \(eaux territoriales\)","Polynésie française"]
         - ["France, Mayotte \(eaux territoriales\)","Mayotte, France"]
+        - ["France, La Réunion \(eaux territoriales\)","La Réunion, France"]
         - ["\(eaux territoriales\)",""]
 
 # Gabon
@@ -1368,7 +1369,9 @@ QA:
 
 # Réunion - same as FR
 RE:
-    address_template: *generic3
+    use_country: FR
+    change_country: La Réunion, France     
+
 
 # Romania
 RO: 

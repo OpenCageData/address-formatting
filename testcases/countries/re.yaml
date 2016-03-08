@@ -1,0 +1,19 @@
+# Réunion
+---
+description: Building in Le Port, -20.93750,55.29020
+components:
+        city: Le Port
+        country: France, La Réunion (eaux territoriales)
+        country_code: re
+        county: Saint-Paul
+        house_number: 17
+        postcode: 97420
+        road: Rue François de Mahy
+        state: Réunion
+expected:  |
+    17 Rue François de Mahy
+    97420 Le Port
+    La Réunion, France
+
+
+
