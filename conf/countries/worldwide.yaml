@@ -667,6 +667,8 @@ FR:
     address_template: *generic3
     replace:
         - ["Polynésie française, Îles du Vent \(eaux territoriales\)","Polynésie française"]
+        - ["France, Mayotte \(eaux territoriales\)","Mayotte, France"]
+        - ["\(eaux territoriales\)",""]
 
 # Gabon
 GA:
@@ -1704,7 +1706,7 @@ YE:
 # Mayotte - same as FR
 YT:
     use_country: FR
-    change_country: France     
+    change_country: Mayotte, France     
 
 # South Africa
 ZA: 

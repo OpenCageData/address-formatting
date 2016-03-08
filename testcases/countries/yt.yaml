@@ -1,0 +1,20 @@
+# Mayotte
+---
+description: Government building in Mamoudzou, -12.77958,45.23145
+components:
+        building: Conseil Général de Mayotte
+        country: France, Mayotte (eaux territoriales)
+        country_code: yt
+        postcode: 97600
+        road: Rue Houmadi Bacar
+        state: Mayotte
+        town: Mamoudzou
+expected:  |
+    Conseil Général de Mayotte
+    Rue Houmadi Bacar
+    97600 Mamoudzou
+    Mayotte, France
+
+
+
+
