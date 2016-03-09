@@ -691,10 +691,10 @@ FO:
 FR:
     address_template: *generic3
     replace:
-        - ["Polynésie française, Îles du Vent \(eaux territoriales\)","Polynésie française"]
-        - ["France, Mayotte \(eaux territoriales\)","Mayotte, France"]
-        - ["France, La Réunion \(eaux territoriales\)","La Réunion, France"]
-        - ["\(eaux territoriales\)",""]
+        - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
+        - ["France, Mayotte \\(eaux territoriales\\)","Mayotte, France"]
+        - ["France, La Réunion \\(eaux territoriales\\)","La Réunion, France"]
+        - ["\\(eaux territoriales\\)",""]
 
 # Gabon
 GA:
@@ -1388,7 +1388,7 @@ PE:
 PF:
     address_template: *generic3
     replace:
-        - ["Polynésie française, Îles du Vent \(eaux territoriales\)","Polynésie française"]
+        - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
 
 
 # Papau New Guinea
