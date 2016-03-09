@@ -1329,7 +1329,8 @@ PL:
 
 # Saint Pierre and Miquelon - same as FR
 PM:
-    address_template: *generic3
+    use_country: FR
+    change_country: Saint-Pierre-et-Miquelon, France     
 
 # Pitcairn Islands
 PN:

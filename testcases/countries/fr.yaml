@@ -35,7 +35,7 @@ expected:  |
     97300 Cayenne
     France
 #
-# French Polynesia
+# French Polynesia (PF)
 #
 ---
 description: Office in Papeete, -17.53714,-149.56608
@@ -54,7 +54,7 @@ expected:  |
     98714 Papeete
     Polynésie française
 #
-# Mayotte
+# Mayotte (YT)
 #
 ---
 description: Government building in Mamoudzou, -12.77958,45.23145
@@ -72,7 +72,7 @@ expected:  |
     97600 Mamoudzou
     Mayotte, France
 #
-# Réunion
+# Réunion (RE)
 #
 ---
 description: Building in Le Port, -20.93750,55.29020
@@ -89,5 +89,24 @@ expected:  |
     17 Rue François de Mahy
     97420 Le Port
     La Réunion, France
+#
+# Saint Pierre and Miquelon (PM)
+#
+---
+description: Building in Miquelon, 47.10099,-56.37706
+components:
+        building: Société nouvelle des pêches de Miquelon
+        city: Miquelon-Langlade
+        country: France
+        country_code: fr
+        postcode: 97500
+        road: Rue Jacques Vigneau
+        state: Saint Pierre and Miquelon
+expected:  |
+    Société nouvelle des pêches de Miquelon
+    Rue Jacques Vigneau
+    97500 Miquelon-Langlade
+    France
+
 
 

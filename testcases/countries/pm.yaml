@@ -1,0 +1,20 @@
+# Saint Pierre and Miquelon, a territorial overseas collectivity of France
+---
+description: Building in Miquelon, 47.10099,-56.37706
+components:
+        building: Société nouvelle des pêches de Miquelon
+        city: Miquelon-Langlade
+        country: Saint Pierre and Miquelon
+        country_code: pm
+        postcode: 97500
+        road: Rue Jacques Vigneau
+        state: Saint Pierre and Miquelon
+expected:  |
+    Société nouvelle des pêches de Miquelon
+    Rue Jacques Vigneau
+    97500 Miquelon-Langlade
+    Saint-Pierre-et-Miquelon, France
+
+
+
+
