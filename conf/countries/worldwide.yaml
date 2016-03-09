@@ -523,7 +523,7 @@ CR:
 
 # Cuba
 CU:
-    address_template: *generic1
+    address_template: *generic7
 
 # Cape Verde
 CV:

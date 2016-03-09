@@ -1,0 +1,22 @@
+# Cuba
+---
+description: Embassy in Havana, 23.13763,-82.38976
+components:
+        building: Embajada de Hungría
+        city: Havana
+        country: Cuba
+        country_code: cu
+        county: Plaza de la Revolución
+        neighbourhood: Barrio El Fanguito
+        postcode: 10400
+        road: Calle 19
+        state: Havana
+        suburb: El Vedado
+expected:  |
+    Embajada de Hungría
+    Calle 19
+    Havana, 10400
+    Cuba
+
+
+
