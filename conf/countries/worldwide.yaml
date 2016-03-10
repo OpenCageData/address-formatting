@@ -489,6 +489,7 @@ CL:
 CM: 
     address_template: *generic17
 
+# China
 CN:
     address_template: |
         {{{attention}}}
@@ -499,6 +500,30 @@ CN:
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
+# China - English
+CN_en:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{county}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
+# China - Chinese
+CN_zh:
+    address_template: |
+        {{{country}}}
+        {{{postcode}}} 
+        {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{#first}} {{{state_district}}} || {{{county}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{road}}}
+        {{{house_number}}} 
+        {{{house}}}
+        {{{attention}}}
 
 # Colombia
 CO:
@@ -666,10 +691,10 @@ FO:
 FR:
     address_template: *generic3
     replace:
-        - ["Polynésie française, Îles du Vent \(eaux territoriales\)","Polynésie française"]
-        - ["France, Mayotte \(eaux territoriales\)","Mayotte, France"]
-        - ["France, La Réunion \(eaux territoriales\)","La Réunion, France"]
-        - ["\(eaux territoriales\)",""]
+        - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
+        - ["France, Mayotte \\(eaux territoriales\\)","Mayotte, France"]
+        - ["France, La Réunion \\(eaux territoriales\\)","La Réunion, France"]
+        - ["\\(eaux territoriales\\)",""]
 
 # Gabon
 GA:
@@ -790,6 +815,28 @@ HK:
         {{{state_district}}}
         {{{state}}}
 
+# Hong Kong - English
+HK_en:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{{state_district}}}
+        {{{state}}}
+        {{{country}}}
+
+# Hong Kong - Chinese
+HK_zh:
+    address_template: |
+        {{{country}}}
+        {{{state}}}
+        {{{state_district}}}
+        {{{road}}}
+        {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
+
+
 # Heard Island and McDonald Islands - same as Australia
 HM: 
     use_country: AU
@@ -903,6 +950,38 @@ JP:
         # fix the postcode to make it \d\d\d-\d\d\d\d
         - [" (\\d{3})(\\d{4})\n"," $1-$2\n"]
 
+
+
+# Japan - English
+JP_en:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} || {{{state_district}}} {{/first}} {{{postcode}}}
+        {{{country}}}
+    postformat_replace:
+        # fix the postcode to make it \d\d\d-\d\d\d\d
+        - [" (\\d{3})(\\d{4})\n"," $1-$2\n"]
+
+
+# Japan - Japanese
+JP_ja:
+    address_template: |
+        {{{country}}}
+        {{{postcode}}}
+        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{road}}}
+        {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
+    postformat_replace:
+        # fix the postcode to make it \d\d\d-\d\d\d\d
+        - [" (\\d{3})(\\d{4})\n"," $1-$2\n"]
+
 # Kenya
 KE:
     address_template: |
@@ -962,6 +1041,28 @@ KR:
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} {{/first}} {{{postcode}}} 
         {{{country}}}
+
+# South Korea - English
+KR_en:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state}}} {{/first}} {{{postcode}}} 
+        {{{country}}}
+
+# South Korea - Korean
+KR_ko:
+    address_template: |
+        {{{country}}}
+        {{#first}} {{{state}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{road}}}
+        {{{house_number}}} 
+        {{{house}}}
+        {{{attention}}}
+        {{{postcode}}}
 
 # Kuwait
 KW:
@@ -1287,7 +1388,7 @@ PE:
 PF:
     address_template: *generic3
     replace:
-        - ["Polynésie française, Îles du Vent \(eaux territoriales\)","Polynésie française"]
+        - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
 
 
 # Papau New Guinea
