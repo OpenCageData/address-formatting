@@ -57,10 +57,10 @@ If you do write a processor, please let us know so we can list it here.
 
 ### Coverage
 
-As of `Thu  3 Mar 2016 11:09:24 CET` coverage is:
+As of `Thu 10 Mar 2016 11:58:06 CET` coverage is:
 
     We are aware of 249 territories
-    We have tests for 215 (86%) territories
+    We have tests for 226 (90%) territories
     We have rules for 249 (100%) territories
     0 (0%) territories have neither rules nor tests
 
