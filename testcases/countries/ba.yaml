@@ -1,0 +1,23 @@
+# Bosnia and Herzegovina
+---
+description: Post office in Sarajevo, 43.85229,18.38142
+components:
+        city: Sarajevo
+        country: Bosnia and Herzegovina
+        country_code: ba
+        county: New Sarajevo municipality
+        house_number: 88
+        post_office: BH Posta
+        postcode: 71000
+        road: Zmaja od Bosne
+        state: Entity Federation of Bosnia and Herzegovina
+        state_district: Sarajevo Canton
+        suburb: Grbavica
+expected:  |
+    BH Posta
+    Zmaja od Bosne 88
+    71000 Sarajevo
+    Bosnia and Herzegovina
+
+
+
