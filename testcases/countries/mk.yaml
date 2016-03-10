@@ -1,0 +1,21 @@
+# Republic of Macedonia
+---
+description: School in Skopje, 41.9891,21.4406
+components:
+        city: Skopje
+        country: F.Y.R.O.M.
+        country_code: mk
+        county: Municipality of Centar
+        postcode: 1000
+        road: Мирче Ацев
+        school: ОУ 11-ти Октомври
+        state: Skopje Region
+        suburb: Prolet
+expected:  |
+    ОУ 11-ти Октомври
+    Мирче Ацев
+    1000 Skopje
+    F.Y.R.O.M.
+
+
+
