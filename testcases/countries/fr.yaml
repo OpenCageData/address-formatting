@@ -107,6 +107,27 @@ expected:  |
     Rue Jacques Vigneau
     97500 Miquelon-Langlade
     France
+#
+# New Caledonia (NC), a special collectivity of France
+#
+---
+description: Building in Nouméa, -22.27039,166.44270
+components:
+        building: Immeuble Maréchal Foch
+        city: Nouméa
+        city_district: Secteur Ouest
+        country: France, Nouvelle-Calédonie, Grande Terre et récifs d'Entrecasteaux (eaux territoriales)
+        country_code: fr
+        county: Province Sud
+        postcode: 98800
+        road: Rue Jean Jaurès
+        state: New Caledonia
+        suburb: Centre-Ville
+expected:  |
+    Immeuble Maréchal Foch
+    Rue Jean Jaurès
+    98800 Nouméa
+    Nouvelle-Calédonie, France
 
 
 

@@ -694,6 +694,8 @@ FR:
         - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
         - ["France, Mayotte \\(eaux territoriales\\)","Mayotte, France"]
         - ["France, La Réunion \\(eaux territoriales\\)","La Réunion, France"]
+        - ["Grande Terre et récifs d'Entrecasteaux",""]
+        - ["France, Nouvelle-Calédonie","Nouvelle-Calédonie, France"]
         - ["\\(eaux territoriales\\)",""]
 
 # Gabon
@@ -1283,9 +1285,10 @@ MZ:
 NA: 
     address_template: *generic2
 
-# New Caledonia
+# New Caledonia, special collectivity of France
 NC:
-    address_template: *generic3
+    use_country: FR
+    change_country: Nouvelle-Calédonie, France     
 
 # Niger
 NE: 
@@ -1386,7 +1389,8 @@ PE:
 
 # French Polynesia - same as FR
 PF:
-    address_template: *generic3
+    use_country: FR
+    change_country: Polynésie française, France     
     replace:
         - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
 
