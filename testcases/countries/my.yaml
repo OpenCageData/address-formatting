@@ -1,0 +1,23 @@
+# Malaysia
+---
+description: Museum in Kuala Lumpur, 3.14896,101.69916
+components:
+        country: Malaysia
+        country_code: my
+        hamlet: Pudu
+        museum: Telekom Museum
+        postcode: 50000
+        road: Jalan Gereja
+        state: Kuala Lumpur
+        suburb: Kampung Baru
+expected:  |
+    Telekom Museum
+    Jalan Gereja
+    Kampung Baru
+    50000 Pudu
+    Kuala Lumpur
+    Malaysia
+
+
+
+
