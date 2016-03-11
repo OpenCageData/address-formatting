@@ -1626,9 +1626,10 @@ TC:
 TD: 
     address_template: *generic21
 
-# French Southern and Antarctic Lands - same as FR
+# French Southern and Antarctic Lands
 TF:
-    address_template: *generic3
+    use_country: FR
+    change_country: Terres australes et antarctiques françaises, France     
 
 # Togo
 TG:

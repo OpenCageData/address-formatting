@@ -1,0 +1,18 @@
+# French Southern and Antarctic Lands
+---
+description: Island in south Indian Ocean, -46.43266,51.85775
+components:
+        country: France
+        country_code: tf
+        hospital: Hôpital
+        road: Route de la Plage
+        state: French Southern and Antarctic Lands
+        village: Base Alfred Faure
+expected:  |
+    Hôpital
+    Route de la Plage
+    Base Alfred Faure
+    Terres australes et antarctiques françaises, France
+
+
+
