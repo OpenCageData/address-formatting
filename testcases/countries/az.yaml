@@ -1,0 +1,21 @@
+# Azerbaijan
+---
+description: Bank in Baku, 40.37381,49.84436
+components:
+        bank: Bank Avrasiya
+        city: Baku
+        country: Azerbaijan
+        country_code: az
+        house_number: 70
+        path: Nizami küç.
+        postcode: AZ1014
+        state: Bakı İnzibati Ərazisi
+        suburb: Montin
+expected:  |
+    Bank Avrasiya
+    70 Nizami küç.
+    AZ1014 Baku
+    Azerbaijan
+
+
+
