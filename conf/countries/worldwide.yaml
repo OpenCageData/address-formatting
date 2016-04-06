@@ -1215,6 +1215,24 @@ MO:
         {{#first}} {{{suburb}}} || {{{village}}} || {{{state_district}}} {{/first}}
         {{{country}}}
 
+# Macao - Portuguese
+MO_pt:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{village}}} || {{{state_district}}} {{/first}}
+        {{{country}}}
+
+# Macao - Chinese
+MO_zh:
+    address_template: |
+        {{{country}}}
+        {{#first}} {{{suburb}}} || {{{village}}} || {{{state_district}}} {{/first}}
+        {{{road}}}
+        {{{house_number}}}    
+        {{{house}}}
+        {{{attention}}}
 
 # Northern Mariana Islands
 MP:
@@ -1698,6 +1716,21 @@ TV:
 # Taiwan
 TW: 
     address_template: *generic20
+
+TW_en:
+    address_template: *generic20
+
+TW_zh:
+    address_template: |
+        {{{country}}}
+        {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{city_district}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{road}}}
+        {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
 
 # Tanzania
 TZ:
