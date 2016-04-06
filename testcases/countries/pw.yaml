@@ -1,0 +1,17 @@
+# Palau
+---
+description: Courthouse in Koror, 7.34122,134.47003
+components:
+        country: Palau
+        country_code: pw
+        courthouse: Palau Supreme Court
+        road: Main Street
+        town: Koror
+expected:  |
+    Palau Supreme Court
+    Main Street
+    Koror
+    Palau
+
+
+

@@ -1479,9 +1479,7 @@ PT:
 
 # Palau
 PW: 
-    use_country: US
-    change_country: United States of America
-    add_component: state=Palau
+    address_template: *generic1
 
 # Parguay
 PY: 
