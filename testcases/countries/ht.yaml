@@ -1,0 +1,22 @@
+# Haiti
+---
+description: Bank in Port-au-Prince, 18.55005,-72.34510
+components:
+        bank: Banque de l'Union Haitienne SA
+        city: Commune de Port-au-Prince
+        country: Haiti
+        country_code: ht
+        postcode: HT6114
+        road: Rue Bonne Foi
+        state: Département de l'Ouest
+        state_district: Port-au-Prince
+        suburb: 6e Turgeau
+expected:  |
+    Banque de l'Union Haitienne SA
+    Rue Bonne Foi
+    HT6114 Port-au-Prince
+    Haiti
+
+
+
+
