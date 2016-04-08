@@ -1,0 +1,24 @@
+# Dominican Republic
+---
+description: Bank in Santo Domingo
+components:
+        bank: Banco de Reservas
+        city: Santo Domingo
+        country: Dominican Republic
+        country_code: do
+        neighbourhood: El Manguito
+        postcode: 10102
+        road: Avenida Jiménez Moya
+        state: Distrito Nacional
+        suburb: Ensanche Evoristo Morales
+expected:  |
+    Banco de Reservas
+    Avenida Jiménez Moya
+    Ensanche Evoristo Morales
+    Santo Domingo, DN
+    10102
+    Dominican Republic
+
+
+
+

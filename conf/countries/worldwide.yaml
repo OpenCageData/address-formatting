@@ -613,7 +613,18 @@ DM:
 
 # Dominican Republic
 DO:
-    address_template: *generic1
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{{state}}} 
+        {{{postcode}}} 
+        {{{country}}}
+    postformat_replace:
+        - [", Distrito Nacional",", DN"]
+
+
 
 # Algeria
 DZ:
