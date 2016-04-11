@@ -1,0 +1,21 @@
+# Martinique
+---
+description: Administrative building in Fort-au-France, 14.60443,-61.07770
+components:
+        city: Fort-de-France
+        country: Martinique
+        country_code: mq
+        county: Fort-de-France
+        courthouse: Tribunal Administratif de Fort-de-France
+        postcode: 97200
+        road: Avenue Condorcet
+        state: Martinique
+expected:  |
+    Tribunal Administratif de Fort-de-France
+    Avenue Condorcet
+    97200 Fort-de-France
+    Martinique, France
+
+
+
+
