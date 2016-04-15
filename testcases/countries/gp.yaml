@@ -1,0 +1,22 @@
+# Guadeloupe
+---
+description: Museum in Pointe-à-Pitre, 16.23832,-61.53703
+components:
+        country: Guadeloupe
+        country_code: gp
+        county: Pointe-à-Pitre
+        museum: Musée Lherminier
+        postcode: 97110
+        road: Rue Sadi-Carnot
+        state: Guadeloupe
+        suburb: Centre-Ville
+        town: Pointe-à-Pitre
+expected:  |
+    Musée Lherminier
+    Rue Sadi-Carnot
+    97110 Pointe-à-Pitre
+    Guadeloupe, France
+
+
+
+

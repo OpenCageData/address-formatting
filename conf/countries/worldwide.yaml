@@ -777,7 +777,7 @@ GN:
 # Guadeloupe - same as FR
 GP:
     use_country: FR
-    change_country: France     
+    change_country: Guadeloupe,France     
 
 # Equatorial Guinea
 GQ: 
