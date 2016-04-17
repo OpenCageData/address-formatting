@@ -1,0 +1,19 @@
+# Christmas Island
+---
+description: Supermarket on Christmas Island, -10.4230,105.6729
+components:
+        country: Christmas Island
+        country_code: cx
+        neighbourhood: The Settlement
+        postcode: 6798
+        road: Gaze Road
+        state: Christmas Island
+        supermarket: Christmas Island Supermarket
+expected:  |
+    Christmas Island Supermarket
+    Gaze Road
+    Christmas Island 6798
+    Australia
+
+
+

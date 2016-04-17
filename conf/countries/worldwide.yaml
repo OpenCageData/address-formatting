@@ -564,7 +564,8 @@ CW:
 # Christmas Island - same as Australia
 CX: 
     use_country: AU
-    change_country: Christmas Island, Australia
+    add_component: state=Christmas Island
+    change_country: Australia
 
 # Cyprus
 CY: 
