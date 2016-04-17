@@ -1,0 +1,15 @@
+# Heard Island and McDonald Islands
+# an Australian external territory
+---
+description: Glacier on Heard Island, -53.0571,73.4339
+components:
+        country: Heard Island and McDonald Islands
+        country_code: hm
+        island: Heard Island
+expected:  |
+    Heard Island and McDonald Islands
+    Australia
+
+
+
+
