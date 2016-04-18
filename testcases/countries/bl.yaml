@@ -1,0 +1,21 @@
+# Saint Barthélemy
+---
+description: House in Gustavia, 17.89548,-62.85177
+components:
+        country: Saint Barthélemy
+        country_code: bl
+        house_number: 15
+        neighbourhood: La Pointe
+        postcode: 97133
+        road: Rue de Pére Irénée de Bruyn
+        state: Saint Barthélemy
+        town: Gustavia
+expected:  |
+    15 Rue de Pére Irénée de Bruyn
+    97133 Gustavia
+    Saint-Barthélemy, France
+
+
+
+
+
