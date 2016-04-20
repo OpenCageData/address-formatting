@@ -1,0 +1,21 @@
+# Turks and Caicos Islands
+---
+description: Shop in Providenciales, 21.77988,-72.26589
+components:
+        country: Turks and Caicos Islands
+        country_code: tc
+        county: Provinciales and West Caicos
+        neighbourhood: Five Cays
+        road: Daffodil Close
+        shop: Betty's market
+        suburb: Millenium Hieghts
+        town: Providenciales
+expected:  |
+    Betty's market
+    Daffodil Close
+    Providenciales
+    Turks and Caicos Islands
+
+
+
+
