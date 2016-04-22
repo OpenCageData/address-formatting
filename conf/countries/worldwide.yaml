@@ -1367,7 +1367,6 @@ NL:
 "NO":
     address_template: *generic1
 
-
 # Nepal
 NP: 
     address_template: |
@@ -1576,6 +1575,7 @@ SI:
 # Svalbard and Jan Mayen - same as Norway
 SJ:
     use_country: NO
+    change_country: Norway
 
 # Slovakia
 SK: 

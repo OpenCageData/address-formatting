@@ -1,0 +1,13 @@
+# Svalbard and Jan Mayen, part of Norway
+---
+description: Airstrip on Jan Mayen, 70.9415,-8.6616 
+components:
+        country: Svalbard and Jan Mayen
+        country_code: sj
+        state: Jan Mayen
+expected:  |
+    Jan Mayen
+    Norway
+
+
+
