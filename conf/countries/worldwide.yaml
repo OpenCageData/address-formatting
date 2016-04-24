@@ -420,6 +420,7 @@ BS:
 BT:
     address_template: |
         {{{attention}}}
+        {{{house}}}
         {{{road}}} {{{house_number}}}, {{{house}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}} {{{postcode}}} 
@@ -875,6 +876,7 @@ HT:
 HU:
     address_template: |
         {{{attention}}}
+        {{{house}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
         {{{road}}} {{{house_number}}} 
         {{{postcode}}}
@@ -1084,6 +1086,7 @@ KR_ko:
 KW:
     address_template: |
         {{{attention}}}
+        {{{house}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
 
         {{{road}}} 
@@ -1212,6 +1215,7 @@ MM:
 MN:
     address_template: |
         {{{attention}}}
+        {{{house}}}
         {{{city_district}}} 
         {{#first}} {{{suburb}}} || {{{neighbourhood}}} {{/first}}
         {{{road}}} 
@@ -1262,6 +1266,7 @@ MS:
 MT:
     address_template: |
         {{{attention}}}
+        {{{house}}}
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{city}}} || {{{town}}} || {{{suburb}}} || {{{village}}} {{/first}} 
         {{{postcode}}}
