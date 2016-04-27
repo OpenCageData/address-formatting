@@ -5,7 +5,7 @@ components:
             country: Dominica
             country_code: dm
             post_office: General Post Office
-            postcode: 00109-800
+            postcode: "00109-800"
             road: Drury Lane
             state: Saint George Parish
             suburb: Potters Ville

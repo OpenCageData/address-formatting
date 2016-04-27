@@ -5,7 +5,7 @@ components:
         building: Gallinaro Tower
         country: Vatican City
         country_code: va
-        postcode: 00120
+        postcode: "00120"
         road: Viale San Benedetto
 expected:  |
     Gallinaro Tower

@@ -6,7 +6,7 @@ components:
     city: Harare
     country: Zimbabwe
     country_code: zw
-    postcode: 00263
+    postcode: "00263"
     road: Colquhoun Street
     state: Harare Province
     suburb: Avondale West

@@ -6,7 +6,7 @@ components:
             country_code: cw
             house_number: 14
             neighbourhood: Colon
-            postcode: 0000NA
+            postcode: "0000NA"
             road: Jan Erasmusstraat
             state: Curaçao
             suburb: Seru Domi

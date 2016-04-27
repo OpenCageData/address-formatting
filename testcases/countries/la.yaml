@@ -5,7 +5,7 @@ components:
             city: Vientiane
             country: Laos
             country_code: la
-            postcode: 01003
+            postcode: "01003"
             public_building: Ministre de la santé
             road: Mahosot Road
             state: Vientiane Capital

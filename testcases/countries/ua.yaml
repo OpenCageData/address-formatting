@@ -7,8 +7,8 @@ components:
     country_code: UA
     house_number: 2д
     bar: Утка Bar
-    postcode : 03038
-    road : Protasiv Yar Street
+    postcode: "03038"
+    road: Protasiv Yar Street
 expected:  |
     Утка Bar
     Protasiv Yar Street, 2д

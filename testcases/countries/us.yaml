@@ -104,7 +104,7 @@ components:
         country_code: us
         county: St. Thomas Island
         library: Enid M Baa Library and Archives
-        postcode: 00803
+        postcode: "00803"
         road: Dronningens Gade
         state: United States Virgin Islands
         town: Charlotte Amalie

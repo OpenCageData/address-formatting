@@ -6,7 +6,7 @@ components:
     country: Georgia
     country_code: GE
     house_number: 7
-    postcode: 0114
+    postcode: "0114"
     road: Cotton Row
     suburb: Old Tbilisi Raion
 expected:  |

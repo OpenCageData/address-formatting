@@ -35,7 +35,7 @@ components:
     country: Yemen
     country_code: ye
     county: Qada Sana
-    postcode: 01
+    postcode: "01"
     road: Al Zubayri Street
 expected: |
     Centeral Bank of Yemen

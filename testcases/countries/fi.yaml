@@ -7,7 +7,7 @@ components:
     country_code: fi
     county: Helsingin seutukunta
     house_number: 15
-    postcode: 00140
+    postcode: "00140"
     restaurant: Ravintola Central
     road: Pietarinkatu
     state: Southern Finland

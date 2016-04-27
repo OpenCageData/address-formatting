@@ -7,7 +7,7 @@ components:
             country: Sierra Leone
             country_code: sl
             neighbourhood: GRAYBUSH COM
-            postcode: 00232
+            postcode: "00232"
             road: BISMARK JOHNSON ST
             state: Western Area
             state_district: Western Area Urban
