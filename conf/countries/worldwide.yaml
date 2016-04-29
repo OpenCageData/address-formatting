@@ -1180,7 +1180,6 @@ MF:
 # Marsall Islands
 MH:
     use_country: US
-    change_country: United States of America
     add_component: state=Marsall Islands
 
 # Madagascar
