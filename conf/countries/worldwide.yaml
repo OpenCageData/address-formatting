@@ -916,8 +916,7 @@ IN:
 # British Indian Ocean Territory - same as UK
 IO:
     use_country: GB
-    change_country: United Kingdom
-    add_component: county=British Indian Ocean Territory
+    change_country: British Indian Ocean Territory, United Kingdom
 
 # Iraq
 IQ: 
