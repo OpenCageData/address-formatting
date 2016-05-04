@@ -1,0 +1,17 @@
+# South Georgia and the South Sandwich Islands
+---
+description: Museum in Grytviken, -54.28012,-36.50793
+components:
+        country: South Georgia and the South Sandwich Islands
+        country_code: gs
+        hamlet: Grytviken
+        museum: South Georgia Museum
+        state: South Georgia
+expected:  |
+    South Georgia Museum
+    Grytviken
+    South Georgia
+    United Kingdom
+
+
+
