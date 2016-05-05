@@ -1,0 +1,17 @@
+# Cocos (Keeling) Islands
+---
+description: Pub on West Island, -12.18832,96.82935
+components:
+        country: Cocos (Keeling) Islands
+        country_code: cc
+        pub: Club
+        state: Cocos (Keeling) Islands
+        village: West Island
+expected:  |
+    Club
+    West Island
+    Cocos (Keeling) Islands
+    Australia
+
+
+
