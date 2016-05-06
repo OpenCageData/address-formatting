@@ -191,9 +191,9 @@ fallback1: &fallback1 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{suburb}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}} {{/first}}
         {{{country}}}
 
 fallback2: &fallback2 |
@@ -228,7 +228,7 @@ fallback4: &fallback4 |
 default:
     address_template: *generic1
     fallback_template: *fallback1
-#
+    
 # country / territory specific mappings
 # please keep in alpha order by country code
 #
@@ -585,12 +585,21 @@ CZ:
         # fix the postcode to make it \d\d\d \d\d 
         - ["\n(\\d{3})(\\d{2}) ","\n$1 $2 "]
 
-
 # Germany
 DE:
     address_template: *generic1
+    fallback_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} {{/first}}
+        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
+        {{{country}}}
+    
     replace:
         - ["^Stadtteil ",""]
+        - ["^Stadtbezirk (\\d+)",""]
         - ["^Gemeinde ",""]
         - ["^Landkreis ",""]
         - ["^Kreis ",""]
