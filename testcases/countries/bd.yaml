@@ -1,0 +1,23 @@
+# Bangladesh
+---
+description: Bank in Dhaka, 23.73210,90.39546
+components:
+        bank: Janata Bank
+        city: Dhaka
+        country: Bangladesh
+        country_code: bd
+        postcode: 1205
+        road: Shahid Minar Rd
+        state: Dhaka Division
+        suburb: Siddikbazar
+expected:  |
+    Janata Bank
+    Shahid Minar Rd
+    Siddikbazar
+    Dhaka - 1205
+    Bangladesh
+
+
+
+
+

@@ -337,7 +337,13 @@ BB:
 
 # Bangladesh
 BD:
-    address_template: *generic12
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} - {{{postcode}}}
+        {{{country}}}
 
 # Belgium
 BE: 
