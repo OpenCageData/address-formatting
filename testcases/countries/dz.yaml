@@ -1,0 +1,20 @@
+# Algeria
+---
+description: Hotel in Algiers, 36.77428,3.05945
+components:
+        country: Algeria
+        country_code: dz
+        county: Alger Centre
+        hotel: Hôtel Régina
+        postcode: 16004
+        road: Boulevard Mustapha Benboulaid
+        state: Algiers
+        town: Alger Centre
+expected:  |
+    Hôtel Régina
+    Boulevard Mustapha Benboulaid
+    16004 Alger Centre
+    Algeria
+
+
+
