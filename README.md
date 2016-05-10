@@ -58,14 +58,14 @@ If you do write a processor, please let us know so we can list it here.
 
 ### Coverage
 
-As of `Thu 10 Mar 2016 11:58:06 CET` coverage is:
+As of `Tue May 10 09:13:21 CEST 2016` coverage is:
 
-    We are aware of 249 territories
-    We have tests for 226 (90%) territories
+    We are aware of 249 territories 
+    We have tests for 249 (100%) territories
     We have rules for 249 (100%) territories
     0 (0%) territories have neither rules nor tests
 
-A detailed breakdown of test and configuration coverage can be found by running `bin/coverage.pl`. A list of all known territories is in `conf/country_codes.yaml` Note: the list is simple all officially assigned [ISO 3166-1 alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements), and is not a political statement on whether or not these territories are or are not or should or should not be political states. 
+A detailed breakdown of test and configuration coverage can be found by running `bin/coverage.pl -d`. A list of all known territories is in `conf/country_codes.yaml` Note: the list is simple all officially assigned [ISO 3166-1 alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements), and is not a political statement on whether or not these territories are or are not or should or should not be political states. 
 
 ### File format
 
@@ -73,7 +73,7 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
 
 ### How to add your country/territory
 
-1. add a .yaml testcase in `testcases/countries`, using the appropriate ISO 3166-1 alpha-2 code - see `conf/country_codes.yaml`
+1. add a .yaml testcase to the relevant file for the country/territory in `testcases/countries`. The file names correspond to the appropriate ISO 3166-1 alpha-2 code - see `conf/country_codes.yaml`
   * a good way to get sample data is:
       * find an addressed location (house, business, etc) in your
         target territory in OpenStreetMap
