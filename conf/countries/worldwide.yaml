@@ -428,7 +428,7 @@ BT:
 
 # Bouvet Island
 BV:
-    use_country: BV
+    use_country: "NO"
     change_country: Bouvet Island, Norway
 
 # Botswana
@@ -1579,7 +1579,7 @@ SI:
 
 # Svalbard and Jan Mayen - same as Norway
 SJ:
-    use_country: NO
+    use_country: "NO"
     change_country: Norway
 
 # Slovakia
