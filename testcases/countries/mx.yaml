@@ -10,7 +10,7 @@ components:
     country: Mexico
     country_code: MX
     state: Federal District
-    postcode: 06100
+    postcode: "06100"
 expected:  |
     Wallace Whisky Bar
     Avenida Tamaulipas 45

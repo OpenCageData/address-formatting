@@ -6,7 +6,7 @@ components:
             city: Colombo
             country: Sri Lanka
             country_code: lk
-            postcode: 00200
+            postcode: "00200"
             road: D. R. Wijewardene Mawatha
             state: Western Province
             state_district: Colombo District

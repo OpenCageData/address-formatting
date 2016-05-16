@@ -1,10 +1,10 @@
 # Palestine
 #
 # Note that postal addresses seem to follow Israeli format and end with "via Isreal",
-# according to 
+# according to
 # https://www.informatica.com/products/data-quality/data-as-a-service/address-verification/address-formats.html?code=PSE
 #
-# I removed "via Israel" since we are not using postal addresses, and followed 
+# I removed "via Israel" since we are not using postal addresses, and followed
 # the more detailed Israeli format found at
 # https://www.informatica.com/products/data-quality/data-as-a-service/address-verification/address-formats.html?code=ISR
 ---
@@ -82,7 +82,7 @@ components:
     country: Palestine
     country_code: ps
     doctors: Khorsheed Optician
-    postcode: 00972
+    postcode: "00972"
     region: Gaza Strip
     road: Omar Al-Mukhtar St.
     state_district: Gaza Governorate
@@ -99,7 +99,7 @@ components:
     country: فلسطين
     country_code: ps
     doctors: خورشيد للبصريات
-    postcode: 00972
+    postcode: "00972"
     region: ‏قطاع غزّة‎
     road: شارع عمر المختار
     state_district: غزة

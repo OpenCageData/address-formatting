@@ -1,0 +1,16 @@
+# British Indian Ocean Territory (IO)
+---
+description: Road on Diego Garcia, -7.3153,72.4268
+components:
+        country: British Indian Ocean Territory
+        country_code: io
+        road: DG1
+        village: Seabreeze Village
+expected:  |
+    DG1
+    Seabreeze Village
+    British Indian Ocean Territory
+    United Kingdom
+
+
+

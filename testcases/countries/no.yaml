@@ -8,7 +8,7 @@ components:
     county: Oslo
     house_number: 28
     neighbourhood: Arctanderbyen
-    postcode: 0650
+    postcode: "0650"
     road: Åkebergveien
     state: Oslo
     suburb: Enerhaugen

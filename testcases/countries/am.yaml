@@ -6,7 +6,7 @@ components:
         country: Armenia
         country_code: am
         house_number: 8
-        postcode: 0010
+        postcode: "0010"
         road: Abovyan street
 expected:  |
     8 Abovyan street

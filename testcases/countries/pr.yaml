@@ -9,7 +9,7 @@ components:
     country: Puerto Rico
     country_code: PR
     county: San Juan
-    postcode: 00901
+    postcode: "00901"
 expected:  |
     Wisos Velillas Bar
     252 Calle San Francisco

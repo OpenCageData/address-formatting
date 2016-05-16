@@ -7,7 +7,7 @@ components:
             country_code: ci
             neighbourhood: Zone Industriele de Treichville
             post_office: La Poste
-            postcode: 00225
+            postcode: "00225"
             road: Boulevard de Marseille
             state: Abidjan
             suburb: Zone 2b

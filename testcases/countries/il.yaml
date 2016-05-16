@@ -1,0 +1,21 @@
+# Israel
+---
+description: House in Tel Aviv, 32.06523,34.78793
+components:
+        city: Tel Aviv-Yafo
+        country: Israel
+        country_code: il
+        house_number: 29
+        postcode: 64739
+        residential: Tel Aviv
+        road: Yizhak Sadeh
+        state: Tel Aviv District
+        suburb: Montefiore
+expected:  |
+    29 Yizhak Sadeh
+    64739 Tel Aviv-Yafo
+    Israel
+
+
+
+

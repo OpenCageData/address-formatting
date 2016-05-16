@@ -1,0 +1,19 @@
+# Marshall Islands
+---
+description: Hotel in Majuro, 7.08646,171.37358
+components:
+        city: Majuro
+        country: Marshall Islands
+        country_code: mh
+        hotel: Marshall Islands Resort
+        neighbourhood: Delap
+        postcode: 96060
+        road: Lagoon Road
+expected:  |
+    Marshall Islands Resort
+    Lagoon Road
+    Majuro, MH 96060
+    Marshall Islands
+
+
+

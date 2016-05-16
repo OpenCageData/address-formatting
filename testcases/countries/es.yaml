@@ -19,7 +19,7 @@ components:
      county: BCN
      house_number: 17
      pedestrian: Avinguda del Bogatell
-     postcode: 08005
+     postcode: "08005"
      public_building: Biblioteca Xavier Benguerel
      state: Catalonia
      suburb: la Vila Olímpica del Poblenou

@@ -51,6 +51,7 @@ components:
     state_district: Regierungsbezirk Köln
 expected:  |
     Cologne
+    North Rhine-Westphalia
     Germany
 
 ---
@@ -64,7 +65,7 @@ components:
     state_district: Upper Bavaria
 expected:  |
     Köln
-    Bayern
+    Bavaria
     Germany
 
 ---
@@ -157,4 +158,19 @@ expected:  |
     Landstuhl
     Bahnstraße
     66849 Landstuhl
+    Germany
+---
+# clean up come comonents
+description: Maxvorstadt, Munich
+components:
+    city: Munich
+    city_district: Stadtbezirk 03 Maxvorstadt
+    country: Germany
+    country_code: de
+    state: Free State of Bavaria
+    state_district: Upper Bavaria
+expected:  |
+    Maxvorstadt
+    Munich
+    Bavaria
     Germany

@@ -108,7 +108,7 @@ generic13: &generic13 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} || {{{suburb}}} || {{{region}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
 # postcode and state
@@ -191,9 +191,9 @@ fallback1: &fallback1 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{suburb}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}} {{/first}}
         {{{country}}}
 
 fallback2: &fallback2 |
@@ -228,7 +228,7 @@ fallback4: &fallback4 |
 default:
     address_template: *generic1
     fallback_template: *fallback1
-#
+    
 # country / territory specific mappings
 # please keep in alpha order by country code
 #
@@ -337,7 +337,13 @@ BB:
 
 # Bangladesh
 BD:
-    address_template: *generic12
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} - {{{postcode}}}
+        {{{country}}}
 
 # Belgium
 BE: 
@@ -579,12 +585,21 @@ CZ:
         # fix the postcode to make it \d\d\d \d\d 
         - ["\n(\\d{3})(\\d{2}) ","\n$1 $2 "]
 
-
 # Germany
 DE:
     address_template: *generic1
+    fallback_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} {{/first}}
+        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
+        {{{country}}}
+    
     replace:
         - ["^Stadtteil ",""]
+        - ["^Stadtbezirk (\\d+)",""]
         - ["^Gemeinde ",""]
         - ["^Landkreis ",""]
         - ["^Kreis ",""]
@@ -916,8 +931,7 @@ IN:
 # British Indian Ocean Territory - same as UK
 IO:
     use_country: GB
-    change_country: United Kingdom
-    add_component: county=British Indian Ocean Territory
+    change_country: British Indian Ocean Territory, United Kingdom
 
 # Iraq
 IQ: 
@@ -1180,7 +1194,6 @@ MF:
 # Marsall Islands
 MH:
     use_country: US
-    change_country: United States of America
     add_component: state=Marsall Islands
 
 # Madagascar
@@ -1689,7 +1702,7 @@ TJ:
 # Tokelau, territory of New Zealand
 TK:
     use_country: NZ
-    change_country: Tokulau, New Zealand
+    change_country: Tokelau, New Zealand
 
 # Timor-Leste/East Timor
 TL: 

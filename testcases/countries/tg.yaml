@@ -5,7 +5,7 @@ components:
             city:  Lomé
             country:  Togo
             country_code:  tg
-            postcode:  BP: 353
+            postcode:  "BP: 353"
             public_building:  Palais de Justice
             road:  Aveenue de la Cooperation
             state:  Maritime Region

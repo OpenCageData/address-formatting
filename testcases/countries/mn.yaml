@@ -6,7 +6,7 @@ components:
             city:  Ulaanbaatar
             country:  Mongolia
             country_code:  mn
-            postcode:  00976
+            postcode:  "00976"
             road:  Seoul street
             state:  Border Ulan Bator - Töv
 expected:  |

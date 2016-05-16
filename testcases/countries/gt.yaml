@@ -8,7 +8,7 @@ components:
             country_code: gt
             county: Guatemala City
             house_number: 18 calle 3-70 Zona 1
-            postcode: 01004
+            postcode: "01004"
             road: Transmetro Eje Sur
             state: Guatemala
             suburb: Zona 1

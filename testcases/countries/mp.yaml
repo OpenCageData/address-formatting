@@ -1,0 +1,20 @@
+# Northern Mariana Islands (a US commonwealth)
+---
+description: Red Cross office on Saipan, 15.12601,145.72340
+components:
+        building: Red Cross
+        country: Northern Mariana Islands
+        country_code: mp
+        county: Saipan Municipality
+        postcode: 96950
+        road: Chalan Tun Herman Pan
+        state: Northern Mariana Islands
+        town: Saipan
+expected:  |
+    Red Cross
+    Chalan Tun Herman Pan
+    Saipan, MP 96950
+    United States of America
+
+
+

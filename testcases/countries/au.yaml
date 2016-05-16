@@ -1,6 +1,7 @@
+# Australia (AU)
 ---
 # -37.8134921, 144.956787658113
-description: Melbourne Magistrates' Court
+description: Melbourne Magistrates' Court, -37.8134921, 144.956787658113
 components:
     city: Melbourne
     country: Australia
@@ -17,5 +18,22 @@ expected:  |
     223 William Street
     Melbourne VIC 3000
     Australia
-
+#
+# no city
+#
+---
+description: Road in suburb, -37.7319, 144.9381
+components:
+            country : Australia
+            country_code : au
+            county : City of Moreland
+            postcode : 3039
+            region : Greater Melbourne
+            road : Rainer Street
+            state : Victoria
+            suburb : Pascoe Vale South
+expected:  |
+    Rainer Street
+    Pascoe Vale South VIC 3039
+    Australia
 
