@@ -15,6 +15,21 @@ expected:  |
     17 Rue du Médecin-Colonel Calbairac
     31000 Toulouse
     France
+---
+#
+# dont show postcode ranges that are sometimes in OSM
+#
+description: remove postcode range
+components:
+            city: Mulhouse
+            country: France
+            country_code: fr
+            county: Mulhouse
+            postcode: 68100;68200
+            state: Alsace-Champagne-Ardenne-Lorraine
+expected:  |
+    Mulhouse
+    France
 #
 # French Guyana - part of France, but has its own country code
 #
