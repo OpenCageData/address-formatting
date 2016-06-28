@@ -405,7 +405,7 @@ BR:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{{house_number}}} {{{road}}}
+        {{{road}}}, {{{house_number}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} - {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{postcode}}}
         {{{country}}}
