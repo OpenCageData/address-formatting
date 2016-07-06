@@ -22,7 +22,7 @@ components:
     town: Ramallah
 expected: |
     Hostel in Ramallah
-    12 Al-Nuzha Street
+    Al-Nuzha Street 12
     700074 Ramallah
     Palestine
 ---
@@ -40,7 +40,7 @@ components:
     town: رام الله
 expected: |
     Hostel in Ramallah
-    12 شارع النزهة
+    شارع النزهة 12
     700074 رام الله
     فلسطين
 ---
