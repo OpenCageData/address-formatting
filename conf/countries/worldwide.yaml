@@ -967,7 +967,7 @@ JM:
 
 # Jordan
 JO:
-    address_template: *generic2
+    address_template: *generic1
 
 # Japan
 JP:
