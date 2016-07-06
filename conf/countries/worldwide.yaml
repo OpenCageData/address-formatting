@@ -1167,7 +1167,7 @@ LY:
 
 # Morocco
 MA:
-    address_template: *generic1
+    address_template: *generic3
 
 # Monaco
 MC:
