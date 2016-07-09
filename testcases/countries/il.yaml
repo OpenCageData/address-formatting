@@ -12,7 +12,7 @@ components:
         state: Tel Aviv District
         suburb: Montefiore
 expected:  |
-    29 Yizhak Sadeh
+    Yizhak Sadeh 29
     64739 Tel Aviv-Yafo
     Israel
 

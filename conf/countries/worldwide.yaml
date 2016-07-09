@@ -917,7 +917,7 @@ IE:
 
 # Israel
 IL: 
-    address_template: *generic3
+    address_template: *generic1
 
 # Isle of Man
 IM: 
@@ -967,7 +967,7 @@ JM:
 
 # Jordan
 JO:
-    address_template: *generic2
+    address_template: *generic1
 
 # Japan
 JP:
@@ -1167,7 +1167,7 @@ LY:
 
 # Morocco
 MA:
-    address_template: *generic1
+    address_template: *generic3
 
 # Monaco
 MC:
