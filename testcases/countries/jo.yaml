@@ -12,7 +12,7 @@ components:
 expected: |
     Jordan National Gallery of Fine Arts, Building 1
     Husni Fareez Street
-    Amman 11190
+    11190 Amman
     Jordan
 ---
 description: Supermarket, 31.95101,35.91891
@@ -27,7 +27,7 @@ components:
 expected: |
     هَبوب - Haboob
     Abu Al Wafa Al Dajani Street
-    Amman 11183
+    11183 Amman
     Jordan
 ---
 description: Supermarket, language=ar, 31.95101,35.91891
@@ -42,7 +42,7 @@ components:
 expected: |
     هَبوب
     Abu Al Wafa Al Dajani Street
-    عمان 11183
+    11183 عمان
     الأردن
 ---
 description: Dental clinic, 31.91740,35.89150
@@ -58,7 +58,7 @@ components:
 expected: |
     Khalifeh Mall
     جبل عرفات
-    Amman 11183
+    11183 Amman
     Jordan
 ---
 description: Dental clinic, language=ar, 31.91740,35.89150
@@ -74,5 +74,5 @@ components:
 expected: |
     خليفة مول
     جبل عرفات
-    عمان 11183
+    11183 عمان
     الأردن
