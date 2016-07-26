@@ -160,7 +160,7 @@ expected:  |
     66849 Landstuhl
     Germany
 ---
-# clean up come comonents
+# clean up come components
 description: Maxvorstadt, Munich
 components:
     city: Munich
@@ -174,3 +174,23 @@ expected:  |
     Munich
     Bavaria
     Germany
+---
+# clean up postcode
+description: multiple postcodes 49.9886629614539, 9.1545295715332
+components:
+        building: DS Smith Paper Deutschland GmbH
+        country: Germany
+        country_code: de
+        county: Aschaffenburg
+        postcode: 63739,63741,63743
+        road: Haselmühlweg
+        state: Free State of Bavaria
+        state_district: Lower Franconia
+        suburb: Damm
+        town: Aschaffenburg
+expected:  |
+    DS Smith Paper Deutschland GmbH
+    Haselmühlweg
+    63739 Aschaffenburg
+    Germany
+
