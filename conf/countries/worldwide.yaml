@@ -910,8 +910,17 @@ ID:
         {{{country}}}
 
 # Ireland
+# https://en.wikipedia.org/wiki/Postal_addresses_in_the_Republic_of_Ireland
 IE: 
-    address_template: *generic6
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{{county}}}
+        {{{postcode}}}
+        {{{country}}}
     replace:
         - [" City$",""]
 
