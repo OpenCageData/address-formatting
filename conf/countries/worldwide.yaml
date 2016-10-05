@@ -972,7 +972,7 @@ JE:
 
 # Jamaica
 JM:
-    address_template: *generic16
+    address_template: *generic20
 
 # Jordan
 JO:
