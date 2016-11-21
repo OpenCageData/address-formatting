@@ -1401,7 +1401,7 @@ NP:
         {{{house}}}
         {{{road}}} {{{house_number}}} 
         {{#first}} {{{suburb}}} || {{{neighbourhood}}} || {{{city}}} {{/first}}
-        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{city}}} {{/first}} {{{postcode}}} 
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
 # Nauru
