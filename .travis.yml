@@ -5,7 +5,7 @@ install:
   - cpanm YAML
   - cpanm File::Spec
   - cpanm File::Find::Rule
-  - cpanm Test::Exception 
+  - cpanm Test::Exception
   - cpanm Geo::Address::Formatter
 script:
   - bin/run_tests.t
