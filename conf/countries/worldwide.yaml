@@ -1588,7 +1588,7 @@ SE:
 
 # Singapore
 SG:
-    address_template: *generic3
+    address_template: *generic2
 
 # Saint Helena, Ascension and Tristan da Cunha - same as UK
 SH:

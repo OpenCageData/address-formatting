@@ -3,11 +3,24 @@ description: Chinatown Singapore
 components:
     country: Singapore
     country_code: SG
-    county: Central Singapore Community Development Council
     house_number: 76
     neighbourhood: Chinatown
     road: Shenton Way
     suburb: Shenton Way
 expected:  |
     76 Shenton Way
+    Singapore
+---
+# see https://en.wikipedia.org/wiki/Address_(geography)#Singapore
+description: Chinatown Singapore
+components:
+    country: Singapore
+    country_code: SG
+    city: Singapore
+    postcode: 546080
+    house_number: 16
+    road: Sandilands Road
+expected:  |
+    16 Sandilands Road
+    Singapore 546080
     Singapore
