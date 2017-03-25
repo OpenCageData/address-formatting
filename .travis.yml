@@ -1,0 +1,7 @@
+---
+language: 'perl'
+env: PERL_CPANM_OPT="--notest --force --skip-satisfied"
+install:
+  - cpanm Geo::Address::Formatter
+script:
+  - bin/run_tests.t
