@@ -23,7 +23,7 @@ binmode $builder->failure_output, ":utf8";
 binmode $builder->todo_output,    ":utf8";
 
 
-my $path = dirname(__FILE__) . '/testcases';
+my $path = dirname(__FILE__) . '/../testcases';
 
 my @files = File::Find::Rule->file()->name( '*.yaml' )->in( $path );
 
@@ -32,7 +32,7 @@ ok(scalar(@files), 'found at least one file');
 my $CLASS = 'Geo::Address::Formatter';
 use_ok($CLASS);
 
-my $conf_path = dirname(__FILE__) . '/conf';
+my $conf_path = dirname(__FILE__) . '/../conf';
 my $GAF = $CLASS->new( conf_path => $conf_path );
 
 sub _one_testcase {
