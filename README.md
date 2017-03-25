@@ -1,5 +1,7 @@
+[![Build Status](https://travis-ci.org/OpenCageData/address-formatting.svg?branch=master)](https://travis-ci.org/OpenCageData/address-formatting)
+
 # address formatting
- 
+
 
 ### A quick example
 
