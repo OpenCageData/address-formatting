@@ -1,0 +1,17 @@
+country:
+     United States: USA
+     United States of America: USA
+road:
+     Avenue: Ave
+     Boulevard: Blvd
+     Circle: Cl
+     Court: Ct
+     Extention: Ext
+     Freeway: Fwy
+     Northeast: NE
+     Northwest: NW
+     Place: Pl
+     Road: Rd
+     Southeast: SE
+     Southwest: SW
+     Street: St
