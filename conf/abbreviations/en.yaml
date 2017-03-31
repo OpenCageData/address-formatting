@@ -1,17 +1,31 @@
 country:
+     United Kingdom: UK
      United States of America: USA
+     United States Virgin Islands: USVI
 road:
+     Alley: Aly
+     Arcade: Arc
      Avenue: Ave
      Boulevard: Blvd
      Circle: Cl
      Court: Ct
+     Crescent: Cres
+     Crossroad: XRD
      Drive: Dr
+     Esplanade: Esp
+     Expressway: EXPY
      Extention: Ext
      Freeway: Fwy
+     Grove: Gr
+     Highway: HWY
+     Mountain: Mtn  
      Northeast: NE
      Northwest: NW
      Place: Pl
      Road: Rd
      Southeast: SE
      Southwest: SW
+     Square: Sq
      Street: St
+     Terrace: Tce
+     Throughway: TRWY
