@@ -1,0 +1,61 @@
+# mapping of countrycode to language codes
+# ISO-3166 Country Codes
+# http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+# ISO-639-1 Language Codes
+# https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+#
+# countries with multiple languages should be a comma seperated list
+# Example: ES: ca,es,eu,gl
+#
+AD: ca
+AE: ar
+AR: es
+AT: de
+AS: en
+AU: en
+BB: en
+BE: fr,nl,de
+BO: es
+BR: pt
+CA: en,fr
+CL: es
+CH: de,fr,it
+CR: es
+CU: es
+DE: de
+EC: es
+ES: ca,es,eu,gl
+FK: en
+FR: fr
+GB: en
+GU: en
+IE: en
+IM: en
+IN: en
+IT: it
+JM: en
+KE: en
+KN: en
+LI: de
+LU: de,fr
+MC: fr
+MS: en
+MX: es
+NL: nl
+NZ: en
+PN: en
+PR: en,es
+PT: pt
+PW: en
+PY: es
+SC: en
+SG: en
+SM: it
+UM: en
+US: en
+UY: es
+VG: en
+VI: en
+WS: en
+YT: fr
+ZA: en
