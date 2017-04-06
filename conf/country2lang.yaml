@@ -9,6 +9,7 @@
 #
 AD: ca
 AE: ar
+AG: en
 AO: pt
 AR: es
 AT: de
@@ -16,13 +17,19 @@ AS: en
 AU: en
 BB: en
 BE: fr,nl,de
+BI: en
+BM: en
 BO: es
 BR: pt
+BS: en
+BW: en
+BZ: en
 CA: en,fr
 CC: en
 CL: es
 CH: de,fr,it
 CK: en
+CM: en
 CR: es
 CU: es
 CV: pt
@@ -34,6 +41,9 @@ FK: en
 FO: dk
 FR: fr
 GB: en
+GD: en
+GG: en
+GM: en
 GS: en
 GU: en
 GW: pt
@@ -43,11 +53,13 @@ IM: en
 IN: en
 IO: en
 IT: it
+JE: en
 JM: en
 KE: en
 KN: en
 KY: en
 LI: de
+LR: en
 LU: de,fr
 MC: fr
 MH: en
@@ -55,10 +67,16 @@ MO: pt
 MS: en
 MX: es
 MZ: pt
+NC: fr
 NL: nl
 NP: en
+NR: en
 NZ: en
+PA: es
+PE: es
+PF: fr
 PK: en
+PM: en
 PN: en
 PR: en,es
 PT: pt
@@ -68,6 +86,7 @@ SB: en
 SC: en
 SE: se
 SG: en
+SH: en
 SM: it
 ST: pt
 TC: en
@@ -77,6 +96,8 @@ US: en
 UY: es
 VG: en
 VI: en
+VU: en
+WF: fr
 WS: en
 YT: fr
 ZA: en
