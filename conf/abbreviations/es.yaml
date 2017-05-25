@@ -1,15 +1,15 @@
 road:
      Avenida: Avda
      Calle de: C
-     Cra: Carrera
-     Cro: Carrero     
+     Carrera: Cra
+     Carrero: Cro
      Colonia: Col
-     Merc: Mercado
+     Mercado: Merc
      Plaza: Pl
-     Po: Paseo
-     Pta: Puerta
-     Rbla: Rambla
+     Paseo: Po
+     Puerta: Pta
+     Rambla: Rbla
      Ronda: Rda
-     S: San
-     Sect: Sector
-     Sta: Santa
+     San: S
+     Sector: Sect
+     Santa: Sta
