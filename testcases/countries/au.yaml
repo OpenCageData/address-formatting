@@ -36,4 +36,46 @@ expected:  |
     Rainer Street
     Pascoe Vale South VIC 3039
     Australia
+#
+# suburb should win over town
+#
+---
+description: suburb over town Sans Souci, -34.000,151.124
+components:
+         city: Sydney
+         country: Australia
+         country_code: au
+         county: Georges River Council
+         postcode: 2219
+         pub: St George Motor Boat Club
+         road: Vista Street
+         state: New South Wales
+         state_code: NSW
+         suburb: Sans Souci
+expected:  |
+    St George Motor Boat Club
+    Vista Street
+    Sans Souci NSW 2219
+    Australia
+#
+# suburb should win over town
+#
+---
+description: suburb over town Ashbury, -33.9,151.1229
+components:
+        city: Sydney
+        country: Australia
+        country_code: au
+        county: Canterbury-Bankstown Council
+        postcode: 2193
+        road: Fifth Street
+        state: New South Wales
+        state_code: NSW
+        suburb: Ashbury
+expected:  |
+    Fifth Street
+    Ashbury NSW 2193
+    Australia
+
+
 
