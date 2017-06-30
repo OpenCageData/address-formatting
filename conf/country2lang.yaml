@@ -67,8 +67,13 @@ DM: en
 DO: es
 DZ: ar,fr
 EC: es
+EE:
 EG: ar
+EH: ar
+ER: ar,it,ti
 ES: ca,es,eu,gl
+ET: am,om,so,ti
+FI: fi,se
 FJ: en
 FK: en
 FM: en
@@ -128,6 +133,7 @@ SE: se
 SG: en
 SH: en
 SM: it
+SO: so
 SR: nl
 ST: pt
 SX: en,nl
@@ -144,3 +150,5 @@ WF: fr
 WS: en
 YT: fr
 ZA: en
+ZM: en
+ZW: en
