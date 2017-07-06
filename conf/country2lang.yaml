@@ -9,7 +9,7 @@
 #
 AD: ca
 AE: ar,en
-AF: ps
+AF: fa,ps
 AG: en
 AI: en
 AL: sq
@@ -52,7 +52,7 @@ CI: fr
 CK: en
 CL: es
 CM: en
-CN: cn
+CN: zh
 CO: es
 CR: es
 CU: es
@@ -67,7 +67,7 @@ DM: en
 DO: es
 DZ: ar,fr
 EC: es
-EE:
+EE: et
 EG: ar
 EH: ar
 ER: ar,it,ti
@@ -98,15 +98,26 @@ GT: es
 GU: en
 GW: pt
 GY: en
+HK: en,zh
 HM: en
-HT: fr
+HN: es
+HR: hr
+HT: fr,ht
+HU: hu
+ID: id
 IE: en
+IL: ar,he
 IM: en
 IN: en
 IO: en
+IQ: ar
+IR: fa
+IS: is 
 IT: it
 JE: en
 JM: en
+JO: ar
+JP: jp
 KE: en
 KN: en
 KY: en
