@@ -4,10 +4,10 @@
 # ISO-639-1 Language Codes
 # https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 #
-# countries with multiple languages should be a comma seperated list
+# countries with multiple languages should be a comma separated list
 # Example: ES: ca,es,eu,gl
 #
-AD: ca
+AD: ca 
 AE: ar,en
 AF: fa,ps
 AG: en
@@ -28,6 +28,8 @@ BB: en
 BD: bn
 BE: fr,nl,de
 BF: fr
+BG: bg
+BH: ar,en
 BI: en
 BJ: fr
 BL: fr
@@ -60,6 +62,7 @@ CV: pt
 CW: en,nl
 CX: en
 CY: he
+CZ: cs
 DE: de
 DJ: ar,fr
 DK: dk
@@ -175,27 +178,48 @@ NP: en
 NR: en
 NU: en
 NZ: en
+OM: ar,en
 PA: es
 PE: es
 PF: fr
+PG: en
+PH: en,tl
 PK: en
-PM: en
+PL: pl
+PM: fr
 PN: en
 PR: en,es
+PS: ar
 PT: pt
 PW: en
 PY: es
+QA: ar,en
+RE: fr
 RO: ro
+RS: sr
+RU: ru
+RW: en,fr,rw
+SA: ar
 SB: en
-SC: en
+SC: en,fr
+SD: ar,en
 SE: se
 SG: en
 SH: en
+SI: sl
+SJ: no
+SK: sk
+SL: en
 SM: it
+SN: fr
 SO: so
 SR: nl
+SS: en
 ST: pt
+SV: es
 SX: en,nl
+SY: ar
+SZ: en,ss
 TC: en
 TD: fr
 TF: fr
