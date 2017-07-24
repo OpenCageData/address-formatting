@@ -67,6 +67,8 @@ As of `Sat 25 Mar 2017` coverage is:
     We have rules for 249 (100%) territories
     0 (0%) territories have neither rules nor tests
 
+We need more language specific abbreviations, please see `conf/abbreviations`
+
 A detailed breakdown of test and configuration coverage can be found by running `bin/coverage.pl -d`. A list of all known territories is in `conf/country_codes.yaml` Note: the list is simple all officially assigned [ISO 3166-1 alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements), and is not a political statement on whether or not these territories are or are not or should or should not be political states. 
 
 ### File format
