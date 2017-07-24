@@ -32,6 +32,23 @@ expected:  |
     Parkdale
     Toronto, ON M6K 1V2
     Canada
+---
+# 43.6666,-79.7482
+description: no housenumber
+components:
+    city: Brampton
+    country: Canada
+    country_code: ca
+    postcode: L6Y 1Z4
+    road: McMurchy Avenue South
+    school: Brampton Centennial Secondary School
+    state: Ontario
+    suburb: Ridgehill
+expected:  |
+    Brampton Centennial Secondary School
+    McMurchy Avenue South
+    Brampton, ON L6Y 1Z4
+    Canada
 
 
 
