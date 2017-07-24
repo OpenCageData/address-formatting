@@ -16,6 +16,23 @@ expected:  |
     251 McMurchy Avenue South
     Brampton, ON L6Y 1Z4
     Canada
+#
+#
+#
+---
+description: postcode and suburb
+components:
+    city: Toronto
+    country: Canada
+    country_code: ca
+    postcode: M6K1V2
+    state: Ontario
+    suburb: Parkdale
+expected:  |
+    Parkdale
+    Toronto, ON M6K 1V2
+    Canada
+
 
 
 
