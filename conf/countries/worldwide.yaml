@@ -979,7 +979,8 @@ IR_en:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{road}}}
         {{{house_number}}}
         {{#first}} {{{province}}} || {{{state}}} {{/first}}

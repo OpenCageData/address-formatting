@@ -12,7 +12,8 @@ components:
             suburb: Ostad Moein
 expected:  |
     Azadi Tower
-    Tehran, Ostad Moein
+    Tehran
+    Ostad Moein
     Azadi Square
     1351956118
     Iran
