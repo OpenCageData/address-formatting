@@ -9,12 +9,10 @@ components:
             country_code: ir
             postcode: 1351956118
             road: Azadi Square
-            state: Tehran
             suburb: Ostad Moein
 expected:  |
     Azadi Tower
+    Tehran, Ostad Moein
     Azadi Square
-    Tehran
+    1351956118
     Iran
-
-
