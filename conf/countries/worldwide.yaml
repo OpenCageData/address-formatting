@@ -990,7 +990,6 @@ IR_en:
 IR_fa:
     address_template: |
         {{{country}}}
-        {{{postcode}}}
         {{#first}} {{{state}}} || {{{province}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
@@ -998,6 +997,7 @@ IR_fa:
         {{{house_number}}}
         {{{house}}}
         {{{attention}}}
+        {{{postcode}}}
 
 # Iceland
 IS: 
