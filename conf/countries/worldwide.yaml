@@ -963,8 +963,40 @@ IQ:
         {{{country}}}
 
 # Iran
-IR: 
-    address_template: *generic17
+IR:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{road}}}
+        {{{house_number}}}
+        {{#first}} {{{province}}} || {{{state}}} {{/first}}
+        {{{postcode}}}
+        {{{country}}}
+
+IR_en:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{road}}}
+        {{{house_number}}}
+        {{#first}} {{{province}}} || {{{state}}} {{/first}}
+        {{{postcode}}}
+        {{{country}}}
+
+IR_fa:
+    address_template: |
+        {{{country}}}
+        {{{postcode}}}
+        {{#first}} {{{state}}} || {{{province}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{road}}}
+        {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
 
 # Iceland
 IS: 
