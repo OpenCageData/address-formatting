@@ -46,7 +46,7 @@ Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-a
 
    * apartment/flat number, floor numbers
    * PO boxes
-   * translating the language of the (destination) address. Whatever langauge is input is output. 
+   * translating the language of the (destination) address. Whatever language is input is output. 
   
 ### Processing logic
 
