@@ -19,3 +19,14 @@ expected:  |
     Telangana
     India
 
+---
+description: Indian postcode
+components:
+    state: Mahārāshtra
+    postcode: 400096
+    country: India
+    country_code: in
+expected:  |
+    400096
+    Mahārāshtra
+    India
