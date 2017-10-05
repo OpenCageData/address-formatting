@@ -16,6 +16,8 @@ aliases:
     - residential
     - path
     - pedestrian
+    - road_reference
+    - road_reference_intl    
 ---
 name: village
 aliases:

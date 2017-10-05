@@ -144,5 +144,58 @@ expected:  |
     98800 Nouméa
     Nouvelle-Calédonie, France
 
-
+#
+# road_reference
+#
+---
+description: road, 48.406168,2.55452
+components:
+            country : France
+            country_code : fr
+            county : Fontainebleau
+            postcode : 77630
+            road : Autoroute du Soleil
+            road_reference : A 6
+            road_reference_intl : E 15
+            state : Ile-de-France
+            village : Arbonne-la-Forêt
+expected:  | 
+    Autoroute du Soleil
+    77630 Arbonne-la-Forêt
+    France
+#
+# road_reference
+#
+---
+description: road_reference, 48.406168,2.55452
+components:
+            country : France
+            country_code : fr
+            county : Fontainebleau
+            postcode : 77630
+            road_reference : A 6
+            road_reference_intl : E 15
+            state : Ile-de-France
+            village : Arbonne-la-Forêt
+expected:  | 
+    A 6
+    77630 Arbonne-la-Forêt
+    France
+#
+# road_reference
+#
+---
+description: road_reference_intl, 48.406168,2.55452
+components:
+            country : France
+            country_code : fr
+            county : Fontainebleau
+            postcode : 77630
+            road_reference_intl : E 15
+            state : Ile-de-France
+            village : Arbonne-la-Forêt
+expected:  | 
+    E 15
+    77630 Arbonne-la-Forêt
+    France
 
