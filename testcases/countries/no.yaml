@@ -4,7 +4,7 @@ components:
     city: Oslo
     city_district: Gamle Oslo
     country: Norway
-    country_code: no
+    country_code: "no"
     county: Oslo
     house_number: 28
     neighbourhood: Arctanderbyen
