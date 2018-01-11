@@ -77,7 +77,7 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
 
 ### How to add your country/territory
 
-1. add a .yaml testcase to the relevant file for the country/territory in `testcases/countries`. The file names correspond to the appropriate ISO 3166-1 alpha-2 code - see `conf/country_codes.yaml`
+1. edit the .yaml testcase for the country/territory in `testcases/countries`. The file names correspond to the appropriate ISO 3166-1 alpha-2 code - see `conf/country_codes.yaml`
   * a good way to get sample data is:
       * find an addressed location (house, business, etc) in your
         target territory in OpenStreetMap
@@ -115,7 +115,6 @@ More tests! For every rule about addresses there are exceptions and edge cases t
 
 Planned features
 
-  * optionally shorten/abbreviate addresses, e.g. 'Hoover Str' instead of 'Hoover Street'
   * basic error checking, for example ignore things which obviously can not be postcodes
   * define rules for postcode format specifically
 
@@ -124,7 +123,8 @@ We welcome your pull requests. Together we can address the world!
 ### Who are we?
 
 We run the [OpenCage Geocoder](https://geocoder.opencagedata.com). 
-Previously, before beine spun off as a seperate company, we were a division of [Lokku](http://www.lokku.com), long time supporters of OpenStreetMap and open data initiatives. We also run [#geomob](http://geomobldn.org), a meetup of London location based service developers where we do our best to highlight geoinnovation. 
+
+We also run [#geomob](http://geomobldn.org), a meetup of London location based service developers where we do our best to highlight geoinnovation. 
 
 ### Further reading
 
@@ -134,6 +134,6 @@ You may enjoy Michael Tandy's [Falsehoods Programmers Believe about Addresses](h
 
 If it's actual address data you're after, check out [OpenAddresses](http://openaddresses.io/).
 
-If you want to turn longitude, latitude into addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](https://geocoder.opencagedata.com).
+If you want to turn longitude, latitude into well formatted addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](https://geocoder.opencagedata.com).
 
-If all this convinces you address are evil, please check out [what3words](http://what3words.com/) which allows you to dispense with them entirely. 
+If all this convinces you that address are evil, please check out [what3words](http://what3words.com) which allows you to dispense with them entirely. 
