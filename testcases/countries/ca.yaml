@@ -32,6 +32,22 @@ expected:  |
     Parkdale
     Toronto, ON M6K 1V2
     Canada
+#
+# London, Ontario
+#
+---
+description: city, state
+components:
+    city: London
+    country: Canada
+    country_code: ca
+    county: Middlesex County    
+    state: Ontario
+    state_code: ON
+expected:  |
+    London, ON
+    Canada
+    
 ---
 # 43.6666,-79.7482
 description: no housenumber

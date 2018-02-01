@@ -463,6 +463,12 @@ CA:
         {{#first}} {{{house_number}}} {{{road}}} || {{{suburb}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
+    fallback_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{house_number}}} {{{road}}} || {{{suburb}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{{country}}}
     postformat_replace:
         # fix the postcode to make it \w\w\w \w\w\w
         - [" (\\w{2}) (\\w{3})(\\w{3})\n"," $1 $2 $3\n"]
