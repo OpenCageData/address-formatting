@@ -34,6 +34,8 @@ aliases:
     - town
 ---
 name: county
+aliases:
+    - county_code
 ---
 name: postcode
 ---

@@ -14,4 +14,18 @@ expected:  |
     Via Pisacane, 13
     76121 Barletta BT
     Italy
-
+---
+description: Milano, correcty add county_code
+components:
+        city: Milano
+        country: Italy
+        country_code: it
+        county: Milano
+        postcode: 20147
+        road: Via Giovanni Della Casa
+        state: Lombardy
+        suburb: Boldinasco
+expected:  |
+    Via Giovanni Della Casa
+    20147 Milano MI
+    Italy
