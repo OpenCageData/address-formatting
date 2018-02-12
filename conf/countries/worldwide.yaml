@@ -299,6 +299,9 @@ AR:
     address_template: *generic9
     replace:
         - ["^Autonomous City of ",""]
+    postformat_replace:
+        # fix the postcode to make it \w\d\d\d\d \w\w\w
+        - ["\n(\\w\\d{4})(\\w{3}) ","\n$1 $2 "]
 
 # American Samoa
 AS: 
@@ -506,6 +509,9 @@ CK:
 # Chile
 CL: 
     address_template: *generic1
+    postformat_replace:
+        # fix the postcode to make it \d\d\d \d\d\d\d
+        - ["\n(\\d{3})(\\d{4}) ","\n$1 $2 "]
 
 # Cameroon
 CM: 
@@ -818,6 +824,9 @@ GQ:
 # Greece
 GR:
     address_template: *generic1
+    postformat_replace:
+        # fix the postcode to make it \d\d\d \d\d
+        - ["\n(\\d{3})(\\d{2}) ","\n$1 $2 "]
 
 # South Georgia and the South Sandwich Islands - same as UK
 GS:
