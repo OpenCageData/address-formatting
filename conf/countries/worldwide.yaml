@@ -201,7 +201,7 @@ fallback2: &fallback2 |
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} || {{{island}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
 
 fallback3: &fallback3 |
@@ -1850,7 +1850,8 @@ UG:
     address_template: *generic16
 
 # US Minor Outlying Islands, same as USA
-UM: 
+UM:
+    fallback_template: *fallback3
     use_country: US
     change_country: United States of America
     add_component: state=US Minor Outlying Islands
