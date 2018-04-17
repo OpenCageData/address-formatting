@@ -75,11 +75,19 @@ components:
     county: Santa Clara County
     state: California
 expected:  |
-    Palo Alto
-    Santa Clara County
-    California
+    Palo Alto, CA
     United States of America
 ---
+description: NY, NY
+components:
+    city: New York 
+    country: United States of America
+    country_code: US
+    state: New York
+expected:  |
+    New York, NY
+    United States of America
+---    
 description: house number in New York, no city
 components:
     house_number: 175

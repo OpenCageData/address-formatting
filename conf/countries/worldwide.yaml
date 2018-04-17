@@ -201,9 +201,7 @@ fallback2: &fallback2 |
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{{county}}}
-        {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
 
 fallback3: &fallback3 |
