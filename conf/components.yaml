@@ -35,6 +35,7 @@ aliases:
 ---
 name: county
 aliases:
+    - local_administrative_area
     - county_code
 ---
 name: postcode

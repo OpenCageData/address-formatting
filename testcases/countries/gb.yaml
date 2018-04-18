@@ -17,7 +17,21 @@ expected:  |
     82 Clerkenwell Road
     London EC1M 5RF
     United Kingdom
-
+    
+---
+description: Lokku office
+components:
+    country: United Kingdom
+    country_code: GB
+    county: Greater London
+    local_administrative_area: City of London
+    state: England
+    suburb: Barbican
+expected:  |
+    Barbican
+    London
+    United Kingdom
+    
 ---
 description: London
 components:
