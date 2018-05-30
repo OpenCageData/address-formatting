@@ -1,7 +1,7 @@
 # ordered list, smallest to largest
 name: house_number
----
-name: street_number
+aliases:
+    - street_number
 ---
 name: house
 aliases:
