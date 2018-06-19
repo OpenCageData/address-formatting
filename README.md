@@ -83,7 +83,7 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
         target territory in OpenStreetMap
       * get the coordinates (lat, long) of the location
       * put the coordinates into the [OpenCage Geocoder demo
-        page](https://geocoder.opencagedata.com/demo)
+        page](https://opencagedata.com/demo)
       * look at the resulting JSON in the *Raw Response* tab
 
 2. edit `conf/countries/worldwide.yaml`
