@@ -35,7 +35,7 @@ territories around the world. It also contains test cases.
 
 ### Which addresses we're talking about
 
-The intended use-case is database or geocoding systems (forward, reverse, autocomplete) where we know both the country of the address and the language of the user/reader. The address is displayed to a consumer (for example in an app) and not used to print on an envelope for actual postal delivery. We use it to format output from the [OpenCage Geocoder](https://geocoder.opencagedata.com).
+The intended use-case is database or geocoding systems (forward, reverse, autocomplete) where we know both the country of the address and the language of the user/reader. The address is displayed to a consumer (for example in an app) and not used to print on an envelope for actual postal delivery. We use it to format output from the [OpenCage Geocoder](https://opencagedata.com).
 
 We have to deal with
 
@@ -122,7 +122,7 @@ We welcome your pull requests. Together we can address the world!
 
 ### Who are we?
 
-We run the [OpenCage Geocoder](https://geocoder.opencagedata.com). 
+We run the [OpenCage Geocoder](https://opencagedata.com). 
 
 We also run [#geomob](http://geomobldn.org), a meetup of London location based service developers where we do our best to highlight geoinnovation. 
 
@@ -134,6 +134,6 @@ You may enjoy Michael Tandy's [Falsehoods Programmers Believe about Addresses](h
 
 If it's actual address data you're after, check out [OpenAddresses](http://openaddresses.io/).
 
-If you want to turn longitude, latitude into well formatted addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](https://geocoder.opencagedata.com).
+If you want to turn longitude, latitude into well formatted addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](https://opencagedata.com).
 
 If all this convinces you that address are evil, please check out [what3words](http://what3words.com) which allows you to dispense with them entirely. 
