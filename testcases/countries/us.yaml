@@ -103,6 +103,40 @@ expected:  |
     175 Varick Street
     New York City, NY 10014
     United States of America
+---
+descriptions: state code for Washington, D.C.
+components:
+    country: United States of America
+    country_code: us
+    postcode: 20500
+    state: Washington, D.C.
+expected:  |
+    Washington, DC 20500
+    United States of America
+---
+descriptions: state code for Washington DC
+components:
+    country: United States of America
+    country_code: us
+    postcode: 20500
+    state: Washington DC
+expected:  |
+    Washington, DC 20500
+    United States of America
+
+---
+descriptions: state code for Washington DC
+components:
+    city: Washington
+    country: United States of America
+    country_code: us
+    postcode: 20500
+    state: District of Columbia
+expected:  |
+    Washington, DC 20500
+    United States of America
+
+
 #
 # United States Virgin Islands
 ---
