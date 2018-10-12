@@ -123,7 +123,37 @@ components:
 expected:  |
     Washington, DC 20500
     United States of America
-
+---
+description: use suburb if no city
+components:
+    country: USA
+    country_code: us
+    county: Volusia County
+    house_number: 928
+    postcode: 32132
+    road: Flagler Avenue
+    state: Florida
+    state_code: FL
+    suburb: Edgewater
+expected:  |
+    928 Flagler Avenue
+    Edgewater, FL 32132
+    United States of America
+---
+description: use county if no city
+components:
+    country: USA
+    country_code: us
+    county: Volusia County
+    house_number: 928
+    postcode: 32132
+    road: Flagler Avenue
+    state: Florida
+    state_code: FL
+expected:  |
+    928 Flagler Avenue
+    Volusia County, FL 32132
+    United States of America
 ---
 description: state code for Washington DC
 components:
