@@ -55,7 +55,7 @@ Our goal with this repository is a series of (programming) language independent 
 We've written, use and maintain a working implementation of a processer in Perl, see (CPAN: [Geo::Address::Formatter](https://metacpan.org/release/Geo-Address-Formatter), [github repo](https://github.com/opencagedata/perl-Geo-Address-Formatter)). 
 There is also an open-source [implementation in PHP](https://github.com/predicthq/address-formatter-php).
 
-We would love there to be other langauge implementations. 
+We would love there to be other language implementations. 
 If you do write a processor, please let us know so we can list it here. 
 
 ### Coverage
