@@ -193,4 +193,21 @@ expected:  |
     Haselmühlweg
     63739 Aschaffenburg
     Germany
+---
+#
+description: no city, use county (Kreis)
+components:
+        city_district: Ortsbeirat 5 : Lütten Klein
+        country: Germany
+        country_code: de
+        county: Rostock
+        house_number: 30
+        postcode: 18107
+        road: Turkuer Straße
+        state: Mecklenburg-Vorpommern
+        suburb: Lütten Klein
+expected:  |
+    Turkuer Straße 30
+    18107 Rostock
+    Germany
 

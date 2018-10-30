@@ -6,7 +6,7 @@ generic1: &generic1 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || || {{{county}}} || {{{state}}} {{/first}}
         {{{country}}}
 
 # postcode after city
@@ -619,6 +619,7 @@ DE:
     replace:
         - ["^Stadtteil ",""]
         - ["^Stadtbezirk (\\d+)",""]
+        - ["^Ortsbeirat (\\d+) :",""]        
         - ["^Gemeinde ",""]
         - ["^Landkreis ",""]
         - ["^Kreis ",""]
