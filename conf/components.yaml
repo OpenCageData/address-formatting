@@ -28,6 +28,7 @@ name: neighbourhood
 aliases:
     - suburb
     - city_district
+    - quarter
 ---
 name: city
 aliases:
