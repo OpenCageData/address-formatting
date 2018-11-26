@@ -93,3 +93,18 @@ expected:  |
     115 New Cavendish Street
     London W1T 5DU
     United Kingdom
+---
+description: village in Cambridgeshire, 52.281523,-0.115179
+components:
+    country: United Kingdom
+    country_code: gb
+    county: Cambridgeshire
+    postcode: PE28 9QA
+    region: East of England
+    state: England
+    suburb: Fenstanton
+    town: Huntingdonshire
+    village: Hilton
+expected:  |
+    Hilton PE28 9QA
+    United Kingdom
