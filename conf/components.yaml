@@ -23,16 +23,21 @@ name: village
 aliases:
     - hamlet
     - locality
+    - croft
 ---
 name: neighbourhood
 aliases:
     - suburb
     - city_district
+    - district
     - quarter
+    - houses
+    - subdivision    
 ---
 name: city
 aliases:
     - town
+    - municipality
 ---
 name: county
 aliases:
