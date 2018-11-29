@@ -621,6 +621,7 @@ DE:
         - ["^Stadtbezirk (\\d+)",""]
         - ["^Ortsbeirat (\\d+) :",""]        
         - ["^Gemeinde ",""]
+        - ["^Gemeindeverwaltungsverband ",""]        
         - ["^Landkreis ",""]
         - ["^Kreis ",""]
         - ["^Grenze ",""]
