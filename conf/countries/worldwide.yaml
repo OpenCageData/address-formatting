@@ -6,7 +6,7 @@ generic1: &generic1 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || || {{{county}}} || {{{state}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{town}}} || {{{city}}} || {{{village}}} || || {{{county}}} || {{{state}}} {{/first}}
         {{{country}}}
 
 # postcode after city
@@ -612,7 +612,7 @@ DE:
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} {{/first}}
+        {{#first}} {{{town}}} || {{{city}}} || {{{village}}} || {{{county}}} {{/first}}
         {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
         {{{country}}}
     
