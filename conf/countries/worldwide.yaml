@@ -1022,6 +1022,8 @@ IS:
 # Italy
 IT: 
     address_template: *generic8
+    replace:
+        - ["Città metropolitana di ",""]
 
 # Jersey - same format as UK, but not part of UK
 JE:

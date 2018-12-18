@@ -29,3 +29,20 @@ expected:  |
     Via Giovanni Della Casa
     20147 Milano MI
     Italy
+---    
+description: deal with Città metropolitana di Firenze
+components:
+        building: Palazzo Gondi
+        city: Firenze
+        country: Italia
+        country_code: it
+        county: Città metropolitana di Firenze
+        pedestrian: Via dei Gondi
+        postcode: 50122
+        state: TOS
+        suburb: Quartiere 1
+expected:  |
+    Palazzo Gondi
+    Via dei Gondi
+    50122 Firenze FI
+    Italia
