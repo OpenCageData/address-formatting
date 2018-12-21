@@ -197,7 +197,7 @@ expected:  |
 #
 description: no city, use county (Kreis)
 components:
-        city_district: Ortsbeirat 5 : Lütten Klein
+        city_district: 'Ortsbeirat 5 : Lütten Klein'
         country: Germany
         country_code: de
         county: Rostock
