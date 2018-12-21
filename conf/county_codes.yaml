@@ -1,3 +1,54 @@
+ES:
+    A: Alicante
+    AB: Albacete
+    AL: Almería
+    AV: Ávila
+    B: Barcelona
+    BA: Badajoz
+    BI: Vizcaya
+    BU: Burgos
+    C: A Coruña
+    CA: Cádiz
+    CC: Cáceres
+    CO: Córdoba
+    CR: Ciudad Real
+    CS: Castellón
+    CU: Cuenca
+    GC: Las Palmas
+    GI: Girona
+    GR: Granada
+    GU: Guadalajara
+    H: Huelva
+    HU: Huesca
+    J: Jaén
+    L: Lérida
+    LE: León
+    LO: La Rioja
+    LU: Lugo
+    M: Comunidad de Madrid
+    MA: Málaga
+    MU: Región de Murcia
+    NA: Navarra
+    O: Asturias
+    OR: Ourense
+    P: Palencia
+    PM: Islas Baleares
+    PO: Pontevedra
+    S: Cantabria
+    SA: Salamanca
+    SE: Sevilla
+    SG: Segovia
+    SO: Soria
+    SS: Guipúzcoa
+    T: Tarragona
+    TE: Teruel
+    TF: Santa Cruz de Tenerife
+    TO: Toledo
+    V: Valencia
+    VA: Valladolid
+    VI: Álava
+    Z: Zaragoza
+    ZA: Zamora
 IT:
        # Italian Province abbreviations
        # https://en.wikipedia.org/wiki/Provinces_of_Italy

@@ -92,6 +92,26 @@ IT:
     UMB: Umbria
     VAL: Valle d'Aosta
     VEN: Veneto
+ES:
+    AN : Andalucía
+    AR : Aragón
+    AS : Asturias
+    CB : Cantabria
+    CE : Ceuta
+    CL : Castilla y León
+    CM : Castilla-La Mancha
+    CN : Canarias
+    CT : Cataluña
+    EX : Extremadura
+    GA : Galicia
+    IB : Islas Baleares
+    MC : Región de Murcia
+    MD : Comunidad de Madrid
+    ML : Melilla
+    NC : Navarra
+    PV : País Vasco
+    RI : La Rioja
+    VC : Comunidad Valenciana 
 US:
     # http://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States
     AL: Alabama
