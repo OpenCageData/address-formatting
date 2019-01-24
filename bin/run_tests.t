@@ -4,7 +4,6 @@
 # https://github.com/OpenCageData/perl-Geo-Address-Formatter/blob/master/t/unit/countries.t
 # and runs in travis-CI (see .travis.yml)
 
-
 use strict;
 use lib 'perl/lib/perl5';
 use File::Basename qw(basename dirname);
@@ -12,7 +11,7 @@ use File::Find::Rule;
 use File::Spec;
 use Test::Exception;
 use Test::More;
-use YAML qw(LoadFile);
+use YAML::XS qw(LoadFile);
 
 use utf8;
 # nicer output for diag and failures, see
