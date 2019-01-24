@@ -2,6 +2,6 @@
 language: 'perl'
 env: PERL_CPANM_OPT="--notest --force --skip-satisfied"
 install:
-  - cpanm Geo::Address::Formatter~1.67
+  - cpanm Geo::Address::Formatter~1.73
 script:
   - bin/run_tests.t
