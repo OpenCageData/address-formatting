@@ -1,3 +1,28 @@
+AR:
+    A: Salta
+    B: Buenos Aires
+    C: Ciudad Autónoma de Buenos Aires
+    D: San Luis
+    E: Entre Ríos
+    F: La Rioja
+    G: Santiago del Estero
+    H: Chaco
+    J: San Juan
+    K: Catamarca
+    L: La Pampa
+    M: Mendoza
+    N: Misiones
+    P: Formosa
+    Q: Neuquén
+    R: Río Negro
+    S: Santa Fe
+    T: Tucumán
+    U: Chubut
+    V: Tierra del Fuego
+    W: Corrientes
+    X: Córdoba
+    Y: Jujuy
+    Z: Santa Cruz
 AU:
     # https://en.wikipedia.org/wiki/States_and_territories_of_Australia
     AAT: Australian Antarctic Territory
@@ -130,6 +155,50 @@ ES:
     PV : País Vasco
     RI : La Rioja
     VC : Comunidad Valenciana
+HU:
+    BA: Baranya
+    BC: Békéscsaba
+    BE: Békés
+    BK: Bács-Kiskun
+    BU: Budapest
+    BZ: Borsod-Abaúj-Zemplén
+    CS: Csongrád
+    DE: Debrecen
+    DU: Dunaújváros
+    EG: Eger
+    ER: Érd
+    FE: Fejér
+    GS: Győr‐Moson‐Sopron
+    GY: Győr
+    HB: Hajdú-Bihar
+    HE: Heves
+    HV: Hódmezővásárhely
+    JN: Jász-Nagykun-Szolnok
+    KE: Komárom-Esztergom
+    KM: Kecskemét
+    KV: Kaposvár
+    MI: Miskolc
+    NK: Nagykanizsa
+    NO: Nógrád
+    NY: Nyíregyháza
+    PE: Pest
+    PS: Pécs
+    SD: Szeged
+    SF: Székesfehérvár
+    SH: Szombathely
+    SK: Szolnok
+    SN: Sopron
+    SO: Somogy
+    SS: Szekszárd
+    ST: Salgótarján
+    SZ: Szabolcs-Szatmár-Bereg
+    TB: Tatabánya
+    TO: Tolna
+    VA: Vas
+    VE: Veszprém
+    VM: Veszprém
+    ZA: Zala
+    ZE: Zalaegerszeg
 IT:
     ABR: Abruzzo
     BAS: Basilicata
@@ -197,6 +266,24 @@ NL:
     UT: Utrecht
     ZE: Zeeland
     ZH: Zuid-Holland
+NZ:
+    AUK: Auckland
+    BOP: Bay of Plenty
+    CAN: Canterbury
+    CIT: Chatham Islands Territory
+    GIS: Gisborne
+    HKB: Hawkes's Bay
+    MBH: Marlborough
+    MWT: Manawatu-Wanganui
+    NSN: Nelson
+    NTL: Northland
+    OTA: Otago
+    STL: Southland
+    TAS: Tasman
+    TKI: Taranaki
+    WGN: Wellington
+    WKO: Waikato
+    WTC: West Coast
 PL:
     DS: województwo dolnośląskie
     KP: województwo kujawsko-pomorskie
@@ -298,3 +385,13 @@ US:
     WV: West Virginia
     WI: Wisconsin
     WY: Wyoming
+ZA:
+    EC: Eastern Cape
+    FS: Free State
+    GT: Gauteng
+    LP: Limpopo
+    MP: Mpumalanga
+    NC: Northern Cape
+    NL: Kwazulu-Natal
+    NW: North-West
+    WC: Western Cape
