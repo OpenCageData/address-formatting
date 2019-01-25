@@ -11,6 +11,18 @@ AU:
     TAS: Tasmania
     VIC: Victoria
     WA: Western Australia
+BE:
+    BRU: Bruxelles-Capitale
+    VAN: Antwerpen
+    VBR: Vlaams Brabant
+    VLI: Limburg
+    VOV: Oost-Vlaanderen
+    VWV: West-Vlaanderen
+    WBR: Brabant wallon
+    WHT: Hainaut
+    WLG: Liège
+    WLX: Luxembourg
+    WNA: Namur
 BR:
     # http://en.wikipedia.org/wiki/States_of_Brazil
     AC: Acre
@@ -54,6 +66,33 @@ CA:
     QC: Quebec
     SK: Saskatchewan
     YT: Yukon
+CH:
+    AG: Aargau
+    AI: Appenzell Innerrhoden
+    AR: Appenzell Ausserrhoden
+    BE: Bern
+    BL: Basel-Landschaft
+    BS: Basel-Stadt
+    FR: Fribourg
+    GE: Genève
+    GL: Glarus
+    GR: Graubünden
+    JU: Jura
+    LU: Luzern
+    NE: Neuchâtel
+    NW: Nidwalden
+    OW: Obwalden
+    SG: Sankt Gallen
+    SH: Schaffhausen
+    SO: Solothurn
+    SZ: Schwyz
+    TG: Thurgau
+    TI: Ticino
+    UR: Uri
+    VD: Vaud
+    VS: Valais
+    ZG: Zug
+    ZH: Zürich
 DE:
     BB: Brandenburg
     BE: Berlin
@@ -112,6 +151,39 @@ IT:
     UMB: Umbria
     VAL: Valle d'Aosta
     VEN: Veneto
+MX:
+    AGU: Aguascalientes
+    BCN: Baja California
+    BCS: Baja California Sur
+    CAM: Campeche
+    CHH: Chihuahua
+    CHP: Chiapas
+    CMX: Ciudad de México
+    COA: Coahuila de Zaragoza
+    COL: Colima
+    DUR: Durango
+    GRO: Guerrero
+    GUA: Guanajuato
+    HID: Hidalgo
+    JAL: Jalisco
+    MEX: México
+    MIC: Michoacán de Ocampo
+    MOR: Morelos
+    NAY: Nayarit
+    NLE: Nuevo León
+    OAX: Oaxaca
+    PUE: Puebla
+    QUE: Querétaro
+    ROO: Quintana Roo
+    SIN: Sinaloa
+    SLP: San Luis Potosí
+    SON: Sonora
+    TAB: Tabasco
+    TAM: Tamaulipas
+    TLA: Tlaxcala
+    VER: Veracruz de Ignacio de la Llave
+    YUC: Yucatán
+    ZAC: Zacatecas
 NL:
     DR: Drenthe
     FL: Flevoland
