@@ -249,6 +249,33 @@ HU:
     VM: Veszprém
     ZA: Zala
     ZE: Zalaegerszeg
+IE:
+    CE: Clare
+    CN: Cavan
+    CO: Cork
+    CW: Carlow
+    D: Dublin
+    DL: Donegal
+    G: Galway
+    KE: Kildare
+    KK: Kilkenny
+    KY: Kerry
+    LD: Longford
+    LH: Louth
+    LK: Limerick
+    LM: Leitrim
+    LS: Laois
+    MH: Meath
+    MN: Monaghan
+    MO: Mayo
+    OY: Offaly
+    RN: Roscommon
+    SO: Sligo
+    TA: Tipperary
+    WD: Waterford
+    WH: Westmeath
+    WW: Wicklow
+    WX: Wexford
 IT:
     ABR: Abruzzo
     BAS: Basilicata
@@ -334,6 +361,33 @@ NZ:
     WGN: Wellington
     WKO: Waikato
     WTC: West Coast
+PE:
+    AMA: Amazonas
+    ANC: Ancash
+    APU: Apurímac
+    ARE: Arequipa
+    AYA: Ayacucho
+    CAJ: Cajamarca
+    CAL: El Callao
+    CUS: Cuzco
+    HUC: Huánuco
+    HUV: Huancavelica
+    ICA: Ica
+    JUN: Junín
+    LAL: La Libertad
+    LAM: Lambayeque
+    LIM: Lima
+    LMA: Lima hatun llaqta
+    LOR: Loreto
+    MDD: Madre de Dios
+    MOQ: Moquegua
+    PAS: Pasco
+    PIU: Piura
+    PUN: Puno
+    SAM: San Martín
+    TAC: Tacna
+    TUM: Tumbes
+    UCA: Ucayali
 PL:
     DS: województwo dolnośląskie
     KP: województwo kujawsko-pomorskie
@@ -435,6 +489,26 @@ US:
     WV: West Virginia
     WI: Wisconsin
     WY: Wyoming
+UY:
+    AR: Artigas
+    CA: Canelones
+    CL: Cerro Largo
+    CO: Colonia
+    DU: Durazno
+    FD: Florida
+    FS: Flores
+    LA: Lavalleja
+    MA: Maldonado
+    MO: Montevideo
+    PA: Paysandú
+    RN: Río Negro
+    RO: Rocha
+    RV: Rivera
+    SA: Salto
+    SJ: San José
+    SO: Soriano
+    TA: Tacuarembó
+    TT: Treinta y Tres
 ZA:
     EC: Eastern Cape
     FS: Free State
