@@ -48,6 +48,16 @@ BE:
     WLG: Liège
     WLX: Luxembourg
     WNA: Namur
+BO:
+    B: El Beni
+    C: Cochabamba
+    H: Chuquisaca
+    L: La Paz
+    N: Pando
+    O: Oruro
+    P: Potosí
+    S: Santa Cruz
+    T: Tarija
 BR:
     # http://en.wikipedia.org/wiki/States_of_Brazil
     AC: Acre
@@ -185,6 +195,31 @@ DE:
     SN: Sachsen
     ST: Sachsen-Anhalt
     TH: Thüringen
+EC:
+    A: Azuay
+    B: Bolívar
+    C: Carchi
+    D: Orellana
+    E: Esmeraldas
+    F: Cañar
+    G: Guayas
+    H: Chimborazo
+    I: Imbabura
+    L: Loja
+    M: Manabí
+    N: Napo
+    O: El Oro
+    P: Pichincha
+    R: Los Ríos
+    S: Morona-Santiago
+    SD: Santo Domingo de los Tsáchilas
+    SE: Santa Elena
+    T: Tungurahua
+    U: Sucumbíos
+    W: Galápagos
+    X: Cotopaxi
+    Y: Pastaza
+    Z: Zamora Chinchipe
 ES:
     AN : Andalucía
     AR : Aragón
@@ -205,6 +240,17 @@ ES:
     PV : País Vasco
     RI : La Rioja
     VC : Comunidad Valenciana
+GY:
+    BA: Barima-Waini
+    CU: Cuyuni-Mazaruni
+    DE: Demerara-Mahaica
+    EB: East Berbice-Corentyne
+    ES: Essequibo Islands-West Demerara
+    MA: Mahaica-Berbice
+    PM: Pomeroon-Supenaam
+    PT: Potaro-Siparuni
+    UD: Upper Demerara-Berbice
+    UT: Upper Takutu-Upper Essequibo
 HU:
     BA: Baranya
     BC: Békéscsaba
@@ -427,6 +473,17 @@ SE:
     X: Gävleborgs län
     Y: Västernorrlands län
     Z: Jämtlands län
+SR:
+    BR: Brokopondo
+    CM: Commewijne
+    CR: Coronie
+    MA: Marowijne
+    NI: Nickerie
+    PM: Paramaribo
+    PR: Para
+    SA: Saramacca
+    SI: Sipaliwini
+    WA: Wanica
 US:
     # http://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States
     AL: Alabama
@@ -509,6 +566,32 @@ UY:
     SO: Soriano
     TA: Tacuarembó
     TT: Treinta y Tres
+VE:
+    A: Distrito Capital
+    B: Anzoátegui
+    C: Apure
+    D: Aragua
+    E: Barinas
+    F: Bolívar
+    G: Carabobo
+    H: Cojedes
+    I: Falcón
+    J: Guárico
+    K: Lara
+    L: Mérida
+    M: Miranda
+    N: Monagas
+    O: Nueva Esparta
+    P: Portuguesa
+    R: Sucre
+    S: Táchira
+    T: Trujillo
+    U: Yaracuy
+    V: Zulia
+    W: Dependencias Federales
+    X: vargas
+    Y: Delta Amacuro
+    Z: Amazonas    
 ZA:
     EC: Eastern Cape
     FS: Free State
