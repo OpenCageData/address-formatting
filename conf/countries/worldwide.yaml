@@ -772,6 +772,7 @@ GB:
         - ["London, London","London"]
         - ["London, Greater London","London"]
         - ["City of Westminster","London"]
+        - ["City of Nottingham","Nottingham"]
         - [", United Kingdom$","\nUnited Kingdom"]
         - ["London\nEngland\nUnited Kingdom","London\nUnited Kingdom"]
 

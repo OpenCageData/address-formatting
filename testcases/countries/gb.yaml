@@ -108,3 +108,21 @@ components:
 expected:  |
     Hilton PE28 9QA
     United Kingdom
+---
+description: City of Nottingham
+components:
+    city: City of Nottingham
+    country: United Kingdom
+    country_code: gb
+    house_number: 121
+    neighbourhood: Lace Market
+    postcode: NG3 1NB
+    road: Abbotsford Drive
+    state: England
+    state_district: East Midlands
+    suburb: St Ann's
+expected:  |
+    121 Abbotsford Drive
+    Nottingham NG3 1NB
+    United Kingdom
+
