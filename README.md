@@ -124,7 +124,7 @@ We welcome your pull requests. Together we can address the world!
 
 We run the [OpenCage Geocoder](https://opencagedata.com). 
 
-We also run [#geomob](http://geomobldn.org), a series of regular meetups of location based service creators in London and Barcelona, where we do our best to highlight geoinnovation. 
+We also run [#geomob](https://thegeomob.com), a series of regular meetups of location based service creators in London and Barcelona, where we do our best to highlight geoinnovation. 
 
 ### Further reading
 
