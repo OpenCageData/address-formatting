@@ -48,6 +48,38 @@ BE:
     WLG: Liège
     WLX: Luxembourg
     WNA: Namur
+BI:
+    BB: Bubanza
+    BL: Bujumbura Rural
+    BM: Bujumbura Mairie
+    BR: Bururi
+    CA: Cankuzo
+    CI: Cibitoke
+    GI: Gitega
+    KI: Kirundo
+    KR: Karuzi
+    KY: Kayanza
+    MA: Makamba
+    MU: Muramvya
+    MW: Mwaro
+    MY: Muyinga
+    NG: Ngozi
+    RM: Rumonge
+    RT: Rutana
+    RY: Ruyigi
+BJ:
+    AK: Atacora
+    AL: Alibori
+    AQ: Atlantique
+    BO: Borgou
+    CO: Collines
+    DO: Donga
+    KO: Couffo
+    LI: Littoral
+    MO: Mono
+    OU: Ouémé
+    PL: Plateau
+    ZO: Zou
 BO:
     B: El Beni
     C: Cochabamba
@@ -87,6 +119,23 @@ BR:
     SP: São Paulo
     SE: Sergipe
     TO: Tocantins
+BW:
+    CE: Central
+    CH: Chobe
+    FR: Francistown
+    GA: Gaborone
+    GH: Ghanzi
+    JW: Jwaneng
+    KG: Kgalagadi
+    KL: Kgatleng
+    KW: Kweneng
+    LO: Lobatse
+    NE: North East
+    NW: North West
+    SE: South East
+    SO: Southern
+    SP: Selibe Phikwe
+    ST: Sowa Town
 CA:
     AB: Alberta
     BC: British Columbia
