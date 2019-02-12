@@ -136,6 +136,13 @@ BW:
     SO: Southern
     SP: Selibe Phikwe
     ST: Sowa Town
+BZ:
+    BZ: Belize
+    CY: Cayo
+    CZL: Corozal
+    OW: Orange Walk
+    SC: Stann Creek
+    TOL: Toledo
 CA:
     AB: Alberta
     BC: British Columbia
@@ -227,6 +234,14 @@ CO:
     VAC: Valle del Cauca
     VAU: Vaupés
     VID: Vichada
+CR:
+    A: Alajuela
+    C: Cartago
+    G: Guanacaste
+    H: Heredia
+    L: Limón
+    P: Puntarenas
+    SJ: San José
 DE:
     BB: Brandenburg
     BE: Berlin
@@ -289,6 +304,29 @@ ES:
     PV : País Vasco
     RI : La Rioja
     VC : Comunidad Valenciana
+GT:
+    AV: Alta Verapaz
+    BV: Baja Verapaz
+    CM: Chimaltenango
+    CQ: Chiquimula
+    ES: Escuintla
+    GU: Guatemala
+    HU: Huehuetenango
+    IZ: Izabal
+    JA: Jalapa
+    JU: Jutiapa
+    PE: Petén
+    PR: El Progreso
+    QC: Quiché
+    QZ: Quetzaltenango
+    RE: Retalhuleu
+    SA: Sacatepéquez
+    SM: San Marcos
+    SO: Sololá
+    SR: Santa Rosa
+    SU: Suchitepéquez
+    TO: Totonicapán
+    ZA: Zacapa
 GY:
     BA: Barima-Waini
     CU: Cuyuni-Mazaruni
@@ -300,6 +338,25 @@ GY:
     PT: Potaro-Siparuni
     UD: Upper Demerara-Berbice
     UT: Upper Takutu-Upper Essequibo
+HN:
+    AT: Atlántida
+    CH: Choluteca
+    CL: Colón
+    CM: Comayagua
+    CP: Copán
+    CR: Cortés
+    EP: El Paraíso
+    FM: Francisco Morazán
+    GD: Gracias a Dios
+    IB: Islas de la Bahía
+    IN: Intibucá
+    LE: Lempira
+    LP: La Paz
+    OC: Ocotepeque
+    OL: Olancho
+    SB: Santa Bárbara
+    VA: Valle
+    YO: Yoro
 HU:
     BA: Baranya
     BC: Békéscsaba
@@ -425,6 +482,24 @@ MX:
     VER: Veracruz de Ignacio de la Llave
     YUC: Yucatán
     ZAC: Zacatecas
+NI:
+    AN: Atlántico Norte
+    AS: Atlántico Sur
+    BO: Boaco
+    CA: Carazo
+    CI: Chinandega
+    CO: Chontales
+    ES: Estelí
+    GR: Granada
+    JI: Jinotega
+    LE: León
+    MD: Madriz
+    MN: Managua
+    MS: Masaya
+    MT: Matagalpa
+    NS: Nueva Segovia
+    RI: Rivas
+    SJ: Río San Juan
 NL:
     DR: Drenthe
     FL: Flevoland
@@ -533,6 +608,21 @@ SR:
     SA: Saramacca
     SI: Sipaliwini
     WA: Wanica
+SV:
+    AH: Ahuachapán
+    CA: Cabañas
+    CH: Chalatenango
+    CU: Cuscatlán
+    LI: La Libertad
+    MO: Morazán
+    PA: La Paz
+    SA: Santa Ana
+    SM: San Miguel
+    SO: Sonsonate
+    SS: San Salvador
+    SV: San Vicente
+    UN: La Unión
+    US: Usulután
 US:
     # http://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States
     AL: Alabama
