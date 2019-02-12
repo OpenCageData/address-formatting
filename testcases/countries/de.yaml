@@ -232,3 +232,22 @@ expected:  |
     Bahnhofstraße 18
     53604 Bad Honnef
     Germany
+---
+#
+description: local_administrative_area and town in Berlin
+components:
+        city: Berlin
+        country: Germany
+        country_code: de
+        house_number: 29A
+        local_administrative_area: Pankow        
+        neighbourhood: Kollwitzkiez
+        postcode: 10405
+        road: Jablonskistraße
+        state: Berlin
+        state_code: BE
+        suburb: Prenzlauer Berg
+expected:  |
+    Jablonskistraße 29A
+    10405 Berlin
+    Germany
