@@ -1262,10 +1262,10 @@ MF:
     use_country: FR
     change_country: France     
 
-# Marsall Islands
+# Marshall Islands
 MH:
     use_country: US
-    add_component: state=Marsall Islands
+    add_component: state=Marshall Islands
 
 # Madagascar
 MG:
