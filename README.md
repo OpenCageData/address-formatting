@@ -60,11 +60,11 @@ If you do write a processor, please let us know so we can list it here.
 
 ### Coverage
 
-As of `Sat 25 Mar 2017` coverage is:
+As of `Sun 17 Feb 2019` coverage is:
 
     We are aware of 248 territories
-    We have tests for 250 (100%) territories
-    We have rules for 249 (100%) territories
+    We have tests for 248 (100%) territories
+    We have rules for 248 (100%) territories
     0 (0%) territories have neither rules nor tests
 
 We need more language specific abbreviations, please see `conf/abbreviations`
