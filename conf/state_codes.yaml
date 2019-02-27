@@ -1,3 +1,34 @@
+AM:
+    AG: Aragac̣otn
+    AR: Ararat
+    AV: Armavir
+    ER: Erevan
+    GR: Geġark'unik'
+    KT: Kotayk'
+    LO: Loṙi
+    SH: Širak
+    SU: Syunik'
+    TV: Tavuš
+    VD: Vayoć Jor
+AO:
+    BGO: Bengo
+    BGU: Benguela
+    BIE: Bié
+    CAB: Cabinda
+    CCU: Kuando Kubango
+    CNN: Cunene
+    CNO: Kwanza Norte
+    CUS: Kwanza Sul
+    HUA: Huambo
+    HUI: Huíla
+    LNO: Lunda Norte
+    LSU: Lunda Sul
+    LUA: Luanda
+    MAL: Malange
+    MOX: Moxico
+    NAM: Namibe
+    UIG: Uíge
+    ZAI: Zaire
 AR:
     A: Salta
     B: Buenos Aires
@@ -36,6 +67,89 @@ AU:
     TAS: Tasmania
     VIC: Victoria
     WA: Western Australia
+AZ:
+    ABS: Abşeron
+    AGA: Ağstafa
+    AGC: Ağcabədi
+    AGM: Ağdam
+    AGS: Ağdaş
+    AGU: Ağsu
+    AST: Astara
+    BA: Bakı
+    BAB: Babək
+    BAL: Balakən
+    BAR: Bərdə
+    BEY: Beyləqan
+    BIL: Biləsuvar
+    CAB: Cəbrayıl
+    CAL: Cəlilabad
+    CUL: Culfa
+    DAS: Daşkəsən
+    FUZ: Füzuli
+    GA: Gəncə
+    GAD: Gədəbəy
+    GOR: Goranboy
+    GOY: Göyçay
+    GYG: Göygöl
+    HAC: Hacıqabul
+    IMI: İmişli
+    ISM: İsmayıllı
+    KAL: Kəlbəcər
+    KAN: Kǝngǝrli
+    KUR: Kürdəmir
+    LA: Lənkəran
+    LAC: Laçın
+    LAN: Lənkəran
+    LER: Lerik
+    MAS: Masallı
+    MI: Mingəçevir
+    NA: Naftalan
+    NEF: Neftçala
+    NV: Naxçıvan
+    NX: Naxçıvan
+    OGU: Oğuz
+    ORD: Ordubad
+    QAB: Qəbələ
+    QAX: Qax
+    QAZ: Qazax
+    QBA: Quba
+    QBI: Qubadlı
+    QOB: Qobustan
+    QUS: Qusar
+    SA: Şəki
+    SAB: Sabirabad
+    SAD: Sədərək
+    SAH: Şahbuz
+    SAK: Şəki
+    SAL: Salyan
+    SAR: Şərur
+    SAT: Saatlı
+    SBN: Şabran
+    SIY: Siyəzən
+    SKR: Şəmkir
+    SM: Sumqayıt
+    SMI: Şamaxı
+    SMX: Samux
+    SR: Şirvan
+    SUS: Şuşa
+    TAR: Tərtər
+    TOV: Tovuz
+    UCA: Ucar
+    XA: Xankəndi
+    XAC: Xaçmaz
+    XCI: Xocalı
+    XIZ: Xızı
+    XVD: Xocavənd
+    YAR: Yardımlı
+    YE: Yevlax
+    YEV: Yevlax
+    ZAN: Zəngilan
+    ZAQ: Zaqatala
+    ZAR: Zərdab
+BA:
+    BIH: Federacija Bosne i Hercegovine
+    BRC: Brčko distrikt
+    SRP: Republika Srpska    
 BE:
     BRU: Bruxelles-Capitale
     VAN: Antwerpen
@@ -48,6 +162,52 @@ BE:
     WLG: Liège
     WLX: Luxembourg
     WNA: Namur
+BF:
+    BAL: Balé
+    BAM: Bam
+    BAN: Banwa
+    BAZ: Bazèga ga
+    BGR: Bougouriba
+    BLG: Boulgou
+    BLK: Boulkiemdé
+    COM: Comoé
+    GAN: Ganzourgou
+    GNA: Gnagna
+    GOU: Gourma
+    HOU: Houet
+    IOB: Ioba
+    KAD: Kadiogo
+    KEN: Kénédougou
+    KMD: Komondjari
+    KMP: Kompienga
+    KOP: Koulpélogo
+    KOS: Kossi
+    KOT: Kouritenga
+    KOW: Kourwéogo
+    LER: Léraba
+    LOR: Loroum
+    MOU: Mouhoun
+    NAM: Namentenga
+    NAO: Nahouri
+    NAY: Nayala
+    NOU: Noumbiel
+    OUB: Oubritenga
+    OUD: Oudalan
+    PAS: Passoré
+    PON: Poni
+    SEN: Séno
+    SIS: Sissili
+    SMT: Sanmatenga
+    SNG: Sanguié
+    SOM: Soum
+    SOR: Sourou
+    TAP: Tapoa
+    TUI: Tuy
+    YAG: Yagha
+    YAT: Yatenga
+    ZIR: Ziro
+    ZON: Zondoma
+    ZOU: Zoundwéogo
 BI:
     BB: Bubanza
     BL: Bujumbura Rural
@@ -80,6 +240,11 @@ BJ:
     OU: Ouémé
     PL: Plateau
     ZO: Zou
+BN:
+    BE: Belait
+    BM: Brunei-Muara
+    TE: Temburong
+    TU: Tutong
 BO:
     B: El Beni
     C: Cochabamba
@@ -157,6 +322,51 @@ CA:
     QC: Quebec
     SK: Saskatchewan
     YT: Yukon
+CD:
+    BC: Kongo Central
+    BU: Bas-Uélé
+    EQ: Équateur
+    HK: Haut-Katanga
+    HL: Haut-Lomami
+    HU: Haut-Uélé
+    IT: Ituri
+    KC: Kasaï Central
+    KE: Kasaï Oriental
+    KG: Kwango
+    KL: Kwilu
+    KN: Kinshasa
+    KS: Kasaï
+    LO: Lomami
+    LU: Lualaba
+    MA: Maniema
+    MN: Mai-Ndombe
+    MO: Mongala
+    NK: Nord-Kivu
+    NU: Nord-Ubangi
+    SA: Sankuru
+    SK: Sud-Kivu
+    SU: Sud-Ubangi
+    TA: Tanganyika
+    TO: Tshopo
+    TU: Tshuapa
+CF:
+    AC: Ouham
+    BB: Bamingui-Bangoran
+    BGF: Bangui
+    BK: Basse-Kotto
+    HK: Haute-Kotto
+    HM: Haut-Mbomou
+    HS: Mambéré-Kadéï
+    KB: Gribingui
+    KG: Kémo‐Gribingui
+    LB: Lobaye
+    MB: Mbomou
+    MP: Ombella-Mpoko
+    NM: Nana-Mambéré
+    OP: Ouham-Pendé
+    SE: Sangha
+    UK: Ouaka
+    VK: Vakaga
 CH:
     AG: Aargau
     AI: Appenzell Innerrhoden
@@ -427,7 +637,7 @@ IE:
     WD: Waterford
     WH: Westmeath
     WW: Wicklow
-    WX: Wexford
+    WX: Wexford    
 IT:
     ABR: Abruzzo
     BAS: Basilicata
