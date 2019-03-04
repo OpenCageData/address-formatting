@@ -394,6 +394,21 @@ CH:
     VS: Valais
     ZG: Zug
     ZH: Zürich
+CI:    
+    AB: Abidjan
+    BS: Bas-Sassandra
+    CM: Comoé
+    DN: Denguélé
+    GD: Gôh-Djiboua
+    LC: Lacs
+    LG: Lagunes
+    MG: Montagnes
+    SM: Sassandra-Marahoué
+    SV: Savanes
+    VB: Vallée du Bandama
+    WR: Woroba
+    YM: Yamoussoukro
+    ZZ: Zanzan    
 CL:
     AI: Aisén del General Carlos Ibañez del Campo
     AN: Antofagasta
@@ -410,6 +425,17 @@ CL:
     RM: Región Metropolitana de Santiago
     TA: Tarapacá
     VS: Valparaíso
+CM:
+    AD: Adamaoua
+    CE: Centre
+    EN: Far North
+    ES: East
+    LT: Littoral
+    NO: North
+    NW: North-West
+    OU: West
+    SU: South
+    SW: South-West
 CO:
     AMA: Amazonas
     ANT: Antioquia
@@ -452,6 +478,29 @@ CR:
     L: Limón
     P: Puntarenas
     SJ: San José
+CV:
+    BR: Brava
+    BV: Boa Vista
+    CA: Santa Catarina
+    CF: Santa Catarina do Fogo
+    CR: Santa Cruz
+    MA: Maio
+    MO: Mosteiros
+    PA: Paul
+    PN: Porto Novo
+    PR: Praia
+    RB: Ribeira Brava
+    RG: Ribeira Grande
+    RS: Ribeira Grande de Santiago
+    SD: São Domingos
+    SF: São Filipe
+    SL: Sal
+    SM: São Miguel
+    SO: São Lourenço dos Órgãos
+    SS: São Salvador do Mundo
+    SV: São Vicente
+    TA: Tarrafal
+    TS: Tarrafal de São Nicolau
 DE:
     BB: Brandenburg
     BE: Berlin
@@ -469,6 +518,13 @@ DE:
     SN: Sachsen
     ST: Sachsen-Anhalt
     TH: Thüringen
+DJ:
+    AR: Arta
+    AS: Ali Sabieh
+    DI: Dikhil
+    DJ: Djibouti
+    OB: Obock
+    TA: Tadjourah
 EC:
     A: Azuay
     B: Bolívar
@@ -514,6 +570,76 @@ ES:
     PV : País Vasco
     RI : La Rioja
     VC : Comunidad Valenciana
+FM:
+    KSA: Kosrae
+    PNI: Pohnpei
+    TRK: Chuuk
+    YAP: Yap
+GH:
+    AA: Greater Accra
+    AH: Ashanti
+    BA: Brong-Ahafo
+    CP: Central
+    EP: Eastern
+    NP: Northern
+    TV: Volta
+    UE: Upper East
+    UW: Upper West
+    WP: Western
+GL:
+    KU: Kommune Kujalleq
+    QA: Qaasuitsup Kommunia
+    QE: Qeqqata Kommunia
+    SM: Kommuneqarfik Sermersooq
+GM:
+    B: Banjul
+    L: Lower River
+    M: Central River
+    N: North Bank
+    U: Upper River
+    W: Western
+GN:
+    BE: Beyla
+    BF: Boffa
+    BK: Boké
+    CO: Coyah
+    DB: Dabola
+    DI: Dinguiraye
+    DL: Dalaba
+    DU: Dubréka
+    FA: Faranah
+    FO: Forécariah
+    FR: Fria
+    GA: Gaoual
+    GU: Guékédou
+    KA: Kankan
+    KB: Koubia
+    KD: Kindia
+    KE: Kérouané
+    KN: Koundara
+    KO: Kouroussa
+    KS: Kissidougou
+    LA: Labé
+    LE: Lélouma
+    LO: Lola
+    MC: Macenta
+    MD: Mandiana
+    ML: Mali
+    MM: Mamou
+    NZ: Nzérékoré
+    PI: Pita
+    SI: Siguiri
+    TE: Télimélé
+    TO: Tougué
+    YO: Yomou
+GQ:
+    AN: Annobón
+    BN: Bioko Norte
+    BS: Bioko Sur
+    CS: Centro Sur
+    KN: Kié‐Ntem
+    LI: Litoral
+    WN: Wele‐Nzas
 GT:
     AV: Alta Verapaz
     BV: Baja Verapaz
@@ -537,6 +663,16 @@ GT:
     SU: Suchitepéquez
     TO: Totonicapán
     ZA: Zacapa
+GW:
+    BA: Bafatá
+    BL: Bolama
+    BM: Biombo
+    BS: Bissau
+    CA: Cacheu
+    GA: Gabú
+    OI: Oio
+    QU: Quinara
+    TO: Tombali
 GY:
     BA: Barima-Waini
     CU: Cuyuni-Mazaruni
@@ -567,6 +703,17 @@ HN:
     SB: Santa Bárbara
     VA: Valle
     YO: Yoro
+HT:
+    AR: Artibonite
+    CE: Centre
+    GA: Grande’Anse
+    ND: Nord
+    NE: Nord-Est
+    NI: Nippes
+    NO: Nord-Ouest
+    OU: Ouest
+    SD: Sud
+    SE: Sud-Est
 HU:
     BA: Baranya
     BC: Békéscsaba
