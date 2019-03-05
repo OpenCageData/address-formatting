@@ -968,6 +968,71 @@ MX:
     VER: Veracruz de Ignacio de la Llave
     YUC: Yucatán
     ZAC: Zacatecas
+MZ:
+    A: Niaosa
+    B: Manica
+    G: Gaza
+    I: Inhambane
+    L: Maputo
+    MPM: Maputo
+    N: Nampula
+    P: Cabo Delgado
+    Q: Zambézia
+    S: Sofala
+    T: Tete
+NA:
+    CA: Zambezi
+    ER: Erongo
+    HA: Hardap
+    KA: Karas
+    KE: Kavango East
+    KH: Khomas
+    KU: Kunene
+    KW: Kavango West
+    OD: Otjozondjupa
+    OH: Omaheke
+    ON: Oshana
+    OS: Omusati
+    OT: Oshikoto
+    OW: Ohangwena
+NG:
+    AB: Abia
+    AD: Adamawa
+    AK: Akwa Ibom
+    AN: Anambra
+    BA: Bauchi
+    BE: Benue
+    BO: Borno
+    BY: Bayelsa
+    CR: Cross River
+    DE: Delta
+    EB: Ebonyi
+    ED: Edo
+    EK: Ekiti
+    EN: Enugu
+    FC: Abuja Capital Territory
+    GO: Gombe
+    IM: Imo
+    JI: Jigawa
+    KD: Kaduna
+    KE: Kebbi
+    KN: Kano
+    KO: Kogi
+    KT: Katsina
+    KW: Kwara
+    LA: Lagos
+    NA: Nasarawa
+    NI: Niger
+    OG: Ogun
+    ON: Ondo
+    OS: Osun
+    OY: Oyo
+    PL: Plateau
+    RI: Rivers
+    SO: Sokoto
+    TA: Taraba
+    YO: Yobe
+    ZA: Zamfara
 NI:
     AN: Atlántico Norte
     AS: Atlántico Sur
@@ -1044,6 +1109,38 @@ PE:
     TAC: Tacna
     TUM: Tumbes
     UCA: Ucayali
+PG:
+    CPK: Chimbu
+    CPM: Central
+    EBR: East New Britain
+    EHG: Eastern Highlands
+    EPW: Enga
+    ESW: East Sepik
+    GPK: Gulf
+    HLA: Hela
+    JWK: Jiwaka
+    MBA: Milne Bay
+    MPL: Morobe
+    MPM: Madang
+    MRL: Manus
+    NCD: National Capital District
+    NIK: New Ireland
+    NPP: Northern
+    NSB: Bougainville
+    SAN: West Sepik
+    SHM: Southern Highlands
+    WBK: West New Britain
+    WHM: Western Highlands
+    WPD: Western
+PK:
+    BA: Balochistan
+    GB: Gilgit-Baltistan
+    IS: Islamabad
+    JK: Azad Jammu and Kashmir
+    KP: Khyber Pakhtunkhwa
+    PB: Punjab
+    SD: Sindh
+    TA: Federally Administered Tribal Areas
 PL:
     DS: województwo dolnośląskie
     KP: województwo kujawsko-pomorskie
@@ -1061,6 +1158,49 @@ PL:
     WN: województwo warmińsko-mazurskie
     WP: województwo wielkopolskie
     ZP: województwo zachodniopomorskie
+RO:
+    AB: Alba
+    AG: Argeş
+    AR: Arad
+    B: Bucureşti
+    BC: Bacău
+    BH: Bihor
+    BN: Bistriţa-Năsăud
+    BR: Brāila
+    BT: Botoşani
+    BV: Braşov
+    BZ: Buzău
+    CJ: Cluj
+    CL: Călărasi
+    CS: Caraş-Severin
+    CT: Constarţa
+    CV: Covasna
+    DB: Dâmboviţa
+    DJ: Dolj
+    GJ: Gorj
+    GL: Galaţi
+    GR: Giurgiu
+    HD: Hunedoara
+    HR: Harghita
+    IF: Ilfov
+    IL: Ialomiţa
+    IS: Iaşi
+    MH: Mehedinţi
+    MM: Maramureş
+    MS: Mureş
+    NT: Neamţ
+    OT: Olt
+    PH: Prahova
+    SB: Sibiu
+    SJ: Sălaj
+    SM: Satu Mare
+    SV: Suceava
+    TL: Tulcea
+    TM: Timiş
+    TR: Teleorman
+    VL: Vâlcea
+    VN: Vrancea
+    VS: Vaslui
 SE:
     AB: Stockholms län
     AC: Västerbottens län
@@ -1083,6 +1223,49 @@ SE:
     X: Gävleborgs län
     Y: Västernorrlands län
     Z: Jämtlands län
+SH:
+    AC: Ascension
+    HL: Saint Helena
+    TA: Tristan da Cunha
+SL:    
+    E: Eastern
+    N: Northern
+    S: Southern
+    W: Western Area
+SN:
+    DB: Diourbel
+    DK: Dakar
+    FK: Fatick
+    KA: Kaffrine
+    KD: Kolda
+    KE: Kédougou
+    KL: Kaolack
+    LG: Louga
+    MT: Matam
+    SE: Sédhiou
+    SL: Saint-Louis
+    TC: Tambacounda
+    TH: Thiès
+    ZG: Ziguinchor
+SO:
+    AW: Awdal
+    BK: Bakool
+    BN: Banaadir
+    BR: Bari
+    BY: Bay
+    GA: Galguduud
+    GE: Gedo
+    HI: Hiiraan
+    JD: Jubbada Dhexe
+    JH: Jubbada Hoose
+    MU: Mudug
+    NU: Nugaal
+    SA: Sanaag
+    SD: Shabeellaha Dhexe
+    SH: Shabeellaha Hoose
+    SO: Sool
+    TO: Togdheer
+    WO: Woqooyi Galbeed
 SR:
     BR: Brokopondo
     CM: Commewijne
@@ -1094,6 +1277,17 @@ SR:
     SA: Saramacca
     SI: Sipaliwini
     WA: Wanica
+SS:
+    BN: Northern Bahr el Ghazal
+    BW: Western Bahr el Ghazal
+    EC: Central Equatoria
+    EE: Eastern Equatoria
+    EW: Western Equatoria
+    JG: Jonglei
+    LK: Lakes
+    NU: Upper Nile
+    UY: Unity
+    WR: Warrap
 SV:
     AH: Ahuachapán
     CA: Cabañas
@@ -1109,6 +1303,66 @@ SV:
     SV: San Vicente
     UN: La Unión
     US: Usulután
+TD:
+    BA: Batha
+    BG: Baḩr al Ghazāl
+    BO: Būrkū
+    CB: Chari-Baguirmi
+    EE: Ennedi-Est
+    EO: Ennedi-Ouest
+    GR: Guéra
+    HL: Hadjer Lamis
+    KA: Kanem
+    LC: Lac
+    LO: Logone-Occidental
+    LR: Logone-Oriental
+    MA: Mandoul
+    MC: Moyen-Chari
+    ME: Mayo‐Kebbi‐Est
+    MO: Mayo‐Kebbi‐Ouest
+    ND: Ville de Ndjamena
+    OD: Ouaddaï
+    SA: Salamat
+    SI: Sīlā
+    TA: Tandjilé
+    TI: Tibastī
+    WF: Wadi Fira
+TG:
+    C: Centrale
+    K: Kara
+    M: Maritime
+    P: Plateaux
+    S: Savanes
+TL:
+    AL: Aileu
+    AN: Ainaro
+    BA: Baucau
+    BO: Bobonaro
+    CO: Cova Lima
+    DI: Díli
+    ER: Ermera
+    LA: Lautem
+    LI: Liquiça
+    MF: Manufahi
+    MT: Manatuto
+    OE: Oecussi
+    VI: Viqueque
+TT:
+    ARI: Arima
+    CHA: Chaguanas
+    CTT: Couva-Tabaquite-Talparo
+    DMN: Diego Martin
+    MRC: Mayaro-Rio Claro
+    PED: Penal-Debe
+    POS: Port of Spain
+    PRT: Princes Town
+    PTF: Point Fortin
+    SFO: San Fernando
+    SGE: Sangre Grande
+    SIP: Siparia
+    SJL: San Juan-Laventille
+    TOB: Tobago
+    TUP: Tunapuna-Piarco
 US:
     # http://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States
     AL: Alabama
@@ -1227,3 +1481,15 @@ ZA:
     NL: Kwazulu-Natal
     NW: North-West
     WC: Western Cape
+ZW:
+    BU: Bulawayo
+    HA: Harare
+    MA: Manicaland
+    MC: Mashonaland Central
+    ME: Mashonaland East
+    MI: Midlands
+    MN: Matabeleland North
+    MS: Matabeleland South
+    MV: Masvingo
+    MW: Mashonaland West
+
