@@ -784,7 +784,43 @@ IE:
     WD: Waterford
     WH: Westmeath
     WW: Wicklow
-    WX: Wexford    
+    WX: Wexford
+    AN: Andaman and Nicobar Islands
+    AP: Andhra Pradesh
+    AR: Arunachal Pradesh
+    AS: Assam
+    BR: Bihar
+    CH: Chandigarh
+    CT: Chhattisgarh
+    DD: Daman and Diu
+    DL: Delhi
+    DN: Dadra and Nagar Haveli
+    GA: Goa
+    GJ: Gujarat
+    HP: Himachal Pradesh
+    HR: Haryana
+    JH: Jharkhand
+    JK: Jammu and Kashmir
+    KA: Karnataka
+    KL: Kerala
+    LD: Lakshadweep
+    MH: Maharashtra
+    ML: Meghalaya
+    MN: Manipur
+    MP: Madhya Pradesh
+    MZ: Mizoram
+    NL: Nagaland
+    OR: Odisha
+    PB: Punjab
+    PY: Puducherry
+    RJ: Rajasthan
+    SK: Sikkim
+    TG: Telangana
+    TN: Tamil Nadu
+    TR: Tripura
+    UP: Uttar Pradesh
+    UT: Uttarakhand
+    WB: West Bengal    
 IT:
     ABR: Abruzzo
     BAS: Basilicata
@@ -806,6 +842,41 @@ IT:
     UMB: Umbria
     VAL: Valle d'Aosta
     VEN: Veneto
+KI:
+    G: Gilbert Islands
+    L: Line Islands
+    P: Phoenix Islands
+KM:
+    A: Anjouan
+    G: Grande Comore
+    M: Mohéli
+LR:
+    BG: Bong
+    BM: Bomi
+    CM: Grand Cape Mount
+    GB: Grand Bassa
+    GG: Grand Gedeh
+    GK: Grand Kru
+    GP: Gbarpolu
+    LO: Lofa
+    MG: Margibi
+    MO: Montserrado
+    MY: Maryland
+    NI: Nimba
+    RG: River Gee
+    RI: River Cess
+    SI: Sinoe
+LS:
+    A: Maseru
+    B: Butha-Buthe
+    C: Leribe
+    D: Berea
+    E: Mafeteng
+    F: Mohale's Hoek
+    G: Quthing
+    H: Qacha's Nek
+    J: Mokhotlong
+    K: Thaba-Tseka
 MX:
     AGU: Aguascalientes
     BCN: Baja California
