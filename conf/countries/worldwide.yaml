@@ -768,6 +768,7 @@ GB:
         - ["^Greater London","London"]
         - ["^London Borough of .+","London"]
         - ["Royal Borough of ",""]
+        - ["County Borough of ",""]        
     postformat_replace:
         - ["London, London","London"]
         - ["London, Greater London","London"]
