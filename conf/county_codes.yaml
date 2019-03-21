@@ -62,23 +62,23 @@ GB:
     BAS: Bath and North East Somerset
     BBD: Blackburn with Darwen
     BDF: Bedford
-    BDG: Barking and Dagenham
-    BEN: Brent
-    BEX: Bexley
+    BDG: London Borough of Barking and Dagenham
+    BEN: London Borough of Brent
+    BEX: London Borough of Bexley
     BFS: Belfast
     BGE: Bridgend
     BGW: Blaenau Gwent
     BIR: Birmingham
     BKM: Buckinghamshire
     BMH: Bournemouth
-    BNE: Barnet
+    BNE: London Borough of Barnet
     BNH: Brighton and Hove
     BNS: Barnsley
     BOL: Bolton
     BPL: Blackpool
     BRC: Bracknell Forest
     BRD: Bradford
-    BRY: Bromley
+    BRY: London Borough of Bromley
     BST: City of Bristol
     BUR: Bury
     CAM: Cambridgeshire
@@ -91,12 +91,12 @@ GB:
     CLD: Calderdale
     CLK: Clackmannanshire
     CMA: Cumbria
-    CMD: Camden
+    CMD: London Borough of Camden
     CMN: Carmarthenshire
     CON: Cornwall
     COV: Coventry
     CRF: Cardiff
-    CRY: Croydon
+    CRY: London Borough of Croydon
     CWY: Conwy
     DAL: Darlington
     DBY: Derbyshire
@@ -110,7 +110,7 @@ GB:
     DRS: Derry and Strabane
     DUD: Dudley
     DUR: Durham
-    EAL: Ealing
+    EAL: London Borough of Ealing
     EAY: East Ayrshire
     EDH: City of Edinburgh
     EDU: East Dunbartonshire
@@ -128,38 +128,38 @@ GB:
     GAT: Gateshead
     GLG: Glasgow City
     GLS: Gloucestershire
-    GRE: Greenwich
+    GRE: Royal Borough of Greenwich
     GWN: Gwynedd
     HAL: Halton
     HAM: Hampshire
-    HAV: Havering
-    HCK: Hackney
+    HAV: London Borough of Havering
+    HCK: London Borough of Hackney
     HEF: Herefordshire
-    HIL: Hillingdon
+    HIL: London Borough of Hillingdon
     HLD: Highland
-    HMF: Hammersmith and Fulham
-    HNS: Hounslow
+    HMF: London Borough of Hammersmith and Fulham
+    HNS: London Borough of Hounslow
     HPL: Hartlepool
     HRT: Hertfordshire
-    HRW: Harrow
-    HRY: Haringey
+    HRW: London Borough of Harrow
+    HRY: London Borough of Haringey
     IOS: Isles of Scilly
     IOW: Isle of Wight
-    ISL: Islington
+    ISL: London Borough of Islington
     IVC: Inverclyde
-    KEC: Kensington and Chelsea
+    KEC: Royal Borough of Kensington and Chelsea
     KEN: Kent
     KHL: Kingston upon Hull
     KIR: Kirklees
-    KTT: Kingston upon Thames
+    KTT: Royal Borough of Kingston upon Thames
     KWL: Knowsley
     LAN: Lancashire
     LBC: Lisburn and Castlereagh
-    LBH: Lambeth
+    LBH: London Borough of Lambeth
     LCE: Leicester
     LDS: Leeds
     LEC: Leicestershire
-    LEW: Lewisham
+    LEW: London Borough of Lewisham
     LIN: Lincolnshire
     LIV: Liverpool
     LND: City of London
@@ -171,7 +171,7 @@ GB:
     MIK: Milton Keynes
     MLN: Midlothian
     MON: Monmouthshire
-    MRT: Merton
+    MRT: London Borough of Merton
     MRY: Moray
     MTY: Merthyr Tydfil
     MUL: Mid Ulster
@@ -189,7 +189,7 @@ GB:
     NTL: Neath Port Talbot
     NTT: Nottinghamshire
     NTY: North Tyneside
-    NWM: Newham
+    NWM: London Borough of Newham
     NWP: Newport
     NYK: North Yorkshire
     OLD: Oldham
@@ -205,10 +205,10 @@ GB:
     RCC: Redcar and Cleveland
     RCH: Rochdale
     RCT: Rhondda Cynon Taf
-    RDB: Redbridge
+    RDB: London Borough of Redbridge
     RDG: Reading
     RFW: Renfrewshire
-    RIC: Richmond upon Thames
+    RIC: London Borough of Richmond upon Thames
     ROT: Rotherham
     RUT: Rutland
     SAW: Sandwell
@@ -232,32 +232,32 @@ GB:
     STE: Stoke-on-Trent
     STG: Stirling
     STH: Southampton
-    STN: Sutton
+    STN: London Borough of Sutton
     STS: Staffordshire
     STT: Stockton-on-Tees
     STY: South Tyneside
     SWA: Swansea
     SWD: Swindon
-    SWK: Southwark
+    SWK: London Borough of Southwark
     TAM: Tameside
     TFW: Telford and Wrekin
     THR: Thurrock
     TOB: Torbay
     TOF: Torfaen
     TRF: Trafford
-    TWH: Tower Hamlets
+    TWH: London Borough of Tower Hamlets
     VGL: Vale of Glamorgan
     WAR: Warwickshire
     WBK: West Berkshire
     WDU: West Dunbartonshire
-    WFT: Waltham Forest
+    WFT: London Borough of Waltham Forest
     WGN: Wigan
     WIL: Wiltshire
     WKF: Wakefield
     WLL: Walsall
     WLN: West Lothian
     WLV: Wolverhampton
-    WND: Wandsworth
+    WND: London Borough of Wandsworth
     WNM: Windsor and Maidenhead
     WOK: Wokingham
     WOR: Worcestershire
