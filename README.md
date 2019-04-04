@@ -57,6 +57,7 @@ There are open-source implementations in
   * [Javascript](https://github.com/fragaria/address-formatter)
   * [Perl](https://github.com/opencagedata/perl-Geo-Address-Formatter) - [on CPAN](https://metacpan.org/release/Geo-Address-Formatter)
   * [PHP](https://github.com/predicthq/address-formatter-php)
+  * [Rust](https://github.com/CanalTP/address-formatter-rs)
 
 We would love there to be other language implementations.
 If you write a processor, please let us know so we can list it here. 
