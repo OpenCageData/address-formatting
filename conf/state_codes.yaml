@@ -783,32 +783,32 @@ HU:
     ZA: Zala
     ZE: Zalaegerszeg
 IE:
-    CE: Clare
-    CN: Cavan
-    CO: Cork
-    CW: Carlow
-    D: Dublin
-    DL: Donegal
-    G: Galway
-    KE: Kildare
-    KK: Kilkenny
-    KY: Kerry
-    LD: Longford
-    LH: Louth
-    LK: Limerick
-    LM: Leitrim
-    LS: Laois
-    MH: Meath
-    MN: Monaghan
-    MO: Mayo
-    OY: Offaly
-    RN: Roscommon
-    SO: Sligo
-    TA: Tipperary
-    WD: Waterford
-    WH: Westmeath
-    WW: Wicklow
-    WX: Wexford
+    CE: County Clare
+    CN: County Cavan
+    CO: County Cork
+    CW: County Carlow
+    D: County Dublin
+    DL: County Donegal
+    G: County Galway
+    KE: County Kildare
+    KK: County Kilkenny
+    KY: County Kerry
+    LD: County Longford
+    LH: County Louth
+    LK: County Limerick
+    LM: County Leitrim
+    LS: County Laois
+    MH: County Meath
+    MN: County Monaghan
+    MO: County Mayo
+    OY: County Offaly
+    RN: County Roscommon
+    SO: County Sligo
+    TA: County Tipperary
+    WD: County Waterford
+    WH: County Westmeath
+    WW: County Wicklow
+    WX: County Wexford
 IN:
     AN: Andaman and Nicobar Islands
     AP: Andhra Pradesh
