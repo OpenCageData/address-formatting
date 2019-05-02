@@ -950,8 +950,9 @@ IE:
         {{{country}}}
     replace:
         - [" City$",""]
-        - ["The Municipal District of ",""]   
-
+        - ["The Municipal District of ",""]
+        - ["The Metropolitan District of ",""]
+        
 # Israel
 IL: 
     address_template: *generic1

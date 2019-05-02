@@ -44,3 +44,26 @@ expected:  |
     Graiguenamanagh
     County Kilkenny
     Ireland
+
+---
+# 52.6726,-8.6407
+description: remove "The Metropolitan District of"
+components:
+    city: The Metropolitan District of Limerick City
+    city_district: Farranshone
+    country: Ireland
+    country_code: ie
+    county: County Limerick
+    county_code: LK
+    locality: Farranshone Beg
+    postcode: V94 PD28
+    road: Shelbourne Road
+    road_reference: R464
+    state: Munster
+expected:  |
+    Shelbourne Road
+    Farranshone
+    Limerick
+    County Limerick
+    V94 PD28
+    Ireland
