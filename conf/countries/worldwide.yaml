@@ -950,6 +950,7 @@ IE:
         {{{country}}}
     replace:
         - [" City$",""]
+        - ["The Municiple District of ",""]   
 
 # Israel
 IL: 
