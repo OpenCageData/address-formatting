@@ -1028,7 +1028,9 @@ IT:
     address_template: *generic8
     replace:
         - ["Città metropolitana di ",""]
-        - ["Metropolitan City of ",""]        
+        - ["Metropolitan City of ",""]
+    postformat_replace:
+        - ["Vatican City\nVatican City$","\nVatican City"]        
 
 # Jersey - same format as UK, but not part of UK
 JE:

@@ -12,6 +12,20 @@ expected:  |
     Viale San Benedetto
     00120
     Vatican City
+---
+description: supermarket in Vatican City, 41.9046,12.4566
+components:
+        country: Vatican City
+        country_code: va
+        postcode: "00120"
+        road: Press Way
+        supermarket: Vatican Supermarket
+        town: Vatican City
+expected:  |
+    Vatican Supermarket
+    Press Way
+    00120
+    Vatican City
 
 
 
