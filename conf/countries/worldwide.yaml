@@ -1030,7 +1030,8 @@ IT:
         - ["Città metropolitana di ",""]
         - ["Metropolitan City of ",""]
     postformat_replace:
-        - ["Vatican City\nVatican City$","\nVatican City"]        
+        - ["Vatican City\nVatican City$","\nVatican City"]
+        - ["Città del Vaticano\nCittà del Vaticano$","Città del Vaticano\n"]
 
 # Jersey - same format as UK, but not part of UK
 JE:
