@@ -946,7 +946,6 @@ IE:
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{county}}}
-        {{{postcode}}}
         {{{country}}}
     replace:
         - [" City$",""]
