@@ -56,7 +56,6 @@ components:
     county: County Limerick
     county_code: LK
     locality: Farranshone Beg
-    postcode: V94 PD28
     road: Shelbourne Road
     road_reference: R464
     state: Munster
@@ -65,5 +64,4 @@ expected:  |
     Farranshone
     Limerick
     County Limerick
-    V94 PD28
     Ireland
