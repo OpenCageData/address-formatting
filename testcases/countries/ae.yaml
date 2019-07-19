@@ -13,6 +13,7 @@ components:
 expected: |
     L'Arabia hotel
     28th Street
+    Police Officers City
     Abu Dhabi
     United Arab Emirates
 ---
@@ -29,6 +30,7 @@ components:
 expected: |
     L'Arabia hotel
     28th Street
+    Police Officers City
     أبو ظبي
     الإمارات العربية المتحدة
 ---
@@ -45,6 +47,7 @@ components:
 expected: |
     Pizza Hut
     8th Street
+    Police Officers City
     Abu Dhabi
     United Arab Emirates
 ---
@@ -53,7 +56,7 @@ components:
     city: Dubai
     country: United Arab Emirates
     country_code: ae
-    hospital: Thumbay Hospital,
+    hospital: Thumbay Hospital
     postcode: 47602
     residential: Al Qusais 1
     road: Street 4
@@ -62,5 +65,18 @@ components:
 expected: |
     Thumbay Hospital
     Street 4
+    Al Qusais 1
+    Dubai
+    United Arab Emirates
+---
+description: International Media Production Zone, 25.0299178/55.1872123
+components:
+    country: United Arab Emirates
+    country_code: ae
+    postcode: '0448'
+    state: Dubai
+    suburb: International Media Production Zone
+expected: |
+    International Media Production Zone
     Dubai
     United Arab Emirates

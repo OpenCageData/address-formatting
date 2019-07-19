@@ -238,7 +238,14 @@ AD:
 
 # United Arab Emirates
 AE:
-    address_template: *generic5
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
 # Afghanistan 
 AF:
@@ -661,8 +668,6 @@ DO:
         {{{country}}}
     postformat_replace:
         - [", Distrito Nacional",", DN"]
-
-
 
 # Algeria
 DZ:
