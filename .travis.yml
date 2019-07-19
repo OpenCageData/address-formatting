@@ -1,5 +1,7 @@
 ---
 language: 'perl'
+perl:
+  - "5.26" # Ubuntu 18
 env: PERL_CPANM_OPT="--notest --force --skip-satisfied"
 install:
   - cpanm File::Find::Rule~0.34
