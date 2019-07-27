@@ -32,7 +32,9 @@ aliases:
     - district
     - quarter
     - houses
-    - subdivision    
+    - subdivision
+---
+name: postcode
 ---
 name: city
 aliases:
@@ -43,8 +45,6 @@ name: county
 aliases:
     - local_administrative_area
     - county_code
----
-name: postcode
 ---
 name: state_district
 ---
