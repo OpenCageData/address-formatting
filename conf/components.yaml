@@ -34,8 +34,6 @@ aliases:
     - houses
     - subdivision
 ---
-name: postcode
----
 name: city
 aliases:
     - town
@@ -47,6 +45,8 @@ aliases:
     - county_code
 ---
 name: state_district
+---
+name: postcode
 ---
 name: state
 aliases:
