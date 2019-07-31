@@ -52,6 +52,7 @@ components:
     suburb: وادي حجر
 expected: |
     Mosul General Hospital
+    وادي حجر
     الجسر الرابع
     Mosul
     Iraq
@@ -72,4 +73,22 @@ expected: |
     Rasheed
     شارع قطر الندى
     Baghdad
+    Iraq
+---
+description: 36.19137, 43.97445
+components:
+        city: Arbil
+        continent: Asia
+        country: Iraq
+        country_code: iq
+        county: قضاء أربيل
+        house_number: 391
+        neighbourhood: English Village
+        postcode: 44001
+        state: هەرێمی کوردستان
+        suburb: گوندی ئینگلیزی
+expected: |
+    391 English Village
+    Arbil
+    44001
     Iraq

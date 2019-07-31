@@ -980,8 +980,8 @@ IQ:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{{city_district}}} 
-        {{{house_number}}} {{{road}}}
+        {{{house_number}}} {{#first}} {{{neighbourhood}}} || {{{city_district}}} || {{{suburb}}} {{/first}}
+        {{{road}}} 
         {{#first}} {{{city}}} || {{{town}}} || {{{state}}} || {{{village}}} {{/first}}
         {{{postcode}}}
         {{{country}}}
