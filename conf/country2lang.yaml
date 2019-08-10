@@ -40,7 +40,7 @@ BQ: nl,en
 BR: pt
 BS: en
 BT: dz
-BV: no
+BV: "no"
 BW: en
 BY: by,ru
 BZ: en,es
@@ -207,7 +207,7 @@ SE: se
 SG: en
 SH: en
 SI: sl
-SJ: no
+SJ: "no"
 SK: sk
 SL: en
 SM: it
