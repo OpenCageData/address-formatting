@@ -238,9 +238,16 @@ AD:
 
 # United Arab Emirates
 AE:
-    address_template: *generic5
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
-# Angola
+# Afghanistan
 AF:
     address_template: *generic21
 
@@ -946,7 +953,6 @@ IE:
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{county}}}
-        {{{postcode}}}
         {{{country}}}
     replace:
         - [" City$",""]
@@ -976,8 +982,8 @@ IQ:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{{city_district}}} 
-        {{{house_number}}} {{{road}}}
+        {{{house_number}}} {{#first}} {{{neighbourhood}}} || {{{city_district}}} || {{{suburb}}} {{/first}}
+        {{{road}}}         
         {{#first}} {{{city}}} || {{{town}}} || {{{state}}} || {{{village}}} {{/first}}
         {{{postcode}}}
         {{{country}}}
@@ -1283,7 +1289,7 @@ MG:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
         {{{country}}}
 
-# Macedonia
+# North Macedonia
 MK:
     address_template: *generic1
 
