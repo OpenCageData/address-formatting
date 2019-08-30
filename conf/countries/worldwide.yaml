@@ -1287,7 +1287,7 @@ MG:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
         {{{country}}}
 
-# Macedonia
+# North Macedonia
 MK:
     address_template: *generic1
 
