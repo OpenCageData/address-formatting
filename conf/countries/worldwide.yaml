@@ -238,16 +238,9 @@ AD:
 
 # United Arab Emirates
 AE:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{house_number}}} {{{road}}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
-        {{#first}} {{{state_district}}} || {{{state}}} {{/first}}
-        {{{country}}}
+    address_template: *generic5
 
-# Afghanistan 
+# Angola
 AF:
     address_template: *generic21
 
@@ -529,8 +522,9 @@ CN:
         {{{house}}}
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}        
         {{{county}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}} 
+        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
 # China - English
@@ -540,8 +534,9 @@ CN_en:
         {{{house}}}
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
         {{{county}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}} 
+        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
 # China - Chinese
@@ -668,6 +663,8 @@ DO:
         {{{country}}}
     postformat_replace:
         - [", Distrito Nacional",", DN"]
+
+
 
 # Algeria
 DZ:
@@ -951,6 +948,7 @@ IE:
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{county}}}
+        {{{postcode}}}
         {{{country}}}
     replace:
         - [" City$",""]
@@ -980,8 +978,8 @@ IQ:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{{house_number}}} {{#first}} {{{neighbourhood}}} || {{{city_district}}} || {{{suburb}}} {{/first}}
-        {{{road}}} 
+        {{{city_district}}} 
+        {{{house_number}}} {{{road}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{state}}} || {{{village}}} {{/first}}
         {{{postcode}}}
         {{{country}}}
@@ -1287,7 +1285,7 @@ MG:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
         {{{country}}}
 
-# North Macedonia
+# Macedonia
 MK:
     address_template: *generic1
 
