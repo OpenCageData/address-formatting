@@ -522,9 +522,8 @@ CN:
         {{{house}}}
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}        
         {{{county}}}
-        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} 
+        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}         
         {{{country}}}
 
 # China - English
@@ -534,9 +533,8 @@ CN_en:
         {{{house}}}
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}
         {{{county}}}
-        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}} 
+        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} 
         {{{country}}}
 
 # China - Chinese
