@@ -8,11 +8,21 @@ components:
         house_number: 1
         residential: Port Stanley
         road: Brisbane Road
-        town: Stanley, Falkland Islands
+        town: Stanley
 expected:  |
     Rose Hotel
     1 Brisbane Road
-    Stanley, Falkland Islands
+    Stanley
+    Falkland Islands
+    United Kingdom
+---
+description: middle of nowhere, -51.70,-58.62
+components:
+        continent: South America
+        country: Falkland Islands
+        country_code: fk
+expected:  |
+    Falkland Islands
     United Kingdom
 
 

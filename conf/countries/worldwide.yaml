@@ -728,8 +728,7 @@ FJ:
 # Falkland Islands
 FK: 
     use_country: GB
-    change_country: United Kingdom
-    add_component: county=Falkland Islands
+    change_country: Falkland Islands, United Kingdom
 
 # Federated States of Micronesia
 FM: 
