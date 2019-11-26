@@ -33,6 +33,8 @@ aliases:
     - city_district
     - district
     - quarter
+    - residential
+    - industrial
     - houses
     - subdivision
 ---
