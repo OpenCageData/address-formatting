@@ -11,6 +11,7 @@ components:
     suburb: Maracanã
 expected:  |
     Avenida Maracanã
+    Maracanã
     Rio de Janeiro - RJ
     Brazil
 ---
@@ -29,7 +30,33 @@ components:
     suburb: Centro
 expected:  |
     Rua Rio de Janiero
+    Centro
     Belo Horizonte - MG
     30170-011
     Brazil
+---
+description: BR housenumber -22.92540,-43.17540
+components:
+    city: Rio de Janeiro
+    city_district: Zona Central do Rio de Janeiro
+    continent: South America
+    country: Brazil
+    country_code: br
+    county: Região Geográfica Imediata do Rio de Janeiro
+    house: Condomínio Condomínio René Magritte
+    house_number: 68
+    postcode: 22221-000
+    road: Rua Silveira Martins
+    state: Rio de Janeiro
+    state_code: RJ
+    state_district: Região Geográfica Intermediária do Rio de Janeiro
+    suburb: Catete
+expected:  |
+    Condomínio Condomínio René Magritte
+    Rua Silveira Martins 68
+    Catete
+    Rio de Janeiro - RJ
+    22221-000
+    Brazil
+
 
