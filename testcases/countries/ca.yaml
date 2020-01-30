@@ -43,7 +43,7 @@ components:
     country_code: ca
     county: Middlesex County    
     state: Ontario
-    state_code: ON
+    state_code: "ON"
 expected:  |
     London, ON
     Canada
