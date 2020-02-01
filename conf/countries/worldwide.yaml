@@ -982,7 +982,7 @@ IQ:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{{house_number}}} {{#first}} {{{neighbourhood}}} || {{{city_district}}} || {{{suburb}}} {{/first}}
+        {{{house_number}}} {{#first}} {{{city_district}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}
         {{{road}}}         
         {{#first}} {{{city}}} || {{{town}}} || {{{state}}} || {{{village}}} {{/first}}
         {{{postcode}}}
