@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 Opencage Data Ltd (UK Company No. 9485974)
+Copyright (c) 2020 Opencage GmbH - https://opencagedata.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
