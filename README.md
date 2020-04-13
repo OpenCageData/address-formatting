@@ -4,7 +4,7 @@
 
 ### overview
 
-This project contains templates and test cases for address formats used in territories around the world. The templates can then be processed in any programming language (see below for list of processors).
+This project contains templates and test cases for address formats used in territories around the world. The templates can then be processed in any programming language ([see below for list of processors](#processing-logic)).
 
 ### A quick example
 
@@ -122,13 +122,7 @@ Planned features:
 
 We welcome your pull requests. Together we can address the world!
 
-### Who are we?
-
-We run the [OpenCage Geocoder](https://opencagedata.com). Learn more [about us](https://opencagedata.com/about). 
-
-We also run [#geomob](https://thegeomob.com), a series of regular meetups for location based service creators, where we do our best to highlight geoinnovation. If you like geo stuff, you will probably enjoy [the Geomob podcast](https://thegeomob.com/podcast/).
-
-### Further reading
+### Further reading on the challenge of address
 
 Here's [our blog post anouncing this project](https://blog.opencagedata.com/post/99059889253/good-looking-addresses-solving-the-berlin-berlin) and the motivations behind it.
 
@@ -139,3 +133,15 @@ If it's actual address data you're after, check out [OpenStreetMap](https://www.
 If you want to turn longitude, latitude into well formatted addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](https://opencagedata.com).
 
 If all this convinces you that address are evil, please check out [what3words](http://what3words.com) which allows you to dispense with them entirely. 
+
+### Who is OpenCage GmbH
+
+<div style="display:block;text-align:center">
+[![image](https://assets.opencagedata.com/assets/opencage_logo_300_150-aa1eaefa36e9e06b80b0717a43fc5d4cbbd419df166cb24d10cb7c807bb83be1.png)](https://opencagedata.com/)
+</div>
+
+We run the [OpenCage Geocoder](https://opencagedata.com). Learn more [about us](https://opencagedata.com/about). 
+
+We also run [#geomob](https://thegeomob.com), a series of regular meetups for location based service creators, where we do our best to highlight geoinnovation. If you like geo stuff, you will probably enjoy [the Geomob podcast](https://thegeomob.com/podcast/).
+
+
