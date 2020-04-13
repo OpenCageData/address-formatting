@@ -137,7 +137,7 @@ If all this convinces you that address are evil, please check out [what3words](h
 ### Who is OpenCage GmbH
 
 <div style="display:block;text-align:center">
-[![image](https://assets.opencagedata.com/assets/opencage_logo_300_150-aa1eaefa36e9e06b80b0717a43fc5d4cbbd419df166cb24d10cb7c807bb83be1.png)](https://opencagedata.com/)
+[![image](opencage_logo_300_150.png)](https://opencagedata.com)
 </div>
 
 We run the [OpenCage Geocoder](https://opencagedata.com). Learn more [about us](https://opencagedata.com/about). 
