@@ -56,6 +56,7 @@ There are open-source implementations in
   * [Perl](https://metacpan.org/release/Geo-Address-Formatter)
   * [PHP](https://github.com/predicthq/address-formatter-php)
   * [Rust](https://github.com/CanalTP/address-formatter-rs)
+  * [Ruby](https://github.com/mirubiri/address_composer)
 
 We would love more language implementations. The more people who use the templates, the more likely bugs will be reported. 
 If you write a processor, please submit a pull request adding it to the list. Thanks. 
