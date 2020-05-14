@@ -21,6 +21,20 @@ expected:  |
     Российская Федерация
     190000
 ---
+description: village 55.8931701, 63.7019487
+components:
+    city : Батуринский сельсовет
+    country : Россия
+    country_code : ru
+    county : Шадринский район
+    hamlet : Камчатка
+    state : Курганская область
+expected:  |
+    Камчатка
+    Батуринский сельсовет
+    Шадринский район
+    Россия
+---
 # island
 description: use island name
 components:

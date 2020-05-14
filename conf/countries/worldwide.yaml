@@ -79,7 +79,7 @@ generic10: &generic10 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{suburb}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{state}}}
         {{{country}}}
@@ -1621,6 +1621,14 @@ RS:
 # Russia
 RU:
     address_template: *generic10
+    fallback_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{island}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} {{/first}}
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
+        {{{country}}}
 
 # Rwanda
 RW:
