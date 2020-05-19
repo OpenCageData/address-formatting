@@ -3,7 +3,9 @@ ES:
     AB: Albacete
     AL: Almería
     AV: Ávila
-    B: Barcelonès
+    B:
+      default: Barcelonés
+      alt_ca: Barcelonès
     BA: Badajoz
     BI: Vizcaya
     BU: Burgos
@@ -15,13 +17,18 @@ ES:
     CS: Castellón
     CU: Cuenca
     GC: Las Palmas
-    GI: Girona
+    GI:
+      default: Gironés
+      alt_ca: Gironès
+      alt_en: Girona
     GR: Granada
     GU: Guadalajara
     H: Huelva
     HU: Huesca
     J: Jaén
-    L: Lérida
+    L:
+      default: Lérida
+      alt_ca: Lleida
     LE: León
     LO: La Rioja
     LU: Lugo

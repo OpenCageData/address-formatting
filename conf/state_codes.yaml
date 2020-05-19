@@ -505,7 +505,9 @@ DE:
     BB: Brandenburg
     BE: Berlin
     BW: Baden-Württemberg
-    BY: Bayern
+    BY:
+      default: Bayern
+      alt_en: Bavaria
     HB: Bremen
     HE: Hessen
     HH: Hamburg
@@ -559,7 +561,10 @@ ES:
     CL : Castilla y León
     CM : Castilla-La Mancha
     CN : Canarias
-    CT : Cataluña
+    CT :
+      default: Cataluña
+      alt_ca: Catalunya
+      alt_en: Catalonia
     EX : Extremadura
     GA : Galicia
     IB : Islas Baleares
@@ -1145,22 +1150,54 @@ PK:
     SD: Sindh
     TA: Federally Administered Tribal Areas
 PL:
-    DS: województwo dolnośląskie
-    KP: województwo kujawsko-pomorskie
-    LB: województwo lubuskie
-    LD: województwo łódzkie
-    LU: województwo lubelskie
-    MA: województwo małopolskie
-    MZ: województwo mazowieckie
-    OP: województwo opolskie
-    PD: województwo podlaskie
-    PK: województwo podkarpackie
-    PM: województwo pomorskie
-    SK: województwo świętokrzyskie
-    SL: województwo śląskie
-    WN: województwo warmińsko-mazurskie
-    WP: województwo wielkopolskie
-    ZP: województwo zachodniopomorskie
+    DS:
+      default: województwo dolnośląskie
+      alt_en: Lower Silesian Voivodeship
+    KP:
+      default: województwo kujawsko-pomorskie
+      alt_en: Kuyavian-Pomeranian Voivodeship       
+    LB:
+      default: województwo lubuskie
+      alt_en: Lubusz Voivodeship      
+    LD:
+      default: województwo łódzkie
+      alt_en: Łódź Voivodeship       
+    LU:
+      default: województwo lubelskie
+      alt_en: Lublin Voivodeship
+    MA:
+      default: województwo mazowieckie
+      alt_en: Masovian Voivodeship      
+    MP:
+      default: województwo małopolskie
+      alt_en: Lesser Poland Voivodeship       
+    OP:
+      default: województwo opolskie
+      alt_en: Opole Voivodeship      
+    PD:
+      default: województwo podlaskie
+      alt_en: Podlaskie Voivodeship
+    PK:
+      default: województwo podkarpackie
+      alt_en: Subcarpathian Voivodeship      
+    PM:
+      default: województwo pomorskie
+      alt_en: Pomeranian Voivodeship      
+    SK:
+      default: województwo świętokrzyskie
+      alt_en: Świętokrzyskie Voivodeship      
+    SL:
+      default: województwo śląskie
+      alt_en: Silesian Voivodeship
+    WM:
+      default: województwo warmińsko-mazurskie
+      alt_en: Warmian-Masurian Voivodeship
+    WP:
+      default: województwo wielkopolskie
+      alt_en: Greater Poland Voivodeship
+    ZP:
+      default: województwo zachodniopomorskie
+      alt_en: West Pomeranian Voivodeship
 RO:
     AB: Alba
     AG: Argeş
