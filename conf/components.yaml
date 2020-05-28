@@ -33,6 +33,7 @@ aliases:
     - city_district
     - district
     - quarter
+    - city_block
     - residential
     - commercial
     - industrial
