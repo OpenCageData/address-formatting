@@ -143,5 +143,21 @@ expected:  |
     64 Melbourne Road
     London E10
     United Kingdom
-
-
+---
+description: London Borough of Waltham Forest - partial_postcode
+components:
+    city: London
+    country: United Kingdom
+    country_code: gb
+    county: London Borough of Waltham Forest
+    house_number: 64
+    neighbourhood: Walthamstow Village
+    partial_postcode: E10
+    road: Melbourne Road
+    state: England
+    state_district: Greater London
+    suburb: Leyton
+expected:  |
+    64 Melbourne Road
+    London E10
+    United Kingdom

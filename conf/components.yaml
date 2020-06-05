@@ -53,6 +53,8 @@ aliases:
 name: state_district
 ---
 name: postcode
+aliases:
+    - partial_postcode
 ---
 name: state
 aliases:
