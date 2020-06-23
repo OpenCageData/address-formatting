@@ -6,7 +6,7 @@ generic1: &generic1 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{postcode}}} {{#first}} {{{town}}} || {{{city}}} || {{{village}}} || || {{{county}}} || {{{state}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{village}}} || || {{{county}}} || {{{state}}} {{/first}}
         {{{country}}}
 
 # postcode after city

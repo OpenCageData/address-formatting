@@ -16,3 +16,20 @@ expected:  |
     Åkebergveien 28
     0650 Oslo
     Norway
+---
+description: house in village with postal_city
+components:
+    country: Norge
+    country_code: "no"
+    county: Viken
+    house_number: 33
+    neighbourhood: Belset
+    postal_city: Rykkinn
+    postcode: 1349
+    road: Grindstuveien
+    suburb: Angerst
+    village: Ringvoll
+expected:  |
+    Grindstuveien 33
+    1349 Rykkinn
+    Norge

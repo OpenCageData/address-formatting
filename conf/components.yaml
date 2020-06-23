@@ -40,6 +40,8 @@ aliases:
     - houses
     - subdivision
 ---
+name: postal_city    
+---
 name: city
 aliases:
     - town
