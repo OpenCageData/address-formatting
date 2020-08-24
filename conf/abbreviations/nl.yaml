@@ -1,13 +1,27 @@
 road:
+     Burgemeester: Burg
+     Docter: Dr
+     Dokter: Dr
+     Gebroeders: Gebr
+     Generaal: Gen
      Gracht: Gr
+     Kardinaal: Kard
+     Kolonel: Kol
      Kort: K
      Korte: Kte
      Laan: ln
      Lange: L
      Markt: mkt
+     Minister: Min
+     Monseigneur: Mgr
+     Pastoor: Past
+     Prins: Pr
+     Prinses: Pr
      Professor: Prof
      Sint: St
      Straat: str
      Van: v
+     Vrouwe: Vr
      Weg: wg
+     Zuster: Zr
      
