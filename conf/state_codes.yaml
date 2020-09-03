@@ -594,7 +594,9 @@ FR:
     GF: Guyane
     GP: Guadeloupe
     HDF: Hauts-de-France
-    IDF: Île-de-France
+    IDF:
+      default: Île-de-France
+      alt_en: Ile-de-France
     MQ: Martinique
     NOR:
       default: Normandie
