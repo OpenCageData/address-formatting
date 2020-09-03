@@ -583,18 +583,26 @@ FM:
 FR:
     ARA: Auvergne-Rhône-Alpes
     BFC: Bourgogne-Franche-Comté
-    BRE: Bretagne
+    BRE:
+      default: Bretagne
+      alt_en: Brittany 
     CVL: Centre-Val de Loire
-    COR: Corse
+    COR:
+      default: Corse
+      alt_en: Corsica
     GES: Grand Est
     GF: Guyane
     GP: Guadeloupe
     HDF: Hauts-de-France
     IDF: Île-de-France
     MQ: Martinique
-    NOR: Normandie
+    NOR:
+      default: Normandie
+      alt_en: Normandy
     NAQ: Nouvelle-Aquitaine
-    OCC: Occitanie
+    OCC:
+      default: Occitanie
+      alt_en: Occitania
     PDL: Pays de la Loire
     PAC: Provence-Alpes-Côte d'Azur
     RE: La Réunion
