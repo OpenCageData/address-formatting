@@ -601,7 +601,9 @@ FR:
     NOR:
       default: Normandie
       alt_en: Normandy
-    NAQ: Nouvelle-Aquitaine
+    NAQ:
+      default: Nouvelle-Aquitaine
+      alt_en: New Aquitaine
     OCC:
       default: Occitanie
       alt_en: Occitania
