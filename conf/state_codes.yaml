@@ -509,17 +509,31 @@ DE:
       default: Bayern
       alt_en: Bavaria
     HB: Bremen
-    HE: Hessen
+    HE:
+      default: Hessen
+      alt_en: Hesse
     HH: Hamburg
     MV: Mecklenburg-Vorpommern
-    NI: Niedersachsen
-    NW: Nordrhein-Westfalen
-    RP: Rheinland-Pfalz
+    NI:
+      default: Niedersachsen
+      alt_en: Lower Saxony
+    NW:
+      default: Nordrhein-Westfalen
+      alt_en: North Rhine-Westphalia
+    RP:
+      default: Rheinland-Pfalz
+      alt_en: Rhineland-Palatinate
     SH: Schleswig-Holstein
     SL: Saarland
-    SN: Sachsen
-    ST: Sachsen-Anhalt
-    TH: Thüringen
+    SN:
+      default: Sachsen
+      alt_en: Saxony      
+    ST:
+      default: Sachsen-Anhalt
+      alt_en: Saxony-Anhalt
+    TH:
+      default: Thüringen
+      alt_en: Thuringia
 DJ:
     AR: Arta
     AS: Ali Sabieh
