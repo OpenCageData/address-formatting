@@ -310,16 +310,30 @@ BZ:
     TOL: Toledo
 CA:
     AB: Alberta
-    BC: British Columbia
+    BC:
+      default: British Columbia
+      alt_fr: Colombie-Britannique
     MB: Manitoba
-    NB: New Brunswick
-    NL: Newfoundland and Labrador
-    NT: Northwest Territories
-    NS: Nova Scotia
+    NB:
+      default: New Brunswick
+      alt_fr: Nouveau-Brunswick
+    NL:
+      default: Newfoundland and Labrador
+      alt_fr: Terre-Neuve-et-Labrador
+    NT:
+      default: Northwest Territories
+      alt_fr: Territoires du Nord-Ouest
+    NS:
+      default: Nova Scotia
+      alt_fr: Nouvelle-Écosse
     NU: Nunavut
     "ON": Ontario
-    PE: Prince Edward Island
-    QC: Quebec
+    PE:
+      default: Prince Edward Island
+      alt_fr: Île-du-Prince-Édouard
+    QC:
+      default: Quebec
+      alt_fr: Québec
     SK: Saskatchewan
     YT: Yukon
 CD:
