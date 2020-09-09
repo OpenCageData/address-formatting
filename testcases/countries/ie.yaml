@@ -46,6 +46,29 @@ expected:  |
     Ireland
 
 ---
+# 53.3388,-6.2691
+description: condense "Dublin, County Dublin"
+components:
+    city: Dublin
+    city_district: Wood Quay A ED
+    continent: Europe
+    country: Ireland
+    country_code: ie
+    county: County Dublin
+    county_code: D
+    library: The National Archives
+    postcode: D02 TD99
+    road: Bishop Street
+    state: Leinster
+    state_code: L
+expected:  |
+    The National Archives
+    Bishop Street
+    Wood Quay A ED
+    Dublin
+    Ireland
+
+---
 # 52.6726,-8.6407
 description: remove "The Metropolitan District of"
 components:
@@ -63,5 +86,4 @@ expected:  |
     Shelbourne Road
     Farranshone
     Limerick
-    County Limerick
     Ireland

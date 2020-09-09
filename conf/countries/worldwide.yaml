@@ -958,6 +958,12 @@ IE:
         - [" City$",""]
         - ["The Municipal District of ",""]
         - ["The Metropolitan District of ",""]
+    postformat_replace:
+        - ["Dublin\nCounty Dublin","Dublin"]
+        - ["Galway\nCounty Galway","Galway"]
+        - ["Kilkenny\nCounty Kilkenny","Kilkenny"]        
+        - ["Limerick\nCounty Limerick","Limerick"]
+        - ["Tipperary\nCounty Tipperary","Tipperary"]        
         
 # Israel
 IL: 
