@@ -151,17 +151,21 @@ BA:
     BRC: Brčko distrikt
     SRP: Republika Srpska    
 BE:
-    BRU: Bruxelles-Capitale
-    VAN: Antwerpen
-    VBR: Vlaams Brabant
-    VLI: Limburg
-    VOV: Oost-Vlaanderen
-    VWV: West-Vlaanderen
-    WBR: Brabant wallon
-    WHT: Hainaut
-    WLG: Liège
-    WLX: Luxembourg
-    WNA: Namur
+    BRU:
+      default: Bruxelles-Capitale
+      alt_de: Brüssel-Hauptstadt      
+      alt_en: Brussels-Capital
+      alt_nl: Brussels Hoofdstedelijk Gewest
+    VLG:
+      default: Vlaanderen
+      alt_de: Flandern
+      alt_en: Flanders
+      alt_fr: Flandre
+    WAL:
+      default: Wallonie
+      alt_de: Wallonien
+      alt_en: Wallonia
+      alt_nl: Wallonië
 BF:
     BAL: Balé
     BAM: Bam
@@ -1112,12 +1116,18 @@ NL:
     GE: Gelderland
     GR: Groningen
     LI: Limburg
-    NB: Noord-Brabant
-    NH: Noord-Holland
+    NB:
+      default: Noord-Brabant
+      alt_en: North Brabant
+    NH:
+      default: Noord-Holland
+      alt_en: North Holland
     OV: Overijssel
     UT: Utrecht
     ZE: Zeeland
-    ZH: Zuid-Holland
+    ZH:
+      default: Zuid-Holland
+      alt_en: South Holland
 NZ:
     AUK: Auckland
     BOP: Bay of Plenty
