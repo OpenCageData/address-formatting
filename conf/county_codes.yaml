@@ -458,3 +458,40 @@ IT:
     VS: Medio Campidano
     VT: Viterbo
     VV: Vibo Valentia
+LU:
+    CA:
+      default: Canton Capellen
+      alt_de: Kanton Kapellen
+    CL:
+      default: Canton Clervaux
+      alt_de: Kanton Clerf
+    DI:
+      default: Canton Diekirch
+      alt_de: Kanton Diekirch
+    EC:
+      default: Canton Echternach
+      alt_de: Kanton Echternach
+    ES:
+      default: Canton Esch-sur-Alzette
+      alt_de: Kanton Esch an der Alzette
+    GR:
+      default: Canton Grevenmacher
+      alt_de: Kanton Grevenmacher
+    LU:
+      default: Canton Luxembourg
+      alt_de: Kanton Luxemburg
+    ME:
+      default: Canton Mersch
+      alt_de: Kanton Mersch
+    RD:
+      default: Canton Redange
+      alt_de: Kanton Redingen
+    RM:
+      default: Canton Remich
+      alt_de: Kanton Remich
+    VD:
+      default: Canton Vianden
+      alt_de: Kanton Vianden
+    WI:
+      default: Canton Wiltz
+      alt_de: Kanton Wiltz
