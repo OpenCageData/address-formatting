@@ -386,32 +386,108 @@ CF:
     UK: Ouaka
     VK: Vakaga
 CH:
-    AG: Aargau
-    AI: Appenzell Innerrhoden
-    AR: Appenzell Ausserrhoden
-    BE: Bern
-    BL: Basel-Landschaft
-    BS: Basel-Stadt
-    FR: Fribourg
-    GE: Genève
-    GL: Glarus
-    GR: Graubünden
-    JU: Jura
-    LU: Luzern
-    NE: Neuchâtel
-    NW: Nidwalden
-    OW: Obwalden
-    SG: Sankt Gallen
-    SH: Schaffhausen
-    SO: Solothurn
-    SZ: Schwyz
-    TG: Thurgau
-    TI: Ticino
+    AG:
+      default: Aargau
+      alt_fr: Argovie
+      alt_it: Argovia
+    AI:
+      default: Appenzell Innerrhoden
+      alt_fr: Appenzell Rhodes-Intérieures
+      alt_it: Appenzello Interno
+    AR: 
+      default: Appenzell Ausserrhoden
+      alt_fr: Appenzell Rhodes-Extérieures
+      alt_it: Appenzello Esterno
+    BE:
+      default: Bern
+      alt_fr: Berne
+      alt_it: Berna
+    BL: 
+      default: Basel-Landschaft
+      alt_fr: Bâle-Campagne
+      alt_it: Basilea Campagna
+    BS:
+      default: Basel-Stadt
+      alt_en: Basel-City
+      alt_fr: Bâle-Ville
+      alt_it: Basilea Città   
+    FR: 
+      default: Fribourg
+      alt_de: Freiburg
+      alt_it: Friburgo
+    GE: 
+      default: Geneva
+      alt_de: Genf
+      alt_fr: Genève
+      alt_it: Ginevra
+    GL:
+      default: Glarus
+      alt_fr: Glaris
+      alt_it: Glarona
+    GR: 
+      default: Graubünden
+      alt_en: Grisons
+      alt_fr: Grisons
+      alt_it: Grigioni
+    JU:
+      default: Jura
+      alt_it: Giura
+    LU: 
+      default: Luzern
+      alt_fr: Lucerne
+      alt_it: Lucerna
+    NE: 
+      default: Neuchâtel
+      alt_de: Neuenburg
+    NW: 
+      default: Nidwalden
+      alt_fr: Nidwald
+      alt_it: Nidvaldo
+    OW:
+      default: Obwalden
+      alt_fr: Obwald
+      alt_it: Obvaldo   
+    SG:
+      default: Sankt Gallen
+      alt_fr: Saint-Gall
+      alt_it: San Gallo
+    SH:
+      default: Schaffhausen
+      alt_fr: Schaffhouse
+      alt_it: Sciaffusa   
+    SO:
+      default: Solothurn
+      alt_fr: Soleure
+      alt_it: Soletta
+    SZ:
+      default: Schwyz
+      alt_it: Svitto
+    TG:
+      default: Thurgau
+      alt_fr: Thurgovie
+      alt_it: Turgovia
+    TI:
+      default: Ticino
+      alt_de: Tessin
+      alt_fr: Tessin
     UR: Uri
-    VD: Vaud
-    VS: Valais
-    ZG: Zug
-    ZH: Zürich
+    VD:
+      default: Vaud
+      alt_de: Waadt
+    VS:
+      default: Valais/Wallis
+      alt_de: Wallis
+      alt_fr: Valais
+      alt_it: Vallese
+    ZG:
+      default: Zug
+      alt_fr: Zoug
+      alt_it: Zugo
+    ZH:
+      default: Zürich
+      alt_en: Zurich      
+      alt_fr: Zurich
+      alt_fr: Zurigo      
 CI:    
     AB: Abidjan
     BS: Bas-Sassandra
