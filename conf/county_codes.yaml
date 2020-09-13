@@ -353,7 +353,7 @@ IT:
     AN: Ancona
     AO: Aosta
     AP: Ascoli Piceno
-    AQ: L\'Aquila
+    AQ: L'Aquila
     AR: Arezzo
     AT: Asti
     AV: Avellino
@@ -375,7 +375,6 @@ IT:
     CB: Campobasso
     CE: Caserta
     CH: Chieti
-    CI: Carbonia-Iglesias
     CL: Caltanissetta
     CN: Cuneo
     CO: Como
@@ -401,7 +400,9 @@ IT:
     LO: Lodi
     LT: Latina
     LU: Lucca
-    MB: Monza e della Brianza
+    MB:
+      default: Monza e della Brianza
+      alt_en: Monza and Brianza
     MC: Macerata
     ME: Messina
     MI: Milano
