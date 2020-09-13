@@ -366,7 +366,11 @@ IT:
     BR: Brindisi
     BS: Brescia
     BT: Barletta-Andria-Trani
-    BZ: Bolzano
+    BZ:
+      default: Bolzano - Bozen
+      alt_de: Südtirol
+      alt_en: South Tyrol
+      alt_it: Bolzano
     CA: Cagliari
     CB: Campobasso
     CE: Caserta
@@ -430,7 +434,7 @@ IT:
     RE: Reggio Emilia
     RG: Ragusa
     RI: Rieti
-    RM: Roma
+    RM: Roma Capitale
     RN: Rimini
     RO: Rovigo
     SA: Salerno
@@ -442,8 +446,8 @@ IT:
     SV: Savona
     TA: Taranto
     TE: Teramo
-    TN: Trento
-    TO: Torino
+    TN: Provincia di Trento
+    TO: Provincia di Torino
     TP: Trapani
     TR: Terni
     TS: Trieste
