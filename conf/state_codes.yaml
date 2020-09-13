@@ -989,7 +989,10 @@ IT:
     SAR: Sardegna
     SIC: Sicilia
     TOS: Toscana
-    TRE: Trentino-Alto Adige
+    TRE:
+      default: Trentino-Alto Adige/Südtirol
+      alt_de: Trentino-Südtirol
+      alt_it: Trentino-Alto Adige
     UMB: Umbria
     VAL: Valle d'Aosta
     VEN: Veneto
