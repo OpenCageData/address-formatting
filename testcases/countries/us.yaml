@@ -183,3 +183,15 @@ expected:  |
     Dronningens Gade
     Charlotte Amalie, VI 00803
     United States of America
+#
+# state_district
+---
+description: state_district
+components:
+        country: United States of America
+        country_code: us
+        state: New York
+        state_district: New York
+expected:  |
+    New York, NY
+    United States of America
