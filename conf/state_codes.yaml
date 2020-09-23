@@ -32,9 +32,13 @@ AO:
 AR:
     A: Salta
     B: Buenos Aires
-    C: Ciudad Autónoma de Buenos Aires
+    C:
+      default: Ciudad Autónoma de Buenos Aires
+      alt_en: Autonomous City of Buenos Aires      
     D: San Luis
-    E: Entre Ríos
+    E:
+      default: Entre Ríos
+      alt_en: Entre Ríos Province
     F: La Rioja
     G: Santiago del Estero
     H: Chaco
@@ -44,16 +48,24 @@ AR:
     M: Mendoza
     N: Misiones
     P: Formosa
-    Q: Neuquén
-    R: Río Negro
+    Q:
+      default: Neuquén
+      alt_en: Neuquén Province
+    R:
+      default: Río Negro
+      alt_en: Río Negro Province
     S: Santa Fe
     T: Tucumán
     U: Chubut
-    V: Tierra del Fuego
+    V:
+      default: Tierra del Fuego
+      alt_en: Tierra del Fuego Province
     W: Corrientes
     X: Córdoba
     Y: Jujuy
-    Z: Santa Cruz
+    Z:
+      default: Santa Cruz
+      alt_en: Santa Cruz Province
 AU:
     # https://en.wikipedia.org/wiki/States_and_territories_of_Australia
     AAT: Australian Antarctic Territory
