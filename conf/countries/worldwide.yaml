@@ -12,7 +12,7 @@ generic1: &generic1 |
 # postcode after city
 generic2: &generic2 |
         {{{attention}}}
-        {{{house}}}
+        {{#first}} {{{house}}}, {{{quarter}}} || {{{house}}} {{/first}}
         {{{house_number}}} {{{road}}}
         {{#first}} {{{village}}} || {{{city}}} || {{{town}}} || {{{county}}} {{/first}} {{{postcode}}}
         {{#first}} {{{country}}} || {{{state}}} {{/first}}

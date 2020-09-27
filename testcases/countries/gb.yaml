@@ -109,6 +109,24 @@ expected:  |
     Hilton PE28 9QA
     United Kingdom
 ---
+description: Willoughby House, Barbican
+components:
+    building: Willoughby House
+    city: London
+    country: United Kingdom
+    country_code: gb
+    county: City of London
+    postcode: EC2Y 9DP
+    quarter: Barbican
+    road: Moor Lane
+    state: England
+    state_district: Greater London
+expected:  |
+    Willoughby House, Barbican
+    Moor Lane
+    London EC2Y 9DP
+    United Kingdom
+---
 description: City of Nottingham
 components:
     city: City of Nottingham
