@@ -18,6 +18,15 @@ expected:  |
     Pudong New District
     200120 Shanghai
     China
+---
+description: Macau
+components:
+    country: China
+    country_code: cn
+    region: Macau
+expected:  |
+    Macau
+    China
 
 
 

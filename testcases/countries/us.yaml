@@ -75,7 +75,7 @@ components:
     county: Santa Clara County
     state: California
 expected:  |
-    Palo Alto, CA
+    Palo Alto, California
     United States of America
 ---
 description: NY, NY
@@ -85,7 +85,7 @@ components:
     country_code: US
     state: New York
 expected:  |
-    New York, NY
+    New York, New York
     United States of America
 ---    
 description: house number in New York, no city
@@ -193,5 +193,29 @@ components:
         state: New York
         state_district: New York
 expected:  |
-    New York, NY
+    New York, New York
+    United States of America
+---
+description: just state
+components:
+        country: United States of America
+        country_code: us
+        state: New York
+expected:  |
+    New York
+    United States of America
+#
+# municipality
+---
+description: municipality
+components:
+    country: United States of America
+    country_code: us
+    county: Saginaw County
+    municipality: Taymouth Township
+    state: Michigan
+    village: Burt
+expected:  |
+    Burt
+    Taymouth Township, Michigan
     United States of America

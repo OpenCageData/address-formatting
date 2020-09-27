@@ -193,15 +193,15 @@ fallback1: &fallback1 |
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{island}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
-        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{region}}} {{/first}}
         {{{country}}}
 
 fallback2: &fallback2 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} || {{{island}}} || {{{state_district}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{county}}} || {{{island}}} || {{{state_district}}} {{/first}}, {{#first}} {{{state}}} || {{{state_code}}} {{/first}}
         {{{country}}}
 
 fallback3: &fallback3 |
@@ -211,7 +211,7 @@ fallback3: &fallback3 |
         {{#first}} {{{suburb}}} || {{{island}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{{county}}}
-        {{{state}}}
+        {{#first}} {{{state}}} || {{{state_code}}} {{/first}}
         {{{country}}}
 
 fallback4: &fallback4 |
@@ -531,7 +531,7 @@ CN:
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{county}}}
-        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}}         
+        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{state_district}}} || {{{region}}} || {{{village}}} {{/first}}
         {{{country}}}
 
 # China - English
@@ -542,7 +542,7 @@ CN_en:
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{county}}}
-        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} {{/first}} 
+        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{state_district}}} || {{{region}}} || {{{village}}} {{/first}}
         {{{country}}}
 
 # China - Chinese
@@ -550,7 +550,7 @@ CN_zh:
     address_template: |
         {{{country}}}
         {{{postcode}}} 
-        {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{#first}} {{{state_code}}} || {{{state}}} || {{{region}}} {{/first}}
         {{#first}} {{{state_district}}} || {{{county}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
@@ -1884,7 +1884,7 @@ UG:
 
 # US Minor Outlying Islands, same as USA
 UM:
-    fallback_template: *fallback3
+    fallback_template: *fallback2
     use_country: US
     change_country: United States of America
     add_component: state=US Minor Outlying Islands

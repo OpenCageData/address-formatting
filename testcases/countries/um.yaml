@@ -6,7 +6,7 @@ components:
         country_code: um
         island: Wake Island
 expected:  |
-    Wake Island, UM
+    Wake Island, US Minor Outlying Islands
     United States of America
 
 
