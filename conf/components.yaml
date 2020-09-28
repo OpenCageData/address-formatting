@@ -47,11 +47,13 @@ name: postal_city
 name: city
 aliases:
     - town
-    - municipality
 ---
-name: county
+name: municipality
 aliases:
     - local_administrative_area
+---    
+name: county
+aliases:
     - county_code
 ---
 name: state_district
