@@ -6,7 +6,7 @@ generic1: &generic1 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{village}}} || || {{{county}}} || {{{state}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{village}}} || {{{municipality}}} || {{{county}}} || {{{state}}} {{/first}}
         {{{country}}}
 
 # postcode after city
@@ -14,7 +14,7 @@ generic2: &generic2 |
         {{{attention}}}
         {{#first}} {{{house}}}, {{{quarter}}} || {{{house}}} {{/first}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{village}}} || {{{city}}} || {{{town}}} || {{{county}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{village}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{county}}} {{/first}} {{{postcode}}}
         {{#first}} {{{country}}} || {{{state}}} {{/first}}
 
 # postcode before city
@@ -30,7 +30,7 @@ generic4: &generic4 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} || {{{suburb}}} || {{{county}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} || {{{suburb}}} || {{{municipality}}} || {{{county}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
 
 # no postcode
@@ -47,7 +47,7 @@ generic6: &generic6 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}} 
         {{{county}}} 
         {{{country}}}
 
@@ -64,7 +64,7 @@ generic8: &generic8 |
         {{{attention}}}
         {{{house}}}
         {{{road}}}, {{{house_number}}} 
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{#first}} {{{county_code}}} || {{{county}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}} {{#first}} {{{county_code}}} || {{{county}}} {{/first}}
         {{{country}}}
 
 generic9: &generic9 |
@@ -125,7 +125,7 @@ generic15: &generic15 |
         {{{attention}}}
         {{{house}}}
         {{{road}}}, {{{house_number}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} || {{{county}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} || {{{state}}} || {{{county}}} {{/first}}
         {{{country}}}
 
 # no postcode, no state, just city
@@ -133,7 +133,7 @@ generic16: &generic16 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
 # no postcode, no state, just city
@@ -141,7 +141,7 @@ generic17: &generic17 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}} 
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} 
         {{{country}}}
 
 # no postcode, just city comma after house number
@@ -192,7 +192,7 @@ fallback1: &fallback1 |
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{island}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}
         {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{region}}} {{/first}}
         {{{country}}}
 
@@ -209,7 +209,7 @@ fallback3: &fallback3 |
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{island}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}
         {{{county}}}
         {{#first}} {{{state}}} || {{{state_code}}} {{/first}}
         {{{country}}}
@@ -219,7 +219,7 @@ fallback4: &fallback4 |
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{{suburb}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}
         {{#first}} {{{state}}} || {{{county}}} {{/first}}
         {{{country}}}
 
@@ -392,7 +392,7 @@ BN:
         {{{attention}}}
         {{{house}}}
         {{{house_number}}}, {{{road}}} 
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}} 
         {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
@@ -427,7 +427,7 @@ BS:
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}} 
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}} 
         {{{county}}} 
         {{{country}}}
 
@@ -531,7 +531,7 @@ CN:
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{county}}}
-        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{state_district}}} || {{{region}}} || {{{village}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} || {{{region}}} || {{{village}}} {{/first}}
         {{{country}}}
 
 # China - English
@@ -542,7 +542,7 @@ CN_en:
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{county}}}
-        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{state_district}}} || {{{region}}} || {{{village}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} || {{{region}}} || {{{village}}} {{/first}}
         {{{country}}}
 
 # China - Chinese
@@ -552,7 +552,7 @@ CN_zh:
         {{{postcode}}} 
         {{#first}} {{{state_code}}} || {{{state}}} || {{{region}}} {{/first}}
         {{#first}} {{{state_district}}} || {{{county}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{road}}}
         {{{house_number}}} 
@@ -620,7 +620,7 @@ DE:
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{town}}} || {{{city}}} || {{{village}}} || {{{county}}} {{/first}}
+        {{#first}} {{{town}}} || {{{city}}} || {{{village}}} || {{{municipality}}} || {{{county}}} {{/first}}
         {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
         {{{country}}}
     
@@ -761,7 +761,7 @@ GA:
         {{{house}}}
         {{{house_number}}} {{{road}}} 
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{village}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
         {{{country}}}
 
 GB:
@@ -850,7 +850,7 @@ GT:
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{postcode}}}-{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{{postcode}}}-{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} || {{{state}}} {{/first}}
         {{{country}}}
     postformat_replace:
         - ["\n(\\d{5})- ","\n$1-"]
@@ -951,7 +951,7 @@ IE:
         {{{house}}}
         {{{house_number}}} {{{road}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}
         {{{county}}}
         {{{country}}}
     replace:
@@ -1481,7 +1481,7 @@ NP:
         {{{house}}}
         {{{road}}} {{{house_number}}} 
         {{#first}} {{{suburb}}} || {{{neighbourhood}}} || {{{city}}} {{/first}}
-        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} {{{postcode}}} 
+        {{#first}} {{{municipality}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} {{{postcode}}} 
         {{{country}}}
 
 # Nauru
@@ -1632,7 +1632,7 @@ RU:
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{island}}} || {{{village}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}
         {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
         {{{country}}}
 
@@ -1837,7 +1837,7 @@ TV:
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}
         {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{island}}} {{/first}}
         {{{country}}}
 
@@ -1852,7 +1852,7 @@ TW_zh:
     address_template: |
         {{{country}}}
         {{{postcode}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}
         {{{city_district}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{road}}}
@@ -1874,7 +1874,7 @@ UA:
         {{{house}}}
         {{{road}}}, {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{state_district}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} || {{{state}}} {{/first}}
         {{{postcode}}} 
         {{{country}}}
 
