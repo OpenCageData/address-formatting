@@ -240,5 +240,24 @@ expected:  |
     83 Avenue Jean Navarre
     38560 Champ-sur-Drac
     France
-
-
+#
+# hamlet and town
+#
+---
+description: 7.06073496297967,6.60534772183623
+components:
+    country: France
+    country_code: fr
+    county: Doubs
+    hamlet: Les Communaux
+    house_number: 20
+    municipality: Pontarlier
+    postcode: 25500
+    road: Rue Antoine de Roche
+    state: Bourgogne-Franche-Comté
+    state_code: BFC
+    town: Morteau
+expected:  |
+    20 Rue Antoine de Roche
+    25500 Morteau
+    France

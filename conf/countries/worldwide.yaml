@@ -22,7 +22,7 @@ generic3: &generic3 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{postcode}}} {{#first}} {{{village}}} || {{{town}}} || {{{city}}} || {{{state}}} {{/first}}        
+        {{{postcode}}} {{#first}} {{{town}}} || {{{village}}} || {{{city}}} || {{{municipality}}} || {{{state}}} {{/first}}        
         {{{country}}}
 
 # postcode after state
