@@ -1530,6 +1530,22 @@ TG:
     M: Maritime
     P: Plateaux
     S: Savanes
+TJ:
+    DU:
+      default: Душанбе
+      alt_en: Dushanbe
+    GB:
+      default: Вилояти Мухтори Кӯҳистони Бадахшон
+      alt_en: Gorno-Badakhshan Autonomous Region
+    KT:
+      default: Вилояти Хатлон
+      alt_en: Khatlon Region
+    RA:
+      default: Ноҳияҳои тобеи ҷумҳурӣ
+      alt_en: Districts of Republican Subordination
+    SU:
+      default: Вилояти Суғд
+      alt_en: Sughd Region
 TL:
     AL: Aileu
     AN: Ainaro
