@@ -1627,6 +1627,49 @@ SV:
     SV: San Vicente
     UN: Departamento de La Unión
     US: Departamento de Usulután
+SY:
+    DI:
+      default: محافظة دمشق
+      alt_en: Damascus Governorate
+    DR:
+      default: محافظة درعا
+      alt_en: Daraa Governorate
+    DY:
+      default: محافظة دير الزور
+      alt_en: Deir Ezzor Governorate
+    HA:
+      default: محافظة الحسكة
+      alt_en: Al-Hasaka Governorate
+    HI:
+      default: محافظة حمص
+      alt_en: Homs Governorate
+    HL:
+      default: محافظة حلب
+      alt_en: Aleppo Governorate
+    HM:
+      default: محافظة حماة
+      alt_en: Hama Governorate
+    ID:
+      default: محافظة إدلب
+      alt_en: Idlib Governorate
+    LA:
+      default: محافظة اللاذقية
+      alt_en: Latakia Governorate
+    QU:
+      default: محافظة القنيطرة
+      alt_en: Al-Qunaitra Governorate
+    RA:
+      default: محافظة الرقة
+      alt_en: Ar-Raqqah Governorate
+    RD:
+      default: محافظة ريف دمشق
+      alt_en: Rif Dimashq Governorate
+    SU:
+      default: محافظة السويداء
+      alt_en: As-Suwayda Governorate
+    TA:
+      default: محافظة طرطوس
+      alt_en: Tartus Governorate
 SZ:
     HH: Hhohho
     LU: Lubombo
