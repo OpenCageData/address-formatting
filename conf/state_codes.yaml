@@ -1315,6 +1315,40 @@ NZ:
     WGN: Wellington
     WKO: Waikato
     WTC: West Coast
+OM:
+    BJ:
+      default: محافظة جنوب الباطنة
+      alt_en: Al Batinah South Governorate
+    BS:
+      default: محافظة شمال الباطنة
+      alt_en: Al Batinah North Governorate
+    BU:
+      default: محافظة البريمي
+      alt_en: Al Buraymi Governorate
+    DA:
+      default: محافظة الداخلية
+      alt_en: Ad Dakhiliyah Governorate
+    MA:
+      default: مسقط
+      alt_en: Muscat
+    MU:
+      default: محافظة مسندم
+      alt_en: Musandam Governorate
+    SJ:
+      default: جنوب الشرقية
+      alt_en: Ash Sharqiyah South
+    SS:
+      default: شمال الشرقية
+      alt_en: Ash Sharqiyah North
+    WU:
+      default: محافظة الوسطى
+      alt_en: Al Wusta Governorate
+    ZA:
+      default: محافظة الظاهرة
+      alt_en: Ad Dhahirah Governorate
+    ZU:
+      default: محافظة ظفار
+      alt_en: Dhofar
 PE:
     AMA: Amazonas
     ANC: Ancash
