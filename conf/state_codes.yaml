@@ -1041,6 +1041,39 @@ KM:
 KN:
     K: Saint Kitts
     N: Nevis
+LB:
+    AK:
+      default: محافظة عكار
+      alt_en: Akkar Governorate
+      alt_fr: Gouvernorat de l'Akkar
+    AS:
+      default: محافظة الشمال
+      alt_en: North Governorate
+      alt_fr: Gouvernorat du Liban Nord
+    BA:
+      default: محافظة بيروت
+      alt_en: Beirut Governorate
+      alt_fr: Gouvernorat de Beyrouth
+    BH:
+      default: محافظة بعلبك الهرمل
+      alt_en: Baalbek-Hermel Governorate
+      alt_fr: Gouvernorat de Baalbek-Hermel
+    BI:
+      default: محافظة البقاع
+      alt_en: Beqaa Governorate
+      alt_fr: Gouvernorat de Beqaa
+    JA:
+      default: محافظة الجنوب
+      alt_en: South Governorate
+      alt_fr: Gouvernorat du Liban Sud
+    JL:
+      default: محافظة جبل لبنان
+      alt_en: Mount Lebanon Governorate
+      alt_fr: Gouvernorat du Mont Liban
+    NA:
+      default: محافظة النبطية
+      alt_en: Nabatiya Governorate
+      alt_fr: Gouvernorat de Nabatiyeh      
 LR:
     BG: Bong
     BM: Bomi
