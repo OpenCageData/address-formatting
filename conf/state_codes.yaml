@@ -1030,6 +1030,34 @@ IT:
     UMB: Umbria
     VAL: Valle d'Aosta
     VEN: Veneto
+KG:
+    B:
+      default: Баткенская область
+      alt_en: Batken Region
+    C:
+      default: Чуйская область
+      alt_en: Chuy Region
+    GB:
+      default: Бишкек
+      alt_en: Bishkek
+    GO:
+      default: Ош
+      alt_en: City of Osh
+    J:
+      default: Джалал-Абадская область
+      alt_en: Jalal-Abad Region
+    N:
+      default: Нарынская область
+      alt_en: Naryn Region
+    O:
+      default: Ошская область
+      alt_en: Osh Region
+    T:
+      default: Таласская область
+      alt_en: Talas Region
+    Y:
+      default: Иссык-Кульская область
+      alt_en: Issyk-Kul Region
 KI:
     G: Gilbert Islands
     L: Line Islands
@@ -1940,7 +1968,74 @@ VE:
     W: Dependencias Federales
     X: La Guaira
     Y: Delta Amacuro
-    Z: Amazonas    
+    Z: Amazonas
+YE:
+    AB:
+      default: محافظة أبين
+      alt_en: Abyan Governorate
+    AD:
+      default: محافظة عدن
+      alt_en: Aden Governorate
+    AM:
+      default: محافظة عمران
+      alt_en: Amran Governorate
+    BA:
+      default: محافظة البيضاء
+      alt_en: Al Bayda' Governorate
+    DA:
+      default: محافظة الضالع
+      alt_en: Ad Dali' Governorate
+    DH:
+      default: محافظة ذمار
+      alt_en: Dhamar Governorate
+    HD:
+      default: محافظة حضرموت
+      alt_en: Hadramaut Governorate
+    HJ:
+      default: محافظة حجة
+      alt_en: Hajjah Governorate
+    HU:
+      default: محافظة الحديدة
+      alt_en: Al Hudaydah Governorate
+    IB:
+      default: محافظة إب
+      alt_en: Ibb Governorate
+    JA:
+      default: محافظة الجوف
+      alt_en: Al Jawf Governorate
+    LA:
+      default: محافظة لحج
+      alt_en: Lahij Governorate
+    MA:
+      default: محافظة مأرب
+      alt_en: Marib Governorate
+    MR:
+      default: محافظة المهرة
+      alt_en: Al Mahrah Governorate
+    MW:
+      default: محافظة المحويت
+      alt_en: Al Mahwit Governorate
+    RA:
+      default: محافظة ريمة
+      alt_en: Raymah Governorate
+    SA:
+      default: أمانة العاصمة
+      alt_en: Amanat Al Asimah
+    SD:
+      default: محافظة صعدة
+      alt_en: Sa'dah Governorate
+    SH:
+      default: محافظة شبوة
+      alt_en: Shabwah Governorate
+    SN:
+      default: محافظة صنعاء
+      alt_en: Sana'a Governorate
+    SU:
+      default: محافظة أرخبيل سقطرى
+      alt_en: Socotra Governorate
+    TA:
+      default: محافظة تعز
+      alt_en: Ta'izz Governorate
 ZA:
     EC: Eastern Cape
     FS: Free State
