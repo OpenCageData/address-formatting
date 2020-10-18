@@ -1620,6 +1620,61 @@ SB:
     RB: Rennell and Bellona Province
     TE: Temotu Province
     WE: Western Province
+SD:
+    DC:
+      default: ولاية وسط دارفور
+      alt_en: Central Darfur
+    DE:
+      default: ولاية شرق دارفور
+      alt_en: East Darfur State
+    DN:
+      default: ولاية شمال دارفور
+      alt_en: North Darfur State
+    DS:
+      default: جنوب دارفور
+      alt_en: South Darfur State
+    DW:
+      default: ولاية غرب دارفور
+      alt_en: West Darfur State
+    GD:
+      default: القضارف
+      alt_en: Gedarif State
+    GK:
+      default: ولاية غرب كردفان
+      alt_en: West Kurdufan
+    GZ:
+      default: ولاية الجزيرة
+      alt_en: Gezira State
+    KA:
+      default: كسلا
+      alt_en: Kassala
+    KH:
+      default: ولاية الخرطوم
+      alt_en: Khartoum State
+    KN:
+      default: ولاية شمال كردفان
+      alt_en: North Kordofan State
+    KS:
+      default: ولاية جنوب كردفان
+      alt_en: South Kordofan State
+    NB:
+      default: ولاية النيل الأزرق
+      alt_en: Blue Nile State
+    NO:
+      default: الولاية الشمالية
+      alt_en: Northern State
+    NR:
+      default: نهر النيل
+      alt_en: River Nile
+    NW:
+      default: ولاية النيل الأبيض
+      alt_en: White Nile State
+    RS:
+      default: البحر الأحمر
+      alt_en: Red Sea State
+    SI:
+      default: سنار
+      alt_en: Sennar State
 SE:
     AB: Stockholms län
     AC: Västerbottens län
