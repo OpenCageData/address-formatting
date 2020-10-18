@@ -2024,6 +2024,13 @@ VE:
     X: La Guaira
     Y: Delta Amacuro
     Z: Amazonas
+VU:
+    MAP: Malampa
+    PAM: Penama
+    SAM: Sanma
+    SEE: Shefa
+    TAE: Tafea
+    TOB: Torba
 YE:
     AB:
       default: محافظة أبين
