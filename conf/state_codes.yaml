@@ -339,6 +339,28 @@ BW:
     SO: Southern
     SP: Selibe Phikwe
     ST: Sowa Town
+BY:
+    BR:
+      default: Брестская область
+      alt_en: Brest Region
+    HM:
+      default: Минск
+      alt_en: Minsk
+    HO:
+      default: Гомельская область
+      alt_en: Homel Region
+    HR:
+      default: Гродненская область
+      alt_en: Grodno Region
+    MA:
+      default: Могилёвская область
+      alt_en: Mahilyow Region
+    MI:
+      default: Минская область
+      alt_en: Minsk Region
+    VI:
+      default: Витебская область
+      alt_en: Vitsebsk Region
 BZ:
     BZ: Belize District
     CY: Cayo
