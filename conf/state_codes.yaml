@@ -1,3 +1,25 @@
+AE:
+    AJ:
+      default: عجمان
+      alt_en: Ajman Emirate
+    AZ:
+      default: أبو ظبي
+      alt_en: Abu Dhabi Emirate
+    DU:
+      default: دبي
+      alt_en: Dubai
+    FU:
+      default: فجيرة
+      alt_en: Fujairah Emirate
+    RK:
+      default: رأس الخيمة
+      alt_en: Ras al-Khaimah
+    SH:
+      default: الشارقة
+      alt_en: Sharjah Emirate
+    UQ:
+      default: أم القيوين
+      alt_en: Umm al-Quwain
 AM:
     AG: Aragac̣otn
     AR: Ararat
