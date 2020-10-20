@@ -1113,6 +1113,25 @@ KM:
 KN:
     K: Saint Kitts
     N: Nevis
+KW:
+    AH:
+      default: الاحمدي
+      alt_en: Ahmadi
+    FA:
+      default: الفروانية
+      alt_en: Farwaniya
+    HA:
+      default: حولي
+      alt_en: Hawalli
+    JA:
+      default: الجهراء
+      alt_en: Jahra
+    KU:
+      default: العاصمة
+      alt_en: Al Asimah
+    MU:
+      default: مبارك الكبير
+      alt_en: Mubarak Al-Kabeer
 LB:
     AK:
       default: محافظة عكار
@@ -1173,6 +1192,73 @@ LS:
     H: Qacha's Nek
     J: Mokhotlong
     K: Thaba-Tseka
+LY:
+    BA:
+      default: بنغازي
+      alt_en: Benghazi
+    BU:
+      default: البطنان
+      alt_en: Butnan
+    DR:
+      default: درنة
+      alt_en: Derna
+    GT:
+      default: غات
+      alt_en: Ghat
+    JA:
+      default: الجبل الأخضر
+      alt_en: Jabal al Akhdar
+    JG:
+      default: الجبل الغربي
+      alt_en: Jabal al Gharbi
+    JI:
+      default: الجفارة
+      alt_en: Jafara
+    JU:
+      default: الجفرة
+      alt_en: Jufra
+    KF:
+      default: الكفرة
+      alt_en: Kufra
+    MB:
+      default: المرقب
+      alt_en: Murqub
+    MI:
+      default: بني وليد
+      alt_en: Bani Walid
+    MJ:
+      default: المرج
+      alt_en: Marj
+    MQ:
+      default: مرزق
+      alt_en: Murzuq
+    NL:
+      default: نالوت
+      alt_en: Nalut
+    NQ:
+      default: النقاط الخمس
+      alt_en: Nuqat al Khams
+    SB:
+      default: سبها
+      alt_en: Sabha
+    SR:
+      default: سرت
+      alt_en: Sirte
+    TB:
+      default: طرابلس
+      alt_en: Tripoli
+    WA:
+      default: الواحات
+      alt_en: Al Wahat
+    WD:
+      default: وادي الحياة
+      alt_en: Wadi al Hayaa
+    WS:
+      default: وادي الشاطئ
+      alt_en: Wadi al Shatii
+    ZA:
+      default: الزاوية
+      alt_en: Zawiya
 MD:
     AN: Anenii Noi
     BA: Bălţi
