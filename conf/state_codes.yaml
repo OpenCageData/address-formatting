@@ -1831,6 +1831,31 @@ SH:
     AC: Ascension
     HL: Saint Helena
     TA: Tristan da Cunha
+SK:
+    BC:
+      default: Banskobystrický kraj
+      alt_en: Region of Banská Bystrica
+    BL:
+      default: Bratislavský kraj
+      alt_en: Region of Bratislava
+    KI:
+      default: Košický kraj
+      alt_en: Region of Košice
+    NI:
+      default: Nitrianský kraj
+      alt_en: Region of Nitra
+    PV:
+      default: Prešovský kraj
+      alt_en: Region of Prešov
+    TA:
+      default: Trnavský kraj
+      alt_en: Region of Trnava
+    TC:
+      default: Trenčianský kraj
+      alt_en: Region of Trenčín
+    ZI:
+      default: Žilinský kraj
+      alt_en: Region of Žilina
 SL:    
     E: Eastern
     N: Northern
