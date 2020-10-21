@@ -1331,7 +1331,9 @@ MX:
     GUA: Guanajuato
     HID: Hidalgo
     JAL: Jalisco
-    MEX: México
+    MEX:
+      default: Estado de México
+      alt_en: State of Mexico
     MIC:
       default: Michoacán de Ocampo
       alt_en: Michoacán
