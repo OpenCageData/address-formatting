@@ -1132,6 +1132,61 @@ KW:
     MU:
       default: مبارك الكبير
       alt_en: Mubarak Al-Kabeer
+LA:
+    AT:
+      default: ອັດຕະປື
+      alt_en: Attapeu
+    BK:
+      default: ບໍ່ແກ້ວ
+      alt_en: Bokeo Province
+    BL:
+      default: ບໍລິຄຳໄຊ
+      alt_en: Bolikhamsai
+    CH:
+      default: ຈຳປາສັກ
+      alt_en: Champasak Province
+    HO:
+      default: ຫົວພັນ
+      alt_en: Houaphanh
+    KH:
+      default: ຄໍາມ່ວນ
+      alt_en: Khammouane
+    LM:
+      default: ຫລວງນໍ້າທາ
+      alt_en: Luang Namtha
+    LP:
+      default: ຫລວງພະບາງ
+      alt_en: Luang Prabang
+    OU:
+      default: ອຸດົມໄຊ
+      alt_en: Oudomxay
+    PH:
+      default: ຜົ້ງສາລີ
+      alt_en: Phongsaly
+    SL:
+      default: ສາລະວັນ
+      alt_en: Salavan Province
+    SV:
+      default: ສະຫວັນນະເຂດ
+      alt_en: Savannakhet Province
+    VI:
+      default: ວຽງຈັນ
+      alt_en: Vientiane Province
+    VT:
+      default: ນະຄອນຫຼວງວຽງຈັນ
+      alt_en: Vientiane Prefecture
+    XA:
+      default: ໄຊຍະບູລີ
+      alt_en: Sainyabuli Province
+    XE:
+      default: ເຊກອງ
+      alt_en: Sekong Province
+    XI:
+      default: ຊຽງຂວາງ
+      alt_en: Xiangkhouang Province
+    XS:
+      default: ໄຊສົມບູນ
+      alt_en: Xaisomboun Province
 LB:
     AK:
       default: محافظة عكار
