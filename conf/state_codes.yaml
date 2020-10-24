@@ -1247,6 +1247,67 @@ LS:
     H: Qacha's Nek
     J: Mokhotlong
     K: Thaba-Tseka
+LT:
+    AL:
+      default: Alytaus apskritis
+      alt_en: Alytus County
+    AL:
+      default: Alytaus apskritis
+      alt_en: Alytus County
+    KL:
+      default: Klaipėdos apskritis
+      alt_en: Klaipeda County
+    KL:
+      default: Klaipėdos apskritis
+      alt_en: Klaipeda County
+    KU:
+      default: Kauno apskritis
+      alt_en: Kaunas County
+    KU:
+      default: Kauno apskritis
+      alt_en: Kaunas County
+    MR:
+      default: Marijampolės apskritis
+      alt_en: Marijampole County
+    MR:
+      default: Marijampolės apskritis
+      alt_en: Marijampole County
+    PN:
+      default: Panevėžio apskritis
+      alt_en: Panevezys County
+    PN:
+      default: Panevėžio apskritis
+      alt_en: Panevezys County
+    SA:
+      default: Šiaulių apskritis
+      alt_en: Siauliai County
+    SA:
+      default: Šiaulių apskritis
+      alt_en: Siauliai County
+    TA:
+      default: Tauragės apskritis
+      alt_en: Taurage County
+    TA:
+      default: Tauragės apskritis
+      alt_en: Taurage County
+    TE:
+      default: Telšių apskritis
+      alt_en: Telsiai County
+    TE:
+      default: Telšių apskritis
+      alt_en: Telsiai County
+    UT:
+      default: Utenos apskritis
+      alt_en: Utena County
+    UT:
+      default: Utenos apskritis
+      alt_en: Utena County
+    VL:
+      default: Vilniaus apskritis
+      alt_en: Vilnius County
+    VL:
+      default: Vilniaus apskritis
+      alt_en: Vilnius County
 LY:
     BA:
       default: بنغازي
