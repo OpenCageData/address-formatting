@@ -20,6 +20,109 @@ AE:
     UQ:
       default: أم القيوين
       alt_en: Umm al-Quwain
+AF:
+    BAL:
+      default: ولایت بلخ
+      alt_en: Balkh Province
+    BAM:
+      default: ولایت بامیان
+      alt_en: Bamyan
+    BDG:
+      default: ولایت بادغیس
+      alt_en: Badghis
+    BDS:
+      default: ولایت بدخشان
+      alt_en: Badakhshan Province
+    BGL:
+      default: ولایت بغلان
+      alt_en: Baghlan Province
+    DAY:
+      default: ولایت دایکندی
+      alt_en: Daykundi
+    FRA:
+      default: ولایت فراه
+      alt_en: Farah Province
+    FYB:
+      default: ولایت فاریاب
+      alt_en: Faryab
+    GHA:
+      default: ولایت غزنی
+      alt_en: Ghazni Province
+    GHO:
+      default: غور
+      alt_en: Ghor
+    HEL:
+      default: هلمند ولايت
+      alt_en: Helmand
+    HER:
+      default: ولایت هرات
+      alt_en: Herat Province
+    JOW:
+      default: ولایت جوزجان
+      alt_en: Jowzjan Province
+    KAB:
+      default: ولایت كابل
+      alt_en: Kabul Province
+    KAN:
+      default: کندهار ولايت
+      alt_en: Kandahar
+    KAP:
+      default: ولایت کاپیسا
+      alt_en: Kapisa Province
+    KDZ:
+      default: ولایت کندز
+      alt_en: Kunduz Province
+    KHO:
+      default: خوست ولايت
+      alt_en: Khost Province
+    KNR:
+      default: کونړ ولايت
+      alt_en: Kunar Province
+    LAG:
+      default: لغمان ولايت
+      alt_en: Laghman Province
+    LOG:
+      default: لوگر ولايت
+      alt_en: Logar Province
+    NAN:
+      default: ننگرهار ولايت
+      alt_en: Nangarhar Province
+    NIM:
+      default: ولایت نیمروز
+      alt_en: Nimruz Province
+    NUR:
+      default: نورستان ولایت
+      alt_en: Nuristan Province
+    PAN:
+      default: ولایت پنجشیر
+      alt_en: Panjshir Province
+    PAR:
+      default: ولایت پروان
+      alt_en: Parwan Province
+    PIA:
+      default: پکتيا ولايت
+      alt_en: Paktia Province
+    PKA:
+      default: پکتيکا ولايت
+      alt_en: Paktika Province
+    SAM:
+      default: ولایت سمنگان
+      alt_en: Samangan
+    SAR:
+      default: سرپل
+      alt_en: Sar-e Pol Province
+    TAK:
+      default: ولایت تخار
+      alt_en: Takhar
+    URU:
+      default: روزگان ولايت
+      alt_en: Urōzgān
+    WAR:
+      default: ميدان وردگ ولايت
+      alt_en: Maidan Wardak
+    ZAB:
+      default: زابل ولايت
+      alt_en: Zabul Province
 AM:
     AG: Aragac̣otn
     AR: Ararat
