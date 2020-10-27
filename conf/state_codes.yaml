@@ -2108,6 +2108,13 @@ SS:
     NU: Upper Nile
     UY: Unity
     WR: Warrap
+ST:
+    P:
+      default: Província de Príncipe
+      alt_en: Príncipe Province
+    S:
+      default: Província de São Tomé
+      alt_en: São Tomé Province
 SV:
     AH: Departamento de Ahuachapán
     CA: Departamento de Cabañas
