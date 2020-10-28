@@ -1177,6 +1177,43 @@ IT:
     UMB: Umbria
     VAL: Valle d'Aosta
     VEN: Veneto
+JO:
+    AJ:
+      default: عجلون
+      alt_en: Ajlun
+    AM:
+      default: عمان
+      alt_en: Amman
+    AQ:
+      default: العقبة
+      alt_en: Aqaba
+    AT:
+      default: الطفيلة
+      alt_en: Tafilah
+    AZ:
+      default: الزرقاء
+      alt_en: Zarqa
+    BA:
+      default: البلقاء
+      alt_en: Balqa
+    IR:
+      default: إربد
+      alt_en: Irbid
+    JA:
+      default: جرش
+      alt_en: Jarash
+    KA:
+      default: الكرك
+      alt_en: Karak
+    MA:
+      default: المفرق
+      alt_en: Mafraq
+    MD:
+      default: مادبا
+      alt_en: Madaba
+    MN:
+      default: معان
+      alt_en: Maan
 KG:
     B:
       default: Баткенская область
