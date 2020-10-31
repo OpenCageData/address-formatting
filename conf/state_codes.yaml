@@ -927,7 +927,44 @@ GB:
     ENG: England
     NIR: Northern Ireland
     SCT: Scotland
-    WLS: Wales    
+    WLS: Wales
+GE:
+    AB:
+      default: აფხაზეთის ავტონომიური რესპუბლიკა - Аҧсны Автономтә Республика
+      alt_en: Autonomous Republic of Abkhazia
+    AJ:
+      default: აჭარის ავტონომიური რესპუბლიკა
+      alt_en: Autonomous Republic of Adjara
+    GU:
+      default: გურია
+      alt_en: Guria
+    IM:
+      default: იმერეთი
+      alt_en: Imereti
+    KA:
+      default: კახეთი
+      alt_en: Kakheti
+    KK:
+      default: ქვემო ქართლი
+      alt_en: Lower Kartli
+    MM:
+      default: მცხეთა-მთიანეთი
+      alt_en: Mtskheta-Mtianeti
+    RL:
+      default: რაჭა-ლეჩხუმი და ქვემო სვანეთი
+      alt_en: Racha-Lechkhumi and Lower Svaneti
+    SJ:
+      default: სამცხე-ჯავახეთი
+      alt_en: Samtskhe-Javakheti
+    SK:
+      default: შიდა ქართლი
+      alt_en: Inner Kartli
+    SZ:
+      default: სამეგრელო-ზემო სვანეთი
+      alt_en: Samegrelo-Upper Svaneti
+    TB:
+      default: თბილისი
+      alt_en: Tbilisi
 GH:
     AA: Greater Accra
     AH: Ashanti
