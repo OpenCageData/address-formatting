@@ -841,6 +841,37 @@ EC:
     X: Cotopaxi
     Y: Pastaza
     Z: Zamora Chinchipe
+ER:
+    AN:
+      default: ዞባ ዓንሰባ Anseba عنسبا
+      alt_ar: عنسبا
+      alt_en: Anseba
+      alt_ti: ዞባ ዓንሰባ
+    DK:
+      default: ዞባ ደቡባዊ ቀይሕ ባሕሪ southern Red Sea Zone جنوب البحر الأحمر
+      alt_ar: جنوب البحر الأحمر
+      alt_en: Southern Red Sea Region
+      alt_ti: ዞባ ደቡባዊ ቀይሕ ባሕሪ
+    DU:
+      default: ዞባ ደቡብ Debub منطقة الجنوب
+      alt_ar: منطقة الجنوب
+      alt_en: Debub Region
+      alt_ti: ዞባ ደቡብ
+    GB:
+      default: ጋሽ-ባርካ Gash barka القاش وبركة
+      alt_ar: القاش وبركة
+      alt_en: Gash-Barka
+      alt_ti: ጋሽ-ባርካ
+    MA:
+      default: ዞባ ማእከል Maekel zone المنطقة المركزية
+      alt_ar: المنطقة المركزية
+      alt_en: Maekel Region
+      alt_ti: ዞባ ማእከል
+    SK:
+      default: ዞባ ሰሜናዊ ቀይሕ ባሕሪ Northern Red Sea zone شمال البحر الأحمر
+      alt_ar: شمال البحر الأحمر
+      alt_en: Northen Red Sea Region
+      alt_ti: ዞባ ሰሜናዊ ቀይሕ ባሕሪ
 ES:
     AN :
       default: Andalucía
