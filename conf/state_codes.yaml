@@ -1949,52 +1949,52 @@ PK:
     SD: Sindh
     TA: Federally Administered Tribal Areas
 PL:
-    DS:
+    "02":
       default: województwo dolnośląskie
       alt_en: Lower Silesian Voivodeship
-    KP:
+    "04":
       default: województwo kujawsko-pomorskie
-      alt_en: Kuyavian-Pomeranian Voivodeship       
-    LB:
-      default: województwo lubuskie
-      alt_en: Lubusz Voivodeship      
-    LD:
-      default: województwo łódzkie
-      alt_en: Łódź Voivodeship       
-    LU:
+      alt_en: Kuyavian-Pomeranian Voivodeship
+    "06":
       default: województwo lubelskie
       alt_en: Lublin Voivodeship
-    MA:
+    "08":
+      default: województwo lubuskie
+      alt_en: Lubusz Voivodeship      
+    "10":
+      default: województwo łódzkie
+      alt_en: Łódź Voivodeship
+    "12":
+      default: województwo małopolskie
+      alt_en: Lesser Poland Voivodeship
+    "14":
       default: województwo mazowieckie
       alt_en: Masovian Voivodeship      
-    MP:
-      default: województwo małopolskie
-      alt_en: Lesser Poland Voivodeship       
-    OP:
+    "16":
       default: województwo opolskie
-      alt_en: Opole Voivodeship      
-    PD:
-      default: województwo podlaskie
-      alt_en: Podlaskie Voivodeship
-    PK:
+      alt_en: Opole Voivodeship
+    "18":
       default: województwo podkarpackie
       alt_en: Subcarpathian Voivodeship      
-    PM:
+    "20":
+      default: województwo podlaskie
+      alt_en: Podlaskie Voivodeship
+    "22":
       default: województwo pomorskie
-      alt_en: Pomeranian Voivodeship      
-    SK:
-      default: województwo świętokrzyskie
-      alt_en: Świętokrzyskie Voivodeship      
-    SL:
+      alt_en: Pomeranian Voivodeship
+    "24":
       default: województwo śląskie
       alt_en: Silesian Voivodeship
-    WM:
+    "26":
+      default: województwo świętokrzyskie
+      alt_en: Świętokrzyskie Voivodeship      
+    "28":
       default: województwo warmińsko-mazurskie
       alt_en: Warmian-Masurian Voivodeship
-    WP:
+    "30":
       default: województwo wielkopolskie
       alt_en: Greater Poland Voivodeship
-    ZP:
+    "32":
       default: województwo zachodniopomorskie
       alt_en: West Pomeranian Voivodeship
 RO:
