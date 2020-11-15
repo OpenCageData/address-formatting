@@ -1400,6 +1400,58 @@ LA:
     XS:
       default: ໄຊສົມບູນ
       alt_en: Xaisomboun Province
+KZ:
+    AKM:
+      default: Акмолинская область
+      alt_en: Akmola Region
+    AKT:
+      default: Актюбинская область
+      alt_en: Aktobe Region
+    ALA:
+      default: Алматы
+      alt_en: Almaty
+    ALM:
+      default: Алматинская область
+      alt_en: Almaty Region
+    AST:
+      default: Нур-Султан
+      alt_en: Nur-Sultan
+    ATY:
+      default: Атырауская область
+      alt_en: Atyrau Region
+    KAR:
+      default: Карагандинская область
+      alt_en: Karaganda Region
+    KUS:
+      default: Костанайская область
+      alt_en: Kostanay Region
+    KZY:
+      default: Кызылординская область
+      alt_en: Kyzylorda Region
+    MAN:
+      default: Мангистауская область
+      alt_en: Mangystau Region
+    PAV:
+      default: Павлодарская область
+      alt_en: Pavlodar Region
+    SEV:
+      default: Северо-Казахстанская область
+      alt_en: North Kazakhstan Region
+    SHY:
+      default: Шымкент
+      alt_en: Shymkent Region
+    VOS:
+      default: Восточно-Казахстанская область
+      alt_en: East Kazakhstan Region
+    YUZ:
+      default: Туркестанская область
+      alt_en: Turkistan Region
+    ZAP:
+      default: Западно-Казахстанская область
+      alt_en: West Kazakhstan Region
+    ZHA:
+      default: Жамбылская область
+      alt_en: Jambyl Region
 LB:
     AK:
       default: محافظة عكار
