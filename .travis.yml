@@ -4,7 +4,7 @@ perl:
 env: PERL_CPANM_OPT="--notest --force --skip-satisfied"
 install:
 - cpanm File::Find::Rule~0.34
-- cpanm Geo::Address::Formatter~1.83
+- cpanm Geo::Address::Formatter~1.85
 script:
 - bin/run_tests.t
 notifications:
