@@ -2049,6 +2049,31 @@ PL:
     "32":
       default: województwo zachodniopomorskie
       alt_en: West Pomeranian Voivodeship
+QA:
+    DA:
+      default: الدوحة
+      alt_en: Doha
+    KH:
+      default: الخور والذخيرة
+      alt_en: Al Khor and Al Thakhira
+    MS:
+      default: الشمال
+      alt_en: Ash Shamal
+    RA:
+      default: الريان
+      alt_en: Ar Rayyan
+    SH:
+      default: الشحانية
+      alt_en: Al Shahaniya
+    US:
+      default: أم صلال
+      alt_en: Umm Salal
+    WA:
+      default: الوكرة
+      alt_en: Al Wakrah
+    ZA:
+      default: الضعاين
+      alt_en: Al Daayen
 RO:
     AB: Alba
     AG: Argeş
