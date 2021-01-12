@@ -72,6 +72,8 @@ name: region
 ---
 name: island
 ---
+name: archipelago
+---
 name: country
 aliases:
     - country_name
