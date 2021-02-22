@@ -878,7 +878,7 @@ HK:
         {{{house}}}
         {{{house_number}}} {{{road}}} 
         {{{state_district}}}
-        {{{state}}}
+        {{#first}} {{{state}}} || {{{country}}} {{/first}}
 
 # Hong Kong - English
 HK_en:
