@@ -7,7 +7,6 @@ This project contains templates and test cases for address formats used in terri
 ### Build Status
 
 [![Build Status](https://travis-ci.org/OpenCageData/address-formatting.svg?branch=master)](https://travis-ci.org/OpenCageData/address-formatting)
-
 [![Twitter Follow](https://img.shields.io/twitter/follow/OpenCage?label=Follow%20OpenCage&style=social)](https://twitter.com/opencage)
 
 ### An example:
