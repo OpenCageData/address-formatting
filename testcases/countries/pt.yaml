@@ -14,3 +14,25 @@ expected:  |
     Avenida Conselheiro Barjona de Freitas 11
     1500-203 Lisbon
     Portugal
+---
+# Guest house in the Azores
+description: 37.74851,-25.60450
+components:
+    archipelago: Azores
+    city: Ponta Delgada
+    city_district: Rosto do Cão (Livramento)
+    country: Portugal
+    country_code: pt
+    guest_house: Casa Do Populo
+    house_number: 1015
+    neighbourhood: Livramento
+    postcode: 9500-614
+    road: Rua Padre Domingos da Silva Costay
+    state_district: São Miguel
+expected:  |
+    Casa Do Populo
+    Rua Padre Domingos da Silva Costay 1015
+    9500-614 Ponta Delgada
+    Azores
+    Portugal
+
