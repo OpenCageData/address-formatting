@@ -15,7 +15,7 @@ generic2: &generic2 |
         {{{attention}}}
         {{#first}} {{{house}}}, {{{quarter}}} || {{{house}}} {{/first}}
         {{{house_number}}} {{{road}}}
-        {{#first}} {{{village}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{county}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{village}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{county}}} {{/first}} {{{postcode}}}
         {{#first}} {{{country}}} || {{{state}}} {{/first}}
 
 # postcode before city

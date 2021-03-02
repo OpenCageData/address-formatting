@@ -180,3 +180,24 @@ expected:  |
     64 Melbourne Road
     London E10
     United Kingdom
+---
+description: Prefer town over city (Ossett vs Wakefield)
+components:
+    building: Orchard House
+    city: Wakefield
+    country: United Kingdom
+    country_code: gb
+    county: West Yorkshire
+    postcode: WF5 8PG
+    road: West Wells Road
+    state: England
+    state_code: ENG
+    state_district: Yorkshire and the Humber
+    town: Ossett
+expected:  |
+    Orchard House
+    West Wells Road
+    Ossett WF5 8PG
+    United Kingdom
+
+
