@@ -28,7 +28,6 @@ components:
 expected:  |
     Kilkenny
     Ireland
-
 ---
 # Friar's Hill - 52.54593995, -6.95706874120767
 description: Friar's Hill, Graiguenamanagh
@@ -44,7 +43,6 @@ expected:  |
     Graiguenamanagh
     County Kilkenny
     Ireland
-
 ---
 # 53.3388,-6.2691
 description: condense "Dublin, County Dublin"
@@ -67,7 +65,6 @@ expected:  |
     Wood Quay A ED
     Dublin
     Ireland
-
 ---
 # 52.6726,-8.6407
 description: remove "The Metropolitan District of"
@@ -87,3 +84,26 @@ expected:  |
     Farranshone
     Limerick
     Ireland
+---
+# 53.49137,-10.02117
+description: no "Electoral Division"
+components:
+    city_district: Clifden Electoral Division
+    continent: Europe
+    country: Ireland
+    country_code: ie
+    county: County Galway
+    county_code: G
+    guest_house: Connemara Country Lodge
+    region: Conamara Municipal District
+    road: N59
+    state: Connacht
+    state_code: C
+    town: Clifden
+expected:  |
+    Connemara Country Lodge
+    N59
+    Clifden
+    County Galway
+    Ireland
+    

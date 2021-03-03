@@ -959,6 +959,8 @@ IE:
         - [" City$",""]
         - ["The Municipal District of ",""]
         - ["The Metropolitan District of ",""]
+        - ["Municipal District",""]
+        - ["Electoral Division",""]        
     postformat_replace:
         - ["Dublin\nCounty Dublin","Dublin"]
         - ["Galway\nCounty Galway","Galway"]
