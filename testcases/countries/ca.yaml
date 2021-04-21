@@ -65,6 +65,18 @@ expected:  |
     McMurchy Avenue South
     Brampton, ON L6Y 1Z4
     Canada
+---
+# 43.6666,-79.7482
+description: just county
+components:
+     country: Canada
+     country_code: ca
+     county: Springfield
+     state: Manitoba
+expected:  |
+    Springfield, MB
+    Canada
+
 
 
 
