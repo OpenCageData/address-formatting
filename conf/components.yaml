@@ -48,6 +48,7 @@ name: postal_city
 name: city
 aliases:
     - town
+    - township
 ---
 name: municipality
 aliases:
