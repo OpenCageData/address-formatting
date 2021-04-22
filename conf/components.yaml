@@ -44,6 +44,7 @@ aliases:
     - houses
     - subdistrict    
     - subdivision
+    - ward
 ---
 name: postal_city    
 ---
