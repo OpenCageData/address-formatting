@@ -17,6 +17,20 @@ expected:  |
     Avenue Nelson Mandela
     Ouagadougou
     Burkina Faso
-
+---
+description: village, Bank in Ouagadougou, 10.5450,-4.5787
+components:
+    country: Burkina Faso
+    country_code: bf
+    department: Tiéfora
+    province: Comoé
+    road: unnamed road
+    village: Bondorola
+expected:  |
+    unnamed road
+    Bondorola
+    Tiéfora
+    Comoé
+    Burkina Faso
 
 
