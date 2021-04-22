@@ -9,6 +9,7 @@ aliases:
     - public_building
     - isolated_dwelling
     - farmland
+    - allotments
 ---
 name: road
 aliases:
@@ -43,7 +44,6 @@ aliases:
     - houses
     - subdistrict    
     - subdivision
-    - allotments
 ---
 name: postal_city    
 ---
