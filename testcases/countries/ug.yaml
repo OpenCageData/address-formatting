@@ -18,6 +18,19 @@ expected:  |
     6/6A Kampala Road
     Kampala
     Uganda
+---
+description: subcounty
+components:
+    country: Uganda
+    country_code: ug
+    state: Arua
+    subcounty: Ayivuni
+expected:  |
+    Ayivuni
+    Arua
+    Uganda
+
+
 
 
 
