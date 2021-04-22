@@ -8,6 +8,7 @@ aliases:
     - building
     - public_building
     - isolated_dwelling
+    - farmland
 ---
 name: road
 aliases:
@@ -58,7 +59,6 @@ aliases:
 name: county
 aliases:
     - county_code
-    - department
 ---
 name: state_district
 ---

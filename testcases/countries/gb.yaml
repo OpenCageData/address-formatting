@@ -199,5 +199,21 @@ expected:  |
     West Wells Road
     Ossett WF5 8PG
     United Kingdom
+---
+description: Farmland 
+components:
+    country: United Kingdom
+    country_code: gb
+    county: York
+    farmland: Fair Field
+    hamlet: Kexby
+    state: England
+    state_district: Yorkshire and the Humber
+expected:  |
+    Fair Field
+    Kexby
+    York
+    England
+    United Kingdom
 
 
