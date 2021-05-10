@@ -1,0 +1,28 @@
+# Dummy test country to check that we fall back to the defaults
+---
+description: generic format
+components:
+    city: City
+    country: Null Island
+    country_code: XX
+    county: County
+    house_number: 123
+    postcode: PCPCPC
+    road: Main Street
+    state: State
+    suburb: The Hood
+expected:  |
+    Main Street 123
+    PCPCPC City
+    Null Island
+---
+description: generic fallback
+components:
+    city: City
+    country: Null Island
+    country_code: XX
+    state: State
+expected:  |
+    City
+    State
+    Null Island
