@@ -220,6 +220,24 @@ expected:  |
     83700 Saint-Raphaël
     France
 #
+# Paris, remove Arrondissement
+#
+---
+description: 48.8564, 2.2961
+components:
+    city: Paris 7e Arrondissement
+    country: France
+    country_code: fr
+    house_number: 15
+    postcode: 75007
+    state: Île-de-France
+    state_district: Paris
+    street: Avenue Charles Floquet
+expected:  |
+    15 Avenue Charles Floquet
+    75007 Paris
+    France
+#
 # village and municpality
 #
 ---

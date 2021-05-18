@@ -755,6 +755,8 @@ FR:
         - ["Grande Terre et récifs d'Entrecasteaux",""]
         - ["France, Nouvelle-Calédonie","Nouvelle-Calédonie, France"]
         - ["\\(eaux territoriales\\)",""]
+        - ["Paris (\\d+)(\\w+) Arrondissement$","Paris"]
+        
 
 # Gabon
 GA:
