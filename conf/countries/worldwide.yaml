@@ -356,8 +356,14 @@ BD:
         {{{country}}}
 
 # Belgium
-BE: 
-    address_template: *generic1
+BE:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} || {{{county}}} || {{{state}}} {{/first}}
+        {{{archipelago}}}
+        {{{country}}}
 
 # Burkina Faso
 BF:

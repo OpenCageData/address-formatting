@@ -18,3 +18,21 @@ expected:  |
     Vrijheidstraat 63
     2000 Antwerp
     Belgium
+---
+description: prefer municipality over hamlet, 50.5689247, 5.3918483
+components:
+        country: België
+        country_code: be
+        county: Huy
+        hamlet: Clermont-sous-Huy
+        house_number: 187
+        municipality: Engis
+        postcode: 4480
+        region: Wallonia
+        road: Chaussée de Liège
+        state: Liège
+expected:  |
+    Chaussée de Liège 187
+    4480 Engis
+    België
+
