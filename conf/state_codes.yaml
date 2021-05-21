@@ -321,6 +321,7 @@ BE:
       alt_fr: Anvers
     VBR:
       default: Vlaams Brabant
+      alt_de: Flämisch-Brabant      
       alt_en: Flemish Brabant
       alt_fr: Brabant flamand
     VLI:
@@ -332,14 +333,17 @@ BE:
       alt_fr: Flandre orientale
     VWV:
       default: West-Vlaanderen
+      alt_de: Westflandern      
       alt_en: West Flanders
       alt_fr: Flandre-Occidentale
     WBR:
       default: Brabant wallon
+      alt_de: Wallonisch-Brabant
       alt_en: Walloon Brabant
       alt_nl: Waals-Brabant
     WHT:
       default: Hainaut
+      alt_de: Hennegau
       alt_nl: Henegouwen
     WLG:
       default: Liège
