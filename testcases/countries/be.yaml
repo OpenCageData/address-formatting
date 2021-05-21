@@ -35,4 +35,21 @@ expected:  |
     Chaussée de Liège 187
     4480 Engis
     België
+---
+description: prefer village over municipality 50.84201, 4.11871
+components:
+    country: Belgium
+    country_code: be
+    county: Halle-Vilvoorde
+    municipality: Roosdaal
+    postcode: 1760
+    region: Flanders
+    road: Kerkveldstraat
+    state: Flemish Brabant
+    village: Strijtem
+expected:  |
+    Kerkveldstraat
+    1760 Strijtem
+    Belgium
+
 

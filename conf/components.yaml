@@ -24,11 +24,12 @@ aliases:
     - square
     - place
 ---
-name: village
+name: hamlet
 aliases:
-    - hamlet
     - locality
     - croft
+---
+name: village
 ---
 name: neighbourhood
 aliases:
