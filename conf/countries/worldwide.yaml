@@ -992,8 +992,8 @@ IL:
     address_template: *generic1
 
 # Isle of Man
-IM: 
-    address_template: *generic2
+IM:
+    use_country: GB
 
 # India
 # http://en.wikipedia.org/wiki/Address_%28geography%29#India
