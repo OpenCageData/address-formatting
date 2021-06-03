@@ -15,7 +15,8 @@ components:
 expected:  |
     Lokku Ltd
     82 Clerkenwell Road
-    London EC1M 5RF
+    London
+    EC1M 5RF
     United Kingdom
     
 ---
@@ -92,7 +93,8 @@ components:
 expected:  |
     University of Westminster
     115 New Cavendish Street
-    London W1T 5DU
+    London
+    W1T 5DU
     United Kingdom
 ---
 description: village in Cambridgeshire, 52.281523,-0.115179
@@ -107,7 +109,8 @@ components:
     town: Huntingdonshire
     village: Hilton
 expected:  |
-    Hilton PE28 9QA
+    Hilton
+    PE28 9QA
     United Kingdom
 ---
 description: Willoughby House, Barbican
@@ -125,7 +128,8 @@ components:
 expected:  |
     Willoughby House, Barbican
     Moor Lane
-    London EC2Y 9DP
+    London
+    EC2Y 9DP
     United Kingdom
 ---
 description: City of Nottingham
@@ -142,7 +146,8 @@ components:
     suburb: St Ann's
 expected:  |
     121 Abbotsford Drive
-    Nottingham NG3 1NB
+    Nottingham
+    NG3 1NB
     United Kingdom
 ---
 description: London Borough of Waltham Forest
@@ -160,7 +165,8 @@ components:
     suburb: Leyton
 expected:  |
     64 Melbourne Road
-    London E10
+    London
+    E10
     United Kingdom
 ---
 description: London Borough of Waltham Forest - partial_postcode
@@ -178,7 +184,8 @@ components:
     suburb: Leyton
 expected:  |
     64 Melbourne Road
-    London E10
+    London
+    E10
     United Kingdom
 ---
 description: Prefer town over city (Ossett vs Wakefield)
@@ -197,7 +204,8 @@ components:
 expected:  |
     Orchard House
     West Wells Road
-    Ossett WF5 8PG
+    Ossett
+    WF5 8PG
     United Kingdom
 ---
 description: Farmland 

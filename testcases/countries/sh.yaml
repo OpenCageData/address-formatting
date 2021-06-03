@@ -26,7 +26,8 @@ components:
         state: Tristan da Cunha
 expected:  |
     Prince Philip Hall
-    Edinburgh of the Seven Seas TDCU 1ZZ
+    Edinburgh of the Seven Seas
+    TDCU 1ZZ
     Tristan da Cunha
     United Kingdom
 
