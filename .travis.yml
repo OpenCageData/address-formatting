@@ -1,10 +1,11 @@
 language: perl
 perl:
 - '5.30'
+- '5.32'
 env: PERL_CPANM_OPT="--notest --force --skip-satisfied"
 install:
 - cpanm File::Find::Rule~0.34
-- cpanm Geo::Address::Formatter~1.85
+- cpanm Geo::Address::Formatter
 script:
 - bin/run_tests.t
 notifications:
