@@ -488,13 +488,13 @@ CA:
         {{{attention}}}
         {{{house}}}
         {{#first}} {{{house_number}}} {{{road}}} || {{{suburb}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{state_district}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
     fallback_template: |
         {{{attention}}}
         {{{house}}}
         {{#first}} {{{house_number}}} {{{road}}} || {{{suburb}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} || {{{hamlet}}} || {{{county}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{county}}} || {{{state_district}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
         {{{country}}}
     postformat_replace:
         # fix the postcode to make it \w\w\w \w\w\w
