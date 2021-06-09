@@ -1,10 +1,10 @@
 ---
 description: Lokku office
 components:
-    city: London Borough of Islington
+    city: London
+    city_district: London Borough of Islington
     country: United Kingdom
     country_code: GB
-    county: London
     house: Lokku Ltd
     house_number: 82
     postcode: EC1M 5RF
@@ -64,7 +64,8 @@ expected:  |
 ---
 description: just a suburb
 components:
-    city: London Borough of Islington
+    city: London
+    city_district: London Borough of Islington
     country: United Kingdom
     country_code: gb
     county: London

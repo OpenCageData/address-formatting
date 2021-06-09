@@ -793,7 +793,7 @@ GB:
         - ["^Parish of ",""]
         - ["^Central ",""]
         - ["^Greater London","London"]
-        - ["^London Borough of .+","London"]
+        - ["^London Borough of ",""]
         - ["Royal Borough of ",""]
         - ["County Borough of ",""]        
     postformat_replace:
