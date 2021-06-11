@@ -127,8 +127,9 @@ components:
     state: England
     state_district: Greater London
 expected:  |
-    Willoughby House, Barbican
+    Willoughby House
     Moor Lane
+    Barbican
     London
     EC2Y 9DP
     United Kingdom

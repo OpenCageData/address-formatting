@@ -192,8 +192,9 @@ generic22: &generic22 |
 # postcode on own line
 generic23: &generic23 |
         {{{attention}}}
-        {{#first}} {{{house}}}, {{{quarter}}} || {{{house}}} {{/first}}
+        {{house}}
         {{{house_number}}} {{{road}}}
+        {{quarter}}
         {{#first}} {{{village}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{hamlet}}} || {{{county}}} {{/first}}
         {{{postcode}}}
         {{#first}} {{{country}}} || {{{state}}} {{/first}}
