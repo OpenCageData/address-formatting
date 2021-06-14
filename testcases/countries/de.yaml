@@ -182,7 +182,7 @@ components:
         country: Germany
         country_code: de
         county: Aschaffenburg
-        postcode: 63739,63741,63743
+        postcode: '63739,63741,63743'
         road: Haselmühlweg
         state: Free State of Bavaria
         state_district: Lower Franconia
