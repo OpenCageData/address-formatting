@@ -588,7 +588,10 @@ CO:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{country}}}
     postformat_replace:
+        - ["Localidad "," "]    
         - ["Bogota, Bogota","Bogota"]
+        - ["Bogota, Bogotá Distrito Capital","Bogota"]
+        - ["Bogotá, Bogotá Distrito Capital","Bogotá"]
 
 # Costa Rica
 CR:
