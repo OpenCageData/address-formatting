@@ -52,7 +52,7 @@ Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-a
 Our goal with this repository is a series of (programming) language independent templates. Those templates can then be processed by whatever software you like. 
 
 There are open-source implementations in
-
+  * [Elixir](https://github.com/dkuku/ex_address_formatting)
   * [Java](https://github.com/placemarkt/address-formatter-java)
   * [Javascript](https://github.com/fragaria/address-formatter)
   * [Perl](https://metacpan.org/release/Geo-Address-Formatter)
