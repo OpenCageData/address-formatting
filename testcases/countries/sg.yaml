@@ -1,5 +1,5 @@
 ---
-description: Chinatown Singapore
+description: SG no postcode
 components:
     country: Singapore
     country_code: SG
@@ -24,3 +24,20 @@ expected:  |
     16 Sandilands Road
     Singapore 546080
     Singapore
+---
+description: no city, 1.30585,103.78158
+components:
+    country: Singapore
+    country_code: sg
+    county: Southwest
+    house_number: 26
+    postcode: 130026
+    residential: Dover Gardens
+    road: Dover Crescent
+    suburb: Queenstown
+expected:  |
+    26 Dover Crescent, Dover Gardens
+    Singapore 130026
+    Singapore
+
+
