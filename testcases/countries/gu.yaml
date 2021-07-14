@@ -1,15 +1,15 @@
 # Guam, unincorporated territory of the US
 ---
-description: House in Tamuning
+description: House in Tamuning, 13.50294,144.77693
 components:
         country: Guam
         country_code: gu
         county: Guam
         house_number: 258
-        locality: Tamuning
         postcode: 96913
         road: Father San Vitores Street
         state: Guam
+        town: Tamuning
 expected:  |
     258 Father San Vitores Street
     Tamuning, GU 96913

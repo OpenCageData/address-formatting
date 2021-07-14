@@ -7,15 +7,14 @@ components:
         building: Executive Office Building (American Samoa Government)
         country: American Samoa
         country_code: as
-        county: Ituau
+        county: Eastern District
+        municipality: Maʻopūtasi County
         postcode: 96799
-        road: Route 001
-        village: Faganeanea
+        road: Route 118
+        village: Utulei
 expected:  |
     Executive Office Building (American Samoa Government)
-    Route 001
-    Faganeanea, AS 96799
+    Route 118
+    Utulei
+    Maʻopūtasi County, AS 96799
     United States of America
-
-
-

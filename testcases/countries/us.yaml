@@ -227,7 +227,7 @@ components:
     country: United States of America
     country_code:  us
     county: Costilla County
-    postcode: 08113
+    postcode: "08113"
     state: Colorado
     village:  Fort Garland
 expected:  |
