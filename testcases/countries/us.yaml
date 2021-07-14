@@ -219,3 +219,34 @@ expected:  |
     Burt
     Taymouth Township, Michigan
     United States of America
+#
+# village
+---
+description: village
+components:
+    country: United States of America
+    country_code:  us
+    county: Costilla County
+    postcode: 08113
+    state: Colorado
+    village:  Fort Garland
+expected:  |
+    Fort Garland
+    Costilla County, CO 08113
+    United States of America
+#
+# hamlet
+---
+description: hamlet
+components:
+    city: Homestead
+    country: United States of America
+    country_code:  us
+    county: Miami-Dade County
+    hamlet: Homestead Trailer Park
+    postcode: 33030
+    state: Florida
+expected:  |
+    Homestead Trailer Park
+    Homestead, FL 33030
+    United States of America
