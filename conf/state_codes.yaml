@@ -1215,6 +1215,85 @@ HU:
     VM: Veszprém
     ZA: Zala
     ZE: Zalaegerszeg
+ID:
+    AC: Aceh
+    BA: Bali
+    BB:
+      default: Kepulauan Bangka Belitung
+      alt_en: Bangka-Belitung Islands
+    BE: Bengkulu
+    BT: Banten
+    GO: Gorontalo
+    JA: Jambi
+    JB:
+      default: Jawa Barat
+      alt_en: West Java
+    JI:
+      default: Jawa Timur
+      alt_en: East Java    
+    JK:
+      default: Daerah Khusus Ibukota Jakarta
+      alt_en: Jakarta Special Capital Region
+    JT:
+      default: Jawa Tengah
+      alt_en: Central Java    
+    KB:
+      default: Kalimantan Barat
+      alt_en: West Kalimantan
+    KI:
+      default: Kalimantan Timur
+      alt_en: East Kalimantan
+    KR:
+      default: Kepulauan Riau
+      alt_en: Riau Islands
+    KS:
+      default: Kalimantan Selatan
+      alt_en: South Kalimantan
+    KT:
+      default: Kalimantan Tengah
+      alt_en: Central Kalimantan
+    KU:
+      default: Kalimantan Utara
+      alt_en: North Kalimantan
+    LA: Lampung
+    MA: Maluku
+    MU:
+      default: Maluku Utara
+      alt_en: North Maluku
+    NB: Nusa Tenggara Barat
+    NT: Nusa Tenggara Timur
+    PA: Papua
+    PB:
+      default: Papua Barat
+      alt_en: West Papua
+    RI: Riau
+    SA:
+      default: Sulawesi Utara
+      alt_en: North Sulawesi
+    SB:
+      default: Sumatera Barat
+      alt_en: West Sumatra
+    SG:
+      default: Sulawesi Tenggara
+      alt_en: Southeast Sulawesi      
+    SN:
+      default: Sulawesi Selatan
+      alt_en: South Sulawesi
+    SR:
+      default: Sulawesi Barat
+      alt_en: West Sulawesi
+    SS:
+      default: Sumatera Selatan
+      alt_en: South Sumatra
+    ST:
+      default: Sulawesi Tengah
+      alt_en: Central Sulawesi
+    SU:
+      default: Sumatera Utara
+      alt_en: North Sumatra
+    YO:
+      default: Daerah Istimewa Yogyakarta
+      alt_en: Special Region of Yogyakarta
 IE:
     C: Connacht
     L: Leinster
