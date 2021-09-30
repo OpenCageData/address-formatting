@@ -139,6 +139,24 @@ expected:  |
     928 Flagler Avenue
     Edgewater, FL 32132
     United States of America
+
+---
+description: clean up "Town of " 40.7805,-73.4875
+components:
+    country: United States
+    country_code: us
+    county: Nassau County
+    house_number: 4
+    municipality: Town of Oyster Bay
+    postcode: 11803
+    road: Lakeville Lane
+    state: New York
+    state_code: NY 
+expected:  |
+    4 Lakeville Lane
+    Oyster Bay, NY 11803
+    United States of America
+
 ---
 description: use county if no city
 components:
@@ -170,14 +188,14 @@ expected:  |
 ---
 description: Library in Charlotte Amalie, 18.34119,-64.93546
 components:
-        country: United States of America
-        country_code: us
-        county: St. Thomas Island
-        library: Enid M Baa Library and Archives
-        postcode: "00803"
-        road: Dronningens Gade
-        state: United States Virgin Islands
-        town: Charlotte Amalie
+   country: United States of America
+   country_code: us
+   county: St. Thomas Island
+   library: Enid M Baa Library and Archives
+   postcode: "00803"
+   road: Dronningens Gade
+   state: United States Virgin Islands
+   town: Charlotte Amalie
 expected:  |
     Enid M Baa Library and Archives
     Dronningens Gade
@@ -188,19 +206,19 @@ expected:  |
 ---
 description: state_district
 components:
-        country: United States of America
-        country_code: us
-        state: New York
-        state_district: New York
+   country: United States of America
+   country_code: us
+   state: New York
+   state_district: New York
 expected:  |
     New York, New York
     United States of America
 ---
 description: just state
 components:
-        country: United States of America
-        country_code: us
-        state: New York
+   country: United States of America
+   country_code: us
+   state: New York
 expected:  |
     New York
     United States of America

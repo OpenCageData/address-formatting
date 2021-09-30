@@ -1930,6 +1930,8 @@ US:
         - ["\nUS$","\nUnited States of America"]
         - ["\nUSA$","\nUnited States of America"]
         - ["\nUnited States$","\nUnited States of America"]
+        - ["Town of ",""]
+        - ["Township of ",""]
 
 # Uzbekistan
 UZ:
