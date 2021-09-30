@@ -52,7 +52,9 @@ Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-a
 Our goal with this repository is a series of (programming) language independent templates. Those templates can then be processed by whatever software you like. 
 
 There are open-source implementations in
+
   * [Elixir](https://github.com/dkuku/ex_address_formatting)
+  * [Go](https://github.com/timonmasberg/address-formatter)
   * [Java](https://github.com/placemarkt/address-formatter-java)
   * [Javascript](https://github.com/fragaria/address-formatter)
   * [Perl](https://metacpan.org/release/Geo-Address-Formatter)
@@ -61,7 +63,6 @@ There are open-source implementations in
   * [Ruby](https://github.com/mirubiri/address_composer)
   * [Rust](https://github.com/CanalTP/address-formatter-rs)
   * [Scala](https://github.com/ben-willis/address-formatter)
-  * [Go](https://github.com/timonmasberg/address-formatter)
 
 We would love more language implementations. The more people who use the templates, the more likely bugs will be reported. 
 If you write a processor, please submit a pull request adding it to the list. Thanks. 
