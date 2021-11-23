@@ -678,6 +678,8 @@ DJ:
 # Denmark
 DK:
     address_template: *generic1
+    replace:
+        - ["^Capital Region of ",""]
 
 # Dominica
 DM:
@@ -740,10 +742,10 @@ ES:
     address_template: *generic15
     fallback_template: *fallback4
 
-    postformat_replace:
+    replace:
         - ["Autonomous Community of the",""]
-        - ["Autonomous Community of",""]        
-        
+        - ["Autonomous Community of",""]
+        - ["^Community of ",""]
 
 # Ethiopia
 ET:
