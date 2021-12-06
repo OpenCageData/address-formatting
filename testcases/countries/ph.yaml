@@ -18,4 +18,13 @@ expected:  |
     Ermita
     1000 Metro Manila
     Philippines
+---
+description: archipelago
+components:
+    archipelago: Mindanao
+    country: Philippines
+    country_code: ph
+expected:  |
+    Mindanao
+    Philippines
 

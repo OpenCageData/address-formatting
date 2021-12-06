@@ -207,7 +207,7 @@ fallback1: &fallback1 |
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{island}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}}
-        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{region}}} {{/first}}
+        {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{region}}} || {{{island}}}, {{{archipelago}}} {{/first}}
         {{{country}}}
 
 fallback2: &fallback2 |
