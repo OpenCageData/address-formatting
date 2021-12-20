@@ -40,6 +40,23 @@ expected:  |
     Gontardstraße 7
     10178 Berlin
     Germany
+---
+description: housenumber not house_number
+components:
+            city: Alt-Berlin
+            city_district: Mitte
+            country: Germany
+            country_code: de
+            housenumber: 7
+            neighbourhood: Scheunenviertel
+            pedestrian: Gontardstraße
+            postcode: 10178
+            state: Berlin
+            suburb: Mitte
+expected:  |
+    Gontardstraße 7
+    10178 Berlin
+    Germany
 
 ---
 description: Köln, NRW 
