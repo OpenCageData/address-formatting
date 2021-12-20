@@ -2,6 +2,7 @@
 name: house_number
 aliases:
     - street_number
+    - housenumber
 ---
 name: house
 aliases:
