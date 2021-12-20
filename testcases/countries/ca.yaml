@@ -47,7 +47,24 @@ components:
 expected:  |
     London, ON
     Canada
-    
+---
+# London treated as county
+description: London treated as county - 42.95608,-81.23792
+components:
+    country: Canada
+    country_code: ca
+    county: London
+    house_number: 6
+    neighbourhood: Lockwood Park
+    postcode: N6C 2W9
+    road: Cowan Avenue
+    state: Ontario
+    state_code: "ON"
+    state_district: Southwestern Ontario
+expected: |
+    6 Cowan Avenue
+    London, ON N6C 2W9
+    Canada
 ---
 # 43.6666,-79.7482
 description: no housenumber
