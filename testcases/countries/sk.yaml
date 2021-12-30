@@ -2,7 +2,7 @@
 ---
 description: Bratislava - 48.14776,17.10384
 components:
-    city: District of Bratislava I
+    city: District of Bratislava
     city_district: Bratislava - mestská časť Staré Mesto
     country: Slovakia
     country_code: sk
@@ -14,7 +14,25 @@ components:
     suburb: Staré Mesto
 expected:  |
     Panenská 666/20
-    811 03 Bratislava I
+    811 03 Bratislava
+    Slovakia
+---
+description: Bratislava town and city, fix postcode 48.15744,17.10839
+components:
+    city: Bratislava
+    city_district: District of Bratislava I
+    country: Slovakia
+    country_code: sk
+    house_number: 12
+    neighbourhood: Desiatky
+    postcode: 81105
+    road: Železničiarska
+    state: Region of Bratislava
+    state_code: BL
+    town: Old Town
+expected:  |
+    Železničiarska 12
+    811 05 Bratislava
     Slovakia
 
 
