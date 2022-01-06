@@ -41,4 +41,16 @@ expected:  |
     San Sebastián
     Basque Country
     Spain
+---
+description: Costa del Sol Occidental
+components:
+     country: Spanien
+     country_code: es
+     county: Costa del Sol Occidental
+     state: Andalusien
+expected:  |
+    Costa del Sol Occidental
+    Andalusien
+    Spanien
+
 
