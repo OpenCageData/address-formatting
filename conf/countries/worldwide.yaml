@@ -1734,9 +1734,18 @@ SJ:
 
 # Slovakia
 SK: 
-    address_template: *generic1
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} || {{{city_district}}} || {{{hamlet}}} || {{{county}}} || {{{state}}} {{/first}}
+        {{{country}}}
     replace:
         - ["^District of ",""]
+        - ["^Region of ",""]
+    postformat_replace:        
+        # fix the postcode to make it \d\d\d \d\d
+        - ["\n(\\d{3})(\\d{2}) ","\n$1 $2 "]
 
 # Sierra Leone
 SL:
