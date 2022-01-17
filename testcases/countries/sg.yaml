@@ -39,5 +39,21 @@ expected:  |
     26 Dover Crescent, Dover Gardens
     Singapore 130026
     Singapore
+---
+description: wrong city, 1.30585,103.78158
+components:
+    city: Jurong East
+    country: Singapore
+    country_code: sg
+    county: Southwest
+    house_number: 26
+    postcode: 130026
+    residential: Dover Gardens
+    road: Dover Crescent
+    suburb: Queenstown
+expected:  |
+    26 Dover Crescent, Dover Gardens
+    Singapore 130026
+    Singapore
 
 

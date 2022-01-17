@@ -1715,8 +1715,8 @@ SG:
         {{{attention}}}
         {{#first}} {{{house}}}, {{{quarter}}} || {{{house}}} {{/first}}
         {{{house_number}}} {{{road}}}, {{{residential}}}
-        {{#first}} {{{village}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{hamlet}}} || {{{country}}} || {{{county}}} {{/first}} {{{postcode}}}
-        {{#first}} {{{country}}} || {{{state}}} {{/first}}
+        {{#first}} {{{country}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{hamlet}}} || {{{village}}} || {{{county}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{country}}} {{/first}}
 
 # Saint Helena, Ascension and Tristan da Cunha - same as UK
 SH:
