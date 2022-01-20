@@ -1040,7 +1040,7 @@ IR:
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{road}}}
         {{{house_number}}}
-        {{#first}} {{{province}}} || {{{state}}} {{/first}}
+        {{#first}}{{{province}}} || {{{state}}} || {{{state_district}}}{{/first}}
         {{{postcode}}}
         {{{country}}}
 
@@ -1052,13 +1052,15 @@ IR_en:
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{{road}}}
         {{{house_number}}}
-        {{#first}} {{{province}}} || {{{state}}} {{/first}}
+        {{#first}}{{{state}}} || {{{state_district}}}{{/first}}
         {{{postcode}}}
         {{{country}}}
 
 IR_fa:
     address_template: |
         {{{country}}}
+        {{{state}}}
+        {{{state_district}}}
         {{#first}} {{{state}}} || {{{province}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}

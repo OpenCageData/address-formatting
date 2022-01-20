@@ -1,19 +1,30 @@
 #  Iran
 ---
-
 description: Tower in Tehran, 35.699,51.33810
 components:
-            attraction: Azadi Tower
-            city: Tehran
-            country: Iran
-            country_code: ir
-            postcode: 1351956118
-            road: Azadi Square
-            suburb: Ostad Moein
+    attraction: Azadi Tower
+    city: Tehran
+    country: Iran
+    country_code: ir
+    postcode: 1351956118
+    road: Azadi Square
+    suburb: Ostad Moein
 expected:  |
     Azadi Tower
     Tehran
     Ostad Moein
     Azadi Square
     1351956118
+    Iran
+---
+description: district should be treated as alias of state_district
+components:
+    city: Tehran
+    country: Iran
+    country_code: ir
+    district: بخش مرکزی شهرستان تهران
+    province: Tehran Province
+expected:  |
+    Tehran
+    بخش مرکزی شهرستان تهران
     Iran
