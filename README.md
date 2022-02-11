@@ -32,7 +32,7 @@ we want to write logic to compile an address in the format consumers expect
 
 ### Why would you want to do this?
 
-The intended use case is database or geocoding systems (forward, reverse, autocomplete) where we know both the country of the address and the language of the user/reader. The address is displayed to a consumer (for example in an app) and not used to print on an envelope for actual postal delivery. We use it to format output from the [OpenCage Geocoder](https://opencagedata.com).
+The intended use case is database or geocoding systems (forward, reverse, autocomplete) where we know both the country of the address and the language of the user/reader. The address is displayed to a consumer (for example in an app) and not used to print on an envelope for actual postal delivery. We use it to format output from the [OpenCage Geocoding API](https://opencagedata.com/api).
 
 ### Which addresses are we talking about?
 
@@ -95,8 +95,7 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
       * find an addressed location (house, business, etc) in your
         target territory in OpenStreetMap
       * get the coordinates (lat, long) of the location
-      * put the coordinates into the [OpenCage Geocoder demo
-        page](https://opencagedata.com/demo)
+      * put the coordinates into the [OpenCage Geocoding API demo page](https://opencagedata.com/demo)
       * look at the resulting JSON in the *Raw Response* tab
 
 2. edit `conf/countries/worldwide.yaml`
@@ -153,8 +152,10 @@ If all this convinces you that address are evil, please check out [what3words](h
 
 <a href="https://opencagedata.com"><img src="opencage_logo_300_150.png"></a>
 
-We run the [OpenCage Geocoder](https://opencagedata.com). Learn more [about us](https://opencagedata.com/about). 
+We run a worldwide [geocoding API](https://opencagedata.com/api) and [geosearch](https://opencagedata.com/geosearch) service based on open data. 
+Learn more [about us](https://opencagedata.com/about). 
 
-We also run [Geomob](https://thegeomob.com), a series of regular meetups for location based service creators, where we do our best to highlight geoinnovation. If you like geo stuff, you will probably enjoy [the Geomob podcast](https://thegeomob.com/podcast/).
+We also organize [Geomob](https://thegeomob.com), a series of regular meetups for location based service creators, where we do our best to highlight geoinnovation. If you like geo stuff, you will probably enjoy [the Geomob podcast](https://thegeomob.com/podcast/).
+
 
 
