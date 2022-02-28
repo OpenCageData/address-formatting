@@ -1810,7 +1810,9 @@ MW:
 MX:
     AGU: Aguascalientes
     BCN: Baja California
-    BCS: Baja California Sur
+    BCS:
+      default: Baja California Sur
+      alt_en: Lower California South
     CAM: Campeche
     CHH: Chihuahua
     CHP: Chiapas
