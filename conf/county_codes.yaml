@@ -344,7 +344,9 @@ IT:
     FC: Forlì-Cesena
     FE: Ferrara
     FG: Foggia
-    FI: Firenze
+    FI:
+      default: Firenze
+      alt_en: Florence
     FM: Fermo
     FR: Frosinone
     GE: Genova
@@ -363,7 +365,9 @@ IT:
       alt_en: Monza and Brianza
     MC: Macerata
     ME: Messina
-    MI: Milano
+    MI:
+      default: Milano
+      alt_en: Milan
     MN: Mantova
     MO: Modena
     MS: Massa-Carrara
@@ -391,7 +395,9 @@ IT:
     RE: Reggio Emilia
     RG: Ragusa
     RI: Rieti
-    RM: Roma Capitale
+    RM:
+      default: Roma Capitale
+      alt_en: Rome
     RN: Rimini
     RO: Rovigo
     SA: Salerno
