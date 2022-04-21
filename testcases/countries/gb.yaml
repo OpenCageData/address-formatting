@@ -225,5 +225,19 @@ expected:  |
     York
     England
     United Kingdom
-
+---
+description: suburb before city_district
+components:
+    city: London
+    city_district: London Borough of Hackney
+    country: United Kingdom
+    country_code: gb
+    state: England
+    state_code: ENG
+    state_district: Greater London
+    suburb: Hoxton
+expected:  |
+    Hoxton
+    London
+    United Kingdom
 
