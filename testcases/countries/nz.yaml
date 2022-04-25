@@ -16,3 +16,14 @@ expected:  |
     Mount Victoria
     Wellington 6011
     New Zealand
+---
+description: City of Wellington
+components:
+        city: Wellington
+        country: New Zealand
+        country_code: nz
+        county: Wellington City
+        state: Wellington
+expected:  |
+    Wellington
+    New Zealand
