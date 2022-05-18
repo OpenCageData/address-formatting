@@ -284,7 +284,7 @@ AL:
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}} 
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} || {{{hamlet}}} {{/first}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{city_district}}} || {{{municipality}}} || {{{state_district}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{{country}}}
     postformat_replace:
         # fix the postcode to add - after numbers
