@@ -59,7 +59,7 @@ generic7: &generic7 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}} 
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{{postcode}}} 
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{state}}}{{/first}}, {{{postcode}}} 
         {{{country}}}
 
 # postcode and county
