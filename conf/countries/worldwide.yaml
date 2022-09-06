@@ -1637,6 +1637,10 @@ PS:
 # Portugal
 PT:
     address_template: *generic1
+    postformat_replace:
+        # fix the postcode to add - after numbers
+        - ["\n(\\d{4})(\\d{3}) ","\n$1-$2 "]
+    
 
 # Palau
 PW: 

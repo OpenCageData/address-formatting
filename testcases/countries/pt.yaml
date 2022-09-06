@@ -15,6 +15,23 @@ expected:  |
     1500-203 Lisbon
     Portugal
 ---
+# fix postcode formatting
+description: 38.72132,-9.13017
+components:
+    city: Lisbon
+    country: Portugal
+    country_code: pt
+    county: Lisbon
+    house_number: 2
+    neighbourhood: São Vicente de Fora
+    postcode: 1170169
+    road: Rua da Graça
+    suburb: São Vicente
+expected:  |
+    Rua da Graça 2
+    1170-169 Lisbon
+    Portugal
+---
 # Guest house in the Azores
 description: 37.74851,-25.60450
 components:
