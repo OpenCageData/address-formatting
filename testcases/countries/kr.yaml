@@ -16,6 +16,15 @@ expected:  |
     Seocho-daero 74-gil
     서초2동 (Seocho2-dong), Seoul, 135-934
     South Korea
-
-
+---
+description: district of Seoul
+components:
+    city: Seoul
+    country: South Korea
+    country_code: kr
+    city_district: Gangnam-gu
+expected:  |
+    Gangnam-gu
+    Seoul
+    South Korea
 
