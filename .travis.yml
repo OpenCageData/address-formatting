@@ -1,6 +1,6 @@
 language: perl
 perl:
-- '5.30'
+- '5.34'
 env: PERL_CPANM_OPT="--notest --force --skip-satisfied"
 install:
 - cpanm File::Find::Rule~0.34
