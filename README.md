@@ -53,6 +53,7 @@ Our goal with this repository is a series of (programming) language independent 
 
 There are open-source implementations in
 
+  * [Android library](https://github.com/woheller69/AndroidAddressFormatter)
   * [Elixir](https://github.com/dkuku/ex_address_formatting)
   * [Go](https://github.com/timonmasberg/address-formatter)
   * [Java](https://github.com/placemarkt/address-formatter-java)
