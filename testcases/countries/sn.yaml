@@ -15,6 +15,22 @@ expected:  |
     Rue Carnot
     24951 Dakar
     Senegal
+---
+description: commune
+components:
+    commune: Commune de Yeumbeul Nord
+    country: Senegal
+    country_code: sn
+    postcode: 17000
+    road: unnamed road
+    state: Dakar Region
+    state_district: Département de Keur Massar
+    town: Arrondissement de Yeumbeul
+expected:  |
+    unnamed road
+    17000 Yeumbeul
+    Senegal
+
 
 
 

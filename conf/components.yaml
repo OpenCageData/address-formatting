@@ -36,6 +36,7 @@ name: neighbourhood
 aliases:
     - suburb
     - city_district
+    - commune
     - district
     - quarter
     - borough

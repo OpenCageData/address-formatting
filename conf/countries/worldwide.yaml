@@ -1767,6 +1767,10 @@ SM:
 # Senegal
 SN:
     address_template: *generic3
+    replace:
+        - ["^Commune de ",""]    
+        - ["^Arrondissement de ",""]
+        - ["^Département de ",""]
 
 # Somalia
 SO: 
