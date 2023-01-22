@@ -64,6 +64,7 @@ expected:  |
     Bishop Street
     Wood Quay A ED
     Dublin
+    D02 TD99
     Ireland
 ---
 # 52.6726,-8.6407
@@ -106,4 +107,45 @@ expected:  |
     Clifden
     County Galway
     Ireland
-    
+---
+# 53.3653974, -6.5853397
+description: format Eircode correctly (no spaces)
+components:
+    building: G
+    city_district: Maynooth ED
+    continent: Europe
+    country: Ireland
+    country_code: ie
+    county: County Kildare
+    county_code: KE
+    postcode: W23P466
+    region: The Municipal District of Clane — Maynooth
+    road: Ballygoran Road
+expected:  |
+    G
+    Ballygoran Road
+    Maynooth ED
+    County Kildare
+    W23 P466
+    Ireland
+---
+# 53.3653974, -6.5853397
+description: format Eircode correctly (dash)
+components:
+    building: G
+    city_district: Maynooth ED
+    continent: Europe
+    country: Ireland
+    country_code: ie
+    county: County Kildare
+    county_code: KE
+    postcode: W23-P466
+    region: The Municipal District of Clane — Maynooth
+    road: Ballygoran Road
+expected:  |
+    G
+    Ballygoran Road
+    Maynooth ED
+    County Kildare
+    W23 P466
+    Ireland
