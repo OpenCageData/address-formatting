@@ -8,14 +8,30 @@ components:
         country_code: mu
         house_number: 1
         neighbourhood: Caudan Waterfront
-        postcode: 230
         road: Queen Elizabeth II Avenue
         state: Port Louis
 expected:  |
     State Bank of Mauritius
     1, Queen Elizabeth II Avenue
+    Caudan Waterfront
     Port Louis
     Mauritius
+---
+# example from https://en.wikipedia.org/wiki/Postal_codes_in_Mauritius
+description: example address with postcode
+components:
+        city: Lallmatie
+        country: Mauritius
+        country_code: mu
+        house_number: 21
+        neighbourhood: Mission Cross
+        postcode: 42602
+        road: Old Trafford Road
+expected: |
+        21, Old Trafford Road
+        Mission Cross
+        Lallmatie 42602
+        Mauritius
 
 
 
