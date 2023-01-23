@@ -1428,7 +1428,12 @@ MR:
 
 # Mauritius
 MU:
-    address_template: *generic18
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{{country}}}
 
 # Maldives
 MV:
