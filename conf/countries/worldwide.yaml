@@ -521,10 +521,16 @@ CG:
     address_template: *generic18
 
 # Switzerland
-CH: 
-    address_template: *generic1
+CH:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} || {{{hamlet}}} || {{{county}}} || {{{state}}} {{/first}}
+        {{{country}}}
     replace:
         - ["Verwaltungskreis",""]
+        - ["Verwaltungsregion",""]        
         - [" administrative district",""]
         - [" administrative region",""]
 
