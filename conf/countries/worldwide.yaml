@@ -876,6 +876,9 @@ GQ:
 # Greece
 GR:
     address_template: *generic1
+    replace:
+        - ["Municipal Unit of ",""]
+        - ["Regional Unit of ",""]
     postformat_replace:
         # fix the postcode to make it \d\d\d \d\d
         - ["\n(\\d{3})(\\d{2}) ","\n$1 $2 "]
