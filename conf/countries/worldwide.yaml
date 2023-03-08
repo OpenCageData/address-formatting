@@ -1005,6 +1005,7 @@ IE:
         - ["Electoral Division",""]        
     postformat_replace:
         - ["Dublin\nCounty Dublin","Dublin"]
+        - ["Dublin\nLeinster","Dublin"]
         - ["Galway\nCounty Galway","Galway"]
         - ["Kilkenny\nCounty Kilkenny","Kilkenny"]        
         - ["Limerick\nCounty Limerick","Limerick"]
