@@ -223,7 +223,8 @@ fallback3: &fallback3 |
         {{{house}}}
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{island}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}}
+        {{#first}} {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}}{{/first}}
         {{{county}}}
         {{#first}} {{{state}}} || {{{state_code}}} {{/first}}
         {{{country}}}
@@ -786,6 +787,7 @@ GB:
     address_template: *generic23
     fallback_template: *fallback3
     replace:
+        - ["village= CP$",""]
         - ["^Borough of ",""]
         - ["^County( of)? ",""]
         - ["^Parish of ",""]
