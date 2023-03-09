@@ -240,4 +240,19 @@ expected:  |
     Hoxton
     London
     United Kingdom
+---
+description: village and city
+components:
+        city: Stratford-on-Avon
+        country: United Kingdom
+        country_code: gb
+        county: Warwickshire
+        state: England
+        village: Welford on Avon CP
+expected:  |
+    Welford on Avon
+    Stratford-on-Avon
+    Warwickshire
+    England
+    United Kingdom
 
