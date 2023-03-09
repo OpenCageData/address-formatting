@@ -556,36 +556,12 @@ CM:
 # China
 CN:
     address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{house_number}}} {{{road}}} 
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}} {{{country}}}
+        {{#first}} {{{state_code}}} || {{{state}}} || {{{state_district}}} || {{{region}}}{{/first}}
         {{{county}}}
-        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} || {{{region}}} || {{{village}}}|| {{{hamlet}}} {{/first}}
-        {{{country}}}
-
-# China - English
-CN_en:
-    address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{house_number}}} {{{road}}} 
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{{county}}}
-        {{{postcode}}} {{#first}} {{{state_code}}} || {{{state}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} || {{{region}}} || {{{village}}} || {{{hamlet}}} {{/first}}
-        {{{country}}}
-
-# China - Chinese
-CN_zh:
-    address_template: |
-        {{{country}}}
-        {{{postcode}}} 
-        {{#first}} {{{state_code}}} || {{{state}}} || {{{region}}} {{/first}}
-        {{#first}} {{{state_district}}} || {{{county}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{{road}}}
-        {{{house_number}}} 
+        {{#first}}{{{city}}} || {{{town}}} || {{{municipality}}}|| {{{village}}}|| {{{hamlet}}}{{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}        
+        {{{road}}} {{{house_number}}}
         {{{house}}}
         {{{attention}}}
 
