@@ -255,4 +255,20 @@ expected:  |
     Warwickshire
     England
     United Kingdom
+---
+description: town and city
+components:
+        city: East Hertfordshire
+        country: United Kingdom
+        country_code: gb
+        county: Hertfordshire
+        county_code: HRT
+        state: England
+        state_code: ENG
+        town: Bishop's Stortford
+expected:  |
+    Bishop's Stortford
+    Hertfordshire
+    England
+    United Kingdom
 

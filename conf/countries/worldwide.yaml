@@ -224,7 +224,7 @@ fallback3: &fallback3 |
         {{{road}}} {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{island}}} {{/first}}
         {{#first}} {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}}{{/first}}
+        {{#first}} {{{town}}} || {{{city}}}{{/first}}
         {{{county}}}
         {{#first}} {{{state}}} || {{{state_code}}} {{/first}}
         {{{country}}}
