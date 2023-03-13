@@ -791,7 +791,6 @@ GB:
         - ["^Borough of ",""]
         - ["^County( of)? ",""]
         - ["^Parish of ",""]
-        - ["^Central ",""]
         - ["^Greater London","London"]
         - ["^London Borough of ",""]
         - ["Royal Borough of ",""]
