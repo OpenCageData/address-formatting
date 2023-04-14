@@ -193,25 +193,25 @@ AR:
       alt_en: Santa Cruz Province
 AT:
     # https://en.wikipedia.org/wiki/ISO_3166-2:AT
-    1: Burgenland
-    2:
+    "1": Burgenland
+    "2":
       default: Kärnten
       alt_en: Carinthia
-    3:
+    "3":
       default: Niederösterreich
       alt_en: Lower Austria
-    4:
+    "4":
       default: Oberösterreich
       alt_en: Upper Austria
-    5: Salzburg
-    6:
+    "5": Salzburg
+    "6":
       default: Steiermark
       alt_en: Styria
-    7:
+    "7":
       default: Tirol
       alt_en: Tyrol
-    8: Vorarlberg
-    9:
+    "8": Vorarlberg
+    "9":
       default: Wien
       alt_en: Vienna
 AU:
