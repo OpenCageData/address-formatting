@@ -501,7 +501,7 @@ CA:
         {{{country}}}
     postformat_replace:
         # fix the postcode to make it \w\w\w \w\w\w
-        - [" (\\w{2}) (\\w{3})(\\w{3})\n"," $1 $2 $3\n"]
+        - [" ([A-Za-z]{2}) ([A-Za-z]\\d[A-Za-z])(\\d[A-Za-z]\\d)\n"," $1 $2 $3\n"]
 
 
 # Cocos (Keeling) Islands
