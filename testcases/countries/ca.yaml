@@ -86,10 +86,10 @@ expected:  |
 # 43.6666,-79.7482
 description: just county
 components:
-     country: Canada
-     country_code: ca
-     county: Springfield
-     state: Manitoba
+    country: Canada
+    country_code: ca
+    county: Springfield
+    state: Manitoba
 expected:  |
     Springfield, MB
     Canada
@@ -97,16 +97,16 @@ expected:  |
 # 43.60242, -79.80113
 description: locality
 components:
-     country: Canada
-     country_code: ca
-     county: Halton Region
-     house_number: 7931
-     locality: Halton Hills
-     municipality: Halton Hills
-     postcode: L5N 8P7
-     road: Tenth Line
-     state: Ontario
-     state_district: Golden Horseshoe     
+    country: Canada
+    country_code: ca
+    county: Halton Region
+    house_number: 7931
+    locality: Halton Hills
+    municipality: Halton Hills
+    postcode: L5N 8P7
+    road: Tenth Line
+    state: Ontario
+    state_district: Golden Horseshoe     
 expected:  |
     7931 Tenth Line
     Halton Hills, ON L5N 8P7
