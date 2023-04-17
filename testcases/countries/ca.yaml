@@ -111,3 +111,17 @@ expected:  |
     7931 Tenth Line
     Halton Hills, ON L5N 8P7
     Canada
+---
+# postformat_replace applied to abbreviated street type
+description: postformat_replace applied to abbreviated street type
+components:
+    country: Canada
+    country_code: ca
+    house_number: 12345
+    locality: St-Hyancinth
+    postcode: J2T 3T5
+    road: Av Demars  
+expected:  |
+    12345 Av Demars
+    St-Hyancinth, J2T 3T5
+    Canada
