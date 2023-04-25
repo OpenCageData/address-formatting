@@ -7,7 +7,7 @@ components:
         country_code: cn
         county: Pudong New District
         house_number: 99号
-        neighbourhood: Lijuazul
+        neighbourhood: Lijuazui
         postcode: 200120
         road: West Lujiazui Road
         state: Shanghai
@@ -15,7 +15,7 @@ expected:  |
     200120 China
     Shanghai
     Pudong New District
-    Lijuazul
+    Lijuazui
     West Lujiazui Road 99号
     万向大厦
 ---
