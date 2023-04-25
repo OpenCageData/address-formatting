@@ -562,6 +562,7 @@ CN:
         {{{house_number}}} {{{road}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{#first}} {{{state}}} || {{{state_district}}} {{/first}} 
+        {{{county}}}
         {{{country}}} {{{postcode}}}
 
 # China - English
@@ -572,6 +573,7 @@ CN_en:
         {{{house_number}}} {{{road}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{#first}} {{{state}}} || {{{state_district}}} {{/first}} 
+        {{{county}}}
         {{{country}}} {{{postcode}}}
 
 # China - Chinese Simplified
