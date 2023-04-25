@@ -557,14 +557,14 @@ CM:
 # China
 CN:
     address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{{house_number}}} {{{road}}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{{postcode}}} {{{country}}}
+        {{#first}} {{{state_code}}} || {{{state}}} || {{{state_district}}} || {{{region}}}{{/first}}
         {{{county}}}
         {{#first}}{{{city}}} || {{{town}}} || {{{municipality}}}|| {{{village}}}|| {{{hamlet}}}{{/first}}
-        {{#first}} {{{state_code}}} || {{{state}}} || {{{state_district}}} || {{{region}}}{{/first}}
-        {{{country}}} {{{postcode}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}        
+        {{{road}}} {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
 
 # China - English
 CN_en:
