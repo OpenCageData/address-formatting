@@ -7,16 +7,16 @@ components:
         country_code: cn
         county: Pudong New District
         house_number: 99号
-        neighbourhood: Lijuazul
+        neighbourhood: Lijuazui
         postcode: 200120
         road: West Lujiazui Road
         state: Shanghai
 expected:  |
     万向大厦
     99号 West Lujiazui Road
-    Lijuazul
+    Lijuazui
     Pudong New District
-    Shanghai    
+    Shanghai
     China 200120
 ---
 description: Macau
@@ -39,8 +39,8 @@ components:
     state: Tibet
     town: Bayi
 expected:  |
-    Nyingchi, Tibet
+    Nyingchi
+    Tibet
     China 860000
-
 
 
