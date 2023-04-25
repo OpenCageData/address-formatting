@@ -39,8 +39,8 @@ components:
     state: Tibet
     town: Bayi
 expected:  |
-    860000 China
-    Tibet
     Nyingchi
+    Tibet
+    China 860000
 
 
