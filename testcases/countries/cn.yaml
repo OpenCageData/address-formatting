@@ -12,12 +12,12 @@ components:
         road: West Lujiazui Road
         state: Shanghai
 expected:  |
-    万向大厦
-    99号 West Lujiazui Road
-    Lijuazui
-    Pudong New District
+    200120 China
     Shanghai
-    China 200120
+    Pudong New District
+    Lijuazui
+    West Lujiazui Road 99号
+    万向大厦
 ---
 description: Macau
 components:

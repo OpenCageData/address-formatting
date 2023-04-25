@@ -590,6 +590,28 @@ CN_zh:
         {{{house}}}
         {{{attention}}}
 
+# China - English
+CN_en:
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}} {{{road}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{#first}} {{{state}}} || {{{state_district}}} {{/first}} 
+        {{{country}}} {{{postcode}}}
+
+# China - Simplified Chinese 
+CN_zh:
+    address_template: |
+        {{{postcode}}} {{{country}}}
+        {{#first}} {{{state_code}}} || {{{state}}} || {{{state_district}}} || {{{region}}}{{/first}}
+        {{{county}}}
+        {{#first}}{{{city}}} || {{{town}}} || {{{municipality}}}|| {{{village}}}|| {{{hamlet}}}{{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}        
+        {{{road}}} {{{house_number}}}
+        {{{house}}}
+        {{{attention}}}
+        
 # Colombia
 CO:
     address_template: |
