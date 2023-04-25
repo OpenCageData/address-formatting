@@ -13,7 +13,7 @@ components:
         state: Shanghai
 expected:  |
     万向大厦
-    West Lujiazui Road 99号
+    99号 West Lujiazui Road
     Lijuazul
     Pudong New District
     Shanghai    
@@ -39,8 +39,8 @@ components:
     state: Tibet
     town: Bayi
 expected:  |
+    Nyingchi, Tibet
     860000 China
-    Tibet
-    Nyingchi
+
 
 
