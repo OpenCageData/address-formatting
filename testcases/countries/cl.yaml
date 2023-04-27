@@ -9,13 +9,14 @@ components:
     house_number: 920
     neighbourhood: Unidad Vecinal Providencia
     postcode: 7500000
+    region: Región Metropolitana de Santiago	
     road: Avenida Ricardo Lyon
     state: XIII Región Metropolitana de Santiago
     suburb: Providencia
 expected:  |
     Avenida Ricardo Lyon 920
-    750 0000 Providencia
+    7500000 Providencia
+    Región Metropolitana de Santiago
     Chile
-
 
 

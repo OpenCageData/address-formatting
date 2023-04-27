@@ -79,6 +79,9 @@ aliases:
     - state_code
 ---
 name: region
+aliases:
+    - oblast
+    - raion
 ---
 name: island
 ---
