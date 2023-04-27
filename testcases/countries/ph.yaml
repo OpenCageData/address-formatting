@@ -14,8 +14,7 @@ components:
     suburb: Ermita
 expected:  |
     Emerald Garden
-    1140 Alhambra
-    Ermita
+    1140 Alhambra, Ermita
     1000 Metro Manila
     Philippines
 ---
@@ -27,4 +26,22 @@ components:
 expected:  |
     Mindanao
     Philippines
-
+---
+description: address 
+components:
+    house_number: 121 
+    road: Epifanio Delos Santos Ave.
+    city: Mandaluyong
+    postcode: 1550
+    suburb: Wack-wack Greenhills
+    county: Fifth District
+    country: Philippines
+    country_code: PH
+    attention: Mr. Juan Maliksi
+    state: Metro Manila
+expected:  |
+    Mr. Juan Maliksi
+    121 Epifanio Delos Santos Ave., Wack-wack Greenhills, Mandaluyong
+    1550 Metro Manila
+    Philippines
+---
