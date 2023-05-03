@@ -435,8 +435,8 @@ BR:
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{village}}} || {{{hamlet}}} {{/first}} - {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{village}}} || {{hamlet}}{{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} {{/first}} - {{#first}} {{{state_code}}} || {{{state}}} {{/first}}
         {{{postcode}}}
         {{{country}}}
     postformat_replace:

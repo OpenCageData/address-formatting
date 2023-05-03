@@ -58,5 +58,22 @@ expected:  |
     Rio de Janeiro - RJ
     22221-000
     Brazil
+---
+description: village
+components:
+    country: Brazil
+    country_code: br
+    municipality: Região Geográfica Imediata de Picos
+    postcode: 64675-000
+    region: Northeast Region
+    state: Piauí
+    state_code: PI
+    state_district: Região Geográfica Intermediária de Picos
+    village: Alegrete do Piauí
+expected:  |
+    Alegrete do Piauí
+    Região Geográfica Intermediária de Picos - PI
+    64675-000
+    Brazil
 
 
