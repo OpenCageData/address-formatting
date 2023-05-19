@@ -23,6 +23,7 @@ generic3: &generic3 |
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
+        {{{place}}}
         {{{postcode}}} {{#first}} {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{city}}} || {{{municipality}}} || {{{state}}} {{/first}}        
         {{{country}}}
 
@@ -205,6 +206,7 @@ fallback1: &fallback1 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
+        {{{place}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{island}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}}
         {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} || {{{region}}} || {{{island}}}, {{{archipelago}}} {{/first}}
@@ -214,6 +216,7 @@ fallback2: &fallback2 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
+        {{{place}}}        
         {{#first}} {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{county}}} || {{{island}}} || {{{state_district}}} {{/first}}, {{#first}} {{{state}}} || {{{state_code}}} {{/first}}
         {{{country}}}
@@ -222,6 +225,7 @@ fallback3: &fallback3 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
+        {{{place}}}        
         {{#first}} {{{suburb}}} || {{{island}}} {{/first}}
         {{#first}} {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}}
         {{#first}} {{{town}}} || {{{city}}}{{/first}}
@@ -233,6 +237,7 @@ fallback4: &fallback4 |
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
+        {{{place}}}        
         {{{suburb}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} || {{{county}}} {{/first}}
         {{#first}} {{{state}}} || {{{county}}} {{/first}}

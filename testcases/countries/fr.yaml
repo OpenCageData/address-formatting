@@ -279,3 +279,21 @@ expected:  |
     20 Rue Antoine de Roche
     25500 Morteau
     France
+#
+# place, no road
+#
+---
+description: 46.2805264, 0.3462048
+components:
+    city: Sommières-du-Clain
+    country: France
+    country_code: fr
+    place: Moulin Bois
+    postcode: 86160
+    state: Nouvelle-Aquitaine
+    state_code: NAQ
+    county: Vienne
+expected:  |
+    Moulin Bois
+    86160 Sommières-du-Clain
+    France

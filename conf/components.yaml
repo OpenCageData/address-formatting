@@ -23,7 +23,11 @@ aliases:
     - road_reference
     - road_reference_intl
     - square
-    - place
+---
+name: place
+aliases:
+    - farmland
+    - allotments    
 ---
 name: hamlet
 aliases:
