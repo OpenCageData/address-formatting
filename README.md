@@ -6,7 +6,7 @@ This project contains templates and test cases for address formats used in terri
 
 ### Build Status
 
-[![Build Status](https://travis-ci.com/OpenCageData/address-formatting.svg?branch=master)](https://travis-ci.com/OpenCageData/address-formatting)
+[![Build Status](https://github.com/OpenCageData/address-formatting/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenCageData/address-formatting/actions/workflows/ci.yml)
 
 ### An example:
 
