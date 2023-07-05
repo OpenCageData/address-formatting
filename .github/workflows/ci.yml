@@ -16,10 +16,6 @@ jobs:
         with:
           perl-version: '5.34'
           install-modules-with: cpanm
-          install-modules-args: --notest --force --skip-satisfied
 
       - name: Tests
-        run: |
-          cpanm File::Find::Rule~0.34
-          cpanm Geo::Address::Formatter~1.997
-          prove -r t
+        run: bin/run_tests.t
