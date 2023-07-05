@@ -1,0 +1,21 @@
+name: CI Tests
+
+on: [pull_request]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    name: Address-Formatting
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up perl
+        uses: shogo82148/actions-setup-perl@v1
+        with:
+          perl-version: '5.34'
+          install-modules-with: cpanm
+
+      - name: Tests
+        run: bin/run_tests.t
