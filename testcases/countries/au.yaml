@@ -76,6 +76,17 @@ expected:  |
     Fifth Street
     Ashbury NSW 2193
     Australia
-
-
-
+#
+# town and postcode, no street
+#
+---
+description: postcode and town
+components:
+    city: LASCELLES
+    country: Australia
+    country_code: au
+    postcode: 3487
+    state: VICTORIA
+expected:  |
+    LASCELLES VIC 3487
+    Australia
