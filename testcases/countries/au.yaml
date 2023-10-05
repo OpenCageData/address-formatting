@@ -90,3 +90,18 @@ components:
 expected:  |
     LASCELLES VIC 3487
     Australia
+#
+# city_district and postcode
+#
+---
+description: postcode and city_district
+components:
+    city_district: Lascelles
+    country: Australia
+    country_code: au
+    municipality: Shire of Yarriambiack
+    postcode: 3487
+    state: VICTORIA
+expected:  |
+    Lascelles VIC 3487
+    Australia
