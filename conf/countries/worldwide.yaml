@@ -829,6 +829,7 @@ FR:
         - ["Grande Terre et récifs d'Entrecasteaux",""]
         - ["France, Nouvelle-Calédonie","Nouvelle-Calédonie, France"]
         - ["\\(eaux territoriales\\)",""]
+        - ["state=Saint Martin \\(France\\)$","Saint-Martin"]
         - ["Paris (\\d+)(\\w+) Arrondissement$","Paris"]
         
 
