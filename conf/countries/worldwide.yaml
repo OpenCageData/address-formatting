@@ -1133,6 +1133,7 @@ IT:
     replace:
         - ["Città metropolitana di ",""]
         - ["Metropolitan City of ",""]
+        - ["^Provincia di ",""]
     postformat_replace:
         - ["Vatican City\nVatican City$","\nVatican City"]
         - ["Città del Vaticano\nCittà del Vaticano$","Città del Vaticano\n"]

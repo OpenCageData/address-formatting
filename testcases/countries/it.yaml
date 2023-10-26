@@ -29,6 +29,34 @@ expected:  |
     Via Giovanni Della Casa
     20147 Milano MI
     Italy
+---
+description: Torino, correcty add county_code
+components:
+        city: San Raffaele Cimena
+        country: Italy
+        country_code: it
+        county: Torino
+        postcode: 10032
+        road: Via Pertengo
+        state: Piemonte
+expected:  |
+    Via Pertengo
+    10032 San Raffaele Cimena TO
+    Italy
+---
+description: Provincia di Torino, correcty add county_code
+components:
+        city: San Raffaele Cimena
+        country: Italy
+        country_code: it
+        county: Provincia di Torino
+        postcode: 10032
+        road: Via Pertengo
+        state: Piemonte
+expected:  |
+    Via Pertengo
+    10032 San Raffaele Cimena TO
+    Italy
 ---    
 description: deal with Città metropolitana di Firenze
 components:
