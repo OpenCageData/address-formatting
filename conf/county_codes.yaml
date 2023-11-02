@@ -83,7 +83,9 @@ GB:
     BNH: Brighton and Hove
     BNS: Barnsley
     BOL: Bolton
-    BPL: Blackpool
+    BPL:
+      default: Blackpool
+      alt: Borough of Blackpool
     BRC: Bracknell Forest
     BRD: Bradford
     BRY: London Borough of Bromley
@@ -117,7 +119,9 @@ GB:
     DOR: Dorset
     DRS: Derry and Strabane
     DUD: Dudley
-    DUR: Durham
+    DUR:
+      default: Durham
+      alt: County Durham
     EAL: London Borough of Ealing
     EAY: East Ayrshire
     EDH: City of Edinburgh
