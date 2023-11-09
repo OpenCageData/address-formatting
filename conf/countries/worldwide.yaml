@@ -201,7 +201,6 @@ generic23: &generic23 |
         {{{postcode}}}
         {{#first}} {{{country}}} || {{{state}}} {{/first}}
 
-
 fallback1: &fallback1 |
         {{{attention}}}
         {{{house}}}
@@ -1881,9 +1880,26 @@ SZ:
         {{{postcode}}} 
         {{{country}}}
 
-# Turks and Caicos Islands - same as UK
+# Turks and Caicos Islands
 TC:
-    use_country: GB
+    address_template: *generic23
+    fallback_template: |
+        {{{attention}}}
+        {{{house_number}}} {{{road}}}
+        {{quarter}}
+        {{#first}} {{{village}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{hamlet}}} || {{{county}}} {{/first}}
+        {{{island}}}        
+        {{#first}} {{{country}}} {{/first}}
+
+
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{town}}} || {{{city}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} || {{{county}}} {{/first}}
+        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
+        {{{country}}}
+    
 
 # Chad
 TD: 

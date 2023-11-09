@@ -15,6 +15,18 @@ expected:  |
     Daffodil Close
     Providenciales
     Turks and Caicos Islands
+---
+description: hamlet on Middle Caicos
+components:
+        country: Turks and Caicos Islands
+        country_code: tc
+        island: Middle Caicos
+        hamlet: Bambarra
+expected:  |
+    Bambarra
+    Middle Caicos
+    Turks and Caicos Islands
+
 
 
 
