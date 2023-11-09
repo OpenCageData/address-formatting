@@ -1891,16 +1891,6 @@ TC:
         {{{island}}}        
         {{#first}} {{{country}}} {{/first}}
 
-
-        {{{attention}}}
-        {{{house}}}
-        {{{road}}} {{{house_number}}}
-        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
-        {{#first}} {{{town}}} || {{{city}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} || {{{county}}} {{/first}}
-        {{#first}} {{{state}}} || {{{state_district}}} {{/first}}
-        {{{country}}}
-    
-
 # Chad
 TD: 
     address_template: *generic21
