@@ -1,4 +1,6 @@
 # Panama
+# https://www.youtube.com/watch?v=fuKDBPw8wQA
+#
 ---
 description: Bed & Breakfast in Panama City, 8.99337,-79.52075
 components:
@@ -14,6 +16,21 @@ expected:  |
     El Cangrejo
     Ciudad de Panamá
     Panamá
+---
+description: make sure no double Panama City
+components:
+            city: Panama City
+            country: Panama
+            country_code: pa
+            guest_house: Panama House Bed & Breakfast
+            road: Avenida 1 C Norte
+            suburb: El Cangrejo
+expected:  |
+    Panama House Bed & Breakfast
+    Avenida 1 C Norte
+    El Cangrejo
+    Panama City
+    Panama
 ---
 description: Pharmacy in Nueva California, 8.77977,-82.64522
 components:

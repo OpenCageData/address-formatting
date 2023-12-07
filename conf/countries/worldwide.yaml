@@ -1614,8 +1614,8 @@ PA:
         {{{state}}}
         {{{country}}}
     replace:
-        - ["city=Panama","Panama City"]
-        - ["city=Panamá","Ciudad de Panamá"]
+        - ["city=Panama$","Panama City"]
+        - ["city=Panamá$","Ciudad de Panamá"]
 
 # Peru
 PE:
