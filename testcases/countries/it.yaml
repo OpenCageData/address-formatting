@@ -11,7 +11,7 @@ components:
     state: Apulia
     suburb: Montaltino
 expected:  |
-    Via Pisacane, 13
+    Via Pisacane 13
     76121 Barletta BT
     Italy
 ---

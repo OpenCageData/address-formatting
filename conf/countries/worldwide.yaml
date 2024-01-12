@@ -67,7 +67,7 @@ generic7: &generic7 |
 generic8: &generic8 |
         {{{attention}}}
         {{{house}}}
-        {{{road}}}, {{{house_number}}} 
+        {{{road}}} {{{house_number}}} 
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}} {{#first}} {{{county_code}}} || {{{county}}} {{/first}}
         {{{country}}}
 
