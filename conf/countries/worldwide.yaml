@@ -82,7 +82,7 @@ generic9: &generic9 |
 generic10: &generic10 |
         {{{attention}}}
         {{{house}}}
-        {{{road}}} {{{house_number}}}
+        {{{road}}}, {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{{state}}}
@@ -1728,7 +1728,7 @@ RU:
     fallback_template: |
         {{{attention}}}
         {{{house}}}
-        {{{road}}} {{{house_number}}}
+        {{{road}}}, {{{house_number}}}
         {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} || {{{island}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}
         {{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}}
