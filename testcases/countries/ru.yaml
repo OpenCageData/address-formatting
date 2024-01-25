@@ -15,7 +15,7 @@ components:
     country_code : ru
 expected:  |
     Efes Istambul
-    Гороховая улица 23
+    Гороховая улица, 23
     Сенной округ
     Санкт-Петербург
     Российская Федерация
