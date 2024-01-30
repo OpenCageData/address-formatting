@@ -268,3 +268,22 @@ expected:  |
     Jablonskistraße 29A
     10405 Berlin
     Germany
+---
+#
+description: house in hamlet with no road 48.474124, 10.017457
+components:
+    city: Langenau
+    country: Deutschland
+    country_code: de
+    county: Alb-Donau-Kreis
+    hamlet: Witthau
+    house_number: 3
+    municipality: GVV Langenau
+    postcode: 89129
+    state: Baden-Württemberg
+    state_code: BW
+    town: Langenau
+expected:  |
+    Witthau 3
+    89129 Langenau
+    Deutschland
