@@ -136,6 +136,10 @@ We welcome your pull requests. Together we can address the world!
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
 
+### Additional resources
+
+If you are working with addresses you may need [lists of random addresses/postcodes/coordinates](https://opencagedata.com/tools/address-lists) (either in general or for specific countries) for testing.
+
 ### Further reading on the challenge of address
 
 Here's [our blog post anouncing this project](https://blog.opencagedata.com/post/99059889253/good-looking-addresses-solving-the-berlin-berlin) and the motivations behind it.
