@@ -27,7 +27,7 @@ aliases:
 name: place
 aliases:
     - farmland
-    - allotments    
+    - allotments
 ---
 name: hamlet
 aliases:
@@ -49,11 +49,11 @@ aliases:
     - commercial
     - industrial
     - houses
-    - subdistrict    
+    - subdistrict
     - subdivision
     - ward
 ---
-name: postal_city    
+name: postal_city
 ---
 name: city
 aliases:
@@ -64,7 +64,7 @@ name: municipality
 aliases:
     - local_administrative_area
     - subcounty
----    
+---
 name: county
 aliases:
     - county_code

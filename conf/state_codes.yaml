@@ -159,7 +159,7 @@ AR:
     B: Buenos Aires
     C:
       default: Ciudad Autónoma de Buenos Aires
-      alt_en: Autonomous City of Buenos Aires      
+      alt_en: Autonomous City of Buenos Aires
     D: San Luis
     E:
       default: Entre Ríos
@@ -344,7 +344,7 @@ BE:
       alt_fr: Anvers
     VBR:
       default: Vlaams Brabant
-      alt_de: Flämisch-Brabant      
+      alt_de: Flämisch-Brabant
       alt_en: Flemish Brabant
       alt_fr: Brabant flamand
     VLI:
@@ -356,7 +356,7 @@ BE:
       alt_fr: Flandre orientale
     VWV:
       default: West-Vlaanderen
-      alt_de: Westflandern      
+      alt_de: Westflandern
       alt_en: West Flanders
       alt_fr: Flandre-Occidentale
     WBR:
@@ -629,7 +629,7 @@ CH:
       default: Appenzell Innerrhoden
       alt_fr: Appenzell Rhodes-Intérieures
       alt_it: Appenzello Interno
-    AR: 
+    AR:
       default: Appenzell Ausserrhoden
       alt_fr: Appenzell Rhodes-Extérieures
       alt_it: Appenzello Esterno
@@ -637,7 +637,7 @@ CH:
       default: Bern
       alt_fr: Berne
       alt_it: Berna
-    BL: 
+    BL:
       default: Basel-Landschaft
       alt_fr: Bâle-Campagne
       alt_it: Basilea Campagna
@@ -645,12 +645,12 @@ CH:
       default: Basel-Stadt
       alt_en: Basel-City
       alt_fr: Bâle-Ville
-      alt_it: Basilea Città   
-    FR: 
+      alt_it: Basilea Città
+    FR:
       default: Fribourg
       alt_de: Freiburg
       alt_it: Friburgo
-    GE: 
+    GE:
       default: Geneva
       alt_de: Genf
       alt_fr: Genève
@@ -659,7 +659,7 @@ CH:
       default: Glarus
       alt_fr: Glaris
       alt_it: Glarona
-    GR: 
+    GR:
       default: Graubünden
       alt_en: Grisons
       alt_fr: Grisons
@@ -667,21 +667,21 @@ CH:
     JU:
       default: Jura
       alt_it: Giura
-    LU: 
+    LU:
       default: Luzern
       alt_fr: Lucerne
       alt_it: Lucerna
-    NE: 
+    NE:
       default: Neuchâtel
       alt_de: Neuenburg
-    NW: 
+    NW:
       default: Nidwalden
       alt_fr: Nidwald
       alt_it: Nidvaldo
     OW:
       default: Obwalden
       alt_fr: Obwald
-      alt_it: Obvaldo   
+      alt_it: Obvaldo
     SG:
       default: Sankt Gallen
       alt_fr: Saint-Gall
@@ -689,7 +689,7 @@ CH:
     SH:
       default: Schaffhausen
       alt_fr: Schaffhouse
-      alt_it: Sciaffusa   
+      alt_it: Sciaffusa
     SO:
       default: Solothurn
       alt_fr: Soleure
@@ -720,10 +720,10 @@ CH:
       alt_it: Zugo
     ZH:
       default: Zürich
-      alt_en: Zurich      
+      alt_en: Zurich
       alt_fr: Zurich
-      alt_it: Zurigo      
-CI:    
+      alt_it: Zurigo
+CI:
     AB: Abidjan
     BS: Bas-Sassandra
     CM: Comoé
@@ -737,7 +737,7 @@ CI:
     VB: Vallée du Bandama
     WR: Woroba
     YM: Yamoussoukro
-    ZZ: Zanzan    
+    ZZ: Zanzan
 CL:
     AI: Aisén del General Carlos Ibañez del Campo
     AN: Antofagasta
@@ -856,7 +856,7 @@ DE:
     SL: Saarland
     SN:
       default: Sachsen
-      alt_en: Saxony      
+      alt_en: Saxony
     ST:
       default: Sachsen-Anhalt
       alt_en: Saxony-Anhalt
@@ -929,14 +929,14 @@ ER:
 ES:
     AN :
       default: Andalucía
-      alt_en:  Andalusia      
-    AR : 
+      alt_en:  Andalusia
+    AR :
       default: Aragón
-      alt_en: Aragon    
+      alt_en: Aragon
     AS : Asturias
     CB : Cantabria
     CE : Ceuta
-    CL : 
+    CL :
       default: Castilla y León
       alt_en: Castile and León
     CM :
@@ -944,7 +944,7 @@ ES:
       alt_en: Castile-La Mancha
     CN :
       default: Canarias
-      alt_en: Canary Islands   
+      alt_en: Canary Islands
     CT :
       default: Cataluña
       alt_ca: Catalunya
@@ -953,7 +953,7 @@ ES:
     GA : Galicia
     IB :
       default: Islas Baleares
-      alt_en: Balearic Islands    
+      alt_en: Balearic Islands
     MC :
       default: Región de Murcia
       alt_en: Region of Murcia
@@ -987,7 +987,7 @@ FR:
     BFC: Bourgogne-Franche-Comté
     BRE:
       default: Bretagne
-      alt_en: Brittany 
+      alt_en: Brittany
     CVL: Centre-Val de Loire
     COR:
       default: Corse
@@ -1253,13 +1253,13 @@ ID:
       alt_en: West Java
     JI:
       default: Jawa Timur
-      alt_en: East Java    
+      alt_en: East Java
     JK:
       default: Daerah Khusus Ibukota Jakarta
       alt_en: Jakarta Special Capital Region
     JT:
       default: Jawa Tengah
-      alt_en: Central Java    
+      alt_en: Central Java
     KB:
       default: Kalimantan Barat
       alt_en: West Kalimantan
@@ -1298,7 +1298,7 @@ ID:
       alt_en: West Sumatra
     SG:
       default: Sulawesi Tenggara
-      alt_en: Southeast Sulawesi      
+      alt_en: Southeast Sulawesi
     SN:
       default: Sulawesi Selatan
       alt_en: South Sulawesi
@@ -1358,7 +1358,7 @@ IN:
     TR: Tripura
     UP: Uttar Pradesh
     UT: Uttarakhand
-    WB: West Bengal    
+    WB: West Bengal
 IT:
     ABR: Abruzzo
     BAS: Basilicata
@@ -1617,7 +1617,7 @@ LB:
     NA:
       default: محافظة النبطية
       alt_en: Nabatiya Governorate
-      alt_fr: Gouvernorat de Nabatiyeh      
+      alt_fr: Gouvernorat de Nabatiyeh
 LR:
     BG: Bong
     BM: Bomi
@@ -2196,7 +2196,7 @@ PL:
       alt_en: Lublin Voivodeship
     "08":
       default: województwo lubuskie
-      alt_en: Lubusz Voivodeship      
+      alt_en: Lubusz Voivodeship
     "10":
       default: województwo łódzkie
       alt_en: Łódź Voivodeship
@@ -2205,13 +2205,13 @@ PL:
       alt_en: Lesser Poland Voivodeship
     "14":
       default: województwo mazowieckie
-      alt_en: Masovian Voivodeship      
+      alt_en: Masovian Voivodeship
     "16":
       default: województwo opolskie
       alt_en: Opole Voivodeship
     "18":
       default: województwo podkarpackie
-      alt_en: Subcarpathian Voivodeship      
+      alt_en: Subcarpathian Voivodeship
     "20":
       default: województwo podlaskie
       alt_en: Podlaskie Voivodeship
@@ -2223,7 +2223,7 @@ PL:
       alt_en: Silesian Voivodeship
     "26":
       default: województwo świętokrzyskie
-      alt_en: Świętokrzyskie Voivodeship      
+      alt_en: Świętokrzyskie Voivodeship
     "28":
       default: województwo warmińsko-mazurskie
       alt_en: Warmian-Masurian Voivodeship
@@ -2418,7 +2418,7 @@ SK:
     ZI:
       default: Žilinský kraj
       alt_en: Region of Žilina
-SL:    
+SL:
     E: Eastern
     N: Northern
     S: Southern
