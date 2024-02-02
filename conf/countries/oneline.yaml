@@ -1,0 +1,1840 @@
+---
+# Each should be a list of five elements:
+#
+# 1. house name or local addressing
+# 2. road/housenumber
+# 3. city part (can be empty)
+# 4. city/town
+# 5. region, ending with country
+#
+# For 2-4, the first non-empty value is taken.
+# The 1-2 lists may contain ',' for punctuation. All parts are included.
+
+generic1: &generic1
+  - [house]
+  - [road, house_number]
+  - []
+  - [postal_city, town, city, village, municipality, hamlet]
+  - [county, state, archipelago, country]
+
+generic2: &generic2
+  - [house, ',', quarter]
+  - [house_number, road]
+  - []
+  - [village, town, city, municipality, hamlet, county]
+  - [state, country]
+
+generic3: &generic3
+  - [house]
+  - [house_number, road]
+  - [place]
+  - [town, village, hamlet, city, municipality]
+  - [state, country]
+
+generic4: &generic4
+  - [house]
+  - [house_number, road]
+  - [village, hamlet]
+  - [city, town, state_district, suburb, municipality, county]
+  - [state_code, state, country]
+
+generic5: &generic5
+  - [house]
+  - [house_number, road]
+  - []
+  - [city, town, village, hamlet]
+  - [state_district, state, country]
+
+generic6: &generic6
+  - [house]
+  - [house_number, road]
+  - []
+  - [city, town, village, hamlet, municipality]
+  - [county, state, country]
+
+generic7: &generic7
+  - [house]
+  - [road, house_number]
+  - []
+  - [city, town, village, hamlet]
+  - [state, country]
+
+generic8: &generic8
+  - [house]
+  - [road, house_number]
+  - []
+  - [city, town, village, hamlet, municipality]
+  - [county_code, county, country]
+
+generic9: &generic9
+  - [house]
+  - [road, house_number]
+  - [suburb, city_district, state_district]
+  - [city, town, village, hamlet, state]
+  - [country]
+
+generic10: &generic10
+  - [house]
+  - [road, ',', house_number]
+  - [suburb, city_district]
+  - [city, town, village, hamlet]
+  - [state, country]
+
+generic11: &generic11
+  - [house]
+  - [road, ',', house_number]
+  - [suburb]
+  - [city, town, village, hamlet]
+  - [state, country]
+
+generic12: &generic12
+  - [house]
+  - [house_number, ',', road]
+  - [suburb, city_district, state_district]
+  - [city, town, village, hamlet]
+  - [state, country]
+
+generic13: &generic13
+  - [house]
+  - [house_number, road]
+  - [suburb, city_district]
+  - [city, town, state_district, village, hamlet, region]
+  - [state_code, state, country]
+
+generic14: &generic14
+  - [house]
+  - [house_number, road]
+  - []
+  - [city, town, village, hamlet, state_district]
+  - [state, country]
+
+generic15: &generic15
+  - [house]
+  - [road, ',', house_number]
+  - []
+  - [city, town, village, hamlet, municipality]
+  - [county, state, country]
+
+generic16: &generic16
+  - [house]
+  - [house_number, road]
+  - []
+  - [city, town, village, hamlet, municipality]
+  - [county, state_district, state, country]
+
+generic17: &generic17
+  - [house]
+  - [road, house_number]
+  - []
+  - [city, town, village, hamlet, municipality]
+  - [county, state_district, state, country]
+
+generic18: &generic18
+  - [house]
+  - [house_number, ',', road]
+  - [suburb, city_district, neighbourhood]
+  - [city, town, village, hamlet, municipality]
+  - [state, country]
+
+generic19: &generic19
+  - [house]
+  - [road, house_number]
+  - [suburb, city_district, neighbourhood]
+  - [city, town, village, hamlet]
+  - [state, country]
+
+generic20: &generic20
+  - [house]
+  - [house_number, road]
+  - [suburb, city_district, neighbourhood]
+  - [city, town, village, hamlet]
+  - [state, country]
+
+generic21: &generic21
+  - [house]
+  - [road, house_number]
+  - [suburb, city_district, neighbourhood]
+  - [city, town, village, hamlet]
+  - [state, country]
+
+generic22: &generic22
+  - [house]
+  - [house_number, ',', road]
+  - []
+  - [city, town, village, hamlet]
+  - [state, country]
+
+generic23: &generic23
+  - [house]
+  - [house_number, road]
+  - [quarter]
+  - [village, town, city, municipality, hamlet, county]
+  - [state, country]
+
+
+
+default:
+  template: *generic19
+
+# Andorra
+AD:
+  template: *generic3
+
+# United Arab Emirates
+AE:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state_district, state, country]
+
+# Afghanistan
+AF:
+  template: *generic21
+
+# Antigua and Barbuda
+AG:
+  template: *generic16
+
+# Anguilla
+AI:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, village, hamlet]
+    - [country]
+
+# Albania
+AL:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, city_district, municipality, state_district, village, hamlet]
+    - [country]
+
+# Armenia
+AM:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet]
+    - [state_district, state, country]
+
+# Angola
+AO:
+  template: *generic7
+
+# Antarctica
+AQ:
+  template:
+    - [house]
+    - []
+    - []
+    - [city, town, village, hamlet]
+    - [country, continent]
+
+# Argentina
+AR:
+  template: *generic9
+  replace:
+    - ["^Autonomous City of ",""]
+
+# American Samoa
+AS:
+  use_country: US
+  change_country: United States of America
+  add_component: state=American Samoa
+
+# Austria
+AT:
+  template: *generic1
+
+# Australia
+AU:
+  template: *generic13
+
+# Aruba
+AW:
+  template: *generic17
+
+# Åland Islands, part of Finland
+AX:
+  use_country: FI
+  change_country: Åland, Finland
+
+# Azerbaijan
+AZ:
+  template: *generic3
+
+# Bosnia
+BA:
+  template: *generic1
+
+# Barbados
+BB:
+  template: *generic16
+
+# Bangladesh
+BD:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, state_district]
+    - [city, town, village, hamlet]
+    - [country]
+
+# Belgium
+BE:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [postal_city, town, city, village, municipality, hamlet, county, state]
+    - [archipelago, country]
+
+# Burkina Faso
+BF:
+  template: *generic6
+
+# Bulgaria - https://en.wikipedia.org/wiki/Address#Bulgaria
+BG:
+  template: *generic19
+
+# Bahrain
+BH:
+  template: *generic2
+
+# Burundi
+BI:
+  template: *generic17
+
+# Benin
+BJ:
+  template: *generic18
+
+# Saint Barthélemy - same as FR
+BL:
+  use_country: FR
+  change_country: Saint-Barthélemy, France
+
+# Bermuda
+BM:
+  template: *generic2
+
+# Brunei
+BN:
+  template:
+    - [house]
+    - [house_number, ',', road]
+    - []
+    - [city, town, village, hamlet, municipality]
+    - [county, state_district, state, country]
+
+# Bolivia
+BO:
+  template: *generic17
+  replace:
+    - ["^Municipio Nuestra Senora de ",""]
+
+# Dutch Caribbean / Bonaire
+BQ:
+  use_country: NL
+  change_country: Caribbean Netherlands
+
+# Brazil
+BR:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, village, hamlet]
+    - [city, town, state_district]
+    - [state_code, state, country]
+
+# Bahamas
+BS:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, village, hamlet, municipality]
+    - [county, country]
+
+# Bhutan
+BT:
+  template:
+    - []
+    - [road, house_number, ',', house]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, state]
+    - [country]
+
+# Bouvet Island
+BV:
+  use_country: "NO"
+  change_country: Bouvet Island, Norway
+
+# Botswana
+BW:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [country]
+
+# Belarus
+BY:
+  template: *generic11
+
+# Belize
+BZ:
+  template: *generic16
+
+# Canada - https://en.wikipedia.org/wiki/Address#Canada
+CA:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb]
+    - [city, town, village, hamlet, county, state_district]
+    - [state_code, state, country]
+
+#Canada - English
+CA_en:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb]
+    - [city, town, village, hamlet, county, state_district]
+    - [state_code, state, country]
+
+#Canada - French Quebec
+CA_fr:
+  template:
+    - [house]
+    - [house_number, ',', road]
+    - [suburb]
+    - [city, town, village, hamlet, county, state_district]
+    - [state_code, state, country]
+
+# Cocos (Keeling) Islands
+CC:
+  use_country: AU
+  change_country: Australia
+
+# Democratic Republic of the Congo
+CD:
+  template: *generic18
+
+# Central African Republic
+CF:
+  template: *generic17
+
+# Republic of the Congo / Congo-Brazzaville
+CG:
+  template: *generic18
+
+# Switzerland
+CH:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [postal_city, town, city, municipality, village, hamlet, county, state]
+    - [country]
+  replace:
+    - ["Verwaltungskreis",""]
+    - ["Verwaltungsregion",""]
+    - [" administrative district",""]
+    - [" administrative region",""]
+
+# Côte d'Ivoire
+CI:
+  template: *generic16
+
+# Cook Islands
+CK:
+  template: *generic16
+
+# Chile - https://en.wikipedia.org/wiki/Address#Chile
+CL:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [postal_city, town, city, village, municipality, hamlet, county, state]
+    - [region, country]
+
+# Cameroon
+CM:
+  template: *generic17
+
+# China
+CN:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, municipality, village, hamlet]
+    - [county, state_code, state, state_district, region, country]
+
+# China - English
+CN_en:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, municipality, village, hamlet]
+    - [county, state_code, state, state_district, region, country]
+
+# China - Chinese Simplified
+CN_zh:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, municipality, village, hamlet]
+    - [county, state_code, state, state_district, region, country]
+
+# Colombia
+CO:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, state_district, village, hamlet]
+    - [state_code, state, country]
+  postformat_replace:
+    - ["Localidad "," "]
+    - ["Bogota, Bogota","Bogota"]
+    - ["Bogota, Bogotá Distrito Capital","Bogota"]
+    - ["Bogotá, Bogotá Distrito Capital","Bogotá"]
+
+# Costa Rica
+CR:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, state_district, village, hamlet]
+    - [state, country]
+
+# Cuba
+CU:
+  template: *generic7
+
+# Cape Verde
+CV:
+  template: *generic1
+
+# Curaçao
+CW:
+  template: *generic17
+
+# Christmas Island - same as Australia
+CX:
+  use_country: AU
+  add_component: state=Christmas Island
+  change_country: Australia
+
+# Cyprus
+CY:
+  template: *generic1
+
+# Czech Republic
+CZ:
+  template: *generic1
+
+# Germany
+DE:
+  template: *generic1
+  replace:
+    - ["^Stadtteil ",""]
+    - ["^Stadtbezirk (\\d+)",""]
+    - ["^Ortsbeirat (\\d+) :",""]
+    - ["^Gemeinde ",""]
+    - ["^Gemeindeverwaltungsverband ",""]
+    - ["^Landkreis ",""]
+    - ["^Kreis ",""]
+    - ["^Grenze ",""]
+    - ["^Free State of ",""]
+    - ["^Freistaat ",""]
+    - ["^Regierungsbezirk ",""]
+    - ["^Gemeindefreies Gebiet ",""]
+    - ["city=Alt-Berlin","Berlin"]
+  postformat_replace:
+    - ["Berlin\nBerlin","Berlin"]
+    - ["Bremen\nBremen","Bremen"]
+    - ["Hamburg\nHamburg","Hamburg"]
+
+# Djibouti
+DJ:
+  template: *generic16
+  replace:
+    - ["city=Djibouti","Djibouti-Ville"]
+
+# Denmark
+DK:
+  template: *generic1
+  replace:
+    - ["^Capital Region of ",""]
+
+# Dominica
+DM:
+  template: *generic16
+
+# Dominican Republic
+DO:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, country]
+  postformat_replace:
+    - [", Distrito Nacional",", DN"]
+
+# Algeria
+DZ:
+  template: *generic3
+
+# Ecuador
+EC:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, state_district, village, hamlet]
+    - [country]
+
+# Egypt
+EG:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [country]
+
+# Estonia
+EE:
+  template: *generic1
+
+# Western Sahara
+EH:
+  template: *generic17
+
+# Eritrea
+ER:
+  template: *generic17
+
+# Spain
+ES:
+  template: *generic15
+  replace:
+    - ["Autonomous Community of the",""]
+    - ["Autonomous Community of",""]
+    - ["^Community of ",""]
+
+# Ethiopia
+ET:
+  template: *generic1
+
+# Finland
+FI:
+  template: *generic1
+
+# Fiji
+FJ:
+  template: *generic16
+
+# Falkland Islands
+FK:
+  use_country: GB
+  change_country: Falkland Islands, United Kingdom
+
+# Federated States of Micronesia
+FM:
+  use_country: US
+  change_country: United States of America
+  add_component: state=Micronesia
+
+# Faroe Islands
+FO:
+  template: *generic1
+  postformat_replace:
+    - ["Territorial waters of Faroe Islands","Faroe Islands"]
+
+# France
+FR:
+  template: *generic3
+  replace:
+    - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
+    - ["France, Mayotte \\(eaux territoriales\\)","Mayotte, France"]
+    - ["France, La Réunion \\(eaux territoriales\\)","La Réunion, France"]
+    - ["Grande Terre et récifs d'Entrecasteaux",""]
+    - ["France, Nouvelle-Calédonie","Nouvelle-Calédonie, France"]
+    - ["\\(eaux territoriales\\)",""]
+    - ["state= \\(France\\)$",""]
+    - ["Paris (\\d+)(\\w+) Arrondissement$","Paris"]
+
+# Gabon
+GA:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood, village, hamlet]
+    - [city, town, municipality, county]
+    - [state_district, state, country]
+
+# Great Britain
+GB:
+  template:
+    - [house]
+    - [house_number, road]
+    - [quarter]
+    - [village, town, city, municipality, hamlet, county]
+    - [postcode, state, country]
+  replace:
+    - ["village= CP$",""]
+    - ["^Borough of ",""]
+    - ["^County( of)? ",""]
+    - ["^Parish of ",""]
+    - ["^Greater London","London"]
+    - ["^London Borough of ",""]
+    - ["Royal Borough of ",""]
+    - ["County Borough of ",""]
+  postformat_replace:
+    - ["London, London","London"]
+    - ["London, Greater London","London"]
+    - ["City of Westminster","London"]
+    - ["City of Nottingham","Nottingham"]
+    - [", United Kingdom$","\nUnited Kingdom"]
+    - ["London\nEngland\nUnited Kingdom","London\nUnited Kingdom"]
+
+# Grenada
+GD:
+  template: *generic17
+
+# Georgia
+GE:
+  template: *generic1
+
+# French Guiana - same as FR
+GF:
+  use_country: FR
+  change_country: France
+
+# Guernsey - same format as UK, but not part of UK
+GG:
+  use_country: GB
+  change_country: Guernsey, Channel Islands
+
+# Ghana
+GH:
+  template: *generic16
+
+# Gibraltar
+GI:
+  template: *generic16
+
+# Greenland
+GL:
+  template: *generic1
+
+# The Gambia
+GM:
+  template: *generic16
+
+# Guinea
+GN:
+  template: *generic14
+
+# Guadeloupe - same as FR
+GP:
+  use_country: FR
+  change_country: Guadeloupe, France
+
+# Equatorial Guinea
+GQ:
+  template: *generic17
+
+# Greece
+GR:
+  template: *generic1
+  replace:
+    - ["Municipal Unit of ",""]
+    - ["Regional Unit of ",""]
+
+# South Georgia and the South Sandwich Islands - same as UK
+GS:
+  use_country: GB
+  change_country: United Kingdom
+  add_component: county=South Georgia
+
+# Guatemala
+GT:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, village, hamlet, municipality, state]
+    - [country]
+
+# Guam
+GU:
+  use_country: US
+  change_country: United States of America
+  add_component: state=Guam
+
+# Guinea-Bissau
+GW:
+  template: *generic1
+
+# Guyana
+GY:
+  template: *generic16
+
+# Hong Kong
+HK:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [state_district]
+    - [state, country]
+
+# Hong Kong - English
+HK_en:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [state_district]
+    - [state, country]
+
+# Hong Kong - Chinese
+HK_zh:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [state_district]
+    - [state, country]
+
+# Heard Island and McDonald Islands - same as Australia
+HM:
+  use_country: AU
+  change_country: Australia
+  add_component: state=Heard Island and McDonald Islands
+
+# Honduras
+HN:
+  template: *generic1
+
+# Croatia
+HR:
+  template: *generic1
+
+# Haiti
+HT:
+  template: *generic1
+  postformat_replace:
+        - [" Commune de"," "]
+
+# Hungary
+HU:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, country]
+
+# Ireland
+# https://en.wikipedia.org/wiki/Postal_addresses_in_the_Republic_of_Ireland
+IE:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, municipality]
+    - [county, country]
+  replace:
+    - [" City$",""]
+    - ["The Municipal District of ",""]
+    - ["The Metropolitan District of ",""]
+    - ["Municipal District",""]
+    - ["Electoral Division",""]
+  postformat_replace:
+    - ["Dublin\nCounty Dublin","Dublin"]
+    - ["Dublin\nLeinster","Dublin"]
+    - ["Galway\nCounty Galway","Galway"]
+    - ["Kilkenny\nCounty Kilkenny","Kilkenny"]
+    - ["Limerick\nCounty Limerick","Limerick"]
+    - ["Tipperary\nCounty Tipperary","Tipperary"]
+
+# Israel
+IL:
+  template: *generic1
+
+# Isle of Man
+IM:
+  use_country: GB
+
+# India
+# http://en.wikipedia.org/wiki/Address_%28geography%29#India
+IN:
+  template: *generic12
+
+# British Indian Ocean Territory - same as UK
+IO:
+  use_country: GB
+  change_country: British Indian Ocean Territory, United Kingdom
+
+# Iraq
+IQ:
+  template:
+    - [house]
+    - [house_number, road]
+    - [city_district, neighbourhood, suburb]
+    - [city, town, state, village, hamlet]
+    - [country]
+
+# Iran
+IR:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [province, state, state_district, country]
+
+IR_en:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, state_district, country]
+
+IR_fa:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [province, state, state_district, country]
+
+# Iceland
+IS:
+  template: *generic1
+
+# Italy
+IT:
+  template: *generic8
+  replace:
+        - ["Città metropolitana di ",""]
+        - ["Metropolitan City of ",""]
+        - ["^Provincia di ",""]
+  postformat_replace:
+        - ["Vatican City\nVatican City$","\nVatican City"]
+        - ["Città del Vaticano\nCittà del Vaticano$","Città del Vaticano\n"]
+
+# Jersey - same format as UK, but not part of UK
+JE:
+  use_country: GB
+  change_country: Jersey, Channel Islands
+
+# Jamaica
+JM:
+  template: *generic20
+
+# Jordan
+JO:
+  template: *generic1
+
+# Japan
+JP:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, state_district, country]
+
+# Japan - English
+JP_en:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, state_district, country]
+
+# Japan - Japanese
+JP_ja:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, state_district, country]
+
+# Kenya
+KE:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, state, village, hamlet]
+    - [country]
+
+# Kyrgyzstan
+KG:
+  template: *generic11
+
+# Cambodia
+KH:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [country]
+
+# Kiribati
+KI:
+  template: *generic17
+
+# Comoros
+KM:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [country]
+
+# Saint Kitts and Nevis
+KN:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet]
+    - [state, island, country]
+
+# Democratic People's Republic of Korea / North Korea
+KP:
+  template: *generic21
+
+# Republic of Korea / South Korea -- https://en.wikipedia.org/wiki/Address#South_Korea
+KR:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, country]
+
+# South Korea - English
+KR_en:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, country]
+
+# South Korea - Korean
+KR_ko:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, country]
+
+# Kuwait
+KW:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [country]
+
+# Cayman Islands
+KY:
+  template: *generic2
+
+# Kazakhstan
+KZ:
+  template: *generic11
+
+# Laos
+LA:
+  template: *generic22
+
+# Lebanon
+LB:
+  template: *generic2
+
+# Saint Lucia
+LC:
+  template: *generic17
+
+# Liechtenstein, same as Switzerland
+LI:
+  use_country: CH
+
+# Sri Lanka
+LK:
+  template: *generic20
+
+# Liberia
+LR:
+  template: *generic1
+
+# Lesotho
+LS:
+  template: *generic2
+
+# Lithuania
+LT:
+  template: *generic1
+
+# Luxemburg
+LU:
+  template: *generic3
+
+# Latvia
+LV:
+  template: *generic7
+
+# Libya
+LY:
+  template: *generic17
+
+# Morocco
+MA:
+  template: *generic3
+
+# Monaco
+MC:
+  template: *generic3
+
+# Moldova
+MD:
+  template:
+    - [house]
+    - [road, ',', house_number]
+    - []
+    - [city, town, village, hamlet, state]
+    - [country]
+
+# Montenegro
+ME:
+  template: *generic1
+
+# Collectivité de Saint-Martin
+MF:
+  use_country: FR
+  change_country: France
+
+# Marshall Islands
+MH:
+  use_country: US
+  add_component: state=Marshall Islands
+
+# Madagascar
+MG:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [country]
+
+# North Macedonia
+MK:
+  template: *generic1
+
+# Mali
+ML:
+  template: *generic17
+
+# Myanmar (Burma)
+MM:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet, state]
+    - [country]
+
+# Mongolia
+MN:
+  template:
+    - [house]
+    - [road, house_number]
+    - [city_district, suburb, neighbourhood]
+    - [city, town, village, hamlet]
+    - [country]
+
+# Macau
+MO:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [suburb, village, hamlet, state_district]
+    - [country]
+
+# Macao - Portuguese
+MO_pt:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [suburb, village, hamlet, state_district]
+    - [country]
+
+# Macao - Chinese
+MO_zh:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [suburb, village, hamlet, state_district]
+    - [country]
+
+# Northern Mariana Islands
+MP:
+  use_country: US
+  change_country: United States of America
+  add_component: state=Northern Mariana Islands
+
+# Montserrat
+MS:
+  template: *generic16
+
+# Malta
+MT:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, suburb, village, hamlet]
+    - [country]
+
+# Martinique - overseas territory of France (FR)
+MQ:
+  use_country: FR
+  change_country: Martinique, France
+
+# Mauritania
+MR:
+  template: *generic18
+
+# Mauritius
+MU:
+  template:
+    - [house]
+    - [house_number, ',', road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, state]
+    - [country]
+
+# Maldives
+MV:
+  template: *generic2
+
+# Malawi
+MW:
+  template: *generic16
+
+# Mexico
+MX:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, state_district, village, hamlet]
+    - [state_code, state, country]
+
+# Malaysia
+MY:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet]
+    - [state, country]
+
+# Mozambique
+MZ:
+  template: *generic15
+
+# Namibia
+NA:
+  template: *generic2
+
+# New Caledonia, special collectivity of France
+NC:
+  use_country: FR
+  change_country: Nouvelle-Calédonie, France
+
+# Niger
+NE:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet]
+    - [country]
+
+# Norfolk Island - same as Australia
+NF:
+  use_country: AU
+  add_component: state=Norfolk Island
+  change_country: Australia
+
+# Nigeria
+NG:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet]
+    - [state, country]
+
+# Nicaragua
+NI:
+  template: *generic21
+
+# Netherlands
+NL:
+  template: *generic1
+  postformat_replace:
+        - ["\nKoninkrijk der Nederlanden$","\nNederland"]
+
+
+# Norway
+# quoted since python interprets it as a boolean. Silly python!
+"NO":
+  template: *generic1
+
+# Nepal
+NP:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, neighbourhood]
+    - [city]
+    - [municipality, county, state_district, state, country]
+
+# Nauru
+NR:
+  template: *generic16
+
+# Niue
+NU:
+  template: *generic16
+
+# New Zealand
+NZ:
+  template: *generic20
+  postformat_replace:
+        - ["Wellington\nWellington City","Wellington"]
+
+# Oman
+OM:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, state_district, village, hamlet]
+    - [state, country]
+
+# Panama
+PA:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, state_district, village, hamlet]
+    - [state, country]
+
+# Peru
+PE:
+  template: *generic19
+
+# French Polynesia - same as FR
+PF:
+  use_country: FR
+  change_country: Polynésie française, France
+  replace:
+        - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
+
+
+# Papau New Guinea
+PG:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet]
+    - [state, country]
+
+# Philippines - https://en.wikipedia.org/wiki/Address#Philippines
+PH:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, state_district]
+    - [municipality, region, state, country]
+
+# Pakistan
+PK:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, state]
+    - [country]
+
+# Poland
+PL:
+  template: *generic1
+
+# Saint Pierre and Miquelon - same as FR
+PM:
+  use_country: FR
+  change_country: Saint-Pierre-et-Miquelon, France
+
+# Pitcairn Islands
+PN:
+  template:
+    - [house]
+    - []
+    - []
+    - [city, town, island]
+    - [country]
+
+# Puerto Rico, same as USA
+PR:
+  use_country: US
+  change_country: United States of America
+  add_component: state=Puerto Rico
+
+# Palestine
+PS:
+  use_country: IL
+
+# Portugal
+PT:
+  template: *generic1
+
+# Palau
+PW:
+  template: *generic1
+
+# Parguay
+PY:
+  template: *generic1
+
+# Qatar
+QA:
+  template: *generic17
+
+# Réunion - same as FR
+RE:
+  use_country: FR
+  change_country: La Réunion, France
+
+# Romania
+RO:
+  template: *generic1
+
+# Serbia
+RS:
+  template: *generic1
+
+# Russia
+RU:
+  template: *generic10
+
+# Rwanda
+RW:
+  template: *generic16
+
+# Saudi Arabia
+SA:
+  template:
+    - [house]
+    - [house_number, road]
+    - [village, hamlet, city_district, suburb, neighbourhood]
+    - [city, town, state_district]
+    - [country]
+
+# Solomon Islands
+SB:
+  template: *generic17
+
+# Seychelles
+SC:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet]
+    - [island, country]
+
+# Sudan
+SD:
+  template: *generic1
+
+# Sweden
+SE:
+  template: *generic1
+
+# Singapore
+SG:
+  template:
+    - [house, ',', quarter]
+    - [house_number, road, ',', residential]
+    - []
+    - [county, town, city, municipality, hamlet, village, county]
+    - [country]
+
+# Saint Helena, Ascension and Tristan da Cunha - same as UK
+SH:
+  use_country: GB
+  change_country: $state, United Kingdom
+
+# Slovenia
+SI:
+  template: *generic1
+
+# Svalbard and Jan Mayen - same as Norway
+SJ:
+  use_country: "NO"
+  change_country: Norway
+
+# Slovakia
+SK:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [postal_city, city, town, village, municipality, city_district, hamlet]
+    - [county, state, country]
+  replace:
+    - ["^District of ",""]
+    - ["^Region of ",""]
+
+# Sierra Leone
+SL:
+  template: *generic16
+
+# San Marino - same as IT
+SM:
+  use_country: IT
+
+# Senegal
+SN:
+  template: *generic3
+  replace:
+        - ["^Commune de ",""]
+        - ["^Arrondissement de ",""]
+        - ["^Département de ",""]
+
+# Somalia
+SO:
+  template: *generic21
+
+# Suriname
+SR:
+  template: *generic21
+
+# South Sudan
+SS:
+  template: *generic17
+
+# São Tomé and Príncipe
+ST:
+  template: *generic17
+
+# El Salvador
+SV:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, village, hamlet]
+    - [state, country]
+  postformat_replace:
+    - ["\n- ","\n "]
+
+# Sint Maarten
+SX:
+  template: *generic17
+
+# Syria
+SY:
+  template:
+    - [house]
+    - [road, ',', house_number]
+    - [village, hamlet, city_district, neighbourhood, suburb]
+    - [city, town, state_district, state]
+    - [country]
+
+# Swaziland
+SZ:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, village, hamlet, state]
+    - [country]
+
+# Turks and Caicos Islands
+TC:
+  template:
+    - []
+    - [house_number, road]
+    - [quarter]
+    - [village, town, city, municipality, hamlet, county]
+    - [island, country]
+
+# Chad
+TD:
+  template: *generic21
+
+# French Southern and Antarctic Lands
+TF:
+  use_country: FR
+  change_country: Terres australes et antarctiques françaises, France
+
+# Togo
+TG:
+  template: *generic18
+
+# Thailand -- https://en.wikipedia.org/wiki/Thai_addressing_system
+TH:
+  template:
+    - [house]
+    - [house_number, road]
+    - [village, hamlet, suburb, city_district, state_district]
+    - [neighbourhood, city, town]
+    - [state, country]
+
+# Tajikistan
+TJ:
+  template: *generic1
+
+# Tokelau, territory of New Zealand
+TK:
+  use_country: NZ
+  change_country: Tokelau, New Zealand
+
+# Timor-Leste/East Timor
+TL:
+  template: *generic17
+
+# Turkmenistan
+TM:
+  template: *generic22
+
+# Tunisia
+TN:
+  template: *generic3
+
+# Tonga
+TO:
+  template: *generic16
+
+# Turkey
+TR:
+  template: *generic1
+
+# Trinidad and Tobago
+TT:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, state_district]
+    - [city, town, state_district, village, hamlet]
+    - [country]
+
+# Tuvalu
+TV:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet, municipality]
+    - [county, state_district, state, island, country]
+
+# Taiwan -- https://en.wikipedia.org/wiki/Address#Taiwan
+TW:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, municipality]
+    - [country]
+
+TW_en:
+  template:
+    - [house]
+    - [house_number, ',', road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, municipality]
+    - [country]
+
+TW_zh:
+  template:
+    - [house]
+    - [road, house_number]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, municipality]
+    - [country]
+
+# Tanzania
+TZ:
+  template: *generic14
+  postformat_replace:
+    - ["Dar es Salaam\nDar es Salaam","Dar es Salaam"]
+
+# Ukraine -- https://en.wikipedia.org/wiki/Address#Ukraine
+UA:
+  template:
+    - [house]
+    - [road, ',', house_number]
+    - [suburb, city_district, state_district]
+    - [city, town, village, hamlet, municipality]
+    - [region, state, country]
+
+# Uganda
+UG:
+  template: *generic16
+
+# US Minor Outlying Islands, same as USA
+UM:
+  use_country: US
+  change_country: United States of America
+  add_component: state=US Minor Outlying Islands
+
+# USA
+US:
+  template: *generic4
+  replace:
+      - ["state=United States Virgin Islands","US Virgin Islands"]
+      - ["state=USVI","US Virgin Islands"]
+  postformat_replace:
+      - ["\nUS$","\nUnited States of America"]
+      - ["\nUSA$","\nUnited States of America"]
+      - ["\nUnited States$","\nUnited States of America"]
+      - ["Town of ",""]
+      - ["Township of ",""]
+
+# Uzbekistan
+UZ:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, village, hamlet]
+    - [state, state_district, country]
+
+# Uruguay
+UY:
+  template: *generic1
+
+# Vatican City - same as IT
+VA:
+  use_country: IT
+
+# Saint Vincent and the Grenadines
+VC:
+  template: *generic17
+
+# Venezuela
+VE:
+  template:
+    - [house]
+    - [road, house_number]
+    - []
+    - [city, town, state_district, village, hamlet]
+    - [state_code, state, country]
+
+# British Virgin Islands
+VG:
+  template:
+    - [house]
+    - [house_number, road]
+    - []
+    - [city, town, village, hamlet]
+    - [island, country]
+
+# US Virgin Islands, same as USA
+VI:
+  use_country: US
+  change_country: United States of America
+  add_component: state=US Virgin Islands
+
+# Vietnam -- https://en.wikipedia.org/wiki/Address#Vietnam
+VN:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, neighbourhood]
+    - [city, town, village, hamlet, state_district]
+    - [state, country]
+
+# Vanuatu
+VU:
+  template: *generic17
+
+# Wallis and Futuna, same as France
+WF:
+  use_country: FR
+  change_country: Wallis-et-Futuna, France
+
+# Samoa
+WS:
+  template: *generic17
+
+# Yemen
+YE:
+  template: *generic18
+
+# Mayotte - same as FR
+YT:
+  use_country: FR
+  change_country: Mayotte, France
+
+# South Africa
+ZA:
+  template:
+    - [house]
+    - [house_number, road]
+    - [suburb, city_district, state_district]
+    - [city, town, village, hamlet]
+    - [state, country]
+
+# Zambia
+ZM:
+  template: *generic3
+
+# Zimbabwe
+ZW:
+  template: *generic16
