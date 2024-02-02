@@ -589,7 +589,7 @@ DO:
     - [city, town, village, hamlet]
     - [state, country]
   replace:
-    - ["Distrito Nacional","DN"]
+    - ["state=Distrito Nacional","DN"]
 
 # Algeria
 DZ:
