@@ -24,11 +24,5 @@ jobs:
       - name: Tests
         run: bin/run_tests.t
 
-      - name: Set up python
-        uses: actions/setup-python@v4
-
-      - name: Install PyYAML
-        run: python -m pip install pyyaml
-
-      - name: Run oneline tests
-        run: python bin/check_oneline.py
+      - name: Oneline tests
+        run: bin/validate_oneline.t
