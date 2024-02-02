@@ -11,8 +11,7 @@ with open(os.path.join(
     data = yaml.load(f, Loader=yaml.FullLoader)
 
 ALLOWED_KEYS = {
-    'template', 'use_country', 'change_country', 'add_component',
-    'replace', 'postformat_replace',
+    'template', 'use_country', 'change_country', 'add_component', 'replace'
 }
 COMPONENTS = [
     # local house name

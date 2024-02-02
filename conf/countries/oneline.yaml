@@ -508,11 +508,8 @@ CO:
     - [suburb, city_district, neighbourhood]
     - [city, town, state_district, village, hamlet]
     - [state_code, state, country]
-  postformat_replace:
+  replace:
     - ["Localidad "," "]
-    - ["Bogota, Bogota","Bogota"]
-    - ["Bogota, Bogotá Distrito Capital","Bogota"]
-    - ["Bogotá, Bogotá Distrito Capital","Bogotá"]
 
 # Costa Rica
 CR:
@@ -566,10 +563,6 @@ DE:
     - ["^Regierungsbezirk ",""]
     - ["^Gemeindefreies Gebiet ",""]
     - ["city=Alt-Berlin","Berlin"]
-  postformat_replace:
-    - ["Berlin\nBerlin","Berlin"]
-    - ["Bremen\nBremen","Bremen"]
-    - ["Hamburg\nHamburg","Hamburg"]
 
 # Djibouti
 DJ:
@@ -595,8 +588,8 @@ DO:
     - [suburb, city_district, neighbourhood]
     - [city, town, village, hamlet]
     - [state, country]
-  postformat_replace:
-    - [", Distrito Nacional",", DN"]
+  replace:
+    - ["Distrito Nacional","DN"]
 
 # Algeria
 DZ:
@@ -666,7 +659,7 @@ FM:
 # Faroe Islands
 FO:
   template: *generic1
-  postformat_replace:
+  replace:
     - ["Territorial waters of Faroe Islands","Faroe Islands"]
 
 # France
@@ -708,13 +701,8 @@ GB:
     - ["^London Borough of ",""]
     - ["Royal Borough of ",""]
     - ["County Borough of ",""]
-  postformat_replace:
-    - ["London, London","London"]
-    - ["London, Greater London","London"]
     - ["City of Westminster","London"]
     - ["City of Nottingham","Nottingham"]
-    - [", United Kingdom$","\nUnited Kingdom"]
-    - ["London\nEngland\nUnited Kingdom","London\nUnited Kingdom"]
 
 # Grenada
 GD:
@@ -843,8 +831,8 @@ HR:
 # Haiti
 HT:
   template: *generic1
-  postformat_replace:
-        - [" Commune de"," "]
+  replace:
+    - ["^Commune de",""]
 
 # Hungary
 HU:
@@ -870,13 +858,6 @@ IE:
     - ["The Metropolitan District of ",""]
     - ["Municipal District",""]
     - ["Electoral Division",""]
-  postformat_replace:
-    - ["Dublin\nCounty Dublin","Dublin"]
-    - ["Dublin\nLeinster","Dublin"]
-    - ["Galway\nCounty Galway","Galway"]
-    - ["Kilkenny\nCounty Kilkenny","Kilkenny"]
-    - ["Limerick\nCounty Limerick","Limerick"]
-    - ["Tipperary\nCounty Tipperary","Tipperary"]
 
 # Israel
 IL:
@@ -938,12 +919,9 @@ IS:
 IT:
   template: *generic8
   replace:
-        - ["Città metropolitana di ",""]
-        - ["Metropolitan City of ",""]
-        - ["^Provincia di ",""]
-  postformat_replace:
-        - ["Vatican City\nVatican City$","\nVatican City"]
-        - ["Città del Vaticano\nCittà del Vaticano$","Città del Vaticano\n"]
+    - ["Città metropolitana di ",""]
+    - ["Metropolitan City of ",""]
+    - ["^Provincia di ",""]
 
 # Jersey - same format as UK, but not part of UK
 JE:
@@ -1321,8 +1299,8 @@ NI:
 # Netherlands
 NL:
   template: *generic1
-  postformat_replace:
-        - ["\nKoninkrijk der Nederlanden$","\nNederland"]
+  replace:
+    - ["Koninkrijk der Nederlanden$","Nederland"]
 
 
 # Norway
@@ -1350,8 +1328,6 @@ NU:
 # New Zealand
 NZ:
   template: *generic20
-  postformat_replace:
-        - ["Wellington\nWellington City","Wellington"]
 
 # Oman
 OM:
@@ -1380,7 +1356,7 @@ PF:
   use_country: FR
   change_country: Polynésie française, France
   replace:
-        - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
+    - ["Polynésie française, Îles du Vent \\(eaux territoriales\\)","Polynésie française"]
 
 
 # Papau New Guinea
@@ -1552,9 +1528,9 @@ SM:
 SN:
   template: *generic3
   replace:
-        - ["^Commune de ",""]
-        - ["^Arrondissement de ",""]
-        - ["^Département de ",""]
+    - ["^Commune de ",""]
+    - ["^Arrondissement de ",""]
+    - ["^Département de ",""]
 
 # Somalia
 SO:
@@ -1580,8 +1556,6 @@ SV:
     - []
     - [city, town, village, hamlet]
     - [state, country]
-  postformat_replace:
-    - ["\n- ","\n "]
 
 # Sint Maarten
 SX:
@@ -1711,8 +1685,6 @@ TW_zh:
 # Tanzania
 TZ:
   template: *generic14
-  postformat_replace:
-    - ["Dar es Salaam\nDar es Salaam","Dar es Salaam"]
 
 # Ukraine -- https://en.wikipedia.org/wiki/Address#Ukraine
 UA:
@@ -1737,14 +1709,10 @@ UM:
 US:
   template: *generic4
   replace:
-      - ["state=United States Virgin Islands","US Virgin Islands"]
-      - ["state=USVI","US Virgin Islands"]
-  postformat_replace:
-      - ["\nUS$","\nUnited States of America"]
-      - ["\nUSA$","\nUnited States of America"]
-      - ["\nUnited States$","\nUnited States of America"]
-      - ["Town of ",""]
-      - ["Township of ",""]
+    - ["state=United States Virgin Islands","US Virgin Islands"]
+    - ["state=USVI","US Virgin Islands"]
+    - ["Town of ",""]
+    - ["Township of ",""]
 
 # Uzbekistan
 UZ:
