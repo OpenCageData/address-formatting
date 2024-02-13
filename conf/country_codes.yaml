@@ -1,6 +1,6 @@
 # only for reference.
-# http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-#
+# see http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+# note codes beginging with X and not official
 AD: # Andorra 
 AE: # United Arab Emirates 
 AF: # Afghanistan 
@@ -244,7 +244,9 @@ VI: # United States Virgin Islands
 VN: # Vietnam
 VU: # Vanuatu 
 WF: # Wallis and Futuna 
-WS: # Samoa 
+WS: # Samoa
+XC: # Sovereign Base Areas of Akrotiri and Dhekelia
+XK: # Kosovo
 YE: # Yemen 
 YT: # Mayotte 
 ZA: # South Africa 
