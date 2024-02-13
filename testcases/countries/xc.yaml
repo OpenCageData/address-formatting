@@ -1,0 +1,14 @@
+# Sovereign Base Areas of Akrotiri and Dhekelia
+---
+description: 35.0257,33.7803
+components:
+    country: Sovereign Base Areas of Akrotiri and Dhekelia
+    country_code: xc
+    county: Dhekelia
+    road: unnamed road
+    village: Dasaki Achnas
+expected:  |
+    unnamed road
+    Dasaki Achnas
+    Dhekelia
+    Sovereign Base Areas of Akrotiri and Dhekelia
