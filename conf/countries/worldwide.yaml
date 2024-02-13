@@ -2104,6 +2104,16 @@ WF:
 WS:
     address_template: *generic17
 
+# Sovereign Base Areas of Akrotiri and Dhekelia
+# not an official ISO code
+XC:
+    address_template: *generic6
+
+# Kosovo
+# not an official ISO code
+XK:
+    address_template: *generic1
+    
 # Yemen
 YE:
     address_template: *generic18
