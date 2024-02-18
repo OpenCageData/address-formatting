@@ -8,7 +8,6 @@ components:
 expected:  |
     Berlin
     Germany
-
 ---
 description: Moabit!
 components:
@@ -22,7 +21,6 @@ expected:  |
     Moabit
     Berlin
     Germany
-
 ---
 description: Alt-berlin
 components:
@@ -57,7 +55,6 @@ expected:  |
     Gontardstraße 7
     10178 Berlin
     Germany
-
 ---
 description: Köln, NRW 
 components:
@@ -70,7 +67,6 @@ expected:  |
     Cologne
     North Rhine-Westphalia
     Germany
-
 ---
 description: Köln, hamlet
 components:
@@ -84,7 +80,6 @@ expected:  |
     Köln
     Bavaria
     Germany
-
 ---
 description: Bonn formatting
 components:
@@ -94,7 +89,6 @@ components:
 expected:  |
     Bonn
     Germany
-
 ---
 description: Fabisch
 components:
@@ -114,7 +108,6 @@ expected:  |
     Rosenthaler Straße 1
     10119 Berlin
     Germany
-
 ---
 description: Fabisch no city
 components:
@@ -133,7 +126,6 @@ expected:  |
     Rosenthaler Straße 1
     10119 Berlin
     Germany
-
 ---
 description: Heyerode
 components:
@@ -148,7 +140,6 @@ components:
 expected:  |
     99988 Heyerode Südeichsfeld
     Germany
-
 ---
 description: Berlin state
 components:
@@ -158,7 +149,6 @@ components:
 expected:  |
     Berlin
     Germany
-
 ---
 description: no middle comma
 components:
@@ -294,7 +284,7 @@ components:
     country: Germany
     country_code: de
     county: Sächsische Schweiz-Osterzgebirge
-    postcode: 01744
+    postcode: "01744"
     state: Saxony
     state_code: SN
     town: Dippoldiswalde
