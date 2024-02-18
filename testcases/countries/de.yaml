@@ -146,7 +146,7 @@ components:
     state: Thüringen
     village: Heyerode
 expected:  |
-    99988 Heyerode
+    99988 Heyerode Südeichsfeld
     Germany
 
 ---
@@ -287,3 +287,18 @@ expected:  |
     Witthau 3
     89129 Langenau
     Deutschland
+---
+#
+description: village and town
+components:
+    country: Germany
+    country_code: de
+    county: Sächsische Schweiz-Osterzgebirge
+    postcode: 01744
+    state: Saxony
+    state_code: SN
+    town: Dippoldiswalde
+    village: Oberhäslich
+expected:  |
+    01744 Oberhäslich Dippoldiswalde
+    Germany

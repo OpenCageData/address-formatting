@@ -684,7 +684,13 @@ CZ:
 
 # Germany
 DE:
-    address_template: *generic1
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{road}}} || {{{place}}} || {{{hamlet}}} {{/first}} {{{house_number}}}
+        {{{postcode}}} {{{village}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{hamlet}}} || {{{county}}} || {{{state}}} {{/first}}
+        {{{archipelago}}}
+        {{{country}}}    
     fallback_template: |
         {{{attention}}}
         {{{house}}}
