@@ -712,6 +712,7 @@ DE:
         - ["^Free State of ",""]
         - ["^Freistaat ",""]
         - ["^Regierungsbezirk ",""]
+        - ["^Stadtgebiet ",""]
         - ["^Gemeindefreies Gebiet ",""]
         - ["city=Alt-Berlin","Berlin"]
     postformat_replace:
