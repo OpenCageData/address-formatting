@@ -313,7 +313,10 @@ AO:
 # Antarctica
 AQ:
     address_template: |
-        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}
+        {{#first}} {{{country}}} || {{{continent}}} {{/first}}
+    fallback_template: |
         {{{house}}}
         {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{#first}} {{{country}}} || {{{continent}}} {{/first}}
