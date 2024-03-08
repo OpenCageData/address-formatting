@@ -61,7 +61,7 @@ There are open-source implementations in
   * [PHP](https://github.com/predicthq/address-formatter-php)
   * [Python](https://github.com/pudo/addressformatting/tree/master)
   * [Ruby](https://github.com/mirubiri/address_composer)
-  * [Rust](https://github.com/CanalTP/address-formatter-rs)
+  * [Rust (No Longer Maintained)](https://github.com/antoine-de/address-formatter-rs)
   * [Scala](https://github.com/ben-willis/address-formatter)
 
 We would love more language implementations. The more people who use the templates, the more likely bugs will be reported. 
