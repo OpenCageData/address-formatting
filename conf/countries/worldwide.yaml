@@ -2122,7 +2122,13 @@ XC:
 # Kosovo
 # not an official ISO code
 XK:
-    address_template: *generic1
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{house_number}}}, {{{road}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{{country}}}
+    
     
 # Yemen
 YE:

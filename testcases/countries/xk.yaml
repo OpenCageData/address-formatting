@@ -1,0 +1,20 @@
+# Kosovo
+---
+description: Address in Pristina, 42.66925,21.16407
+components:
+        city: Pristina
+        continent: Europe
+        country: Kosovo
+        country_code: xk
+        district: District of Prishtina
+        house_number: 13
+        municipality: Municipality of Pristina
+        postcode: 10010
+        road: Ahmet Haxhiu
+        suburb: Medresa
+expected:  |
+    13, Ahmet Haxhiu
+    Pristina 10010
+    Kosovo
+
+
