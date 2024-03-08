@@ -33,6 +33,9 @@ while (my $line = <$FH>){
     if ($line =~ m/^(\w\w): \# (.*)$/){
         $countries{$1} = $2;
     }
+    elsif ($line =~ m/^"(\w\w)": \# (.*)$/){  # deal with "NO" quoting in yaml
+        $countries{$1} = $2;
+    }
 }
 close $FH;
 my $total_countries = scalar(keys %countries); 
@@ -50,10 +53,13 @@ foreach my $f (sort @files){
     $f =~ s/\.yaml//;
     $f = uc($f);
     $test_countries{$f} = 1;
+    if (!defined($countries{$f})){
+        print STDERR "have a test for $f but it is not a known territory\n";
+    }
 }
 my $test_countries = scalar(keys %test_countries);
 my $test_perc = int(100 * $test_countries / $total_countries );
-print "We have tests for " .  $test_countries . ' ('
+print "We have at least one test for " .  $test_countries . ' ('
     . $test_perc . '%) territories' .  "\n";
 if ($details){
     print "We need tests for:\n";
