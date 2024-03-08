@@ -24,7 +24,7 @@ if ($help) {
     exit(0);
 }
 
-# get the list of countries
+# get the list of countries (ISO codes)
 my %countries;
 my $country_file = dirname(__FILE__) . "/../conf/country_codes.yaml";
 open my $FH, "<:encoding(UTF-8)", $country_file or die "unable to open $country_file $!";
