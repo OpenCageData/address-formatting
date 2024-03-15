@@ -133,12 +133,12 @@ components:
     continent: Europa
     country: Germany
     country_code: de
-    county: Südeichsfeld
+    county: Unstrut-Hainich-Kreis
     postcode: 99988
     state: Thüringen
     village: Heyerode
 expected:  |
-    99988 Heyerode Südeichsfeld
+    99988 Heyerode
     Germany
 ---
 description: Berlin state
@@ -290,5 +290,5 @@ components:
     town: Dippoldiswalde
     village: Oberhäslich
 expected:  |
-    01744 Oberhäslich Dippoldiswalde
+    01744 Oberhäslich
     Germany
