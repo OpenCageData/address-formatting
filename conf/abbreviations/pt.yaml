@@ -4,25 +4,43 @@ road:
      Azinhaga: Az
      Bairro: Br
      Beco: Bc
+     Bloco: Bl
      Calçada: Cc
      Calçadinha: Ccnh
      Caminho: Cam
      Casal: Csl
+     Departamento: Dept
+     Doutor: Dr
+     Doutora: Drª
+     Embaixador: Emb
      Escadas: Esc
      Escadinhas: Escnh
      Estrada: Estr
      Gaveto: Gav
+     General: Gen
      Jardim: Jrd
      Largo: Lg
      Loteamento: Loteam
+     Lugar: Lg
+     Padre: Pe
      Parque: Pq
      Pátio: Pto
      Praça: Pc
      Praceta: Pct
+     Professor: Prof
+     Professora: Profª
      Prolongamento: Prolng
      Quinta: Qta
+     Ribeira: Rib
+     Rio: R
      Rotunda: Rot
      Rua: R
+     Santa: Sta
+     Santo: St
+     São: S
+     Senhor: S
+     Senhora: Sª
+     Torre: Tr
      Transversal: Transv
      Travessa: Tv
      Urbanização: Urb
