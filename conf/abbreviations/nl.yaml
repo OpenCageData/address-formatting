@@ -1,19 +1,31 @@
 road:
+     Broeder: Br
      Burgemeester: Burg
+     Commandant: Cmdt
      Docter: Dr
      Dokter: Dr
      Gebroeders: Gebr
      Generaal: Gen
      Gracht: Gr
+     Ingenieur: Ir
+     Jonkheer: Jhr
      Kardinaal: Kard
      Kolonel: Kol
+     Koning: Kon
+     Koningin: Kon
      Kort: K
      Korte: Kte
      Laan: ln
      Lange: L
+     Luitenant: Luit
      Markt: mkt
+     Mejuffrouw: Mej
+     Mevrouw: Mevr
      Minister: Min
      Monseigneur: Mgr
+     Noordzijde: NZ
+     Onze-Lieve-Vrouw: OLV
+     Oostzijde: OZ
      Pastoor: Past
      Prins: Pr
      Prinses: Pr
@@ -21,6 +33,11 @@ road:
      Sint: St
      Straat: str
      Van: v
+     Van der: vd
+     Van den: vd
+     Verlengde: Verl
      Vrouwe: Vr
      Weg: wg
+     Westzijde: WZ
+     Zuidzijde: ZZ
      Zuster: Zr
