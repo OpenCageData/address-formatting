@@ -1,16 +1,31 @@
 road:
+     Alameda: Alam
+     Arboleda: Arb
+     Arroyo: Arry
      Avenida: Avda
+     Bloque: Blq
      Calle de: C
+     Camino: Cno
      Carrera: Cra
      Carrero: Cro
+     Cinturón: Cint
      Colonia: Col
+     Diagonal: Diag
+     Doctor: Dr
+     Doctora: Dra
      Estación: Estcn
      Gran Vía: GV
+     Jardín: Jdín
+     Malecón: Malec
      Mercado: Merc
-     Plaza: Pl
+     Mirador: Mrdor
+     Nuestra Señora: Ntra Sra
+     Palacio: Pala
      Parque: Pque
+     Pasadizo: Pzo
      Pasaje: Psje
      Paseo: Po
+     Plaza: Pl
      Pueblo: Pblo
      Puente: Pnte
      Puerta: Pta
@@ -19,7 +34,10 @@ road:
      Ronda: Rda
      Rotonda: Rtda
      San: S
-     Sector: Sect
      Santa: Sta
+     Santo: Sto
+     Santas: Stas
+     Santos: Stos
+     Sector: Sect
      Viaducto: Vcto
 
