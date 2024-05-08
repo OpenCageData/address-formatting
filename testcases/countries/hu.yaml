@@ -15,9 +15,8 @@ components:
    state_district: Central Hungary
    suburb: Krisztinaváros
 expected:  |
-    Budapest
-    Dezső utca 11
-    1111
+    1111 Budapest
+    Dezső utca 11.
     Hungary
 
 
