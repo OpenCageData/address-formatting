@@ -1013,13 +1013,11 @@ HT:
         - [" Commune de"," "]
 
 # Hungary
+# https://e-nyelv.hu/2014-09-19/lakcim/
 HU:
     address_template: |
-        {{{attention}}}
-        {{{house}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}
-        {{{road}}} {{{house_number}}}
-        {{{postcode}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}
+        {{{road}}} {{{house_number}}}.
         {{{country}}}
 
 # Indonesia
