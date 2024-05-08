@@ -9,15 +9,14 @@ components:
    county: Budapesti kistérség
    house_number: 11
    neighbourhood: Naphegy
-   postcode: 1111
+   postcode: 1016
    road: Dezső utca
    state: Közép-Magyarország
    state_district: Central Hungary
    suburb: Krisztinaváros
 expected:  |
-    Budapest
-    Dezső utca 11
-    1111
+    1016 Budapest
+    Dezső utca 11.
     Hungary
 
 
