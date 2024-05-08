@@ -1016,6 +1016,7 @@ HT:
 # https://e-nyelv.hu/2014-09-19/lakcim/
 HU:
     address_template: |
+        {{{attention}}}
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{{road}}} {{{house_number}}}.
         {{{country}}}
