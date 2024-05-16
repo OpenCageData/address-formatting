@@ -7,3 +7,4 @@
 requires 'File::Find::Rule', '== 0.34';
 requires 'Geo::Address::Formatter', '== 1.9982';
 requires 'Test::Exception', '== 0.43';
+requires 'XML::LibYAML', '== 0.89';
