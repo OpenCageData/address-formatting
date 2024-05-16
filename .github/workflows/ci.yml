@@ -13,7 +13,7 @@ jobs:
     name: Address-Formatting
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up perl
         uses: shogo82148/actions-setup-perl@v1
