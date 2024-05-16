@@ -22,6 +22,21 @@ binmode $builder->failure_output, ":utf8";
 binmode $builder->todo_output,    ":utf8";
 
 
+{
+    # Some YAML parsers croak on duplicate keys. By default the Perl parser
+    # doesn't. Here we make sure we didn't overlook any duplicate keys.
+    $YAML::XS::ForbidDuplicateKeys = 1;
+
+    my @a_conf_files = File::Find::Rule->file()
+                                     ->name( '*.yaml' )
+                                     ->in( dirname(__FILE__) . '/../conf/' );
+
+    foreach my $conf_file (@a_conf_files) {
+        lives_ok { LoadFile($conf_file) } "parsing file $conf_file";
+    }
+}
+
+
 my $path = dirname(__FILE__) . '/../testcases';
 
 my @files = File::Find::Rule->file()->name( '*.yaml' )->in( $path );
