@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-
-# copy of
-# https://github.com/OpenCageData/perl-Geo-Address-Formatter/blob/master/t/unit/countries.t
-# and runs in travis-CI (see .travis.yml)
+#
+# run by Github Actions, see .github/workflows/ci.yml
+#
 
 use strict;
 use lib 'perl/lib/perl5';
@@ -20,7 +19,6 @@ my $builder = Test::More->builder;
 binmode $builder->output,         ":utf8";
 binmode $builder->failure_output, ":utf8";
 binmode $builder->todo_output,    ":utf8";
-
 
 {
     # Some YAML parsers croak on duplicate keys. By default the Perl parser
