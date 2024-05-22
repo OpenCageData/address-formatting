@@ -81,6 +81,7 @@ name: state
 aliases:
     - province
     - state_code
+    - territory
 ---
 name: region
 aliases:
