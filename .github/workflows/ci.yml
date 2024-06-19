@@ -23,3 +23,6 @@ jobs:
 
       - name: Tests
         run: bin/run_tests.t
+
+      - name: Oneline tests
+        run: bin/validate_oneline.t
