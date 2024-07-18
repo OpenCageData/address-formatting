@@ -41,7 +41,7 @@ components:
     city: London
     country: Canada
     country_code: ca
-    county: Middlesex County    
+    county: Middlesex County
     state: Ontario
     state_code: "ON"
 expected:  |
@@ -106,7 +106,7 @@ components:
     postcode: L5N 8P7
     road: Tenth Line
     state: Ontario
-    state_district: Golden Horseshoe     
+    state_district: Golden Horseshoe
 expected:  |
     7931 Tenth Line
     Halton Hills, ON L5N 8P7
@@ -120,7 +120,7 @@ components:
     house_number: 12345
     locality: St-Hyancinth
     postcode: J2T 3T5
-    road: Av Demars  
+    road: Av Demars
 expected:  |
     12345 Av Demars
     St-Hyancinth, J2T 3T5

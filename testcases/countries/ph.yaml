@@ -27,9 +27,9 @@ expected:  |
     Mindanao
     Philippines
 ---
-description: address 
+description: address
 components:
-    house_number: 121 
+    house_number: 121
     road: Epifanio Delos Santos Ave.
     city: Mandaluyong
     postcode: 1550
@@ -47,7 +47,7 @@ expected:  |
 ---
 description: address - city_district instead of suburb
 components:
-    house_number: 121 
+    house_number: 121
     road: Epifanio Delos Santos Ave.
     city: Mandaluyong
     postcode: 1550

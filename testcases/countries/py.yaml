@@ -9,7 +9,7 @@ components:
     postcode: 1409
     road: Milano
     state: Distrito Capital de Paraguay
-    suburb: Tacumbú 
+    suburb: Tacumbú
 expected:  |
     Old Germany German Bakery
     Milano

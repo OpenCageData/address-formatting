@@ -1,6 +1,6 @@
 # Taiwan / Republic of China
 ---
-description: Library in 新北市板橋區, 25.02511,121.46330 
+description: Library in 新北市板橋區, 25.02511,121.46330
 components:
             city: 新北市板橋區
             country: 中華民國
@@ -9,8 +9,8 @@ components:
             library: 新北市立圖書館板橋四維分館
             postcode: 220
             road: 陽明街
-            state : 台中台北各種語言名稱 
-            suburb : 新北板橋土城多語言 
+            state : 台中台北各種語言名稱
+            suburb : 新北板橋土城多語言
 expected:  |
     中華民國
     220

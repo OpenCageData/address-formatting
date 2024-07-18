@@ -17,9 +17,6 @@ expected:  |
     Mivinjeni Street
     78570 Dar es Salaam
     Tanzania
-
-# 
-# in another city
 ---
 description: Ruvuma Regional Hospital -10.68053,35.65144
 components:
@@ -36,11 +33,8 @@ expected:  |
     Songea
     Ruvuma
     Tanzania
-
-# 
-# in countryside, no town
 ---
-description: -4.22466,35.72255
+description: -4.22466,35.72255 # in countryside, no town
 components:
             country: Tanzania
             country_code: tz

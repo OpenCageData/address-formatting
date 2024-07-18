@@ -7,7 +7,7 @@
 # countries with multiple languages should be a comma separated list
 # Example: ES: ca,es,eu,gl
 #
-AD: ca 
+AD: ca
 AE: ar,en
 AF: fa,ps
 AG: en

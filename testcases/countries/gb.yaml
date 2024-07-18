@@ -18,7 +18,6 @@ expected:  |
     London
     EC1M 5RF
     United Kingdom
-    
 ---
 description: Lokku office
 components:
@@ -33,7 +32,6 @@ expected:  |
     City of London
     London
     United Kingdom
-    
 ---
 description: London
 components:
@@ -210,7 +208,7 @@ expected:  |
     WF5 8PG
     United Kingdom
 ---
-description: Farmland 
+description: Farmland
 components:
     country: United Kingdom
     country_code: gb

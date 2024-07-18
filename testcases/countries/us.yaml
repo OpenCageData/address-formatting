@@ -80,14 +80,14 @@ expected:  |
 ---
 description: NY, NY
 components:
-    city: New York 
+    city: New York
     country: United States of America
     country_code: US
     state: New York
 expected:  |
     New York, New York
     United States of America
----    
+---
 description: house number in New York, no city
 components:
     house_number: 175
@@ -139,7 +139,6 @@ expected:  |
     928 Flagler Avenue
     Edgewater, FL 32132
     United States of America
-
 ---
 description: clean up "Town of " 40.7805,-73.4875
 components:
@@ -151,12 +150,11 @@ components:
     postcode: 11803
     road: Lakeville Lane
     state: New York
-    state_code: NY 
+    state_code: NY
 expected:  |
     4 Lakeville Lane
     Oyster Bay, NY 11803
     United States of America
-
 ---
 description: use county if no city
 components:
