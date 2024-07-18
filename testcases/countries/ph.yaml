@@ -45,3 +45,21 @@ expected:  |
     1550 Metro Manila
     Philippines
 ---
+description: address - city_district instead of suburb
+components:
+    house_number: 121 
+    road: Epifanio Delos Santos Ave.
+    city: Mandaluyong
+    postcode: 1550
+    city_district: Wack-wack Greenhills
+    county: Fifth District
+    country: Philippines
+    country_code: PH
+    attention: Mr. Juan Maliksi
+    state: Metro Manila
+expected:  |
+    Mr. Juan Maliksi
+    121 Epifanio Delos Santos Ave., Wack-wack Greenhills, Mandaluyong
+    1550 Metro Manila
+    Philippines
+
