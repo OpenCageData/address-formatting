@@ -57,6 +57,7 @@ There are open-source implementations in
   * [Go](https://github.com/timonmasberg/address-formatter)
   * [Java](https://github.com/placemarkt/address-formatter-java)
   * [Javascript](https://github.com/fragaria/address-formatter)
+  * [Kotlin](https://github.com/bettermile/address-formatter-kotlin)
   * [Perl](https://metacpan.org/release/Geo-Address-Formatter)
   * [PHP](https://github.com/predicthq/address-formatter-php)
   * [Python](https://github.com/pudo/addressformatting/tree/master)
