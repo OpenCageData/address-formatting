@@ -269,4 +269,20 @@ expected:  |
     Hertfordshire
     England
     United Kingdom
+---
+description: place name with & in name
+components:
+        city: London
+        country: United Kingdom
+        country_code: gb
+        house: St. Judes & St. Pauls C of E (Va) Primary School
+        house_number: 10
+        postcode: N1 4AZ
+        road: Kingsbury Road
+expected:  |
+    St. Judes & St. Pauls C of E (Va) Primary School
+    10 Kingsbury Road
+    London
+    N1 4AZ
+    United Kingdom
 
