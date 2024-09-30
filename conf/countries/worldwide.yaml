@@ -1077,6 +1077,9 @@ IM:
 # http://en.wikipedia.org/wiki/Address_%28geography%29#India
 IN:
     address_template: *generic12
+    postformat_replace:
+        # deal with - but no postcode
+        - [" -\n","\n"]
 
 # British Indian Ocean Territory - same as UK
 IO:

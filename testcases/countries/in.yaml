@@ -18,7 +18,6 @@ expected:  |
     Hyderabad - 500064
     Telangana
     India
-
 ---
 description: Indian postcode
 components:
@@ -30,3 +29,17 @@ expected:  |
     400096
     Mahārāshtra
     India
+---
+description: without postcode
+components:
+    city: Pune
+    country: India
+    country_code: in
+    road: Baner
+    state: Maharashtra
+expected:  |
+    Baner
+    Pune
+    Maharashtra
+    India
+
