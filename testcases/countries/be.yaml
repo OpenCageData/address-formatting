@@ -51,5 +51,20 @@ expected:  |
     Kerkveldstraat
     1760 Strijtem
     Belgium
-
-
+---
+description: 50.62084,4.82240
+components:
+    city_district: Perwez
+    country: Belgium
+    country_code: be
+    county: Nivelles
+    house_number: 67
+    postcode: 1360
+    region: Wallonia
+    road: Rue Salmon
+    state: Walloon Brabant
+    village: Perwez 
+expected:  |
+    Rue Salmon 67
+    1360 Perwez
+    Belgium
