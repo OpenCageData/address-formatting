@@ -48,16 +48,29 @@ my $conf_path = dirname(__FILE__) . '/../conf';
 my $GAF = $CLASS->new( conf_path => $conf_path );
 
 sub _one_testcase {
-    my $country    = shift;
-    my $rh_testcase = shift;
+    my $country = shift;
+    my $rh_test = shift;
+    my $abbrv   = shift || 0;
+
+    my $formatted;
+    if ($abbrv){
+        $formatted = $GAF->format_address($rh_test->{components}, {abbreviate => 1});
+    }
+    else {
+        $formatted = $GAF->format_address($rh_test->{components});
+    }
     is(
-        $GAF->format_address($rh_testcase->{components}),
-        $rh_testcase->{expected},
-        $country . ' - ' . $rh_testcase->{description}
+        $formatted,
+        $rh_test->{expected},
+        $country . ' - ' . $rh_test->{description}
     );
 }
 
 foreach my $filename (@files){
+    my $abbrv = 0;
+    if ($filename =~ m/abbreviations/){
+        $abbrv = 1;
+    }
     my $country = basename($filename);
     $country =~ s/\.\w+$//; # us.yaml => us
 
@@ -67,7 +80,7 @@ foreach my $filename (@files){
     } "parsing file $filename";
 
     foreach my $rh_testcase (@a_testcases){
-        _one_testcase($country, $rh_testcase);
+        _one_testcase($country, $rh_testcase, $abbrv);
     }
 }
 
