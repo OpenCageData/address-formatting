@@ -1,0 +1,15 @@
+---
+description: Augusta Lane
+components:
+    city: Pueblo
+    country_code: us
+    house_number: 123
+    postcode: 81001
+    road: Augusta Lane
+    state: Colorado
+    state_code: CO
+expected:  |
+    123 Augusta Ln
+    Pueblo, CO 81001
+
+

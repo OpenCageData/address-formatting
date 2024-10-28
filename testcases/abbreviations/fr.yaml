@@ -1,0 +1,12 @@
+---
+description: Rue de Voituriers
+components:
+    city: Haguenau
+    country_code: fr
+    postcode: 67500
+    road: Rue de Voituriers
+expected:  |
+    R de Voituriers
+    67500 Haguenau
+
+
