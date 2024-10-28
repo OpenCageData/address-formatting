@@ -159,7 +159,7 @@ components:
             road_reference_intl : E 15
             state : Ile-de-France
             village : Arbonne-la-Forêt
-expected:  | 
+expected:  |
     Autoroute du Soleil
     77630 Arbonne-la-Forêt
     France
@@ -169,15 +169,15 @@ expected:  |
 ---
 description: road_reference, 48.406168,2.55452
 components:
-            country : France
-            country_code : fr
-            county : Fontainebleau
-            postcode : 77630
-            road_reference : A 6
-            road_reference_intl : E 15
-            state : Ile-de-France
-            village : Arbonne-la-Forêt
-expected:  | 
+    country : France
+    country_code : fr
+    county : Fontainebleau
+    postcode : 77630
+    road_reference : A 6
+    road_reference_intl : E 15
+    state : Ile-de-France
+    village : Arbonne-la-Forêt
+expected:  |
     A 6
     77630 Arbonne-la-Forêt
     France
@@ -194,7 +194,7 @@ components:
             road_reference_intl : E 15
             state : Ile-de-France
             village : Arbonne-la-Forêt
-expected:  | 
+expected:  |
     E 15
     77630 Arbonne-la-Forêt
     France
@@ -214,7 +214,7 @@ components:
     state: Provence-Alpes-Côte dAzur
     suburb: Valescure
     town: Saint-Raphaël
-expected:  | 
+expected:  |
     A1X4E0
     Avenue du XVe Corps
     83700 Saint-Raphaël
@@ -254,7 +254,7 @@ components:
     state: Auvergne-Rhône-Alpes
     state_code: ARA
     village: Champ-sur-Drac
-expected:  | 
+expected:  |
     83 Avenue Jean Navarre
     38560 Champ-sur-Drac
     France

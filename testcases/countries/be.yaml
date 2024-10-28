@@ -63,7 +63,7 @@ components:
     region: Wallonia
     road: Rue Salmon
     state: Walloon Brabant
-    village: Perwez 
+    village: Perwez
 expected:  |
     Rue Salmon 67
     1360 Perwez
