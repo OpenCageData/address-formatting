@@ -1,5 +1,5 @@
 ---
-description: no repetition
+description: Platz der Republik
 components:
     city: Berlin
     country: Deutschland
@@ -10,3 +10,18 @@ expected:  |
     Pl der Republik
     Berlin
     Deutschland
+---
+description: willy-Brandt-Platz
+components:
+    city: München
+    country: Deutschland
+    country_code: de
+    house_number: 6
+    postcode: 81829
+    road: Willy-Brandt-Platz
+    state: Bayern
+expected:  |
+    Willy-Brandt-Platz 6
+    81829 München
+    Deutschland
+
