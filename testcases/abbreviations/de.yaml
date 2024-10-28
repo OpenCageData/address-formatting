@@ -1,0 +1,12 @@
+---
+description: no repetition
+components:
+    city: Berlin
+    country: Deutschland
+    country_code: de
+    road: Platz der Republik
+    state: Berlin
+expected:  |
+    Pl der Republik
+    Berlin
+    Germany
