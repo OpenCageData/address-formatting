@@ -45,7 +45,7 @@ components:
     state: Ontario
     state_code: "ON"
 expected:  |
-    London, ON
+    London, Ontario
     Canada
 ---
 # London treated as county
@@ -91,7 +91,7 @@ components:
     county: Springfield
     state: Manitoba
 expected:  |
-    Springfield, MB
+    Springfield, Manitoba
     Canada
 ---
 # 43.60242, -79.80113
@@ -124,4 +124,15 @@ components:
 expected:  |
     12345 Av Demars
     St-Hyancinth, J2T 3T5
+    Canada
+---
+# region
+components:
+    country: Canada
+    country_code: ca
+    region: Greater Edmonton
+    state: Alberta
+    state_code: AB
+expected:  |
+    Greater Edmonton, Alberta
     Canada

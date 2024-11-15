@@ -504,7 +504,7 @@ CA:
         {{{attention}}}
         {{{house}}}
         {{#first}} {{{house_number}}} {{{road}}} || {{{suburb}}} {{/first}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{county}}} || {{{state_district}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}} {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{county}}} || {{{state_district}}} || {{{region}}}{{/first}}, {{#first}} {{{state}}} || {{{state_code}}} {{/first}} {{{postcode}}}
         {{{country}}}
     postformat_replace:
         # fix the postcode to make it \w\w\w \w\w\w
