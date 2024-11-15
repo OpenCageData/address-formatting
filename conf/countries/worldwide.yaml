@@ -13,7 +13,7 @@ generic1: &generic1 |
 # postcode after city
 generic2: &generic2 |
         {{{attention}}}
-        {{#first}} {{{house}}}, {{{quarter}}} || {{{house}}} {{/first}}
+        {{{house}}}, {{{quarter}}}
         {{{house_number}}} {{{road}}}
         {{#first}} {{{village}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{hamlet}}} || {{{county}}} {{/first}} {{{postcode}}}
         {{#first}} {{{country}}} || {{{state}}} {{/first}}
@@ -1790,7 +1790,7 @@ SE:
 SG:
     address_template: |
         {{{attention}}}
-        {{#first}} {{{house}}}, {{{quarter}}} || {{{house}}} {{/first}}
+        {{{house}}}, {{{quarter}}}
         {{{house_number}}} {{{road}}}, {{{residential}}}
         {{#first}} {{{country}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{hamlet}}} || {{{village}}} || {{{county}}} {{/first}} {{{postcode}}}
         {{{country}}}
