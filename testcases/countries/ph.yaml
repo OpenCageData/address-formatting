@@ -62,4 +62,21 @@ expected:  |
     121 Epifanio Delos Santos Ave., Wack-wack Greenhills, Mandaluyong
     1550 Metro Manila
     Philippines
-
+---
+# https://nominatim.openstreetmap.org/ui/details.html?osmtype=N&osmid=11556052391&class=amenity
+description: address - ignore additional region
+components:
+    road: Gerona - Pura Road
+    village: Poblacion 1
+    postcode: 2312
+    municipality: Pura
+    province: Tarlac
+    region: Central Luzon
+    country: Philippines
+    country_code: PH
+    attention: PYS Pharmacy
+expected:  |
+    PYS Pharmacy
+    Gerona - Pura Road, Poblacion 1
+    2312 Pura
+    Philippines
