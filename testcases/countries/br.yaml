@@ -75,5 +75,62 @@ expected:  |
     Região Geográfica Intermediária de Picos - PI
     64675-000
     Brazil
-
-
+---
+description: Maranhão  [+quarter]
+components:
+    road: Av. dos Holandeses
+    house_number: 9
+    quarter: Quadra 33
+    suburb: Calhau
+    city: São Luís
+    state: Maranhão
+    state_code: MA
+    postcode: 65071-380
+    country_code: br
+    country: Brazil
+expected:  |
+    Av. dos Holandeses 9, Quadra 33
+    Calhau
+    São Luís - MA
+    65071-380
+    Brazil
+---
+# Addresses in the capital city of Brasilia are special. Brasilia is divided into sectors. Each sector is divided into quadrants ("quadras"). Each quadra is divided into blocks. Each sector has a three-letter or four-letter code, which comes before the quadra.
+description: BRASILIA - DF (1) [-house_number, +quarter, +complement]
+components:
+    road: SBN
+    quarter: Quadra 13
+    complement: Bloca B - 8o andar
+    suburb: Asa Norte
+    city: Brasília
+    state: Distrito Federal
+    state_code: DF
+    postcode: 70770-520
+    country: Brazil
+    country_code: br
+expected:  |
+#[sector SBN, quadrant 13, block B - 8th floor]
+   SBN, Quadra 13, Bloca B - 8o andar
+#[City-ProvinceCode]
+   BRASILIA-DF
+   70002–900
+   BRAZIL
+---
+# https://emec.mec.gov.br/emec/consulta-cadastro/detalhes-ies-endereco/d96957f455f6405d14c6542552b0f6eb/Nzc1
+description: BRASILIA - DF (2) [-house_number, +complement]
+components:
+    road: SEPN 516 - W3
+    complement: Bloco E
+    suburb: Asa Norte
+    city: Brasília
+    state: Distrito Federal
+    state_code: DF
+    postcode: 70770-520
+    country: Brazil
+    country_code: br
+expected:  |
+    SEPN 516 - W3, Bloco E
+    Asa Norte
+    Brasília - DF
+    70770-520
+    Brazil
