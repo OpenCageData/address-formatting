@@ -292,3 +292,19 @@ components:
 expected:  |
     01744 Oberhäslich
     Germany
+---
+#
+description: village and town (fallback)
+components:
+    country: Germany
+    country_code: de
+    county: Landkreis Schwäbisch Hall
+    municipality: Verwaltungsgemeinschaft Schwäbisch Hall
+    state: Baden-Württemberg
+    state_code: BW
+    town: Schwäbisch Hall
+    village: Tüngental
+expected:  |
+    Tüngental
+    Baden-Württemberg
+    Germany
