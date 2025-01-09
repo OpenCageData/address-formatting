@@ -75,5 +75,22 @@ expected:  |
     Região Geográfica Intermediária de Picos - PI
     64675-000
     Brazil
-
-
+---
+description: Maranhão [+quarter] / -2.493246,-44.267475
+components:
+    road: Av. dos Holandeses
+    house_number: 9
+    quarter: Quadra 33
+    suburb: Calhau
+    city: São Luís
+    state: Maranhão
+    state_code: MA
+    postcode: 65071-380
+    country_code: br
+    country: Brazil
+expected:  |
+    Av. dos Holandeses 9, Quadra 33
+    Calhau
+    São Luís - MA
+    65071-380
+    Brazil
