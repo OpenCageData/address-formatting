@@ -640,9 +640,12 @@ CO:
         {{{country}}}
     postformat_replace:
         - ["Localidad "," "]
+        - ["Bogotá, Bogotá","Bogotá"]                
         - ["Bogota, Bogota","Bogota"]
         - ["Bogota, Bogotá Distrito Capital","Bogota"]
         - ["Bogotá, Bogotá Distrito Capital","Bogotá"]
+        - ["Bogotá, Distrito Capital","Bogotá"]
+        - ["Bogota, Capital District","Bogota"]        
 
 # Costa Rica
 CR:
