@@ -640,7 +640,8 @@ CO:
         {{{country}}}
     postformat_replace:
         - ["Localidad "," "]
-        - ["(Bogot[áa]), (Bogot[áa]|Bogot[áa] Distrito Capital|Distrito Capital|Capital District)","$1"]
+        - ["(Bogot[áa]),? (Distrito Capital|Capital District)",$1]
+        - ["(Bogot[áa]), Bogot[áa]","$1"]
 
 # Costa Rica
 CR:

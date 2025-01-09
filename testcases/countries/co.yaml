@@ -16,3 +16,22 @@ expected:  |
     Chapinero
     110231 Bogota
     Colombia
+---
+description: deal with Bogota, Capital District / 4.61164, -74.08527
+components:
+    city: Bogota
+    country: Colombia
+    country_code: co
+    neighbourhood: UPZs de Bogotá
+    postcode: 111411
+    region: RAP (Especial) Central
+    road: Transversal 22
+    shop: Polytech
+    state: Bogota, Capital District
+    suburb: Localidad Los Mártires
+expected:  |
+    Polytech
+    Transversal 22
+    Los Mártires
+    111411 Bogota
+    Colombia
