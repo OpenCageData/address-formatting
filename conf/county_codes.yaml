@@ -377,7 +377,7 @@ IT:
     MS: Massa-Carrara
     MT: Matera
     NA: Napoli
-    NO: Novara
+    "NO": Novara
     NU: Nuoro
     OG: Ogliastra
     OR: Oristano

@@ -760,7 +760,7 @@ CM:
     EN: Far North
     ES: East
     LT: Littoral
-    NO: North
+    "NO": North
     NW: North-West
     OU: West
     SU: South
@@ -1190,7 +1190,7 @@ HT:
     ND: Nord
     NE: Nord-Est
     NI: Nippes
-    NO: Nord-Ouest
+    "NO": Nord-Ouest
     OU: Ouest
     SD: Sud
     SE: Sud-Est
@@ -1218,7 +1218,7 @@ HU:
     KV: Kaposvár
     MI: Miskolc
     NK: Nagykanizsa
-    NO: Nógrád
+    "NO": Nógrád
     NY: Nyíregyháza
     PE: Pest
     PS: Pécs
@@ -1913,7 +1913,7 @@ NA:
     KW: Kavango West
     OD: Otjozondjupa
     OH: Omaheke
-    ON: Oshana
+    "ON": Oshana
     OS: Omusati
     OT: Oshikoto
     OW: Ohangwena
@@ -1946,7 +1946,7 @@ NG:
     NA: Nasarawa
     NI: Niger
     OG: Ogun
-    ON: Ondo
+    "ON": Ondo
     OS: Osun
     OY: Oyo
     PL: Plateau
@@ -2352,7 +2352,7 @@ SD:
     NB:
       default: ولاية النيل الأزرق
       alt_en: Blue Nile State
-    NO:
+    "NO":
       default: الولاية الشمالية
       alt_en: Northern State
     NR:
