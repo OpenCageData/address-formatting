@@ -15,3 +15,17 @@ expected:  |
     Baggårde 17A
     5970 Ærøskøbing
     Denmark
+---
+# 
+description: Hillerød, Denmark
+components:
+    country: Denmark
+    country_code: dk
+    municipality: Hillerød Municipality
+    postal_city: Hillerød
+    postcode: 3400
+    state: Capital Region
+    town: Hillerød
+expected:  |
+    3400 Hillerød
+    Denmark

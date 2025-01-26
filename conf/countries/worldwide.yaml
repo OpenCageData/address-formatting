@@ -734,7 +734,8 @@ DJ:
 DK:
     address_template: *generic1
     replace:
-        - ["^Capital Region of ",""]
+        - ["state=Capital Region of Denmark","Capital Region"]
+        - ["^Region of ",""]
 
 # Dominica
 DM:
