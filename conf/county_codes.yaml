@@ -771,4 +771,69 @@ PT:
     VVD: Vila Verde
     VVR: Vila Velha de Ródão
     VZL: Vouzela
+SE:
+    AB:
+      default: Stockholms län
+      alt_en: Stockholm County
+    AC:
+      default: Västerbottens län
+      alt_en: Västerbottens County
+    BD:
+      default: Norrbottens län
+      alt_en: Norrbotten County
+    C:
+      default: Uppsala län
+      alt_en: Uppsala County
+    D:
+      default: Södermanlands län
+      alt_en: Södermanland County
+    E:
+      default: Östergötlands län
+      alt_en: Östergötland County
+    F:
+      default: Jönköpings län
+      alt_en: Jönköping County
+    G:
+      default: Kronobergs län
+      alt_en:  Kronoberg County
+    H:
+      default: Kalmar län
+      alt_en: Kalmar County
+    I:
+      default: Gotlands län
+      alt_en:  Gotland County
+    K:
+      default: Blekinge län
+      alt_en:  Blekinge County
+    M:
+      default: Skåne län
+      alt_en:  Skåne County
+    N:
+      default: Hallands län
+      alt_en:  Halland County
+    O:
+      default: Västra Götalands län
+      alt_en:  Västra Götaland County
+    S:
+      default: Värmlands län
+      alt_en:  Värmland County
+    T:
+      default: Örebro län
+      alt_en:  Örebro County
+    U:
+      default: Västmanlands län
+      alt_en:  Västmanland County
+    W:
+      default: Dalarnas län
+      alt_en:  Dalarna County
+    X:
+      default: Gävleborgs län
+      alt_en: Gävleborgs County
+    Y:
+      default: Västernorrlands län
+      alt_en: Västernorrland County
+    Z:
+      default: Jämtlands län
+      alt_en:  Jämtland County
+
 

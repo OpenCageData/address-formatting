@@ -2367,28 +2367,6 @@ SD:
     SI:
       default: سنار
       alt_en: Sennar State
-SE:
-    AB: Stockholms län
-    AC: Västerbottens län
-    BD: Norrbottens län
-    C: Uppsala län
-    D: Södermanlands län
-    E: Östergötlands län
-    F: Jönköpings län
-    G: Kronoborgs län
-    H: Kalmar län
-    I: Gotlands län
-    K: Blekinge län
-    M: Skåne län
-    N: Hallands län
-    O: Västra Götalands län
-    S: Värmlands län
-    T: Örebro län
-    U: Västmanlands län
-    W: Dalarnes län
-    X: Gävleborgs län
-    Y: Västernorrlands län
-    Z: Jämtlands län
 SH:
     AC: Ascension
     HL: Saint Helena
