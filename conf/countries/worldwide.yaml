@@ -797,8 +797,8 @@ ES:
     fallback_template: *fallback4
 
     replace:
-        - ["Autonomous Community of the",""]
-        - ["Autonomous Community of",""]
+        - ["Autonomous Community of the ",""]
+        - ["Autonomous Community of ",""]
         - ["^Community of ",""]
 
 # Ethiopia
