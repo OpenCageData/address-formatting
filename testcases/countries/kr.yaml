@@ -13,7 +13,7 @@ components:
         village: Seocho-dong
 expected:  |
     South Korea
-    Seoul, 서초2동 (Seocho2-dong), Seocho-daero 74-gil
+    Seoul 서초2동 (Seocho2-dong) Seocho-daero 74-gil
     Haeundae Grand Hotel
     135-934
 ---

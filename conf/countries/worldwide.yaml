@@ -1265,7 +1265,7 @@ KR:
     address_template: |
         {{{country}}}
         {{{state}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{{road}}} {{{house_number}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}} {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}} {{{road}}} {{{house_number}}}
         {{{attention}}}
         {{{postcode}}}
 
@@ -1284,7 +1284,7 @@ KR_ko:
     address_template: |
         {{{country}}}
         {{{state}}}
-        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}, {{{road}}} {{{house_number}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}} {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}} {{{road}}} {{{house_number}}}
         {{{attention}}}
         {{{postcode}}}
 
