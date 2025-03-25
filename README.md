@@ -60,9 +60,9 @@ There are open-source implementations in
   * [Kotlin](https://github.com/bettermile/address-formatter-kotlin)
   * [Perl](https://metacpan.org/release/Geo-Address-Formatter)
   * [PHP](https://github.com/predicthq/address-formatter-php)
-  * [Python](https://github.com/pudo/addressformatting/tree/master)
+  * [Python (no longer maintained)](https://github.com/pudo/addressformatting/tree/master)
   * [Ruby](https://github.com/mirubiri/address_composer)
-  * [Rust (No Longer Maintained)](https://github.com/antoine-de/address-formatter-rs)
+  * [Rust (no longer maintained)](https://github.com/antoine-de/address-formatter-rs)
   * [Scala](https://github.com/ben-willis/address-formatter)
 
 We would love more language implementations. The more people who use the templates, the more likely bugs will be reported. 
