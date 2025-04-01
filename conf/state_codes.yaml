@@ -1067,10 +1067,13 @@ GH:
     UW: Upper West
     WP: Western
 GL:
-    KU: Kommune Kujalleq
-    QA: Qaasuitsup Kommunia
-    QE: Qeqqata Kommunia
-    SM: Kommuneqarfik Sermersooq
+    AV: Avannaata
+    KU: Kujalleq
+    QA:
+      default: Qaasuitsup Kommunia
+      alt_en: Qaasuitsup
+    QE: Qeqqata
+    SM: Sermersooq
 GM:
     B: Banjul
     L: Lower River
