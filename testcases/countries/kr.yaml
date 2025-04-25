@@ -2,28 +2,58 @@
 ---
 description: Hotel in Gangnam, Seoul, 37.49675,127.02755
 components:
-        city: Seoul
-        city_district: 서초2동 (Seocho2-dong)
-        country: South Korea
-        country_code: kr
-        hotel: Haeundae Grand Hotel
-        postcode: 135-934
-        road: Seocho-daero 74-gil
-        town: Seocho-gu
-        village: Seocho-dong
+    city: Seoul
+    city_district: 서초2동 (Seocho2-dong)
+    country: South Korea
+    country_code: kr
+    hotel: Haeundae Grand Hotel
+    postcode: 135-934
+    road: Seocho-daero 74-gil
+    town: Seocho-gu
+    village: Seocho-dong
 expected:  |
     South Korea
     Seoul 서초2동 (Seocho2-dong) Seocho-daero 74-gil
     Haeundae Grand Hotel
     135-934
 ---
-description: district of Seoul
+description: District of Seoul (fallback)
 components:
-    city: Seoul
-    country: South Korea
+    city: 서울특별시
+    country: 대한민국
     country_code: kr
-    city_district: Gangnam-gu
+    city_district: 강남구
 expected:  |
-    Gangnam-gu
-    Seoul
-    South Korea
+    대한민국
+    서울특별시 강남구
+---
+description: Sub-region of Gimpo (fallback)
+components:
+    state: 경기도
+    city: 김포시
+    country_code: kr
+    neighbourhood: 장기동
+expected:  |
+    경기도 김포시 장기동
+---
+description: Full template for a POI (Korean language)
+components:
+    city: 서울특별시
+    country_code: kr
+    city_district: 마포구
+    road: 동교로
+    house_number: 146
+    attention: 히트커피로스터스
+expected:  |
+    서울특별시 마포구 동교로 146
+    히트커피로스터스
+---
+description: Fallback template for a POI (attention at the end)
+components:
+    city: 서울특별시
+    country_code: kr
+    city_district: 마포구
+    attention: 히트커피로스터스
+expected:  |
+    서울특별시 마포구
+    히트커피로스터스
