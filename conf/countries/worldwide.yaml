@@ -289,7 +289,8 @@ AL:
         {{{attention}}}
         {{{house}}}
         {{{road}}} {{{house_number}}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{city_district}}} || {{{municipality}}} || {{{state_district}}} || {{{village}}} || {{{hamlet}}} {{/first}}
+        {{{postcode}}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{city_district}}} || {{{municipality}}} || {{{state_district}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{{country}}}
 
 # Armenia
