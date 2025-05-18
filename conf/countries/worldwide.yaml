@@ -822,10 +822,10 @@ FM:
     address_template: *generic4
     fallback_template: *fallback2
     postformat_replace:
-        - [", PNI 96941",", FM 96941"]
-        - [", TRK 96942",", FM 96942"]
-        - [", YAP 96943",", FM 96943"]
-        - [", KSA 96944",", FM 96944"]
+        - ["PNI 96941","FM 96941"]
+        - ["TRK 96942","FM 96942"]
+        - ["YAP 96943","FM 96943"]
+        - ["KSA 96944","FM 96944"]
 
 # Faroe Islands
 FO:
