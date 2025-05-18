@@ -817,10 +817,15 @@ FK:
     change_country: Falkland Islands, United Kingdom
 
 # Federated States of Micronesia
+# uses US postal system, but not part of the US
 FM:
-    use_country: US
-    change_country: United States of America
-    add_component: state=Micronesia
+    address_template: *generic4
+    fallback_template: *fallback2
+    postformat_replace:
+        - [", PNI 96941",", FM 96941"]
+        - [", TRK 96942",", FM 96942"]
+        - [", YAP 96943",", FM 96943"]
+        - [", KSA 96944",", FM 96944"]
 
 # Faroe Islands
 FO:
@@ -840,7 +845,6 @@ FR:
         - ["\\(eaux territoriales\\)",""]
         - ["state= \\(France\\)$",""]
         - ["Paris (\\d+)(\\w+) Arrondissement$","Paris"]
-
 
 # Gabon
 GA:
@@ -1386,9 +1390,13 @@ MF:
     change_country: France
 
 # Marshall Islands
+# uses US postal system, but not part of the US
 MH:
-    use_country: US
-    add_component: state=Marshall Islands
+    address_template: *generic4
+    fallback_template: *fallback2
+    postformat_replace:
+        - [", 96060",", MH 96060"]
+        - [", 96070",", MH 96070"]
 
 # Madagascar
 MG:
