@@ -1805,7 +1805,6 @@ SG:
         {{{house}}}, {{{quarter}}}
         {{{house_number}}} {{{road}}}, {{{residential}}}
         {{#first}} {{{country}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{hamlet}}} || {{{village}}} || {{{county}}} {{/first}} {{{postcode}}}
-        {{{country}}}
 
 # Saint Helena, Ascension and Tristan da Cunha - same as UK
 SH:

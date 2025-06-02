@@ -87,7 +87,7 @@ _Please note: the list is simple all officially assigned [ISO 3166-1 alpha-2 cod
 
 ### File format
 
-The files are in [YAML](http://yaml.org/) format. The templates are written in [Mustache](http://mustache.github.io/). Both formats are human readable, strict, solve escaping and support comments. YAML allows references (called "ankers") to avoid copy&paste, Mustache allows sub-templates (called "partials").
+The files are in [YAML](http://yaml.org/) format. The templates are written in [Mustache](http://mustache.github.io/) with a minor variation: the `{#first}` sections will take the first alternative for which a variable could be interpolated. Both formats are human readable, strict, solve escaping and support comments. YAML allows references (called "ankers") to avoid copy&paste, Mustache allows sub-templates (called "partials").
 
 ### How to add your country/territory
 
@@ -101,14 +101,15 @@ The files are in [YAML](http://yaml.org/) format. The templates are written in [
 
 2. edit `conf/countries/worldwide.yaml`
   * Possibly your country/territory uses an existing generic format as
-    defined at the top of the file. If so, great, just map you
+    defined at the top of the file. If so, great! Just map your
     country_code to the generic template. You may still want to add
     clean up code (see the entry for `DE` as an example).
-  * If not you need to define a new generic rule set
-      * possibly you will need to define new state/region mappings in `conf/state_codes.yaml`
+  * If not, you need to define a new rule set (may or may not be generic)
+    * You may also need to define new state/region mappings in `conf/state_codes.yaml`
 
-3. to test you will now need to process the .yaml test via a processer
+3. to test you will now need to process the .yaml test via a processor
    (see above) and ensure the input leads to the desired output.
+   We also run these checks automatically against pull requests to ensure against regressions.
 
 If in doubt, please get in touch by submitting an issue. 
 

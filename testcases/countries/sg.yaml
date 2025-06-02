@@ -23,7 +23,6 @@ components:
 expected:  |
     16 Sandilands Road
     Singapore 546080
-    Singapore
 ---
 description: no city, 1.30585,103.78158
 components:
@@ -38,7 +37,6 @@ components:
 expected:  |
     26 Dover Crescent, Dover Gardens
     Singapore 130026
-    Singapore
 ---
 description: wrong city, 1.30585,103.78158
 components:
@@ -54,6 +52,3 @@ components:
 expected:  |
     26 Dover Crescent, Dover Gardens
     Singapore 130026
-    Singapore
-
-
