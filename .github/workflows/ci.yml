@@ -10,7 +10,12 @@ jobs:
   tests:
     runs-on: ubuntu-latest
 
-    name: Address-Formatting
+    strategy:
+      matrix:
+        version: ['5.38', '5.40', '5.42']
+
+    name: Address-Formatting perl ${{ matrix.version }}
+
 
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +23,7 @@ jobs:
       - name: Set up perl
         uses: shogo82148/actions-setup-perl@v1
         with:
-          perl-version: '5.38'
+          perl-version: ${{ matrix.version }}
           install-modules-with: cpanm
 
       - name: Tests
