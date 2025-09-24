@@ -88,3 +88,17 @@ expected:  |
     Piazza Grande
     31046 Oderzo TV
     Italia
+---
+description: clean up county
+components:
+        country: Italia
+        country_code: it
+        county: Province of Treviso
+        postcode: 31046
+        road: Piazza Grande
+        state: Veneto
+        town: Oderzo
+expected:  |
+    Piazza Grande
+    31046 Oderzo TV
+    Italia
