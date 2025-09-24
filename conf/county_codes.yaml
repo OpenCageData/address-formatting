@@ -446,6 +446,7 @@ IT:
     RM:
       default: Roma Capitale
       alt_en: Rome
+      alt_it: Roma
     RN: Rimini
     RO: Rovigo
     SA: Salerno
