@@ -1147,6 +1147,7 @@ IT:
     address_template: *generic8
     replace:
         - ["county=Provincia di ",""]
+        - ["county=Province of ",""]
         - ["county=Città Metropolitana di ",""]
         - ["county=Metropolitan City of ",""]
     postformat_replace:
