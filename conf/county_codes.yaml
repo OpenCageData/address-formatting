@@ -459,7 +459,9 @@ IT:
     TA: Taranto
     TE: Teramo
     TN: Trento
-    TO: Torino
+    TO:
+      default: Torino
+      alt_en: Turin
     TP: Trapani
     TR: Terni
     TV: Treviso
