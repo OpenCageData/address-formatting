@@ -9,15 +9,12 @@ aliases:
     - building
     - public_building
     - isolated_dwelling
-    - farmland
-    - allotments
 ---
 name: road
 aliases:
     - footway
     - street
     - street_name
-    - residential
     - path
     - pedestrian
     - road_reference
