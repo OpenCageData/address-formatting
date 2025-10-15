@@ -60,6 +60,7 @@ There are open-source implementations in
   * [Kotlin](https://github.com/bettermile/address-formatter-kotlin)
   * [Perl](https://metacpan.org/release/Geo-Address-Formatter)
   * [PHP](https://github.com/predicthq/address-formatter-php)
+  * [PowerShell](https://github.com/GruberMarkus/AddressFormatter) cross-platform
   * [Python (no longer maintained)](https://github.com/pudo/addressformatting/tree/master)
   * [Ruby](https://github.com/mirubiri/address_composer)
   * [Rust (no longer maintained)](https://github.com/antoine-de/address-formatter-rs)
