@@ -66,7 +66,12 @@ There are open-source implementations in
   * [Scala](https://github.com/ben-willis/address-formatter)
 
 We would love more language implementations. The more people who use the templates, the more likely bugs will be reported. 
-If you write a processor, please submit a pull request adding it to the list. Thanks. 
+
+If you write a processor, please submit a pull request adding your processor to the list.
+
+One key point: please include this repo as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), so we all use the same templates/configuration and don't get out of sync. if you are unfamiliar with git submodules, please have a look at [how we do it in the Perl parser](https://github.com/OpenCageData/perl-Geo-Address-Formatter/blob/master/README.md#installation).
+
+Thanks!
 
 ### International coverage
 
