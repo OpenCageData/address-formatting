@@ -53,7 +53,7 @@ components:
     suburb: Catete
 expected:  |
     Condomínio Condomínio René Magritte
-    Rua Silveira Martins 68
+    Rua Silveira Martins, 68
     Catete
     Rio de Janeiro - RJ
     22221-000
@@ -89,7 +89,7 @@ components:
     country_code: br
     country: Brazil
 expected:  |
-    Av. dos Holandeses 9, Quadra 33
+    Av. dos Holandeses, 9, Quadra 33
     Calhau
     São Luís - MA
     65071-380
