@@ -14,4 +14,16 @@ expected:  |
     Stauffenstraße 5
     5020 Salzburg
     Austria
+---
+description: clean up Politischer Bezirk
+components:
+    country: Austria
+    country_code: at
+    county: Politischer Bezirk Schärding
+    local_administrative_area: Riedau
+    state: Upper Austria
+expected:  |
+    Riedau
+    Schärding
+    Austria
 
