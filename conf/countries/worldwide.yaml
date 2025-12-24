@@ -1373,6 +1373,16 @@ MA:
 # Monaco
 MC:
     address_template: *generic3
+    fallback_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}}
+        {{{place}}}
+        {{#first}} {{{neighbourhood}}} || {{{city_district}}} || {{{municipality}}} || {{{suburb}}}{{/first}}
+        {{{city}}}
+        {{{country}}}
+    postformat_replace:
+        - ["Monaco\nMonaco","Monaco"]
 
 # Moldova
 MD:
