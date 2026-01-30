@@ -1026,6 +1026,8 @@ HU:
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}
         {{{road}}} {{{house_number}}}.
         {{{country}}}
+    postformat_replace:
+        - ["\n.\n","\n"]
 
 # Indonesia
 # https://en.wikipedia.org/wiki/Address_%28geography%29#Indonesia

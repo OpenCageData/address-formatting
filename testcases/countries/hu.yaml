@@ -18,6 +18,19 @@ expected:  |
     1016 Budapest
     Dezső utca 11.
     Hungary
+---
+description: just postcode
+components:
+   country: Hungary
+   country_code: hu
+   county: Makói járás
+   municipality: Makói járás
+   postcode: 6900
+   region: South Great Plain
+   town: Makó
+expected:  |
+    6900 Makó
+    Hungary
 
 
 
