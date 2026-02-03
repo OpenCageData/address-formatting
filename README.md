@@ -1,173 +1,174 @@
-# address formatting
-
-### Overview
-
-This project contains templates and test cases for address formats used in territories around the world. The templates can then be processed in any programming language ([see below for list of processors](#processing-logic)).
-
-### Build Status
+# Address Formatting
 
 [![Build Status](https://github.com/OpenCageData/address-formatting/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenCageData/address-formatting/actions/workflows/ci.yml)
 
-### An example:
+Templates and test cases for address formats used in territories around the world. The templates can be processed in any programming language ([see list of processors](#processing-logic)).
 
-Given a set of address parts like
+## Example
 
-     house_number:  17
-     road:          Rue du Médecin-Colonel Calbairac
-     neighbourhood: Lafourguette
-     suburb:        Toulouse Ouest
-     postcode:      31000
-     city:          Toulouse
-     county:        Toulouse
-     state:         Midi-Pyrénées
-     country:       France
-     country_code:  FR
+Given a set of address parts:
 
-we want to write logic to compile an address in the format consumers expect
+```yaml
+house_number:  17
+road:          Rue du Médecin-Colonel Calbairac
+neighbourhood: Lafourguette
+suburb:        Toulouse Ouest
+postcode:      31000
+city:          Toulouse
+county:        Toulouse
+state:         Midi-Pyrénées
+country:       France
+country_code:  FR
+```
 
-    17 Rue du Médecin-Colonel Calbairac
-    31000 Toulouse
-    France
+We want to compile an address in the format consumers expect:
 
-### Why would you want to do this?
+```
+17 Rue du Médecin-Colonel Calbairac
+31000 Toulouse
+France
+```
+
+## Why Use This?
 
 The intended use case is database or geocoding systems (forward, reverse, autocomplete) where we know both the country of the address and the language of the user/reader. The address is displayed to a consumer (for example in an app) and not used to print on an envelope for actual postal delivery. We use it to format output from the [OpenCage Geocoding API](https://opencagedata.com/api).
 
-### Which addresses are we talking about?
+## Scope
 
-We have to deal with
+**What we handle:**
+- Incomplete data
+- Anything with a name (peaks, bridges, bus stops)
 
-   * incomplete data
-   * anything with a name (peaks, bridges, bus stops)
+**What we don't handle** (unlike [physical postal mail](http://www.bitboost.com/ref/international-address-formats.html)):
+- Apartment/flat numbers, floor numbers
+- PO boxes
+- Translating the destination address language (whatever language is input is output)
 
-Unlike [physical post (office) mail](http://www.bitboost.com/ref/international-address-formats.html) we don't have to deal with
+## Processing Logic
 
-   * apartment/flat number, floor numbers
-   * PO boxes
-   * translating the language of the (destination) address. Whatever language is input is output. 
-  
-### Processing logic
+Our goal is a series of programming language-independent templates that can be processed by whatever software you like.
 
-Our goal with this repository is a series of (programming) language independent templates. Those templates can then be processed by whatever software you like. 
+### Open-Source Implementations
 
-There are open-source implementations in
+| Language | Repository | Notes |
+|----------|------------|-------|
+| Android | [AndroidAddressFormatter](https://github.com/woheller69/AndroidAddressFormatter) | |
+| Elixir | [ex_address_formatting](https://github.com/dkuku/ex_address_formatting) | |
+| Go | [address-formatter](https://github.com/timonmasberg/address-formatter) | |
+| Java | [address-formatter-java](https://github.com/placemarkt/address-formatter-java) | |
+| JavaScript | [address-formatter](https://github.com/fragaria/address-formatter) | |
+| Kotlin | [address-formatter-kotlin](https://github.com/bettermile/address-formatter-kotlin) | |
+| Perl | [Geo-Address-Formatter](https://metacpan.org/release/Geo-Address-Formatter) | |
+| PHP | [address-formatter-php](https://github.com/predicthq/address-formatter-php) | |
+| PowerShell | [AddressFormatter](https://github.com/GruberMarkus/AddressFormatter) | Cross-platform |
+| Python | [addressformatting](https://github.com/pudo/addressformatting/tree/master) | No longer maintained |
+| Ruby | [address_composer](https://github.com/mirubiri/address_composer) | |
+| Rust | [address-formatter-rs](https://github.com/antoine-de/address-formatter-rs) | No longer maintained |
+| Scala | [address-formatter](https://github.com/ben-willis/address-formatter) | |
 
-  * [Android library](https://github.com/woheller69/AndroidAddressFormatter)
-  * [Elixir](https://github.com/dkuku/ex_address_formatting)
-  * [Go](https://github.com/timonmasberg/address-formatter)
-  * [Java](https://github.com/placemarkt/address-formatter-java)
-  * [Javascript](https://github.com/fragaria/address-formatter)
-  * [Kotlin](https://github.com/bettermile/address-formatter-kotlin)
-  * [Perl](https://metacpan.org/release/Geo-Address-Formatter)
-  * [PHP](https://github.com/predicthq/address-formatter-php)
-  * [PowerShell](https://github.com/GruberMarkus/AddressFormatter) cross-platform
-  * [Python (no longer maintained)](https://github.com/pudo/addressformatting/tree/master)
-  * [Ruby](https://github.com/mirubiri/address_composer)
-  * [Rust (no longer maintained)](https://github.com/antoine-de/address-formatter-rs)
-  * [Scala](https://github.com/ben-willis/address-formatter)
+We welcome more language implementations. The more people who use the templates, the more likely bugs will be reported.
 
-We would love more language implementations. The more people who use the templates, the more likely bugs will be reported. 
+**If you write a processor**, please submit a pull request adding it to the list. Include this repo as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) so we all use the same templates/configuration and stay in sync. See [how we do it in the Perl parser](https://github.com/OpenCageData/perl-Geo-Address-Formatter/blob/master/README.md#installation) for an example.
 
-If you write a processor, please submit a pull request adding your processor to the list.
+## International Coverage
 
-One key point: please include this repo as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), so we all use the same templates/configuration and don't get out of sync. if you are unfamiliar with git submodules, please have a look at [how we do it in the Perl parser](https://github.com/OpenCageData/perl-Geo-Address-Formatter/blob/master/README.md#installation).
+As of March 2024:
 
-Thanks!
+| Metric | Count |
+|--------|-------|
+| Known territories | 251 |
+| Territories with tests | 251 (100%) |
+| Territories with rules | 251 (100%) |
+| Territories without rules or tests | 0 (0%) |
 
-### International coverage
+This output is generated by `bin/coverage.pl`. Run `bin/coverage.pl -d` for a detailed breakdown.
 
-As of March 2024 coverage is:
+The list of all known territories is in `conf/country_codes.yaml`.
 
-    We are aware of 251 territories
-    We have at least one test for 251 (100%) territories
-    We have rules for 251 (100%) territories
-    0 (0%) territories have neither rules nor tests
-    
-This output is generated by `bin/coverage.pl`    
+> **Note:** The list contains all officially assigned [ISO 3166-1 alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). This is not a political statement about the status of any territory.
 
-We need more language specific abbreviations. Please see `conf/abbreviations`. Pull requests gladly received. 
+**We need more language-specific abbreviations.** See `conf/abbreviations`. Pull requests welcome!
 
-A detailed breakdown of test and configuration coverage can be found by running `bin/coverage.pl -d`. A list of all known territories is in `conf/country_codes.yaml`
+## File Format
 
-_Please note: the list is simple all officially assigned [ISO 3166-1 alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements), and is not a political statement on whether or not these territories are or are not or should or should not be political states._
+- **Configuration:** [YAML](http://yaml.org/) format
+- **Templates:** [Mustache](http://mustache.github.io/) with one variation: `{#first}` sections take the first alternative for which a variable could be interpolated
 
-### File format
+Both formats are human-readable, strict, handle escaping, and support comments. YAML allows references ("anchors") to avoid duplication; Mustache allows sub-templates ("partials").
 
-The files are in [YAML](http://yaml.org/) format. The templates are written in [Mustache](http://mustache.github.io/) with a minor variation: the `{#first}` sections will take the first alternative for which a variable could be interpolated. Both formats are human readable, strict, solve escaping and support comments. YAML allows references (called "ankers") to avoid copy&paste, Mustache allows sub-templates (called "partials").
+## How to Add Your Country/Territory
 
-### How to add your country/territory
+### Step 1: Create Test Cases
 
-1. edit the .yaml testcase for the country/territory in `testcases/countries`. The file names correspond to the appropriate ISO 3166-1 alpha-2 code - see `conf/country_codes.yaml`
-  * a good way to get sample data is:
-      * find an addressed location (house, business, etc) in your
-        target territory in OpenStreetMap
-      * get the coordinates (lat, long) of the location
-      * put the coordinates into the [OpenCage Geocoding API demo page](https://opencagedata.com/demo)
-      * look at the resulting JSON in the *Raw Response* tab
+Edit the `.yaml` testcase for the country/territory in `testcases/countries`. File names correspond to [ISO 3166-1 alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (see `conf/country_codes.yaml`).
 
-2. edit `conf/countries/worldwide.yaml`
-  * Possibly your country/territory uses an existing generic format as
-    defined at the top of the file. If so, great! Just map your
-    country_code to the generic template. You may still want to add
-    clean up code (see the entry for `DE` as an example).
-  * If not, you need to define a new rule set (may or may not be generic)
-    * You may also need to define new state/region mappings in `conf/state_codes.yaml`
+**To get sample data:**
+1. Find an addressed location (house, business, etc.) in your target territory on [OpenStreetMap](https://www.openstreetmap.org)
+2. Get the coordinates (lat, long)
+3. Enter the coordinates into the [OpenCage Geocoding API demo](https://opencagedata.com/demo)
+4. Check the resulting JSON in the *Raw Response* tab
 
-3. to test you will now need to process the .yaml test via a processor
-   (see above) and ensure the input leads to the desired output.
-   We also run these checks automatically against pull requests to ensure against regressions.
+### Step 2: Define Formatting Rules
 
-If in doubt, please get in touch by submitting an issue. 
+Edit `conf/countries/worldwide.yaml`:
 
-### Formatting rules
+- **If your territory uses an existing generic format** (defined at the top of the file): map your `country_code` to the generic template. You may still want to add cleanup code (see the `DE` entry as an example).
+- **If not**: define a new rule set (which may or may not be generic). You may also need to define new state/region mappings in `conf/state_codes.yaml`.
 
-Currently we support the following formatting rules:
+### Step 3: Test
 
-* `replace:` regex that operates on the input values, useful for removing bureaucratic cruft like "London Borough of ". Note if you define the regex starting with format _X=_, for example _city=_ it should operate only on values with that key
-* `postformat_replace:` regex that operates on the final output
-* `add_component:` with a value of the form `component=XXXX`
-* `change_country:` change the country value of the input, useful for dependent territories. Can include a substitution like `$state` so that that component value is then inserted into the new country value. See `testcases/countries/sh.yaml` for an example.
-* `use_country:` use the formating configuration of another country, useful for dependent territories to avoid duplicating configuration
+Process the `.yaml` test via a processor (see above) and verify the input produces the desired output. We run these checks automatically against pull requests to prevent regressions.
 
-### The future
+**Questions?** Submit an issue.
 
-More tests! For every rule about addresses there are exceptions and edge cases to consider. More test cases are always needed.
+## Formatting Rules
 
-Planned features:
+| Rule | Description |
+|------|-------------|
+| `replace:` | Regex operating on input values. Useful for removing bureaucratic cruft like "London Borough of". Prefix with `key=` (e.g., `city=`) to operate only on that key. |
+| `postformat_replace:` | Regex operating on the final output. |
+| `add_component:` | Add a component with format `component=XXXX`. |
+| `change_country:` | Change the country value of the input. Useful for dependent territories. Supports substitutions like `$state`. See `testcases/countries/sh.yaml` for an example. |
+| `use_country:` | Use the formatting configuration of another country. Useful for dependent territories to avoid duplicating configuration. |
 
-  * basic error checking, for example ignore things which obviously can not be postcodes
-  * define rules for postcode format specifically
+## Roadmap
+
+More tests are always needed. For every rule about addresses there are exceptions and edge cases.
+
+**Planned features:**
+- Basic error checking (e.g., ignore values that obviously cannot be postcodes)
+- Rules for postcode format validation
 
 We welcome your pull requests. Together we can address the world!
 
-### License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
+MIT License - see [LICENSE.txt](LICENSE.txt) for details.
 
-### Additional resources
+## Resources
 
-If you are working with addresses you may need [lists of random addresses/postcodes/coordinates](https://opencagedata.com/tools/address-lists) (either in general or for specific countries) for testing.
+### Testing Data
 
-### Further reading on the challenge of address
+[Lists of random addresses/postcodes/coordinates](https://opencagedata.com/tools/address-lists) for testing (general or country-specific).
 
-Here's [our blog post anouncing this project](https://blog.opencagedata.com/post/99059889253/good-looking-addresses-solving-the-berlin-berlin) and the motivations behind it.
+### Further Reading
 
-You may enjoy Michael Tandy's [Falsehoods Programmers Believe about Addresses](http://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/).
+- [Our blog post announcing this project](https://blog.opencagedata.com/post/99059889253/good-looking-addresses-solving-the-berlin-berlin) and the motivations behind it
+- [Falsehoods Programmers Believe about Addresses](http://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/) by Michael Tandy
 
-If it's actual address data you're after, check out [OpenStreetMap](https://www.openstreetmap.org) and [OpenAddresses](http://openaddresses.io/).
+### Related Projects
 
-If you want to turn longitude, latitude into well formatted addresses or placenames, well that's what a geocoder does. Check out ours: [OpenCage Geocoder](https://opencagedata.com).
+- [OpenStreetMap](https://www.openstreetmap.org) - Open address data
+- [OpenAddresses](http://openaddresses.io/) - Open address data
+- [OpenCage Geocoder](https://opencagedata.com) - Convert coordinates to formatted addresses
+- [what3words](http://what3words.com) - An alternative to traditional addresses
 
-If all this convinces you that address are evil, please check out [what3words](http://what3words.com) which allows you to dispense with them entirely. 
+---
 
-### Who is OpenCage GmbH?
+## About OpenCage GmbH
 
-<a href="https://opencagedata.com"><img src="opencage_logo_300_150.png"></a>
+<a href="https://opencagedata.com"><img src="opencage_logo_300_150.png" alt="OpenCage logo"></a>
 
-We run a worldwide [geocoding API](https://opencagedata.com/api) and [geosearch](https://opencagedata.com/geosearch) service based on open data. 
-Learn more [about us](https://opencagedata.com/about). 
+We run a worldwide [geocoding API](https://opencagedata.com/api) and [geosearch](https://opencagedata.com/geosearch) service based on open data. [Learn more about us](https://opencagedata.com/about).
 
-We also organize [Geomob](https://thegeomob.com), a series of regular meetups for location based service creators, where we do our best to highlight geoinnovation. If you like geo stuff, you will probably enjoy [the Geomob podcast](https://thegeomob.com/podcast/).
-
-
-
+We also organize [Geomob](https://thegeomob.com), a series of regular meetups for location-based service creators. If you like geo stuff, check out [the Geomob podcast](https://thegeomob.com/podcast/).
