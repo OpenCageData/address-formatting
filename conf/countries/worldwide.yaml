@@ -1306,7 +1306,7 @@ KW:
     address_template: |
         {{{attention}}}
         {{{house}}}
-        {{#first}} {{{neighbourhood}}} || {{{city_district}}} || {{{suburb}}} {{/first}}
+        {{#first}} {{{area}}} {{{city_block}}} || {{{neighbourhood}}} || {{{city_district}}} || {{{suburb}}} {{/first}}
         {{{road}}}
         {{{house_number}}} {{{house}}}
         {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}

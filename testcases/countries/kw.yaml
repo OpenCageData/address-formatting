@@ -77,9 +77,25 @@ components:
     postcode: 30007
     road: Street 1 Lane 2
     state: Hawalli Governorate
-    suburb: Salmiya
 expected: |
     Salmiya - Block 10
+    Street 1 Lane 2
+    9
+    30007
+    Kuwait
+---
+description: neighbourhood before suburb, 29.324436, 48.063332
+components:
+    city_block: Block 10
+    country: Kuwait
+    country_code: kw
+    house_number: 9
+    postcode: 30007
+    road: Street 1 Lane 2
+    state: Hawalli Governorate
+    area: Salmiya
+expected: |
+    Salmiya Block 10
     Street 1 Lane 2
     9
     30007
