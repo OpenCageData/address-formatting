@@ -60,6 +60,7 @@ aliases:
 name: municipality
 aliases:
     - local_administrative_area
+    - area
     - subcounty
 ---
 name: county
