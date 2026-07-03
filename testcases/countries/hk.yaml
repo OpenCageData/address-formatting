@@ -25,6 +25,45 @@ components:
 expected:  |
     211 Test Street
     Hong Kong
+---
+description: 22.31929, 114.22026, no country
+components:
+  building: Block 1
+  city: Hong Kong
+  country_code: hk
+  house_number: 24
+  neighbourhood: Crocodile Hill
+  quarter: Lok Wah Shan
+  region: Kowloon  
+  road: Hong Lee Road
+  state: Hong Kong
+  suburb: Kwun Tong District
+expected:  |
+    Block 1
+    24 Hong Lee Road
+    Kowloon
+    Hong Kong
+---
+description: 22.31929, 114.22026, with country
+components:
+  building: Block 1
+  city: Hong Kong
+  country: China
+  country_code: hk
+  house_number: 24
+  neighbourhood: Crocodile Hill
+  quarter: Lok Wah Shan
+  region: Kowloon  
+  road: Hong Lee Road
+  state: Hong Kong
+  suburb: Kwun Tong District
+expected:  |
+    Block 1
+    24 Hong Lee Road
+    Kowloon
+    Hong Kong
+    China
+
 
 
 

@@ -973,8 +973,9 @@ HK:
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{state_district}}}
-        {{#first}} {{{state}}} || {{{country}}} {{/first}}
+        {{#first}} {{{state_district}}} || {{{region}}} {{/first}}
+        {{{state}}}
+        {{{country}}}
 
 # Hong Kong - English
 HK_en:
@@ -982,7 +983,7 @@ HK_en:
         {{{attention}}}
         {{{house}}}
         {{{house_number}}} {{{road}}}
-        {{{state_district}}}
+        {{#first}} {{{state_district}}} || {{{region}}} {{/first}}
         {{{state}}}
         {{{country}}}
 
@@ -991,7 +992,7 @@ HK_zh:
     address_template: |
         {{{country}}}
         {{{state}}}
-        {{{state_district}}}
+        {{#first}} {{{state_district}}} || {{{region}}} {{/first}}        
         {{{road}}}
         {{{house_number}}}
         {{{house}}}
