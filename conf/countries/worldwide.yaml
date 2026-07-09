@@ -268,7 +268,14 @@ AE:
 
 # Afghanistan
 AF:
-    address_template: *generic21
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{state}}} {{/first}} 
+        {{{postcode}}}
+        {{{country}}}
 
 # Antigua and Barbuda
 AG:

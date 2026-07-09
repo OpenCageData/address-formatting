@@ -8,10 +8,12 @@ components:
         country_code: af
         road: Kandahar-Herat Highway
         state: Kandahar
+        postcode: 3803
 expected:  |
     Kandahar Institute of Health Sciences
     Kandahar-Herat Highway
     Kandahar
+    3803
     Afghanistan
 
 
