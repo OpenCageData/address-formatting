@@ -992,7 +992,7 @@ HK_zh:
     address_template: |
         {{{country}}}
         {{{state}}}
-        {{#first}} {{{state_district}}} || {{{region}}} {{/first}}        
+        {{#first}} {{{state_district}}} || {{{region}}} {{/first}}
         {{{road}}}
         {{{house_number}}}
         {{{house}}}
