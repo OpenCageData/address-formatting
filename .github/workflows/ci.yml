@@ -12,13 +12,13 @@ jobs:
 
     strategy:
       matrix:
-        version: ['5.38', '5.40', '5.42']
+        version: ['5.38', '5.40', '5.42', '5.44']
 
     name: Address-Formatting perl ${{ matrix.version }}
 
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Set up perl
         uses: shogo82148/actions-setup-perl@v1
