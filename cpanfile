@@ -5,6 +5,6 @@
 #
 
 requires 'File::Find::Rule', '== 0.35';
-requires 'Geo::Address::Formatter', '== 1.9993';
+requires 'Geo::Address::Formatter', '== 1.9994';
 requires 'Test::Exception', '== 0.43';
-requires 'YAML::LibYAML', '== v0.909.0';
+requires 'YAML::LibYAML', '== v0.910.0';
