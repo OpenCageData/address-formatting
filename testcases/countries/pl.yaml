@@ -48,4 +48,37 @@ expected:  |
     Teofila Firlika 19
     71-637 Szczecin
     Poland
+---
+description: quarter instead of street
+components:
+        city: Poznan
+        country: Poland
+        country_code: pl
+        house_number: 2
+        postcode: 61-621
+        quarter: Osiedle Kosmonautów 
+        state: Greater Poland Voivodeship
+        state_code: 30
+        suburb: Winogrady
+expected:  |
+    Osiedle Kosmonautów 2
+    61-621 Poznan
+    Poland
+---
+description: quarter instead of street
+components:
+        country: Poland
+        country_code: pl
+        county: Łowicz County
+        house_number: 26
+        municipality: Bielawy
+        postcode: 99-423
+        state: Łódź Voivodeship
+        state_code: 10
+        village: Janinów
+expected:  |
+    Janinów 26
+    99-423 Bielawy
+    Poland
+
 

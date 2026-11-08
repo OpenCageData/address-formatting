@@ -1700,7 +1700,14 @@ PK:
 
 # Poland
 PL:
-    address_template: *generic1
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{road}}} || {{{place}}} || {{{hamlet}}} || {{{quarter}}} || {{{ village }}}{{/first}} {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} || {{{hamlet}}} || {{{county}}} || {{{state}}} {{/first}}
+        {{{archipelago}}}
+        {{{country}}}
+    
     postformat_replace:
         # fix the postcode to make it \d\d-\d\d\d
         - ["\n(\\d{2})(\\w{3}) ","\n$1-$2 "]
