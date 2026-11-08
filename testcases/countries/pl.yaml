@@ -56,7 +56,7 @@ components:
         country_code: pl
         house_number: 2
         postcode: 61-621
-        quarter: Osiedle Kosmonautów 
+        quarter: Osiedle Kosmonautów
         state: Greater Poland Voivodeship
         state_code: 30
         suburb: Winogrady
@@ -65,7 +65,7 @@ expected:  |
     61-621 Poznan
     Poland
 ---
-description: quarter instead of street
+description: municipality before village
 components:
         country: Poland
         country_code: pl

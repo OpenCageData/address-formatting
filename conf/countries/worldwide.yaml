@@ -1707,7 +1707,7 @@ PL:
         {{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} || {{{hamlet}}} || {{{county}}} || {{{state}}} {{/first}}
         {{{archipelago}}}
         {{{country}}}
-    
+
     postformat_replace:
         # fix the postcode to make it \d\d-\d\d\d
         - ["\n(\\d{2})(\\w{3}) ","\n$1-$2 "]
