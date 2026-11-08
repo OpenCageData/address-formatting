@@ -992,7 +992,9 @@ FR:
     COR:
       default: Corse
       alt_en: Corsica
-    GES: Grand Est
+    GES:
+      default: Grand Est
+      alt_en: Great East
     GF: Guyane
     GP: Guadeloupe
     HDF: Hauts-de-France
