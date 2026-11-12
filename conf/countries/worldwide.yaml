@@ -129,8 +129,8 @@ generic15: &generic15 |
         {{{attention}}}
         {{{house}}}
         {{{road}}}, {{{house_number}}}
-        {{#first}} {{{village}}} || {{{hamlet}}} {{/first}}
-        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state}}} || {{{county}}} {{/first}}
+        {{{hamlet}}}
+        {{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} || {{{state}}} || {{{county}}} {{/first}}
         {{{country}}}
 
 # no postcode, no state, just city
