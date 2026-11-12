@@ -52,5 +52,39 @@ expected:  |
     Costa del Sol Occidental
     Andalusien
     Spanien
-
+---
+description: hamlet
+components:
+    city: Cáceres
+    country: Spain
+    country_code: es
+    hamlet: Pernada del Sordo
+    province: Cáceres
+    state: Extremadura
+    state_code: EX
+expected:  |
+    Pernada del Sordo
+    Cáceres
+    Extremadura
+    Spain
+---
+description: hamlet 2
+components:
+    city_district: Santalla de Arxemil
+    country: Spain
+    country_code: es
+    county: Sarria
+    hamlet: Arxemil
+    municipality: Sarria
+    postcode: 27619
+    province: Lugo
+    road: unnamed road
+    state: Galicia
+    state_code: GA
+    town: Sarria
+expected:  |
+    unnamed road
+    Arxemil
+    27619 Sarria
+    Spain
 
