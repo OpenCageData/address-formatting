@@ -16,5 +16,20 @@ expected:  |
     Resslova 343/10
     301 00 Plzeň
     Czech Republic
+---
+description: vilage as street
+components:
+    country: Czechia
+    country_code: cz
+    county: okres Nový Jičín
+    house_number: 127
+    postcode: 742 92
+    state: Moravian-Silesian Region
+    town: Bílovec
+    village: Lubojaty
+expected:  |
+    Lubojaty 127
+    742 92 Bílovec
+    Czechia
 
 
