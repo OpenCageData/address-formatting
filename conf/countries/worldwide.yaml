@@ -680,7 +680,13 @@ CY:
 
 # Czech Republic
 CZ:
-    address_template: *generic1
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{#first}} {{{road}}} || {{{place}}} || {{{hamlet}}} || {{{village}}}{{/first}} {{{house_number}}}
+        {{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} || {{{hamlet}}} || {{{county}}} || {{{state}}} {{/first}}
+        {{{country}}}
+
     replace:
         - ["^Capital City of ",""]
     postformat_replace:
