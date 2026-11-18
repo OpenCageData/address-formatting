@@ -26,4 +26,17 @@ expected:  |
     Riedau
     Schärding
     Austria
-
+---
+description: Katastralgemeinde
+components:
+   allotments: Kleingartenverein Sonnenschein
+   city: Vienna
+   city_district: Leopoldstadt
+   country: Austria
+   country_code: at
+   suburb: Katastralgemeinde Leopoldstadt
+expected:  |
+    Kleingartenverein Sonnenschein
+    Leopoldstadt
+    Vienna
+    Austria

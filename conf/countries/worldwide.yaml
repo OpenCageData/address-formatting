@@ -340,6 +340,9 @@ AT:
     address_template: *generic1
     replace:
         - ["^Politischer Bezirk ",""]
+        - ["county=Politischer Bezirk ",""]
+        - ["county=Bezirk ",""]
+        - ["suburb=Katastralgemeinde ",""]
 
 # Australia
 AU:
